@@ -1,0 +1,3210 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-09-24T16:25:18Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/33296611",
+        "addr:city": "Tampa",
+        "addr:housenumber": "11302",
+        "addr:postcode": "33612",
+        "addr:state": "FL",
+        "addr:street": "North 30th Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4264903,
+          28.0511179
+        ]
+      },
+      "id": "way/33296611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/45619680",
+        "addr:city": "Thornton",
+        "addr:housenumber": "8370",
+        "addr:postcode": "80620",
+        "addr:state": "CO",
+        "addr:street": "Sherman Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "demolished:building": "yes",
+        "name": "Village Inn",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9867887,
+          39.8485321
+        ]
+      },
+      "id": "way/45619680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/48210902",
+        "addr:city": "Westminster",
+        "addr:housenumber": "395",
+        "addr:postcode": "80234",
+        "addr:state": "CO",
+        "addr:street": "West 120th Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri_USDOT_ColoradoOITGIS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9922954,
+          39.9143804
+        ]
+      },
+      "id": "way/48210902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/48986014",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1100502,
+          39.7825966
+        ]
+      },
+      "id": "way/48986014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/50437805",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.744983,
+          32.3159476
+        ]
+      },
+      "id": "way/50437805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/58945657",
+        "addr:housenumber": "1205",
+        "addr:postcode": "88001",
+        "addr:state": "NM",
+        "addr:street": "El Paseo Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+1-575-523-0794",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.7723556,
+          32.2986178
+        ]
+      },
+      "id": "way/58945657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/61951469",
+        "addr:city": "Federal Way",
+        "addr:housenumber": "31711",
+        "addr:postcode": "98003",
+        "addr:state": "WA",
+        "addr:street": "Pacific Highway South",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3138316,
+          47.3170664
+        ]
+      },
+      "id": "way/61951469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/71277513",
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "4040",
+        "addr:postcode": "85032",
+        "addr:state": "AZ",
+        "addr:street": "East Bell Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9942466,
+          33.6411895
+        ]
+      },
+      "id": "way/71277513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79875604",
+        "addr:city": "Des Moines",
+        "addr:housenumber": "1140",
+        "addr:postcode": "50315-5941",
+        "addr:state": "IA",
+        "addr:street": "East Army Post Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+1 515-287-5254",
+        "website": "https://www.villageinn.com/locations/des-moines-ia-army-post-road/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6007908,
+          41.5266627
+        ]
+      },
+      "id": "way/79875604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/83074041",
+        "addr:city": "Dubuque",
+        "addr:housenumber": "1940",
+        "addr:postcode": "52001",
+        "addr:state": "IA",
+        "addr:street": "John F Kennedy Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.7208502,
+          42.5049569
+        ]
+      },
+      "id": "way/83074041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/102125735",
+        "addr:city": "West Des Moines",
+        "addr:housenumber": "2300",
+        "addr:postcode": "50266",
+        "addr:street": "University Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "website": "https://www.villageinn.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7378962,
+          41.5999116
+        ]
+      },
+      "id": "way/102125735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103156221",
+        "addr:city": "Ames",
+        "addr:housenumber": "524",
+        "addr:postcode": "50010",
+        "addr:state": "IA",
+        "addr:street": "Lincoln Way",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+15152325111",
+        "website": "https://www.villageinn.com/locations/ames-ia/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6181287,
+          42.0226307
+        ]
+      },
+      "id": "way/103156221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103189494",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "check_date": "2026-01-11",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4341584,
+          42.5123284
+        ]
+      },
+      "id": "way/103189494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/105822131",
+        "addr:housenumber": "102",
+        "addr:postcode": "81601",
+        "addr:state": "CO",
+        "addr:street": "West 6th Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Village Inn",
+        "opening_hours": "PH,Mo-Su 06:00-22:00",
+        "outdoor_seating": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.3280245,
+          39.5503689
+        ]
+      },
+      "id": "way/105822131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108232752",
+        "addr:city": "South Jordan",
+        "addr:housenumber": "11454",
+        "addr:postcode": "84095",
+        "addr:state": "UT",
+        "addr:street": "South District Drive",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9836095,
+          40.5429505
+        ]
+      },
+      "id": "way/108232752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/111873256",
+        "addr:city": "Aurora",
+        "addr:housenumber": "24102",
+        "addr:postcode": "80016",
+        "addr:state": "CO",
+        "addr:street": "East Prospect Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7074609,
+          39.5992033
+        ]
+      },
+      "id": "way/111873256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112118649",
+        "addr:city": "La Junta",
+        "addr:housenumber": "5",
+        "addr:postcode": "81050",
+        "addr:state": "CO",
+        "addr:street": "Walmart Way",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "american;breakfast",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1 719 384 1084",
+        "website": "https://www.villageinn.com/locations/la-junta-co/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.5928648,
+          38.0002409
+        ]
+      },
+      "id": "way/112118649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124912312",
+        "addr:city": "Bentonville",
+        "addr:country": "US",
+        "addr:full": "2300 Southeast Walton Boulevard",
+        "addr:housenumber": "2300",
+        "addr:postcode": "72712",
+        "addr:state": "AR",
+        "addr:street": "Southeast Walton Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1871494,
+          36.3347043
+        ]
+      },
+      "id": "way/124912312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/141276942",
+        "addr:city": "Orlando",
+        "addr:housenumber": "6275",
+        "addr:state": "FL",
+        "addr:street": "Westwood Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source:addr:housenumber": "Orange County GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4634448,
+          28.4194584
+        ]
+      },
+      "id": "way/141276942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148059465",
+        "addr:city": "Murray",
+        "addr:housenumber": "5941",
+        "addr:postcode": "84107",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "check_date": "2024-06-18",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8886068,
+          40.6419394
+        ]
+      },
+      "id": "way/148059465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/153238893",
+        "addr:city": "Avondale",
+        "addr:housenumber": "10010",
+        "addr:postcode": "85323",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.275052,
+          33.465412
+        ]
+      },
+      "id": "way/153238893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/160682616",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.5055025,
+          31.77986
+        ]
+      },
+      "id": "way/160682616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164936212",
+        "addr:city": "Apache Junction",
+        "addr:housenumber": "575",
+        "addr:postcode": "85120",
+        "addr:state": "AZ",
+        "addr:street": "West Apache Trail",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Su-Th 05:30-24:00; Fr-Sa 05:30-01:00",
+        "phone": "+1 480 982 4579",
+        "website": "https://www.villageinn.com/locations/110390",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5529674,
+          33.4145224
+        ]
+      },
+      "id": "way/164936212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/168942884",
+        "addr:city": "Thornton",
+        "addr:postcode": "80023",
+        "addr:state": "CO",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9777032,
+          39.9994488
+        ]
+      },
+      "id": "way/168942884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/170818996",
+        "addr:housenumber": "3304",
+        "addr:postcode": "68144",
+        "addr:street": "South 143rd Plaza",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1378598,
+          41.2286163
+        ]
+      },
+      "id": "way/170818996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180645011",
+        "addr:housenumber": "2525",
+        "addr:postcode": "68130",
+        "addr:street": "South 180th Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1954302,
+          41.2363443
+        ]
+      },
+      "id": "way/180645011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/183680178",
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "7384",
+        "addr:postcode": "80923",
+        "addr:state": "CO",
+        "addr:street": "Duryea Drive",
+        "amenity": "restaurant",
+        "branch": "Duryea",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "check_date": "2026-03-23",
+        "contact:facebook": "https://www.facebook.com/villageinnrestaurants/",
+        "contact:instagram": "https://www.instagram.com/villageinn/",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1-719-266-0118",
+        "website": "https://www.villageinn.com/colorado-springs-co-duryea",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7306742,
+          38.9396114
+        ]
+      },
+      "id": "way/183680178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/189973207",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9243257,
+          41.1647658
+        ]
+      },
+      "id": "way/189973207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/192567397",
+        "addr:housenumber": "2935",
+        "addr:postcode": "51501",
+        "addr:street": "West Broadway",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8919866,
+          41.261548
+        ]
+      },
+      "id": "way/192567397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/193410652",
+        "addr:housenumber": "1906",
+        "addr:postcode": "51503",
+        "addr:street": "Rue Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8229105,
+          41.2409678
+        ]
+      },
+      "id": "way/193410652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/194297877",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7655339,
+          46.8494551
+        ]
+      },
+      "id": "way/194297877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/194585582",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "check_date": "2025-07-18",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8331272,
+          38.896451
+        ]
+      },
+      "id": "way/194585582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/203752360",
+        "addr:city": "Tampa",
+        "addr:country": "US",
+        "addr:housenumber": "215",
+        "addr:postcode": "33609",
+        "addr:state": "FL",
+        "addr:street": "North Dale Mabry Highway;N Dale Mabry Highway",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "website": "https://www.villageinn.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.505343,
+          27.9470068
+        ]
+      },
+      "id": "way/203752360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/211707808",
+        "addr:city": "Mesa",
+        "addr:housenumber": "1863",
+        "addr:postcode": "85209",
+        "addr:state": "AZ",
+        "addr:street": "South Signal Butte Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "internet_access": "yes",
+        "name": "Village Inn",
+        "phone": "+1 480 357 4444",
+        "source": "esri_USDOT_Arizona",
+        "website": "https://www.villageinn.com/locations/110875",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.600304,
+          33.3812734
+        ]
+      },
+      "id": "way/211707808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/214495658",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6830999,
+          40.7386167
+        ]
+      },
+      "id": "way/214495658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/220804244",
+        "addr:city": "Saint Petersburg",
+        "addr:country": "US",
+        "addr:postcode": "33702",
+        "addr:state": "FL",
+        "addr:street": "4th Street North",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "height": "14.8",
+        "name": "Village Inn",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6382888,
+          27.8552958
+        ]
+      },
+      "id": "way/220804244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/220964895",
+        "addr:city": "Loveland",
+        "addr:housenumber": "1225",
+        "addr:postcode": "80537-3128",
+        "addr:state": "CO",
+        "addr:street": "West Eisenhower Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "contact:fax": "+1-970-669-4173",
+        "contact:phone": "+1-970-667-8555",
+        "contact:website": "http://www.villageinn.com",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Th 06:00-22:00; Fr-Sa 06:00-24:00; Su 06:00-22:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0957107,
+          40.4075225
+        ]
+      },
+      "id": "way/220964895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/222566981",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.5859062,
+          35.1489786
+        ]
+      },
+      "id": "way/222566981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/233298178",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "Bing 2011",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.7627492,
+          41.1142036
+        ]
+      },
+      "id": "way/233298178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/252175659",
+        "addr:city": "Surprise",
+        "addr:housenumber": "14539",
+        "addr:postcode": "85374",
+        "addr:state": "AZ",
+        "addr:street": "West Grand Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "restaurant",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Village Inn",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-24:00",
+        "phone": "+1-623-975-3855",
+        "smoking": "no",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.3726555,
+          33.6553976
+        ]
+      },
+      "id": "way/252175659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/256800784",
+        "addr:city": "Chandler",
+        "addr:housenumber": "2780",
+        "addr:postcode": "85286",
+        "addr:state": "AZ",
+        "addr:street": "East Germann Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.792866,
+          33.2792347
+        ]
+      },
+      "id": "way/256800784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/265533767",
+        "addr:city": "Brighton",
+        "addr:housenumber": "710",
+        "addr:postcode": "80601",
+        "addr:state": "CO",
+        "addr:street": "Platte River Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8277157,
+          39.975499
+        ]
+      },
+      "id": "way/265533767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/288645016",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.6216764,
+          35.0551234
+        ]
+      },
+      "id": "way/288645016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292205290",
+        "addr:city": "Casper",
+        "addr:housenumber": "350",
+        "addr:postcode": "82609",
+        "addr:state": "WY",
+        "addr:street": "Southeast Wyoming Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2709842,
+          42.8475901
+        ]
+      },
+      "id": "way/292205290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/299166665",
+        "addr:city": "Holland",
+        "addr:housenumber": "934",
+        "addr:postcode": "49423",
+        "addr:state": "MI",
+        "addr:street": "South Washington Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1172413,
+          42.7631623
+        ]
+      },
+      "id": "way/299166665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/307232317",
+        "addr:city": "Peoria",
+        "addr:housenumber": "9490",
+        "addr:postcode": "85305",
+        "addr:state": "AZ",
+        "addr:street": "West Northern Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.2622864,
+          33.5522009
+        ]
+      },
+      "id": "way/307232317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/317610200",
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "411",
+        "addr:postcode": "82001",
+        "addr:state": "WY",
+        "addr:street": "East Lincolnway",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "note": "The company website says this location is on E 16th street. It's actually on E Lincolnway.",
+        "website": "https://www.villageinn.com/locations/cheyenne-wy-downtown/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8097667,
+          41.1344683
+        ]
+      },
+      "id": "way/317610200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/323130770",
+        "addr:city": "Wichita",
+        "addr:housenumber": "7020",
+        "addr:postcode": "67212",
+        "addr:state": "KS",
+        "addr:street": "West Central Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Su-Th 06:00-24:00; Fr-Sa 06:00-01:30",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4247788,
+          37.6948216
+        ]
+      },
+      "id": "way/323130770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/324572487",
+        "addr:city": "Iowa City",
+        "addr:housenumber": "9",
+        "addr:postcode": "52246",
+        "addr:state": "IA",
+        "addr:street": "Sturgis Corner Drive",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 07:00-20:00",
+        "phone": "+1-319-351-1094",
+        "website": "https://www.villageinn.com/locations/iowa-city-ia/",
+        "website:menu": "https://www.villageinn.com/FamousDaves/media/File-Attachments/Dine-In%20Menu/VI_DineIn_Low_0306_WEB.pdf?ext=.pdf",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.5394151,
+          41.6478835
+        ]
+      },
+      "id": "way/324572487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/330175603",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7484131,
+          40.3927315
+        ]
+      },
+      "id": "way/330175603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/335467343",
+        "addr:city": "Saint Augustine",
+        "addr:housenumber": "900",
+        "addr:postcode": "32084",
+        "addr:street": "North Ponce de Leon Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Fr 05:30-24:00; Sa,Su 00:00-24:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.319601,
+          29.9000789
+        ]
+      },
+      "id": "way/335467343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/341902570",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5767801,
+          41.5391085
+        ]
+      },
+      "id": "way/341902570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/342650873",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5279778,
+          41.5740508
+        ]
+      },
+      "id": "way/342650873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/344534857",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3394718,
+          27.7911387
+        ]
+      },
+      "id": "way/344534857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/347408078",
+        "addr:city": "Provo",
+        "addr:housenumber": "933",
+        "addr:postcode": "84601",
+        "addr:state": "UT",
+        "addr:street": "South University Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "website": "https://www.villageinn.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6584057,
+          40.221489
+        ]
+      },
+      "id": "way/347408078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355578260",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3965059,
+          40.3764886
+        ]
+      },
+      "id": "way/355578260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/364796021",
+        "addr:city": "Saint Helens",
+        "addr:housenumber": "535",
+        "addr:postcode": "97051",
+        "addr:state": "OR",
+        "addr:street": "South Columbia River Highway",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+1-503-397-1490",
+        "website": "https://www.villageinn.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8282377,
+          45.8527901
+        ]
+      },
+      "id": "way/364796021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/380778209",
+        "addr:city": "Zephyrhills",
+        "addr:housenumber": "5214",
+        "addr:postcode": "33542",
+        "addr:state": "FL",
+        "addr:street": "Gall Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "restaurant",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-813-782-9556",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.181196,
+          28.2334589
+        ]
+      },
+      "id": "way/380778209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/388130496",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2207423,
+          38.4484136
+        ]
+      },
+      "id": "way/388130496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/392187340",
+        "addr:city": "Des Moines",
+        "addr:housenumber": "3600",
+        "addr:postcode": "50316",
+        "addr:state": "IA",
+        "addr:street": "East 14th Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+1 515-262-9747",
+        "website": "https://www.villageinn.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6008927,
+          41.6280637
+        ]
+      },
+      "id": "way/392187340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/399593034",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9991351,
+          41.2119979
+        ]
+      },
+      "id": "way/399593034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/404071043",
+        "addr:city": "Tallahassee",
+        "addr:country": "US",
+        "addr:housenumber": "3392",
+        "addr:postcode": "32308",
+        "addr:state": "FL",
+        "addr:street": "Lonnbladh Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+1-850-297-0053",
+        "website": "https://www.villageinn.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2493814,
+          30.4996692
+        ]
+      },
+      "id": "way/404071043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436456344",
+        "addr:city": "Grand Junction",
+        "addr:housenumber": "1910",
+        "addr:postcode": "81501",
+        "addr:state": "CO",
+        "addr:street": "North Avenue",
+        "amenity": "restaurant",
+        "branch": "Grand Junction, CO (Grand Junction North)",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2024-06-22",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "operator": "Family Restaurants, Inc.",
+        "phone": "+1-970-243-5467",
+        "roof:levels": "0",
+        "takeaway": "yes",
+        "website": "https://www.villageinn.com/Locations/Detail/82974697-666e-40ec-a033-82325b9dc6f4",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.542805,
+          39.0776387
+        ]
+      },
+      "id": "way/436456344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/483573791",
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "3364",
+        "addr:postcode": "72703",
+        "addr:street": "North College Avenue",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "commercial",
+        "building:colour": "#eecfaf",
+        "building:levels": "1",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Th 06:00-24:00; Fr 06:00-24:00; Sa,Su 00:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1 479 521 1880",
+        "roof:levels": "0",
+        "smoking": "no",
+        "website": "https://www.villageinn.com/locations/700754",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1445652,
+          36.1121584
+        ]
+      },
+      "id": "way/483573791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/488843110",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "mapbox",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1275841,
+          41.293342
+        ]
+      },
+      "id": "way/488843110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509289528",
+        "addr:city": "Tallahassee",
+        "addr:country": "US",
+        "addr:housenumber": "1225",
+        "addr:postcode": "32301",
+        "addr:state": "FL",
+        "addr:street": "East Park Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2634053,
+          30.4415132
+        ]
+      },
+      "id": "way/509289528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/523635947",
+        "addr:city": "Tempe",
+        "addr:housenumber": "1080",
+        "addr:postcode": "85284",
+        "addr:state": "AZ",
+        "addr:street": "West Elliot Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9562416,
+          33.3495324
+        ]
+      },
+      "id": "way/523635947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524163190",
+        "addr:city": "Largo",
+        "addr:housenumber": "13105",
+        "addr:postcode": "33774",
+        "addr:state": "FL",
+        "addr:street": "Walsingham Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "height": "13.91",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "outdoor_seating": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8203647,
+          27.8806927
+        ]
+      },
+      "id": "way/524163190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/526615863",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.248581,
+          41.5760212
+        ]
+      },
+      "id": "way/526615863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/542497457",
+        "addr:city": "Pueblo",
+        "addr:housenumber": "4719",
+        "addr:postcode": "81008",
+        "addr:state": "CO",
+        "addr:street": "North Elizabeth Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6186202,
+          38.3221937
+        ]
+      },
+      "id": "way/542497457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/557822119",
+        "addr:city": "Altoona",
+        "addr:housenumber": "3410",
+        "addr:postcode": "50009",
+        "addr:state": "IA",
+        "addr:street": "8th Street Southwest",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "website": "https://www.villageinn.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5038,
+          41.643541
+        ]
+      },
+      "id": "way/557822119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/568338242",
+        "addr:city": "El Paso",
+        "addr:housenumber": "1331",
+        "addr:postcode": "79936",
+        "addr:state": "TX",
+        "addr:street": "North Zaragoza Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "contact:phone": "+1-915-590-5058",
+        "contact:website": "https://www.villageinn.com/",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Th 05:30-01:00, Fr 05:30-24:00; Sa 00:00-24:00, Su 00:00-01:00",
+        "source": "https://www.villageinn.com/locations/el-paso-tx-zaragosa/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.3005289,
+          31.727097
+        ]
+      },
+      "id": "way/568338242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/592506001",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3477821,
+          35.3509103
+        ]
+      },
+      "id": "way/592506001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617137884",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.1218845,
+          30.6028491
+        ]
+      },
+      "id": "way/617137884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619600339",
+        "addr:city": "Farmington",
+        "addr:housenumber": "514",
+        "addr:postcode": "87401",
+        "addr:state": "NM",
+        "addr:street": "Scott Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri_USDOT_UniversityofNewMexico",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.1887325,
+          36.7309467
+        ]
+      },
+      "id": "way/619600339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/684811474",
+        "addr:city": "Suffolk",
+        "addr:housenumber": "6116",
+        "addr:postcode": "23435",
+        "addr:state": "VA",
+        "addr:street": "College Drive",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4224455,
+          36.875064
+        ]
+      },
+      "id": "way/684811474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/713150198",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.357969,
+          39.9328695
+        ]
+      },
+      "id": "way/713150198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/714373434",
+        "addr:city": "Phoenix",
+        "addr:housenumber": "310",
+        "addr:postcode": "85022",
+        "addr:state": "AZ",
+        "addr:street": "East Bell Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0681886,
+          33.6407022
+        ]
+      },
+      "id": "way/714373434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/723617073",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.5302845,
+          31.830995
+        ]
+      },
+      "id": "way/723617073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/744764907",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "5230",
+        "addr:postcode": "74135",
+        "addr:state": "OK",
+        "addr:street": "South Yale Avenue East",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "building:colour": "#eecfaf",
+        "check_date": "2025-06-23",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Mom's Family Diner",
+        "opening_hours": "Su-Th 06:00-24:00; Fr,Sa 06:00-03:00",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.922824,
+          36.0864879
+        ]
+      },
+      "id": "way/744764907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/783869581",
+        "addr:city": "Fremont",
+        "addr:housenumber": "1110",
+        "addr:postcode": "68025",
+        "addr:state": "NE",
+        "addr:street": "East 23rd Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+1 402-727-8880",
+        "website": "https://www.villageinn.com/locations/fremont-ne/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4831937,
+          41.4517351
+        ]
+      },
+      "id": "way/783869581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/797225628",
+        "addr:city": "Tucson",
+        "addr:housenumber": "9560",
+        "addr:postcode": "85748",
+        "addr:state": "AZ",
+        "addr:street": "East 22nd Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+1-520-886-8100",
+        "website": "https://www.villageinn.com/tucson-az-22nd-and-harrison",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7886642,
+          32.2059212
+        ]
+      },
+      "id": "way/797225628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840686644",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Village Inn",
+        "outdoor_seating": "no",
+        "source": "microsoft/BuildingFootprints",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8611641,
+          61.1947514
+        ]
+      },
+      "id": "way/840686644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/866433625",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.4650994,
+          41.4921305
+        ]
+      },
+      "id": "way/866433625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/886487845",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0077044,
+          45.3370343
+        ]
+      },
+      "id": "node/886487845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/944907863",
+        "addr:city": "Saint Cloud",
+        "addr:housenumber": "4571",
+        "addr:postcode": "34769",
+        "addr:state": "FL",
+        "addr:street": "13th Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.320769,
+          28.2554753
+        ]
+      },
+      "id": "way/944907863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/952800481",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0806872,
+          41.2119723
+        ]
+      },
+      "id": "way/952800481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/952820453",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4428322,
+          28.1866356
+        ]
+      },
+      "id": "way/952820453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/991999464",
+        "addr:city": "Goodyear",
+        "addr:housenumber": "2700",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "North Litchfield Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri_USDOT_Arizona",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.3590925,
+          33.4771435
+        ]
+      },
+      "id": "way/991999464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/993973611",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7795445,
+          27.8144202
+        ]
+      },
+      "id": "way/993973611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1000955230",
+        "addr:housenumber": "1741",
+        "addr:street": "Rio Grande Drive Southeast",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.6604783,
+          35.2277539
+        ]
+      },
+      "id": "way/1000955230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1001176337",
+        "addr:city": "Springfield",
+        "addr:housenumber": "4222",
+        "addr:postcode": "65807",
+        "addr:state": "MO",
+        "addr:street": "South Campbell Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2954637,
+          37.137679
+        ]
+      },
+      "id": "way/1001176337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1007457955",
+        "addr:city": "Hutchinson",
+        "addr:housenumber": "2901",
+        "addr:postcode": "67502",
+        "addr:state": "KS",
+        "addr:street": "North Main Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "breakfast": "yes",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Su-Sa 06:00-21:00",
+        "phone": "+1-620-662-3116",
+        "website": "https://www.villageinn.com/locations/hutchinson-ks/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9324802,
+          38.0855176
+        ]
+      },
+      "id": "way/1007457955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1009483314",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "2745",
+        "addr:postcode": "74114",
+        "addr:state": "OK",
+        "addr:street": "South Harvard Avenue East",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2025-03-06",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Village Inn",
+        "outdoor_seating": "no",
+        "roof:levels": "0",
+        "roof:shape": "quadruple_saltbox",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9399996,
+          36.1226501
+        ]
+      },
+      "id": "way/1009483314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1053833985",
+        "addr:city": "Derby",
+        "addr:housenumber": "1200",
+        "addr:postcode": "67037",
+        "addr:street": "North Rock Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2437005,
+          37.5576413
+        ]
+      },
+      "id": "way/1053833985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1056767549",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6103743,
+          42.8842564
+        ]
+      },
+      "id": "way/1056767549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065542970",
+        "addr:city": "West Valley City",
+        "addr:housenumber": "4824",
+        "addr:postcode": "84120",
+        "addr:state": "UT",
+        "addr:street": "West 3500 South",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.006337,
+          40.6970152
+        ]
+      },
+      "id": "way/1065542970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1272555613",
+        "addr:city": "Aurora",
+        "addr:housename": "Seven Hills Plaza",
+        "addr:housenumber": "18601",
+        "addr:postcode": "80013",
+        "addr:state": "CO",
+        "addr:street": "East Hampden Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+1-303-627-1392",
+        "website": "https://www.villageinn.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.770714,
+          39.6535035
+        ]
+      },
+      "id": "node/1272555613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1340657200",
+        "addr:city": "Huntley",
+        "addr:housenumber": "11713",
+        "addr:postcode": "60142",
+        "addr:state": "IL",
+        "addr:street": "Main Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/villageinnhuntley",
+        "contact:instagram": "https://www.instagram.com/villageinnhuntley",
+        "contact:tiktok": "https://www.tiktok.com/@villageinnrestaurant",
+        "cuisine": "american",
+        "email": "villageinnhuntley5858@gmail.com",
+        "name": "Village Inn",
+        "opening_hours": "Su 07:00-14:00; Mo 08:00-20:00; Tu-Sa 07:00-20:00",
+        "phone": "+1-847-669-5858",
+        "website": "https://sites.google.com/site/villageinnhuntley/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4256161,
+          42.1681592
+        ]
+      },
+      "id": "way/1340657200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1358882731",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2450821,
+          37.662792
+        ]
+      },
+      "id": "node/1358882731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1366522667",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2619999,
+          37.1769905
+        ]
+      },
+      "id": "way/1366522667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1370775152",
+        "addr:housenumber": "212",
+        "addr:street": "West Ridgeway Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3588476,
+          42.4698447
+        ]
+      },
+      "id": "way/1370775152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1501317175",
+        "addr:housenumber": "1500",
+        "addr:street": "Airway Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "description": "Area code 79925",
+        "name": "Village Inn",
+        "opening_hours": "24/7",
+        "phone": "+1-915-779-5363"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.395176,
+          31.788914
+        ]
+      },
+      "id": "node/1501317175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1504463433",
+        "addr:street": "Joe Battle Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2672435,
+          31.7953982
+        ]
+      },
+      "id": "way/1504463433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1553242831",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "mexican",
+        "name": "Torch's Tacos",
+        "source": "local_knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0793187,
+          39.7115545
+        ]
+      },
+      "id": "node/1553242831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1595734928",
+        "addr:city": "Virginia",
+        "addr:housename": "Village Inn",
+        "addr:housenumber": "1500",
+        "addr:postcode": "55792",
+        "addr:state": "MN",
+        "addr:street": "13th Street South",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "drive_in": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "no",
+        "name": "Village Inn",
+        "opening_hours": "Su-Sa 05:30-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1-218-749-8289",
+        "smoking": "no",
+        "source": "local_knowledge",
+        "takeaway": "yes",
+        "website": "https://www.villageinn.com/locations/700102",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.5584387,
+          47.5120161
+        ]
+      },
+      "id": "node/1595734928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2247526406",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8004145,
+          28.582032
+        ]
+      },
+      "id": "node/2247526406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2274545568",
+        "addr:city": "Lincoln",
+        "addr:housenumber": "6555",
+        "addr:postcode": "68510",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "check_date": "2026-02-10",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+1-402-489-8829",
+        "source": "survey",
+        "website": "https://www.villageinn.com/lincoln-ne-66th-and-o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6311304,
+          40.8129428
+        ]
+      },
+      "id": "node/2274545568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3151026561",
+        "addr:city": "Lincoln",
+        "addr:state": "NE",
+        "addr:street": "Van Dorn Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6519102,
+          40.7840808
+        ]
+      },
+      "id": "node/3151026561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3421024732",
+        "addr:city": "Denver",
+        "addr:housenumber": "400",
+        "addr:postcode": "80216",
+        "addr:state": "CO",
+        "addr:street": "West 48th Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 06:00-15:00",
+        "phone": "+1-303-294-0609",
+        "source": "Bing",
+        "website": "https://www.villageinn.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.992133,
+          39.78333
+        ]
+      },
+      "id": "node/3421024732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3561940515",
+        "addr:city": "Aurora",
+        "addr:housenumber": "15200",
+        "addr:postcode": "80014",
+        "addr:street": "East Iliff Avenue",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Su-Th 05:30-24:00, Fr-Sa 05:30-03:00",
+        "phone": "+1-303-750-8288",
+        "source": "knowledge",
+        "website": "https://www.villageinn.com/locations/110147"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.811545,
+          39.6744565
+        ]
+      },
+      "id": "node/3561940515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3667866512",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5046091,
+          43.9507655
+        ]
+      },
+      "id": "node/3667866512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780478429",
+        "addr:city": "Sterling",
+        "addr:housenumber": "203",
+        "addr:postcode": "80751",
+        "addr:street": "North 4th Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 06:00-22:00; Fr,Sa 06:00-23:00",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.2091386,
+          40.6259913
+        ]
+      },
+      "id": "node/3780478429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3814821501",
+        "addr:city": "Fremont",
+        "addr:housenumber": "1110",
+        "addr:postcode": "68025",
+        "addr:state": "NE",
+        "addr:street": "East 23rd Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+1 402-727-8880",
+        "source": "Bing;local knowledge",
+        "website": "https://www.villageinn.com/locations/fremont-ne/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4832077,
+          41.4517394
+        ]
+      },
+      "id": "node/3814821501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4318975509",
+        "addr:city": "Denver",
+        "addr:housenumber": "4850",
+        "addr:postcode": "80221",
+        "addr:state": "CO",
+        "addr:street": "Federal Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0247781,
+          39.7849251
+        ]
+      },
+      "id": "node/4318975509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4320463208",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9360868,
+          41.1512946
+        ]
+      },
+      "id": "node/4320463208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4453205691",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "name:en": "Village Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.318137,
+          27.9210441
+        ]
+      },
+      "id": "node/4453205691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4819396535",
+        "addr:city": "Moline",
+        "addr:housenumber": "2001",
+        "addr:postcode": "61265",
+        "addr:state": "IL",
+        "addr:street": "1st Street A",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 07:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5366999,
+          41.4919346
+        ]
+      },
+      "id": "node/4819396535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041111528",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5588164,
+          27.9970159
+        ]
+      },
+      "id": "node/8041111528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9215410978",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.5693754,
+          45.7838819
+        ]
+      },
+      "id": "node/9215410978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11573194650",
+        "addr:city": "Papillion",
+        "addr:housenumber": "8304",
+        "addr:postcode": "68046",
+        "addr:state": "NE",
+        "addr:street": "South 73rd Avenue Plaza",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "phone": "+14023399339",
+        "website": "https://www.villageinn.com/papillion-ne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0244273,
+          41.1757256
+        ]
+      },
+      "id": "node/11573194650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11870258446",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6658386,
+          39.0236682
+        ]
+      },
+      "id": "node/11870258446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11959200812",
+        "addr:city": "Clearwater",
+        "addr:housenumber": "2659",
+        "addr:postcode": "33760",
+        "addr:state": "FL",
+        "addr:street": "Roosevelt Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "check_date": "2025-04-24",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-727-223-9550",
+        "website": "https://www.villageinn.com/clearwater-fl",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7273984,
+          27.9150945
+        ]
+      },
+      "id": "node/11959200812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12190175660",
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "1509",
+        "addr:postcode": "23322",
+        "addr:state": "VA",
+        "addr:street": "Cedar Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://www.villageinn.com/chesapeake-va"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2975637,
+          36.7251984
+        ]
+      },
+      "id": "node/12190175660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13642126264",
+        "addr:city": "Wichita",
+        "addr:housenumber": "3535",
+        "addr:postcode": "67217",
+        "addr:state": "KS",
+        "addr:street": "South Meridian Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3714078,
+          37.6306669
+        ]
+      },
+      "id": "node/13642126264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13653672468",
+        "addr:city": "Denver",
+        "addr:housenumber": "7051",
+        "addr:postcode": "80249",
+        "addr:state": "CO",
+        "addr:street": "Tower Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "check_date": "2025-08-12",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "06:00-22:00",
+        "phone": "+1-303-574-1915",
+        "source": "bing",
+        "website": "https://www.villageinn.com/denver-co-71st-and-tower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7726055,
+          39.8249781
+        ]
+      },
+      "id": "node/13653672468"
+    }
+  ]
+}
