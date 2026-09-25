@@ -1,0 +1,6103 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-09-24T16:16:14Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/30385826",
+        "addr:city": "Bethlehem",
+        "addr:country": "US",
+        "addr:housenumber": "205",
+        "addr:postcode": "18015",
+        "addr:street": "West 3rd Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "06:00-22:00",
+        "phone": "+16108670262",
+        "roof:shape": "flat",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/bethlehem/205-west-3rd-street/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3823828,
+          40.6122291
+        ]
+      },
+      "id": "way/30385826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/36866510",
+        "addr:housenumber": "1495",
+        "addr:street": "County Road B West",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "check_date": "2025-04-27",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1627599,
+          45.0066055
+        ]
+      },
+      "id": "way/36866510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38124788",
+        "addr:city": "Gladstone",
+        "addr:country": "US",
+        "addr:housenumber": "6292",
+        "addr:postcode": "64118",
+        "addr:state": "MO",
+        "addr:street": "North Oak Trafficway",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "phone": "+1-816-452-3650",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5767033,
+          39.2078612
+        ]
+      },
+      "id": "way/38124788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42744292",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.6210272,
+          44.0301626
+        ]
+      },
+      "id": "way/42744292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44650389",
+        "addr:city": "Menominee",
+        "addr:housenumber": "2340",
+        "addr:postcode": "49858",
+        "addr:state": "MI",
+        "addr:street": "10th Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-906-863-1565",
+        "website": "https://stores.perkinsrestaurants.com/us/mi/menominee/2340-10th-street.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6129964,
+          45.1197233
+        ]
+      },
+      "id": "way/44650389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/48488701",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0707409,
+          46.7242751
+        ]
+      },
+      "id": "way/48488701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/92926319",
+        "addr:city": "Eagan",
+        "addr:housenumber": "1345",
+        "addr:postcode": "55123",
+        "addr:state": "MN",
+        "addr:street": "Town Centre Drive",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2024-09-25",
+        "cuisine": "american",
+        "diet:vegetarian": "yes",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "06:00-24:00",
+        "phone": "+1 651-432-6480",
+        "website": "https://www.perkinsrestaurants.com/locations/us/mn/eagan/1345-towne-centre-dr/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1648703,
+          44.8304301
+        ]
+      },
+      "id": "way/92926319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95975161",
+        "addr:city": "Newburgh",
+        "addr:housenumber": "1421",
+        "addr:postcode": "12550",
+        "addr:state": "NY",
+        "addr:street": "Route 300",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "note": "Perkins website now has the branding \"Perkins American Food Co.\" and a new logo with those words. Do they have a new logo/sign on the ground? If so, it's probably the new official name as well.",
+        "nysgissam:nysaddresspointid": "ORAN083471",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-845-566-4045",
+        "website": "https://www.perkinsrestaurants.com/locations/us/ny/newburgh/1421-route-300",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0712594,
+          41.5213798
+        ]
+      },
+      "id": "way/95975161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97518948",
+        "addr:housenumber": "4601",
+        "addr:postcode": "50310",
+        "addr:street": "Merle Hay Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "building:colour": "white",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6970558,
+          41.6442314
+        ]
+      },
+      "id": "way/97518948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/102923692",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9980336,
+          45.2798205
+        ]
+      },
+      "id": "way/102923692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107264320",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2994305,
+          43.1359116
+        ]
+      },
+      "id": "way/107264320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/109963763",
+        "addr:city": "Eau Claire",
+        "addr:housenumber": "2025",
+        "addr:postcode": "54701",
+        "addr:state": "WI",
+        "addr:street": "Highland Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4719655,
+          44.8070711
+        ]
+      },
+      "id": "way/109963763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/119871073",
+        "addr:city": "West St Paul",
+        "addr:country": "US",
+        "addr:housenumber": "1365",
+        "addr:postcode": "55118",
+        "addr:state": "MN",
+        "addr:street": "Robert Street South",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0812247,
+          44.9049602
+        ]
+      },
+      "id": "way/119871073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/120374645",
+        "addr:city": "Topeka",
+        "addr:housenumber": "1720",
+        "addr:postcode": "66604",
+        "addr:state": "KS",
+        "addr:street": "Southwest Wanamaker Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 06:00-21:00",
+        "phone": "+1-785-273-0300",
+        "website": "https://stores.perkinsrestaurants.com/us/ks/topeka/1720-sw-wanamaker-rd.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.761586,
+          39.0352022
+        ]
+      },
+      "id": "way/120374645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125017937",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.5599613,
+          44.5622199
+        ]
+      },
+      "id": "way/125017937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126653358",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.9466953,
+          35.1276971
+        ]
+      },
+      "id": "way/126653358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/132161426",
+        "addr:housenumber": "8601",
+        "addr:postcode": "50322",
+        "addr:street": "Hickman Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7372176,
+          41.6154754
+        ]
+      },
+      "id": "way/132161426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/132911209",
+        "addr:city": "Englewood",
+        "addr:housenumber": "1235",
+        "addr:postcode": "45322",
+        "addr:state": "OH",
+        "addr:street": "South Main Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2826137,
+          39.8599749
+        ]
+      },
+      "id": "way/132911209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/133113051",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8386061,
+          46.8622651
+        ]
+      },
+      "id": "way/133113051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/134872273",
+        "addr:city": "Kearney",
+        "addr:housenumber": "609",
+        "addr:postcode": "68847",
+        "addr:street": "South 2nd Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-308-234-7375",
+        "ref": "3823",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0838831,
+          40.6801562
+        ]
+      },
+      "id": "way/134872273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/135951448",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9825977,
+          43.6823414
+        ]
+      },
+      "id": "way/135951448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/137493496",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0155574,
+          45.0363793
+        ]
+      },
+      "id": "way/137493496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/140789673",
+        "addr:city": "Orlando",
+        "addr:direction": "West",
+        "addr:housenumber": "6813",
+        "addr:state": "FL",
+        "addr:street": "Sand Lake Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source:addr:housenumber": "Orange County GIS data",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4703936,
+          28.4504008
+        ]
+      },
+      "id": "way/140789673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/146237375",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4222742,
+          44.9334615
+        ]
+      },
+      "id": "way/146237375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/150359826",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "website": "https://www.perkinsrestaurants.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6430825,
+          41.5406833
+        ]
+      },
+      "id": "way/150359826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/157938660",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "local_knowledge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.9419908,
+          44.7834589
+        ]
+      },
+      "id": "way/157938660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/160073267",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2350021,
+          39.6389162
+        ]
+      },
+      "id": "way/160073267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164876257",
+        "addr:city": "Rochester",
+        "addr:housenumber": "1818",
+        "addr:postcode": "55904",
+        "addr:street": "South Broadway Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-507-280-9126",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4625377,
+          43.995608
+        ]
+      },
+      "id": "way/164876257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/165079474",
+        "addr:city": "Clearwater",
+        "addr:country": "US",
+        "addr:housenumber": "2626",
+        "addr:postcode": "33759",
+        "addr:state": "FL",
+        "addr:street": "Gulf To Bay Blvd",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "american",
+        "delivery": "no",
+        "height": "4",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.perkinsrestaurants.com/locations/us/fl/clearwater/2626-gulf-to-bay-blvd",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7293937,
+          27.9609842
+        ]
+      },
+      "id": "way/165079474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/171280469",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3617306,
+          45.0518285
+        ]
+      },
+      "id": "way/171280469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/173105028",
+        "addr:housenumber": "5550",
+        "addr:street": "Interstate Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2024-04-08",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "phone": "+1 330 544 2282",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.768733,
+          41.1206085
+        ]
+      },
+      "id": "way/173105028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180203310",
+        "addr:housenumber": "2205",
+        "addr:postcode": "57006",
+        "addr:street": "6th Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Su-Th 07:00-22:00; Fr-Sa 07:00-23:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7677935,
+          44.3120386
+        ]
+      },
+      "id": "way/180203310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/182478555",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3835386,
+          40.9703732
+        ]
+      },
+      "id": "way/182478555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/185527624",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "USGS Ortho",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3557341,
+          39.5623176
+        ]
+      },
+      "id": "way/185527624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/187197616",
+        "addr:housenumber": "315",
+        "addr:street": "Collins Road Northeast",
+        "amenity": "restaurant",
+        "branch": "Family Restaurants",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Th,Su 06:00-24:00; Fr,Sa 00:00-00:00",
+        "phone": "+1-319-393-0202",
+        "source": "Bing",
+        "website": "https://www.perkinsrestaurants.com/locations/us/ia/cedar-rapids/315-collins-road-ne/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.6336525,
+          42.0274695
+        ]
+      },
+      "id": "way/187197616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/196546807",
+        "addr:city": "Ames",
+        "addr:housenumber": "325",
+        "addr:postcode": "50010",
+        "addr:state": "IA",
+        "addr:street": "South Duff Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "phone": "+15155208940",
+        "website": "https://perkinsrestaurants.com/locations/us/ia/ames/325-s-duff-ave",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6109782,
+          42.0191483
+        ]
+      },
+      "id": "way/196546807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199004865",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5484619,
+          39.2231794
+        ]
+      },
+      "id": "way/199004865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/201711949",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2904338,
+          44.696967
+        ]
+      },
+      "id": "way/201711949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/202168872",
+        "addr:city": "Coralville",
+        "addr:housenumber": "819",
+        "addr:postcode": "52241",
+        "addr:state": "IA",
+        "addr:street": "1st Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+13195696870",
+        "source": "survey",
+        "website": "https://perkinsrestaurants.com/locations/us/ia/coralville/819-1st-ave",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.5651745,
+          41.6813024
+        ]
+      },
+      "id": "way/202168872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/208934164",
+        "addr:city": "Sioux City",
+        "addr:housenumber": "501",
+        "addr:state": "IA",
+        "addr:street": "Gordon Drive",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4040719,
+          42.4902048
+        ]
+      },
+      "id": "way/208934164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/212603451",
+        "addr:city": "Gardner",
+        "addr:housenumber": "2000",
+        "addr:postcode": "66030",
+        "addr:state": "KS",
+        "addr:street": "East Santa Fe Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8880541,
+          38.8111459
+        ]
+      },
+      "id": "way/212603451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/218961678",
+        "addr:city": "Lawrence",
+        "addr:housenumber": "1711",
+        "addr:postcode": "66046",
+        "addr:state": "KS",
+        "addr:street": "West 23rd Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-785-842-9040",
+        "website": "https://www.perkinsrestaurants.com/locations/us/ks/lawrence/1711-w-23rd-street/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2555478,
+          38.9423728
+        ]
+      },
+      "id": "way/218961678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/221556098",
+        "addr:city": "Loveland",
+        "addr:housenumber": "2222",
+        "addr:postcode": "80537",
+        "addr:state": "CO",
+        "addr:street": "West Eisenhower Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "restaurant",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins American Food Co.",
+        "opening_hours": "Mo-Su 05:30-22:00",
+        "phone": "+1-970-663-1944",
+        "website": "https://www.perkinsrestaurants.com/locations/us/co/loveland/2222-w-eisenhower-blvd/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1084079,
+          40.4069317
+        ]
+      },
+      "id": "way/221556098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/228468802",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0622313,
+          46.8073296
+        ]
+      },
+      "id": "way/228468802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231765901",
+        "addr:city": "Golden Valley",
+        "addr:housenumber": "6920",
+        "addr:postcode": "55426",
+        "addr:state": "MN",
+        "addr:street": "Wayzata Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+17633280254",
+        "website": "https://perkinsrestaurants.com/locations/us/mn/golden-valley/6920-wayzata-blvd",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3685898,
+          44.9724761
+        ]
+      },
+      "id": "way/231765901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232289002",
+        "addr:city": "Matamoras",
+        "addr:housenumber": "103",
+        "addr:postcode": "18336",
+        "addr:state": "PA",
+        "addr:street": "Westfall Town Drive",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7220449,
+          41.3539769
+        ]
+      },
+      "id": "way/232289002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/233080603",
+        "addr:city": "Clarion",
+        "addr:housenumber": "78",
+        "addr:postcode": "16214",
+        "addr:state": "PA",
+        "addr:street": "Perkins Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "06:00-22:00",
+        "phone": "+1 814-226-4410",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/clarion/78-perkins-road/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3949226,
+          41.1903805
+        ]
+      },
+      "id": "way/233080603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/233298175",
+        "addr:city": "North Platte",
+        "addr:housenumber": "2302",
+        "addr:postcode": "69101",
+        "addr:state": "NE",
+        "addr:street": "South Jeffers Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "capacity": "200",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-308-534-7375",
+        "smoking": "outside",
+        "source": "local knowledge;employee",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.7658749,
+          41.1139576
+        ]
+      },
+      "id": "way/233298175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237616868",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.8201746,
+          44.4764316
+        ]
+      },
+      "id": "way/237616868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/238267977",
+        "addr:city": "Urbana",
+        "addr:housenumber": "1214",
+        "addr:postcode": "61801",
+        "addr:state": "IL",
+        "addr:street": "West University Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "check_date": "2025-03-29",
+        "cuisine": "american",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-00:00",
+        "phone": "+1-217-560-7347",
+        "website": "https://www.perkinsrestaurants.com/locations/us/il/urbana/1214-west-university-ave/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2254496,
+          40.1166463
+        ]
+      },
+      "id": "way/238267977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244141648",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.575043,
+          27.4332187
+        ]
+      },
+      "id": "way/244141648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/258584081",
+        "addr:city": "Onalaska",
+        "addr:housenumber": "9428",
+        "addr:postcode": "54650",
+        "addr:state": "WI",
+        "addr:street": "WI-16",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-608-470-1923",
+        "website": "https://perkinsrestaurants.com/locations/us/wi/onalaska/9428-highway-16",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1913451,
+          43.8736373
+        ]
+      },
+      "id": "way/258584081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/258701956",
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "1730",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Dell Range Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "restaurant",
+        "cuisine": "american",
+        "name": "Perkins",
+        "note": "They've rebranded to \"Perkins American Food Co.\", but iD doesn't know about this yet and prompts you to \"upgrade\" the tags. Ignore it.",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 05:30-23:00",
+        "phone": "+1-307-634-7577",
+        "website": "https://www.perkinsrestaurants.com/locations/us/wy/cheyenne/1730-dell-range-blvd/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7991703,
+          41.1608028
+        ]
+      },
+      "id": "way/258701956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/260866073",
+        "addr:city": "Gillette",
+        "addr:housenumber": "2510",
+        "addr:postcode": "82718",
+        "addr:state": "WY",
+        "addr:street": "South Douglas Highway",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-07-09",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "outdoor_seating": "no",
+        "phone": "+1-307-682-6887",
+        "source": "survey",
+        "website": "https://www.perkinsrestaurants.com/locations/us/wy/gillette/2510-south-douglas/",
+        "wikimedia_commons": "File:Perkins Restaurant and Bakery in Gillette, Wyoming.jpg",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.4951101,
+          44.2716513
+        ]
+      },
+      "id": "way/260866073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/261902282",
+        "addr:housenumber": "1224",
+        "addr:postcode": "50266",
+        "addr:street": "Jordan Creek Parkway",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.8097082,
+          41.5870363
+        ]
+      },
+      "id": "way/261902282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264198604",
+        "addr:city": "Little Falls",
+        "addr:postcode": "56345",
+        "addr:street": "16th Street Northeast",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3382573,
+          45.9759314
+        ]
+      },
+      "id": "way/264198604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264966097",
+        "addr:city": "Bemidji",
+        "addr:housenumber": "1120",
+        "addr:postcode": "56601",
+        "addr:street": "Paul Bunyan Drive Northwest",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-218-751-7580",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.896358,
+          47.4913927
+        ]
+      },
+      "id": "way/264966097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/276135597",
+        "addr:city": "Doylestown",
+        "addr:housenumber": "4319",
+        "addr:postcode": "18902",
+        "addr:state": "PA",
+        "addr:street": "West Swamp Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1 215-348-2133",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/doylestown/4319-swamp-road/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1330382,
+          40.3311528
+        ]
+      },
+      "id": "way/276135597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/288351134",
+        "addr:city": "Bloomington",
+        "addr:housenumber": "4201",
+        "addr:postcode": "55435",
+        "addr:state": "MN",
+        "addr:street": "78th Street West",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "phone": "+1 952 831 8855",
+        "website": "https://www.perkinsrestaurants.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3305084,
+          44.859532
+        ]
+      },
+      "id": "way/288351134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292179203",
+        "addr:city": "Casper",
+        "addr:housenumber": "4710",
+        "addr:postcode": "82609",
+        "addr:state": "WY",
+        "addr:street": "East 2nd Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2642641,
+          42.8490229
+        ]
+      },
+      "id": "way/292179203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/294966416",
+        "addr:housenumber": "1401",
+        "addr:postcode": "55057",
+        "addr:street": "Riverview Drive",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "website": "https://perkinsrestaurants.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1828981,
+          44.4397279
+        ]
+      },
+      "id": "way/294966416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/296971362",
+        "addr:city": "Rapid City",
+        "addr:housenumber": "2305",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Mount Rushmore Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.2328054,
+          44.063368
+        ]
+      },
+      "id": "way/296971362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/305034911",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7838068,
+          43.5143519
+        ]
+      },
+      "id": "way/305034911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/312184300",
+        "addr:city": "Rapid City",
+        "addr:housenumber": "1715",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "North LaCrosse Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.2040321,
+          44.1018945
+        ]
+      },
+      "id": "way/312184300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/313772357",
+        "addr:city": "Manitowoc",
+        "addr:housenumber": "4525",
+        "addr:postcode": "54220",
+        "addr:state": "WI",
+        "addr:street": "Calumet Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "06:00-00:00",
+        "phone": "+1 920-684-8003",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7067121,
+          44.0723251
+        ]
+      },
+      "id": "way/313772357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314169036",
+        "alt_name": "Perkins",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3967483,
+          42.8938264
+        ]
+      },
+      "id": "way/314169036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/315080725",
+        "addr:city": "Kissimmee",
+        "addr:housenumber": "5170",
+        "addr:postcode": "34746",
+        "addr:state": "FL",
+        "addr:street": "West Irlo Bronson Memorial Highway",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.489871,
+          28.3323589
+        ]
+      },
+      "id": "way/315080725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/316896357",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8575428,
+          35.6699825
+        ]
+      },
+      "id": "way/316896357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/318183563",
+        "addr:city": "Watertown",
+        "addr:housenumber": "600",
+        "addr:postcode": "57201",
+        "addr:state": "SD",
+        "addr:street": "9th Avenue Southeast",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1078114,
+          44.8896978
+        ]
+      },
+      "id": "way/318183563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/319806514",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3917292,
+          28.6624481
+        ]
+      },
+      "id": "way/319806514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/322421619",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6676935,
+          26.6175958
+        ]
+      },
+      "id": "way/322421619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/332480573",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0418987,
+          45.0968102
+        ]
+      },
+      "id": "way/332480573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/334725166",
+        "addr:housenumber": "20320",
+        "addr:postcode": "33928",
+        "addr:street": "Grande Oak Shoppes Blvd",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "local knowledge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7699275,
+          26.4369112
+        ]
+      },
+      "id": "way/334725166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/342846411",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3295237,
+          42.476303
+        ]
+      },
+      "id": "way/342846411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/358556126",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0231,
+          40.9809721
+        ]
+      },
+      "id": "way/358556126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/367094285",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8929807,
+          40.9648753
+        ]
+      },
+      "id": "node/367094285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/371040996",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4086721,
+          43.0355041
+        ]
+      },
+      "id": "way/371040996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/375328381",
+        "addr:city": "Idaho Falls",
+        "addr:housenumber": "2000",
+        "addr:postcode": "83404",
+        "addr:state": "ID",
+        "addr:street": "Channing Way",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "smoking": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9915795,
+          43.4795181
+        ]
+      },
+      "id": "way/375328381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/378244417",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2193877,
+          46.3560424
+        ]
+      },
+      "id": "way/378244417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/384538728",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3641166,
+          39.0466548
+        ]
+      },
+      "id": "way/384538728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/389252232",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "american",
+        "internet_access": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9403647,
+          26.6229321
+        ]
+      },
+      "id": "way/389252232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/402808777",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "name:en": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8706292,
+          26.527248
+        ]
+      },
+      "id": "way/402808777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/420914506",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9879934,
+          39.8258125
+        ]
+      },
+      "id": "way/420914506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/440521108",
+        "addr:city": "Allentown",
+        "addr:housenumber": "3214",
+        "addr:postcode": "18103",
+        "addr:state": "PA",
+        "addr:street": "Hamilton Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+16108205767",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/allentown/3214-hamilton-blvd/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5219869,
+          40.5792407
+        ]
+      },
+      "id": "way/440521108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/443719547",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1958516,
+          45.0361153
+        ]
+      },
+      "id": "way/443719547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/443964151",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2079712,
+          45.5528596
+        ]
+      },
+      "id": "node/443964151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/449107565",
+        "addr:housenumber": "1040",
+        "addr:postcode": "54016",
+        "addr:street": "Pearson Drive",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "cuisine": "american",
+        "internet_access": "yes",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-23:00; Fr,Sa 00:00-24:00",
+        "phone": "+1 715-386-9441",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7193769,
+          44.9585805
+        ]
+      },
+      "id": "way/449107565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/451986356",
+        "addr:city": "Orange City",
+        "addr:postcode": "32763",
+        "addr:state": "FL",
+        "addr:street": "Saxon Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2769194,
+          28.9106545
+        ]
+      },
+      "id": "way/451986356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/460821969",
+        "addr:city": "State College",
+        "addr:housenumber": "525",
+        "addr:postcode": "16801",
+        "addr:state": "PA",
+        "addr:street": "Benner Pike",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1-814-237-0307",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/state-college/525-benner-pike",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.8030881,
+          40.8342707
+        ]
+      },
+      "id": "way/460821969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/469319778",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.150823,
+          43.3397159
+        ]
+      },
+      "id": "way/469319778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/471799917",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3758754,
+          44.368376
+        ]
+      },
+      "id": "way/471799917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/472152133",
+        "amenity": "restaurant",
+        "branch": "Family Restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3628904,
+          44.2590334
+        ]
+      },
+      "id": "way/472152133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/474685196",
+        "addr:housenumber": "3330",
+        "addr:street": "Pleasant Valley Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2026-02-27",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "06:00-22:00",
+        "phone": "+1 814-941-2100",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/altoona/3300-pleasant-valley-blvd/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4014073,
+          40.484504
+        ]
+      },
+      "id": "way/474685196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/481323529",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2033569,
+          45.5864863
+        ]
+      },
+      "id": "node/481323529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/487266160",
+        "addr:city": "Wisconsin Rapids",
+        "addr:housenumber": "2311",
+        "addr:postcode": "54494",
+        "addr:state": "WI",
+        "addr:street": "8th Street South",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8165976,
+          44.3741287
+        ]
+      },
+      "id": "way/487266160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/490272144",
+        "addr:city": "Scranton",
+        "addr:housenumber": "1130",
+        "addr:postcode": "18508",
+        "addr:state": "PA",
+        "addr:street": "Ravine Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2026-02-27",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "06:00-21:00",
+        "phone": "+1 570-963-1115",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/scranton/1130-ravine-st",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6515231,
+          41.4627608
+        ]
+      },
+      "id": "way/490272144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497483100",
+        "addr:city": "Wilkes-Barre",
+        "addr:housenumber": "1085",
+        "addr:postcode": "18702",
+        "addr:state": "PA",
+        "addr:street": "Wilkes-Barre Township Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source:geometry": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.8820671,
+          41.2220824
+        ]
+      },
+      "id": "way/497483100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/506657678",
+        "addr:city": "Bethlehem",
+        "addr:housenumber": "3940",
+        "addr:postcode": "18020",
+        "addr:state": "PA",
+        "addr:street": "Nazareth Pike",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3422696,
+          40.6774214
+        ]
+      },
+      "id": "node/506657678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/511861002",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.834349,
+          45.0368036
+        ]
+      },
+      "id": "way/511861002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/514863946",
+        "addr:city": "Longmont",
+        "addr:housenumber": "2051",
+        "addr:postcode": "80501",
+        "addr:state": "CO",
+        "addr:street": "Main Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "restaurant",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "phone": "+1-303-772-1410",
+        "website": "https://www.perkinsrestaurants.com/locations/us/co/longmont/2051-n--main/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.102968,
+          40.195009
+        ]
+      },
+      "id": "way/514863946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517506425",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7580881,
+          43.5151294
+        ]
+      },
+      "id": "way/517506425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/528990813",
+        "addr:city": "Apple Valley",
+        "addr:country": "US",
+        "addr:housenumber": "7620",
+        "addr:postcode": "55124",
+        "addr:state": "MN",
+        "addr:street": "150th Street West",
+        "alt_name": "Perkins Apple Valley, MN",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "american;breakfast",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 05:30-00:00",
+        "outdoor_seating": "no",
+        "phone": "+1-952-377-8094",
+        "takeaway": "yes",
+        "website": "https://www.perkinsrestaurants.com/locations/us/mn/apple-valley/7620-150th-st-w",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2187056,
+          44.7314059
+        ]
+      },
+      "id": "way/528990813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/540516774",
+        "addr:city": "Middleburg Heights",
+        "addr:housenumber": "7175",
+        "addr:postcode": "44130",
+        "addr:state": "OH",
+        "addr:street": "Engle Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8240367,
+          41.3728553
+        ]
+      },
+      "id": "way/540516774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/546192734",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7397268,
+          41.2166925
+        ]
+      },
+      "id": "way/546192734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/548245062",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7564434,
+          43.7169295
+        ]
+      },
+      "id": "way/548245062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/548797740",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "outdoor_seating": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4482824,
+          41.2396576
+        ]
+      },
+      "id": "way/548797740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/549170222",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9186009,
+          41.5476297
+        ]
+      },
+      "id": "way/549170222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/549408293",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7786627,
+          41.2724204
+        ]
+      },
+      "id": "way/549408293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/550768308",
+        "addr:city": "Mount Pocono",
+        "addr:housenumber": "3267",
+        "addr:postcode": "18344",
+        "addr:state": "PA",
+        "addr:street": "PA 940",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3734997,
+          41.1233683
+        ]
+      },
+      "id": "way/550768308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556360415",
+        "addr:postcode": "32757",
+        "addr:state": "FL",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "outdoor_seating": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6715692,
+          28.8199033
+        ]
+      },
+      "id": "way/556360415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556592585",
+        "addr:city": "Altoona",
+        "addr:housenumber": "2621",
+        "addr:postcode": "50009",
+        "addr:street": "Adventureland Drive",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4938112,
+          41.6598451
+        ]
+      },
+      "id": "way/556592585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/557969749",
+        "addr:city": "Winter Park",
+        "addr:housenumber": "6425",
+        "addr:postcode": "32792",
+        "addr:state": "FL",
+        "addr:street": "University Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "capacity": "100",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "06:00-24:00+ \"some nights until 01:00\"",
+        "smoking": "no",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2979175,
+          28.598011
+        ]
+      },
+      "id": "way/557969749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/557998015",
+        "addr:city": "Marion",
+        "addr:housenumber": "1197",
+        "addr:postcode": "43302",
+        "addr:state": "OH",
+        "addr:street": "Mt Vernon Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-21:00",
+        "phone": "+1-740-389-5200",
+        "source": "mapillary",
+        "website": "https://stores.perkinsrestaurants.com/us/oh/marion/1197-mt-vernon-avenue.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.097486,
+          40.5805037
+        ]
+      },
+      "id": "way/557998015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/559636757",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.443574,
+          44.2954732
+        ]
+      },
+      "id": "way/559636757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/559739268",
+        "addr:city": "Newark",
+        "addr:housenumber": "700",
+        "addr:postcode": "19711",
+        "addr:state": "DE",
+        "addr:street": "Capitol Trail",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2025-07-12",
+        "contact:phone": "+1 302-737-3500",
+        "contact:website": "https://www.perkinsrestaurants.com/locations/us/de/newark/700-capital-trail/",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "07:00-20:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7200831,
+          39.6940749
+        ]
+      },
+      "id": "way/559739268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/570380669",
+        "addr:city": "Stroudsburg",
+        "addr:housenumber": "1215",
+        "addr:postcode": "18360",
+        "addr:state": "PA",
+        "addr:street": "West Main Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "outdoor_seating": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2115381,
+          40.9818453
+        ]
+      },
+      "id": "way/570380669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/575160638",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1754102,
+          40.6119402
+        ]
+      },
+      "id": "way/575160638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/579342551",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.431564,
+          42.8989994
+        ]
+      },
+      "id": "way/579342551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/589104635",
+        "addr:city": "Ashland",
+        "addr:housenumber": "658",
+        "addr:postcode": "44805",
+        "addr:state": "OH",
+        "addr:street": "US 250",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-419-281-0666",
+        "smoking": "no",
+        "source": "mapillary",
+        "takeaway": "yes",
+        "website": "https://stores.perkinsrestaurants.com/us/oh/ashland/658-us-route-250-e.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2511295,
+          40.8578698
+        ]
+      },
+      "id": "way/589104635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/595590142",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0592806,
+          44.5300261
+        ]
+      },
+      "id": "node/595590142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/597551580",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8204925,
+          44.2958614
+        ]
+      },
+      "id": "node/597551580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/600466216",
+        "addr:city": "Olean",
+        "addr:housenumber": "2728",
+        "addr:postcode": "14760",
+        "addr:state": "NY",
+        "addr:street": "West State Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "nysgissam:nysaddresspointid": "CATT037969",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4617994,
+          42.0772915
+        ]
+      },
+      "id": "way/600466216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/604092085",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4520943,
+          44.261252
+        ]
+      },
+      "id": "way/604092085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/607558928",
+        "addr:city": "Stevens Point",
+        "addr:housenumber": "143",
+        "addr:postcode": "54481",
+        "addr:state": "WI",
+        "addr:street": "Division Street",
+        "amenity": "restaurant",
+        "branch": "Stevens Point",
+        "brand": "Perkins",
+        "brand:website": "https://www.perkinsrestaurants.com/",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/PerkinsRestaurantAndBakeryStevensPointWI/",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1 715-341-5044",
+        "ref": "3630",
+        "website": "https://www.perkinsrestaurants.com/locations/us/wi/stevens-point/143-division-street-north",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5744653,
+          44.5370109
+        ]
+      },
+      "id": "way/607558928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/610106673",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9747061,
+          41.7342713
+        ]
+      },
+      "id": "way/610106673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/611609328",
+        "addr:housenumber": "12545",
+        "addr:postcode": "55434",
+        "addr:street": "Ulysses Street Northeast",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "phone": "+1-763-340-1199",
+        "self_service": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2365234,
+          45.1978271
+        ]
+      },
+      "id": "way/611609328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/612113526",
+        "addr:city": "East Stroudsburg",
+        "addr:housenumber": "5163",
+        "addr:postcode": "18302",
+        "addr:state": "PA",
+        "addr:street": "Milford Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0870682,
+          41.0578449
+        ]
+      },
+      "id": "way/612113526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/631122499",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5843057,
+          44.0104724
+        ]
+      },
+      "id": "way/631122499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/631749800",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "phone": "+1 701-221-3112",
+        "website": "https://stores.perkinsrestaurants.com/us/nd/bismarck/100-e-bismarck-expressway.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.7912406,
+          46.7954792
+        ]
+      },
+      "id": "way/631749800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/637291220",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5846842,
+          28.33313
+        ]
+      },
+      "id": "way/637291220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/648276532",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2023-08-28",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7299703,
+          41.1230181
+        ]
+      },
+      "id": "way/648276532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/660024968",
+        "addr:city": "Glendale",
+        "addr:housenumber": "5265",
+        "addr:postcode": "53217",
+        "addr:state": "WI",
+        "addr:street": "North Port Washington Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9171437,
+          43.1131168
+        ]
+      },
+      "id": "way/660024968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/674249964",
+        "addr:city": "Avondale",
+        "addr:housenumber": "954",
+        "addr:postcode": "19311",
+        "addr:state": "PA",
+        "addr:street": "Gap Newport Pike",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2026-04-06",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1-610-268-3513",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/avondale/954-gap-newport-pike",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.796709,
+          39.836649
+        ]
+      },
+      "id": "way/674249964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682338638",
+        "addr:city": "Roseland",
+        "addr:housenumber": "423",
+        "addr:postcode": "46637",
+        "addr:state": "IN",
+        "addr:street": "Dixie Way",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "outdoor_seating": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2508124,
+          41.7111843
+        ]
+      },
+      "id": "way/682338638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682494228",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "american",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Su-Th 06:00-24:00; Fr-Sa 06:00-15:00",
+        "phone": "+1-239-540-8181",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://stores.perkinsrestaurants.com/us/fl/cape-coral/1502-cape-coral-pkwy.html",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9453625,
+          26.5622722
+        ]
+      },
+      "id": "way/682494228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689410419",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "roof:levels": "0",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5717384,
+          41.6273958
+        ]
+      },
+      "id": "way/689410419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695837892",
+        "addr:city": "Minot",
+        "addr:housenumber": "405",
+        "addr:postcode": "58701",
+        "addr:state": "ND",
+        "addr:street": "20th Avenue Southwest",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.2993071,
+          48.2102921
+        ]
+      },
+      "id": "way/695837892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/697635604",
+        "addr:city": "Fergus Falls",
+        "addr:housenumber": "623",
+        "addr:postcode": "56537",
+        "addr:state": "MN",
+        "addr:street": "Frontier Drive",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-218-739-2241",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.119143,
+          46.2900193
+        ]
+      },
+      "id": "way/697635604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/709043758",
+        "addr:housenumber": "1020",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7757543,
+          44.4372185
+        ]
+      },
+      "id": "way/709043758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/711859697",
+        "addr:city": "Bloomsburg",
+        "addr:housenumber": "23",
+        "addr:postcode": "17815",
+        "addr:state": "PA",
+        "addr:street": "Ricky Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2025-07-18",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr,Sa 06:00-23:00",
+        "phone": "+1 570-784-1140",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/bloomsburg/23-ricky-ave/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4917268,
+          41.0171798
+        ]
+      },
+      "id": "way/711859697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/725931170",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2025-06-24",
+        "check_date:smoking": "2025-06-24",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "smoking": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5883098,
+          41.7034096
+        ]
+      },
+      "id": "way/725931170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/728193669",
+        "addr:city": "East Windsor",
+        "addr:country": "US",
+        "addr:housenumber": "50",
+        "addr:postcode": "08520",
+        "addr:state": "NJ",
+        "addr:street": "Princeton Hightstown Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Su 07:30-15:00; Mo-Tu 07:30-15:30; We-Th 07:30-19:30; Fr-Sa 07:30-20:30",
+        "outdoor_seating": "no",
+        "phone": "+1-609-443-0722",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.perkinsrestaurants.com/locations/us/nj/east-windsor/50-princeton-hightstown-road/",
+        "website:menu": "https://perkinsrestaurantnj.com/menus",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.540846,
+          40.2749077
+        ]
+      },
+      "id": "way/728193669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/736905644",
+        "addr:housenumber": "700",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7973609,
+          45.3001284
+        ]
+      },
+      "id": "way/736905644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/742734046",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1421345,
+          40.8156999
+        ]
+      },
+      "id": "way/742734046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/747412633",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2461448,
+          44.0971141
+        ]
+      },
+      "id": "way/747412633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/762299268",
+        "addr:city": "Brooklyn Park",
+        "addr:housenumber": "8585",
+        "addr:postcode": "55445",
+        "addr:state": "MN",
+        "addr:street": "Aspen Lane North",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3944107,
+          45.1102809
+        ]
+      },
+      "id": "way/762299268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/762760066",
+        "addr:city": "Mansfield",
+        "addr:housenumber": "96",
+        "addr:postcode": "16933",
+        "addr:state": "PA",
+        "addr:street": "Dorsett Heights",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "internet_access": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1 570-662-2546",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0879987,
+          41.8017713
+        ]
+      },
+      "id": "way/762760066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765823534",
+        "addr:city": "Dubuque",
+        "addr:housenumber": "2785",
+        "addr:postcode": "52002",
+        "addr:state": "IA",
+        "addr:street": "Plaza Drive",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.7384237,
+          42.519539
+        ]
+      },
+      "id": "way/765823534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/777517667",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1662701,
+          44.678192
+        ]
+      },
+      "id": "way/777517667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/778656619",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "linncounty:objectid": "6743",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "source": "microsoft/BuildingFootprints",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.6732835,
+          41.943785
+        ]
+      },
+      "id": "way/778656619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/796958672",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2088885,
+          27.033823
+        ]
+      },
+      "id": "way/796958672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/809217835",
+        "addr:city": "Erie",
+        "addr:housenumber": "4334",
+        "addr:postcode": "16510",
+        "addr:state": "PA",
+        "addr:street": "Buffalo Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0039118,
+          42.1463882
+        ]
+      },
+      "id": "way/809217835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/844092168",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "microsoft/BuildingFootprints",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.566141,
+          45.756517
+        ]
+      },
+      "id": "way/844092168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/874911766",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4631523,
+          46.7134601
+        ]
+      },
+      "id": "way/874911766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/877278598",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4299932,
+          45.0870735
+        ]
+      },
+      "id": "way/877278598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/879477683",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2024-04-10",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4432093,
+          36.0386834
+        ]
+      },
+      "id": "way/879477683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/883801664",
+        "addr:housenumber": "1100",
+        "addr:street": "East Interstate Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:website": "https://perkinsrestaurants.com/",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "phone": "+1 701 222 0625",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://perkinsrestaurants.com/locations/us/nd/bismarck/1100-interstate-avenue/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.7739773,
+          46.8350057
+        ]
+      },
+      "id": "way/883801664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/886015459",
+        "addr:city": "Lincoln",
+        "addr:housenumber": "7301",
+        "addr:postcode": "68504",
+        "addr:state": "NE",
+        "addr:street": "Husker Circle",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 05:30-23:00",
+        "phone": "+1-402-937-7042",
+        "website": "https://www.perkinsrestaurants.com/locations/us/ne/lincoln/7301-husker-circle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6796436,
+          40.8858503
+        ]
+      },
+      "id": "way/886015459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/894439885",
+        "addr:city": "Fairfield",
+        "addr:housenumber": "745",
+        "addr:postcode": "45014",
+        "addr:state": "OH",
+        "addr:street": "Nilles Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5552683,
+          39.337051
+        ]
+      },
+      "id": "way/894439885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/895317613",
+        "addr:city": "Chambersburg",
+        "addr:housenumber": "1324",
+        "addr:postcode": "17201",
+        "addr:state": "PA",
+        "addr:street": "Lincoln Way East",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2025-10-07",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "06:00-22:00",
+        "phone": "+1 717-263-1112",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/chambersburg/1324-lincoln-hwy-e/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6288524,
+          39.9270308
+        ]
+      },
+      "id": "way/895317613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/963299328",
+        "addr:city": "Wheeling",
+        "addr:housenumber": "680",
+        "addr:postcode": "26003",
+        "addr:state": "WV",
+        "addr:street": "National Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7021227,
+          40.0745028
+        ]
+      },
+      "id": "way/963299328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/964385701",
+        "addr:city": "Clear Lake",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3580814,
+          43.1466079
+        ]
+      },
+      "id": "way/964385701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/970149185",
+        "addr:city": "Allentown",
+        "addr:housenumber": "3400",
+        "addr:postcode": "18103",
+        "addr:state": "PA",
+        "addr:street": "Lehigh Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+16109655241",
+        "source": "esri/Lehigh_County_PA_Buildings",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/allentown/3400-lehigh-street/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4918946,
+          40.5527049
+        ]
+      },
+      "id": "way/970149185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992096805",
+        "addr:city": "East Brunswick",
+        "addr:housenumber": "286",
+        "addr:postcode": "08816",
+        "addr:state": "NJ",
+        "addr:street": "NJ 18",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Su 08:00-16:00; Mo-Th 08:00-20:00; Fr-Sa 08:00-21:00",
+        "phone": "+1-732-698-1811",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.401333,
+          40.4585117
+        ]
+      },
+      "id": "way/992096805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1001084925",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4631102,
+          46.7134896
+        ]
+      },
+      "id": "node/1001084925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1020423905",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9276835,
+          39.9960291
+        ]
+      },
+      "id": "way/1020423905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1028981308",
+        "addr:housenumber": "3445",
+        "addr:postcode": "07728",
+        "addr:street": "US Highway 9",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 08:00-19:30",
+        "phone": "+1-732-462-5983",
+        "website": "https://www.perkinsrestaurants.com/locations/us/nj/freehold/3445-route-9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2718287,
+          40.2314286
+        ]
+      },
+      "id": "node/1028981308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1039439038",
+        "addr:city": "Lemoyne",
+        "addr:housenumber": "7",
+        "addr:postcode": "17043",
+        "addr:state": "PA",
+        "addr:street": "Erford Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9132356,
+          40.251781
+        ]
+      },
+      "id": "way/1039439038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1039442164",
+        "addr:city": "Drexel Hill",
+        "addr:housenumber": "706",
+        "addr:postcode": "19026",
+        "addr:state": "PA",
+        "addr:street": "North Lansdowne Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2025-12-19",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "07:00-20:00",
+        "phone": "+1 610-622-4531",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/drexel-hill/706-lansdowne-ave/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2874782,
+          39.9581092
+        ]
+      },
+      "id": "way/1039442164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1049799634",
+        "addr:city": "Sidney",
+        "addr:country": "US",
+        "addr:housenumber": "1955",
+        "addr:postcode": "45365",
+        "addr:state": "OH",
+        "addr:street": "Michigan Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.184075,
+          40.2870277
+        ]
+      },
+      "id": "way/1049799634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1050293990",
+        "addr:city": "Elk River",
+        "addr:housenumber": "18838",
+        "addr:postcode": "55330",
+        "addr:state": "MN",
+        "addr:street": "Dodge Street Northwest",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Su-Sa 07:00-19:00",
+        "phone": "+1-763-441-5066",
+        "website": "https://www.perkinsrestaurants.com/locations/us/mn/elk-river/18838-dodge-st-nw/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5576962,
+          45.312747
+        ]
+      },
+      "id": "way/1050293990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1065627492",
+        "addr:city": "Summerville",
+        "addr:housenumber": "1700",
+        "addr:postcode": "29485",
+        "addr:state": "SC",
+        "addr:street": "Old Trolley Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "diet:non-vegetarian": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1 843-875-8680",
+        "website": "https://www.perkinsrestaurants.com/locations/us/sc/summerville/1700-old-trolley-road/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1653145,
+          32.960188
+        ]
+      },
+      "id": "way/1065627492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1068560821",
+        "addr:city": "Mankato",
+        "addr:housenumber": "1790",
+        "addr:postcode": "56001",
+        "addr:state": "MN",
+        "addr:street": "Madison Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "06:00-20:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.956846,
+          44.1671859
+        ]
+      },
+      "id": "way/1068560821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1068577011",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3823943,
+          40.9174467
+        ]
+      },
+      "id": "way/1068577011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1071644485",
+        "addr:city": "Gettysburg",
+        "addr:housenumber": "859",
+        "addr:postcode": "17325",
+        "addr:state": "PA",
+        "addr:street": "York Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1 717-337-1923",
+        "website": "https://www.perkinsrestaurants.com/locations/us/pa/gettysburg/859-york-rd/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2124053,
+          39.8371696
+        ]
+      },
+      "id": "way/1071644485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1076663112",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "disused:amenity": "restaurant",
+        "disused:cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.2376659,
+          39.9970318
+        ]
+      },
+      "id": "way/1076663112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1081933534",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4588575,
+          45.0120057
+        ]
+      },
+      "id": "way/1081933534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1110562593",
+        "addr:housenumber": "2545",
+        "addr:street": "Abbott Plaza",
+        "amenity": "restaurant",
+        "branch": "Omaha",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9109842,
+          41.2822735
+        ]
+      },
+      "id": "way/1110562593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1122078526",
+        "addr:city": "Cortland",
+        "addr:housenumber": "2",
+        "addr:postcode": "13045",
+        "addr:state": "NY",
+        "addr:street": "Locust Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1671736,
+          42.6103617
+        ]
+      },
+      "id": "way/1122078526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1125669936",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8015902,
+          35.1123885
+        ]
+      },
+      "id": "way/1125669936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1154115697",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6156007,
+          38.7810004
+        ]
+      },
+      "id": "way/1154115697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1175492626",
+        "addr:city": "Buffalo",
+        "addr:housenumber": "801",
+        "addr:postcode": "55313",
+        "addr:state": "MN",
+        "addr:street": "Central Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.8769008,
+          45.1804889
+        ]
+      },
+      "id": "way/1175492626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1179799294",
+        "addr:city": "Menomonie",
+        "addr:housenumber": "1720",
+        "addr:postcode": "54751",
+        "addr:state": "WI",
+        "addr:street": "Broadway Street North",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Su-Sa 07:00-20:00",
+        "phone": "+1 7152352234",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.perkinsrestaurants.com/locations/us/wi/menomonie/1720-north-broadway/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.930973,
+          44.9027275
+        ]
+      },
+      "id": "way/1179799294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1193035089",
+        "addr:city": "Boardman",
+        "addr:housenumber": "804",
+        "addr:postcode": "44512",
+        "addr:state": "OH",
+        "addr:street": "Boardman Poland Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "microsoft/BuildingFootprints",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.638326,
+          41.0247245
+        ]
+      },
+      "id": "way/1193035089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1201589021",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2511005,
+          38.7021458
+        ]
+      },
+      "id": "way/1201589021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1201589634",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4467633,
+          43.6771684
+        ]
+      },
+      "id": "way/1201589634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1201604071",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0558754,
+          45.0507448
+        ]
+      },
+      "id": "way/1201604071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1203158152",
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "5835",
+        "addr:postcode": "57110",
+        "addr:state": "SD",
+        "addr:street": "East Arrowhead Place",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6530813,
+          43.5452177
+        ]
+      },
+      "id": "way/1203158152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1203158376",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5926337,
+          43.6369423
+        ]
+      },
+      "id": "way/1203158376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1203160134",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7985385,
+          39.777292
+        ]
+      },
+      "id": "way/1203160134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1212918971",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building:part": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "ref": "Perkins Restaurant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.506939,
+          45.9819444
+        ]
+      },
+      "id": "way/1212918971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1227214696",
+        "addr:city": "Bullhead City",
+        "addr:housenumber": "2250",
+        "addr:postcode": "86442",
+        "addr:state": "AZ",
+        "addr:street": "South Highway 95",
+        "addr:unit": "26",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "microsoft/BuildingFootprints;esri/USA_NAD_Addresses",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.5974155,
+          35.105785
+        ]
+      },
+      "id": "way/1227214696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1227466008",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "outdoor_seating": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6939775,
+          35.0467194
+        ]
+      },
+      "id": "way/1227466008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1249413303",
+        "addr:city": "Painesville",
+        "addr:housenumber": "700",
+        "addr:postcode": "44077",
+        "addr:state": "OH",
+        "addr:street": "Mentor Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2585372,
+          41.7146111
+        ]
+      },
+      "id": "way/1249413303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1306396720",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3386858,
+          43.6556564
+        ]
+      },
+      "id": "way/1306396720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1334565580",
+        "addr:city": "Avon",
+        "addr:housenumber": "1503",
+        "addr:postcode": "44011",
+        "addr:state": "OH",
+        "addr:street": "Traveler's Point",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2024-11-16",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0226957,
+          41.4660988
+        ]
+      },
+      "id": "way/1334565580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1357463080",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "website": "https://www.perkinsrestaurants.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0398368,
+          32.9359959
+        ]
+      },
+      "id": "node/1357463080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1391746335",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.36265,
+          38.9019988
+        ]
+      },
+      "id": "way/1391746335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1432890729",
+        "addr:city": "Spring Hill",
+        "addr:housenumber": "4685",
+        "addr:postcode": "34606",
+        "addr:street": "Commercial Way",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5953126,
+          28.4967204
+        ]
+      },
+      "id": "node/1432890729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1436027647",
+        "addr:city": "Laramie",
+        "addr:housenumber": "204",
+        "addr:postcode": "82070",
+        "addr:state": "WY",
+        "addr:street": "South 30th Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "check_date": "2025-10-12",
+        "cuisine": "american",
+        "name": "Perkins",
+        "note": "They've rebranded to \"Perkins American Food Co.\", but iD doesn't know about this yet and prompts you to \"upgrade\" the tags. Ignore it.",
+        "official_name": "Perkins American Food Co.",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-307-721-3800",
+        "website": "https://www.perkinsrestaurants.com/locations/us/wy/laramie/204-s-30th-street/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.5587162,
+          41.3100633
+        ]
+      },
+      "id": "node/1436027647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1829326866",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0659392,
+          47.9089162
+        ]
+      },
+      "id": "node/1829326866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1944194875",
+        "addr:city": "Alexandria",
+        "addr:housenumber": "4920",
+        "addr:postcode": "56308",
+        "addr:state": "MN",
+        "addr:street": "South State Highway 29",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "changing_table": "yes",
+        "cuisine": "american",
+        "diet:vegetarian": "yes",
+        "drink:beer": "no",
+        "indoor_seating": "yes",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 05:30-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1-320-763-6611",
+        "smoking": "no",
+        "website": "https://www.perkinsrestaurants.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3892524,
+          45.8463065
+        ]
+      },
+      "id": "node/1944194875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1978961364",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9118227,
+          42.0084456
+        ]
+      },
+      "id": "node/1978961364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2061052715",
+        "addr:housenumber": "1722",
+        "addr:postcode": "65109",
+        "addr:street": "Jefferson Street",
+        "amenity": "restaurant",
+        "branch": "Restauran & Bakery",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "website": "https://www.perkinsrestaurants.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1957846,
+          38.5558946
+        ]
+      },
+      "id": "node/2061052715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2506723191",
+        "addr:city": "Viera",
+        "addr:housenumber": "8200",
+        "addr:postcode": "32940",
+        "addr:state": "FL",
+        "addr:street": "North Wickham Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1 321-752-5200",
+        "website": "https://www.perkinsrestaurants.com/locations/us/fl/melbourne/8200-n-wickham-rd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7113213,
+          28.2307346
+        ]
+      },
+      "id": "node/2506723191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2566981867",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-208-736-8417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.4595796,
+          42.5893668
+        ]
+      },
+      "id": "node/2566981867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2910216601",
+        "addr:city": "Great Bend",
+        "addr:housenumber": "2920",
+        "addr:postcode": "67530",
+        "addr:street": "10th Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7792572,
+          38.3620704
+        ]
+      },
+      "id": "node/2910216601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2919665745",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4887765,
+          44.6962469
+        ]
+      },
+      "id": "node/2919665745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2938342924",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.666406,
+          41.880664
+        ]
+      },
+      "id": "node/2938342924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3785271517",
+        "addr:housenumber": "1396",
+        "addr:postcode": "07730",
+        "addr:street": "Route 36 North",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Su 08:00-14:30; Mo-Sa 08:00-19:30",
+        "phone": "+1-732-739-4600",
+        "website": "https://www.perkinsrestaurants.com/locations/us/nj/hazlet/1396-hwy-36/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1885055,
+          40.4285143
+        ]
+      },
+      "id": "node/3785271517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4113029690",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8725738,
+          26.5631028
+        ]
+      },
+      "id": "node/4113029690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4311805330",
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "230",
+        "addr:postcode": "84116",
+        "addr:state": "UT",
+        "addr:street": "North Admiral Byrd Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-801-355-4488",
+        "smoking": "no",
+        "website": "https://stores.perkinsrestaurants.com/us/ut/salt-lake-city/230-north-admiral-byrd-rd.html",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.021817,
+          40.7733548
+        ]
+      },
+      "id": "node/4311805330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4649702189",
+        "addr:housenumber": "8841",
+        "addr:postcode": "33777",
+        "addr:street": "Park Boulevard North",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "name:en": "Perkins Restaurant and Bakery",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7617959,
+          27.8412505
+        ]
+      },
+      "id": "node/4649702189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4768858831",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "name:en": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9666087,
+          44.4871139
+        ]
+      },
+      "id": "node/4768858831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4852391971",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1507687,
+          43.3398717
+        ]
+      },
+      "id": "node/4852391971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5280770980",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5306596,
+          28.6847412
+        ]
+      },
+      "id": "node/5280770980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5762211818",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2668026,
+          39.3572521
+        ]
+      },
+      "id": "node/5762211818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5762467865",
+        "addr:city": "Green Brook Township",
+        "addr:housenumber": "297",
+        "addr:postcode": "08812",
+        "addr:state": "NJ",
+        "addr:street": "US 22",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4997313,
+          40.5901089
+        ]
+      },
+      "id": "node/5762467865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5895534834",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8368796,
+          40.2971366
+        ]
+      },
+      "id": "node/5895534834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6138385056",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.5104032,
+          45.789778
+        ]
+      },
+      "id": "node/6138385056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6835319678",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "delivery": "no",
+        "fixme": "Building not available on satellite imagery yet, will want to update when imagery becomes available",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3360968,
+          42.4564457
+        ]
+      },
+      "id": "node/6835319678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6868451956",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0754879,
+          44.47378
+        ]
+      },
+      "id": "node/6868451956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7069222686",
+        "addr:city": "Tomah",
+        "addr:housenumber": "1015",
+        "addr:postcode": "54660",
+        "addr:state": "WI",
+        "addr:street": "East McCoy Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-608-374-0550",
+        "website": "https://www.perkinsrestaurants.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.4922518,
+          44.0200423
+        ]
+      },
+      "id": "node/7069222686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7573312411",
+        "addr:city": "Erie",
+        "addr:housenumber": "4403",
+        "addr:postcode": "16509",
+        "addr:state": "PA",
+        "addr:street": "Peach Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.086036,
+          42.0882422
+        ]
+      },
+      "id": "node/7573312411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8476582859",
+        "addr:city": "Meadville",
+        "addr:housenumber": "18276",
+        "addr:postcode": "16335",
+        "addr:state": "PA",
+        "addr:street": "Conneaut Lake Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1714257,
+          41.6215944
+        ]
+      },
+      "id": "node/8476582859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8586566399",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8807208,
+          35.9284748
+        ]
+      },
+      "id": "node/8586566399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9005755217",
+        "addr:housenumber": "1409",
+        "addr:postcode": "10305",
+        "addr:street": "Hylan Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+1-718-979-9180",
+        "website": "https://www.perkinsrestaurants.com/locations/us/ny/staten-island/1409-hylan-blvd/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0870031,
+          40.5944238
+        ]
+      },
+      "id": "node/9005755217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9005850756",
+        "addr:city": "Colonia",
+        "addr:housenumber": "1009",
+        "addr:postcode": "07067",
+        "addr:state": "NJ",
+        "addr:street": "Saint Georges Avenue",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Su 08:00-17:00; Mo-Th 09:00-18:00; Fr-Sa 08:00-18:00",
+        "phone": "+1-732-634-7112",
+        "website": "https://www.perkinsrestaurants.com/locations/us/nj/colonia/1009-st--georges-avenue/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2943154,
+          40.5728681
+        ]
+      },
+      "id": "node/9005850756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9209897895",
+        "addr:city": "Edinboro",
+        "addr:housenumber": "207",
+        "addr:postcode": "16412",
+        "addr:state": "PA",
+        "addr:street": "West Plum Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1336235,
+          41.8756396
+        ]
+      },
+      "id": "node/9209897895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080863404",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.149093,
+          42.5005324
+        ]
+      },
+      "id": "node/10080863404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10110506748",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0030679,
+          41.2378706
+        ]
+      },
+      "id": "node/10110506748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10262763309",
+        "addr:city": "Wappingers Falls",
+        "addr:housenumber": "1576",
+        "addr:postcode": "12590",
+        "addr:state": "NY",
+        "addr:street": "Albany Post Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9102584,
+          41.5985451
+        ]
+      },
+      "id": "node/10262763309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11133906319",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3838131,
+          40.6225026
+        ]
+      },
+      "id": "node/11133906319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11137476316",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1193707,
+          36.6319687
+        ]
+      },
+      "id": "node/11137476316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13019727455",
+        "addr:housenumber": "250",
+        "addr:street": "Noble Creek Drive",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.995903,
+          40.0428494
+        ]
+      },
+      "id": "node/13019727455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13239652590",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7459058,
+          26.2120872
+        ]
+      },
+      "id": "node/13239652590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13784038799",
+        "addr:city": "Orlando",
+        "addr:housenumber": "7625",
+        "addr:postcode": "32819",
+        "addr:state": "FL",
+        "addr:street": "Turkey Lake Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-407-752-9537"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4757374,
+          28.4534175
+        ]
+      },
+      "id": "node/13784038799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13879554459",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.415713,
+          29.6590506
+        ]
+      },
+      "id": "node/13879554459"
+    }
+  ]
+}
