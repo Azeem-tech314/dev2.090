@@ -1,0 +1,7393 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-09-25T04:28:23Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47235608",
+        "addr:city": "Fort Worth",
+        "addr:housenumber": "6450",
+        "addr:postcode": "76137",
+        "addr:state": "TX",
+        "addr:street": "North Freeway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3131504,
+          32.8593064
+        ]
+      },
+      "id": "way/47235608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91040670",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4587705,
+          35.6095594
+        ]
+      },
+      "id": "way/91040670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/109301969",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "4717",
+        "addr:postcode": "74135",
+        "addr:state": "OK",
+        "addr:street": "East 51st Street South",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-492-7089",
+        "ref": "15",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9235909,
+          36.0902472
+        ]
+      },
+      "id": "way/109301969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124912299",
+        "addr:city": "Bentonville",
+        "addr:country": "US",
+        "addr:full": "1119 North Walton Boulevard",
+        "addr:housenumber": "1119",
+        "addr:postcode": "72712",
+        "addr:state": "AR",
+        "addr:street": "North Walton Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2217973,
+          36.3854335
+        ]
+      },
+      "id": "way/124912299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126172021",
+        "addr:city": "McPherson",
+        "addr:housenumber": "2106",
+        "addr:postcode": "67460",
+        "addr:street": "East Kansas Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6283015,
+          38.3699955
+        ]
+      },
+      "id": "way/126172021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/139052577",
+        "addr:city": "Andover",
+        "addr:housenumber": "401",
+        "addr:postcode": "67002",
+        "addr:state": "KS",
+        "addr:street": "South Andover Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "ref": "94",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1359016,
+          37.6810476
+        ]
+      },
+      "id": "way/139052577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/147108235",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3706563,
+          34.9849614
+        ]
+      },
+      "id": "way/147108235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/168734339",
+        "addr:city": "Parsons",
+        "addr:housenumber": "500",
+        "addr:postcode": "67357",
+        "addr:state": "KS",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2407226,
+          37.3399575
+        ]
+      },
+      "id": "way/168734339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/178745256",
+        "addr:city": "Amarillo",
+        "addr:housenumber": "7401",
+        "addr:postcode": "79121",
+        "addr:state": "TX",
+        "addr:street": "Southwest 34th Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Su-Sa 06:00-22:45",
+        "phone": "+1-806-356-9030",
+        "ref:braums": "069",
+        "shop": "dairy",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9225415,
+          35.1760018
+        ]
+      },
+      "id": "way/178745256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/182917782",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5464088,
+          35.5123219
+        ]
+      },
+      "id": "way/182917782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/185510416",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7431325,
+          35.5084546
+        ]
+      },
+      "id": "way/185510416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/186653793",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7612091,
+          35.4889775
+        ]
+      },
+      "id": "way/186653793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/188351313",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5313061,
+          35.4867007
+        ]
+      },
+      "id": "way/188351313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/192368776",
+        "addr:city": "Guthrie",
+        "addr:country": "US",
+        "addr:housenumber": "2318",
+        "addr:postcode": "73044",
+        "addr:state": "OK",
+        "addr:street": "East Noble Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "phone": "+1-405-282-0973",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3977004,
+          35.8787995
+        ]
+      },
+      "id": "way/192368776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/196499874",
+        "addr:city": "Denton",
+        "addr:housenumber": "2922",
+        "addr:postcode": "76201",
+        "addr:state": "TX",
+        "addr:street": "West University Drive",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1719167,
+          33.2304122
+        ]
+      },
+      "id": "way/196499874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/202922294",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9914178,
+          37.2401002
+        ]
+      },
+      "id": "way/202922294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/203048000",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8754696,
+          37.8177681
+        ]
+      },
+      "id": "way/203048000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/203331998",
+        "addr:housenumber": "801",
+        "addr:postcode": "67005",
+        "addr:street": "North Summit Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "check_date": "2024-12-16",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "source": "bing",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.039689,
+          37.0712172
+        ]
+      },
+      "id": "way/203331998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223064271",
+        "addr:city": "Sherman",
+        "addr:housenumber": "2506",
+        "addr:postcode": "75090",
+        "addr:state": "TX",
+        "addr:street": "North Sam Rayburn Freeway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6128482,
+          33.6610401
+        ]
+      },
+      "id": "way/223064271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/225505833",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "1415",
+        "addr:postcode": "74104",
+        "addr:state": "OK",
+        "addr:street": "South Lewis Avenue East",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "building:colour": "brown",
+        "building:levels": "1",
+        "check_date:opening_hours": "2023-05-03",
+        "cuisine": "ice_cream;burger",
+        "indoor_seating": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "outdoor_seating": "no",
+        "phone": "+1-918-744-0446",
+        "ref": "80",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "shop": "dairy",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.957767,
+          36.1417711
+        ]
+      },
+      "id": "way/225505833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230910051",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4865368,
+          35.2339412
+        ]
+      },
+      "id": "way/230910051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/236292402",
+        "addr:city": "Frisco",
+        "addr:housenumber": "2680",
+        "addr:postcode": "75034",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8671236,
+          33.153769
+        ]
+      },
+      "id": "way/236292402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/236346557",
+        "addr:city": "Stillwater",
+        "addr:housenumber": "504",
+        "addr:postcode": "74075",
+        "addr:street": "North Perkins Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-405-372-2076",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0521114,
+          36.1280386
+        ]
+      },
+      "id": "way/236346557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/238019833",
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "1129",
+        "addr:state": "OK",
+        "addr:street": "West Memorial Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5330225,
+          35.6094315
+        ]
+      },
+      "id": "way/238019833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/239498835",
+        "addr:city": "Cleburne",
+        "addr:housenumber": "1305",
+        "addr:postcode": "76033",
+        "addr:state": "TX",
+        "addr:street": "West Henderson Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "mapillary": "1679483809475310",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4047017,
+          32.3411706
+        ]
+      },
+      "id": "way/239498835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244646802",
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "6200",
+        "addr:state": "OK",
+        "addr:street": "North May Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "payment:cheque": "no",
+        "phone": "+1 405 842 1366",
+        "ref": "19",
+        "shop": "dairy",
+        "source": "Bing",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5651232,
+          35.5342333
+        ]
+      },
+      "id": "way/244646802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/257717161",
+        "addr:city": "Stillwater",
+        "addr:country": "US",
+        "addr:full": "2401 W 6TH AVE",
+        "addr:housenumber": "2401",
+        "addr:postcode": "74074",
+        "addr:state": "OK",
+        "addr:street": "West 6th Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "phone": "+1-405-372-8085",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0889327,
+          36.1152958
+        ]
+      },
+      "id": "way/257717161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/260963176",
+        "addr:city": "Denton",
+        "addr:housenumber": "529",
+        "addr:postcode": "76205",
+        "addr:state": "TX",
+        "addr:street": "South Interstate 35E",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1251501,
+          33.1945937
+        ]
+      },
+      "id": "way/260963176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/267161688",
+        "addr:city": "Garland",
+        "addr:housenumber": "5435",
+        "addr:postcode": "75043",
+        "addr:street": "Broadway Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-972-271-3163",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/5435-broadway-boulevard-garland-tx/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5979616,
+          32.8490652
+        ]
+      },
+      "id": "way/267161688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/270845717",
+        "addr:housenumber": "4524",
+        "addr:state": "OK",
+        "addr:street": "Northwest Expressway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1 405 728 1819",
+        "ref": "23",
+        "shop": "dairy",
+        "source": "Bing",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6028173,
+          35.5418844
+        ]
+      },
+      "id": "way/270845717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/277782159",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.732862,
+          33.0419665
+        ]
+      },
+      "id": "way/277782159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280180152",
+        "addr:city": "Siloam Springs",
+        "addr:housenumber": "551",
+        "addr:postcode": "72761",
+        "addr:state": "AR",
+        "addr:street": "Highway 412 West",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "roof:levels": "0",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5467455,
+          36.1740583
+        ]
+      },
+      "id": "way/280180152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/284249016",
+        "addr:city": "Oklahoma City",
+        "addr:postcode": "73112",
+        "addr:state": "OK",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "source": "Bing",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.592837,
+          35.512009
+        ]
+      },
+      "id": "way/284249016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/286358958",
+        "addr:city": "Commerce",
+        "addr:housenumber": "1589",
+        "addr:postcode": "75428",
+        "addr:state": "TX",
+        "addr:street": "State Highway 24",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9122627,
+          33.2480799
+        ]
+      },
+      "id": "way/286358958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/289494534",
+        "addr:city": "Great Bend",
+        "addr:housenumber": "4209",
+        "addr:postcode": "67530",
+        "addr:street": "10th Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7947095,
+          38.3613365
+        ]
+      },
+      "id": "way/289494534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306470082",
+        "addr:housenumber": "701",
+        "addr:postcode": "74066",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-224-0812",
+        "ref": "25",
+        "shop": "dairy",
+        "smoking": "no",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1131922,
+          35.9902953
+        ]
+      },
+      "id": "way/306470082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/313839699",
+        "addr:city": "Cushing",
+        "addr:housenumber": "1335",
+        "addr:postcode": "74023",
+        "addr:street": "East Main Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "phone": "+1 918 225 2445",
+        "ref": "93",
+        "shop": "dairy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7504081,
+          35.9846858
+        ]
+      },
+      "id": "way/313839699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/323397685",
+        "addr:city": "Norman",
+        "addr:housenumber": "1002",
+        "addr:postcode": "73069",
+        "addr:state": "OK",
+        "addr:street": "24th Avenue Southwest",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4771944,
+          35.2055593
+        ]
+      },
+      "id": "way/323397685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/323576810",
+        "addr:housenumber": "400",
+        "addr:postcode": "73071",
+        "addr:street": "East Robinson Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1 405 321 3431",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4403795,
+          35.2325107
+        ]
+      },
+      "id": "way/323576810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/324886923",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "roof:shape": "gabled",
+        "shop": "dairy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6623015,
+          35.567946
+        ]
+      },
+      "id": "way/324886923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/325848265",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4291438,
+          35.2034053
+        ]
+      },
+      "id": "way/325848265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/334107074",
+        "addr:city": "Arlington",
+        "addr:state": "TX",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "delivery": "no",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.195383,
+          32.6796937
+        ]
+      },
+      "id": "way/334107074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/348019175",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.4836299,
+          36.6973371
+        ]
+      },
+      "id": "way/348019175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/360636827",
+        "addr:city": "Del City",
+        "addr:housenumber": "4300",
+        "addr:postcode": "73115",
+        "addr:state": "OK",
+        "addr:street": "Southeast 43rd Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-405-670-2646",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4408385,
+          35.4217386
+        ]
+      },
+      "id": "way/360636827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372078037",
+        "addr:city": "Perry",
+        "addr:housenumber": "2612",
+        "addr:postcode": "73077",
+        "addr:state": "OK",
+        "addr:street": "Fir Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "level": "1",
+        "name": "Braum's",
+        "opening_hours": "Su-Sa 06:00-22:45",
+        "phone": "+1-580-336-8905",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/2612-fir-st-perry-ok/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3218686,
+          36.2890054
+        ]
+      },
+      "id": "way/372078037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/373257026",
+        "addr:city": "Edmond",
+        "addr:housenumber": "1301",
+        "addr:postcode": "73034",
+        "addr:state": "OK",
+        "addr:street": "W I-35 Frontage Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "outdoor_seating": "no",
+        "phone": "+1-405-348-0529",
+        "self_service": "no",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/1301-w-i-35-frontage-rd-edmond-ok/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.427047,
+          35.6394494
+        ]
+      },
+      "id": "way/373257026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/375742881",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8922908,
+          36.4194708
+        ]
+      },
+      "id": "way/375742881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/379866541",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "7121;7124",
+        "addr:postcode": "74115",
+        "addr:state": "OK",
+        "addr:street": "East Admiral Place North",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "construction:amenity": "fast_food",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-836-2058",
+        "ref": "24",
+        "shop": "dairy",
+        "source": "INCOG",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8971352,
+          36.1613611
+        ]
+      },
+      "id": "way/379866541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/382642307",
+        "addr:city": "Pauls Valley",
+        "addr:housenumber": "2702",
+        "addr:postcode": "73075",
+        "addr:state": "OK",
+        "addr:street": "West Grant Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "restaurant",
+        "cuisine": "ice_cream;burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-405-238-9142",
+        "ref:store_number": "142",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/2702-grant-ave-pauls-valley-ok/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.260233,
+          34.7386865
+        ]
+      },
+      "id": "way/382642307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396454186",
+        "addr:city": "Grand Prairie",
+        "addr:housenumber": "500",
+        "addr:postcode": "75051",
+        "addr:state": "TX",
+        "addr:street": "East Pioneer Parkway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "capacity": "50",
+        "cuisine": "ice_cream",
+        "delivery": "no",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1 972 263 9709",
+        "shop": "dairy",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9984586,
+          32.709996
+        ]
+      },
+      "id": "way/396454186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/401858142",
+        "addr:city": "Pryor Creek",
+        "addr:housenumber": "101",
+        "addr:postcode": "74361",
+        "addr:state": "OK",
+        "addr:street": "Steve Barry Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3319395,
+          36.2644262
+        ]
+      },
+      "id": "way/401858142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/402810964",
+        "addr:city": "Wagoner",
+        "addr:housenumber": "407",
+        "addr:postcode": "74467",
+        "addr:state": "OK",
+        "addr:street": "South Dewey Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.394504,
+          35.9571839
+        ]
+      },
+      "id": "way/402810964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/405073216",
+        "addr:city": "Richardson",
+        "addr:housenumber": "1260",
+        "addr:postcode": "75080",
+        "addr:state": "TX",
+        "addr:street": "West Campbell Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "check_date": "2022-10-02",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "height": "6.1",
+        "name": "Braum's",
+        "phone": "+1-972-231-4791",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7626743,
+          32.9788081
+        ]
+      },
+      "id": "way/405073216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/424187316",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8400069,
+          32.9869731
+        ]
+      },
+      "id": "way/424187316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/424223452",
+        "addr:city": "Carrollton",
+        "addr:housenumber": "2134",
+        "addr:postcode": "75006",
+        "addr:state": "TX",
+        "addr:street": "North Josey Lane",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1 972 323 7398",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8893197,
+          32.9719566
+        ]
+      },
+      "id": "way/424223452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/425097973",
+        "addr:housenumber": "20200",
+        "addr:street": "East 81st Street South",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-251-4660",
+        "ref": "170",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7502657,
+          36.0460682
+        ]
+      },
+      "id": "way/425097973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/426375975",
+        "addr:city": "Ardmore",
+        "addr:housenumber": "1021",
+        "addr:postcode": "73401",
+        "addr:state": "OK",
+        "addr:street": "Holiday Drive",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1652314,
+          34.1863186
+        ]
+      },
+      "id": "way/426375975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437235874",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3145076,
+          37.1767012
+        ]
+      },
+      "id": "way/437235874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439509722",
+        "addr:city": "Sulphur Springs",
+        "addr:housenumber": "1331",
+        "addr:postcode": "75482",
+        "addr:state": "TX",
+        "addr:street": "Mockingbird Lane",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5931243,
+          33.1146163
+        ]
+      },
+      "id": "way/439509722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439648726",
+        "addr:city": "Hillsboro",
+        "addr:housenumber": "219",
+        "addr:postcode": "76645",
+        "addr:state": "TX",
+        "addr:street": "Northwest I-35 Frontage Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0967576,
+          32.0160574
+        ]
+      },
+      "id": "way/439648726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/443113378",
+        "addr:city": "Lubbock",
+        "addr:housenumber": "905",
+        "addr:postcode": "79401",
+        "addr:state": "TX",
+        "addr:street": "University Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "breakfast": "06:00-10:30",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "06:00-02:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:ebt": "yes",
+        "payment:snap": "yes",
+        "phone": "+1 806 686 5418",
+        "ref": "289",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-289-905-university-avenue-lubbock-tx-79401/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8701564,
+          33.5871562
+        ]
+      },
+      "id": "way/443113378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/460700316",
+        "addr:city": "Lubbock",
+        "addr:housenumber": "7910",
+        "addr:postcode": "79424",
+        "addr:state": "TX",
+        "addr:street": "Milwaukee Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "breakfast": "06:00-10:30",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "06:00-22:45",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:ebt": "yes",
+        "payment:snap": "yes",
+        "phone": "+1 806 698 6554",
+        "ref": "64",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-64-7910-milwaukee-ave-lubbock-tx/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9580453,
+          33.526122
+        ]
+      },
+      "id": "way/460700316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/464029623",
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "11224",
+        "addr:state": "OK",
+        "addr:street": "North May Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "delivery": "no",
+        "name": "Braum's",
+        "outdoor_seating": "yes",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5665825,
+          35.5850135
+        ]
+      },
+      "id": "way/464029623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/465687180",
+        "addr:housenumber": "10304",
+        "addr:street": "Lake June Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6462475,
+          32.7336222
+        ]
+      },
+      "id": "way/465687180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/467217072",
+        "addr:housenumber": "4303",
+        "addr:street": "West Illinois Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8900795,
+          32.7209594
+        ]
+      },
+      "id": "way/467217072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/467534823",
+        "addr:housenumber": "3441",
+        "addr:street": "Forest Lane",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8625911,
+          32.9101243
+        ]
+      },
+      "id": "way/467534823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/468118496",
+        "addr:housenumber": "9755",
+        "addr:street": "Greenville Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.747915,
+          32.9080284
+        ]
+      },
+      "id": "way/468118496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/469579375",
+        "addr:housenumber": "17879",
+        "addr:street": "Preston Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7997289,
+          32.9954166
+        ]
+      },
+      "id": "way/469579375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/471312790",
+        "addr:city": "Pantego",
+        "addr:housenumber": "2210",
+        "addr:postcode": "76013",
+        "addr:state": "TX",
+        "addr:street": "West Park Row Drive",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Su-Sa 06:00-22:45",
+        "outdoor_seating": "no",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1423361,
+          32.720822
+        ]
+      },
+      "id": "way/471312790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/474047842",
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "1894",
+        "addr:postcode": "72701",
+        "addr:street": "West Martin Luther King Junior Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1 479 444 6207",
+        "shop": "dairy",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/1894-w-6th-st-fayetteville-ar/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1871098,
+          36.0568262
+        ]
+      },
+      "id": "way/474047842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477540137",
+        "addr:housenumber": "1222",
+        "addr:street": "West McDermott Drive",
+        "amenity": "fast_food",
+        "branch": "Ice Cream & Dairy Store",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "height": "5.2",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "roof:shape": "flat",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6970434,
+          33.1013088
+        ]
+      },
+      "id": "way/477540137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/478903880",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "6574",
+        "addr:postcode": "74133",
+        "addr:state": "OK",
+        "addr:street": "East 71st Street South",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "check_date": "2022-09-10",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-493-5706",
+        "ref": "166",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9010956,
+          36.0604678
+        ]
+      },
+      "id": "way/478903880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479292060",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3041688,
+          37.0476305
+        ]
+      },
+      "id": "way/479292060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479810319",
+        "addr:city": "Decatur",
+        "addr:housenumber": "701",
+        "addr:postcode": "76234",
+        "addr:state": "TX",
+        "addr:street": "South Washburn Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5932303,
+          33.2301314
+        ]
+      },
+      "id": "way/479810319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/480304234",
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "13925",
+        "addr:postcode": "73142",
+        "addr:state": "OK",
+        "addr:street": "North MacArthur Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6213901,
+          35.6119366
+        ]
+      },
+      "id": "way/480304234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/480501235",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4005674,
+          35.4644375
+        ]
+      },
+      "id": "way/480501235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/481696842",
+        "addr:city": "Fayetteville",
+        "addr:country": "US",
+        "addr:full": "2511 North College Avenue",
+        "addr:housenumber": "2511",
+        "addr:postcode": "72703",
+        "addr:state": "AR",
+        "addr:street": "North College Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "06:00-22:45",
+        "phone": "+1-479-444-8245",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/stores/ice-cream-store-burger-restaurant-braums-2511-n-college-ave/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1521304,
+          36.0974627
+        ]
+      },
+      "id": "way/481696842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497423779",
+        "addr:housenumber": "306",
+        "addr:street": "West FM 544",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6189348,
+          33.0109395
+        ]
+      },
+      "id": "way/497423779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497513891",
+        "addr:housenumber": "100",
+        "addr:street": "University Drive",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.361787,
+          32.7588091
+        ]
+      },
+      "id": "way/497513891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497781385",
+        "addr:city": "Fort Worth",
+        "addr:housenumber": "6770",
+        "addr:postcode": "76112",
+        "addr:state": "TX",
+        "addr:street": "Bridge Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1 817-451-5553",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/6770-bridge-st-fort-worth-tx/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.214811,
+          32.7658056
+        ]
+      },
+      "id": "way/497781385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/500279960",
+        "addr:housenumber": "6601",
+        "addr:street": "Camp Bowie Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4287992,
+          32.7226271
+        ]
+      },
+      "id": "way/500279960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/504092754",
+        "addr:city": "Fort Worth",
+        "addr:housenumber": "7212",
+        "addr:postcode": "76133",
+        "addr:state": "TX",
+        "addr:street": "South Hulen Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Su-Sa 06:00-22:45",
+        "phone": "+1-817-370-0540",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3963597,
+          32.6415762
+        ]
+      },
+      "id": "way/504092754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509300664",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3115577,
+          37.2442194
+        ]
+      },
+      "id": "way/509300664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/512478433",
+        "addr:city": "Waxahachie",
+        "addr:housenumber": "412",
+        "addr:postcode": "75165",
+        "addr:state": "TX",
+        "addr:street": "Dallas Highway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "outdoor_seating": "yes",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8417528,
+          32.4083235
+        ]
+      },
+      "id": "way/512478433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/513666576",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.310232,
+          37.1828586
+        ]
+      },
+      "id": "way/513666576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543128052",
+        "addr:city": "Newton",
+        "addr:housenumber": "1209",
+        "addr:postcode": "67114",
+        "addr:state": "KS",
+        "addr:street": "East 1st Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "american;ice_cream",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "phone": "+1-316-283-7509",
+        "ref:braums": "134",
+        "shop": "dairy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3251295,
+          38.041973
+        ]
+      },
+      "id": "way/543128052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/543936729",
+        "addr:city": "Greenville",
+        "addr:housenumber": "6601",
+        "addr:postcode": "75402",
+        "addr:state": "TX",
+        "addr:street": "Wesley Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-903-454-3211",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/6601-wesley-st-greenville-tx-2/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1092059,
+          33.1029763
+        ]
+      },
+      "id": "way/543936729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/549637401",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6046659,
+          35.2902073
+        ]
+      },
+      "id": "way/549637401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/555872066",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1468957,
+          36.6355092
+        ]
+      },
+      "id": "way/555872066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/563785433",
+        "addr:city": "Corsicana",
+        "addr:housenumber": "1920",
+        "addr:postcode": "75110",
+        "addr:state": "TX",
+        "addr:street": "West 7th Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "american;ice_cream",
+        "delivery": "no",
+        "name": "Braum's",
+        "operator": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4827498,
+          32.0827596
+        ]
+      },
+      "id": "way/563785433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/569201543",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1482214,
+          33.6239292
+        ]
+      },
+      "id": "way/569201543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/580288170",
+        "addr:housenumber": "5130",
+        "addr:postcode": "74105",
+        "addr:street": "South Peoria Avenue East",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "ice_cream;burger",
+        "indoor_seating": "yes",
+        "name": "Braum's",
+        "outdoor_seating": "no",
+        "phone": "+1-918-742-2597",
+        "ref": "50",
+        "roof:levels": "0",
+        "shop": "dairy",
+        "smoking": "no",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9762072,
+          36.0883054
+        ]
+      },
+      "id": "way/580288170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/591287847",
+        "addr:housenumber": "861",
+        "addr:postcode": "76053",
+        "addr:street": "West Pipeline Road",
+        "amenity": "fast_food",
+        "branch": "Ice Cream Store & Burger Restaurant",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-817-584-7261",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/stores/hurst-tx-store-81/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1907459,
+          32.8232394
+        ]
+      },
+      "id": "way/591287847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/592504527",
+        "addr:housenumber": "7701",
+        "addr:street": "Rogers Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3472956,
+          35.3516675
+        ]
+      },
+      "id": "way/592504527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/592520222",
+        "addr:housenumber": "7701",
+        "addr:street": "East Rogers Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "phone": "+1 479-452-0500",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/7701-rogers-ave-fort-smith-ar/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3830184,
+          35.3676445
+        ]
+      },
+      "id": "way/592520222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/597906841",
+        "addr:city": "Richardson",
+        "addr:housenumber": "518",
+        "addr:postcode": "75081",
+        "addr:state": "TX",
+        "addr:street": "Centennial Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "height": "6.1",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7233335,
+          32.9378744
+        ]
+      },
+      "id": "way/597906841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/608125952",
+        "addr:city": "Durant",
+        "addr:housenumber": "312",
+        "addr:postcode": "74701",
+        "addr:state": "OK",
+        "addr:street": "Westside Drive",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1 580 920 2141",
+        "ref": "129",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.405383,
+          34.0000431
+        ]
+      },
+      "id": "way/608125952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619898890",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5114942,
+          35.3211467
+        ]
+      },
+      "id": "way/619898890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627986647",
+        "addr:housenumber": "2201",
+        "addr:postcode": "74012",
+        "addr:street": "South Aspen Avenue West",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-449-9428",
+        "ref": "277",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8145844,
+          36.0314262
+        ]
+      },
+      "id": "way/627986647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/639527682",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.749362,
+          33.0186105
+        ]
+      },
+      "id": "way/639527682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/641614941",
+        "addr:city": "Garland",
+        "addr:housenumber": "1815",
+        "addr:postcode": "75041",
+        "addr:state": "TX",
+        "addr:street": "Northwest Highway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1 972 840 6482",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/1815-northwest-highway-garland-tx/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.655777,
+          32.8645205
+        ]
+      },
+      "id": "way/641614941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/643015779",
+        "addr:city": "Irving",
+        "addr:housenumber": "3601",
+        "addr:postcode": "75062",
+        "addr:state": "TX",
+        "addr:street": "North Story Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "outdoor_seating": "no",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9755485,
+          32.8541688
+        ]
+      },
+      "id": "way/643015779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/645660443",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6218252,
+          32.9413043
+        ]
+      },
+      "id": "way/645660443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/652913716",
+        "amenity": "fast_food",
+        "branch": "Ice Cream  & Dairy Store",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.08305,
+          32.8409883
+        ]
+      },
+      "id": "way/652913716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/654499703",
+        "addr:city": "Bonham",
+        "addr:housenumber": "1800",
+        "addr:postcode": "75418",
+        "addr:state": "TX",
+        "addr:street": "North State Highway 121",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1917787,
+          33.5933254
+        ]
+      },
+      "id": "way/654499703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/660549637",
+        "addr:city": "Irving",
+        "addr:housenumber": "1701",
+        "addr:postcode": "75060",
+        "addr:state": "TX",
+        "addr:street": "East Shady Grove Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9236561,
+          32.8017315
+        ]
+      },
+      "id": "way/660549637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/663632836",
+        "addr:city": "Tyler",
+        "addr:housenumber": "3635",
+        "addr:postcode": "75701",
+        "addr:state": "TX",
+        "addr:street": "Troup Highway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "check_date": "2024-08-28",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2741382,
+          32.3097336
+        ]
+      },
+      "id": "way/663632836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/663914770",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "shop": "dairy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9296631,
+          36.3913066
+        ]
+      },
+      "id": "node/663914770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/665375289",
+        "addr:city": "Lewisville",
+        "addr:housenumber": "812",
+        "addr:postcode": "75067",
+        "addr:state": "TX",
+        "addr:street": "South Stemmons Freeway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0004639,
+          33.0379146
+        ]
+      },
+      "id": "way/665375289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669331710",
+        "addr:city": "Wichita",
+        "addr:housenumber": "3641",
+        "addr:postcode": "67226",
+        "addr:state": "KS",
+        "addr:street": "North Rock Road",
+        "amenity": "fast_food",
+        "branch": "Ice Cream & Dairy Store",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "description": "Fast food and fresh market.",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-316-634-1470",
+        "ref": "267",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2452722,
+          37.7495953
+        ]
+      },
+      "id": "way/669331710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669400605",
+        "addr:city": "Wichita",
+        "addr:housenumber": "5730",
+        "addr:postcode": "67208",
+        "addr:state": "KS",
+        "addr:street": "East Central Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "fixme": "There is a drive-through, which Bing doesn't show. I think the building has been rebuilt. Verify lcation/shape of building and service roads.",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "ref": "301",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2699775,
+          37.6943507
+        ]
+      },
+      "id": "way/669400605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669793745",
+        "addr:city": "Mesquite",
+        "addr:housenumber": "3506",
+        "addr:postcode": "75150",
+        "addr:state": "TX",
+        "addr:street": "North Galloway Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6107525,
+          32.8129724
+        ]
+      },
+      "id": "way/669793745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/675093372",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8779487,
+          36.9004541
+        ]
+      },
+      "id": "way/675093372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/679598948",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "indoor_seating": "yes",
+        "name": "Braum's",
+        "outdoor_seating": "no",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.772353,
+          32.435984
+        ]
+      },
+      "id": "way/679598948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689583774",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Braum's",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3693654,
+          35.4926752
+        ]
+      },
+      "id": "way/689583774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/691102981",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "1545",
+        "addr:postcode": "74136",
+        "addr:state": "OK",
+        "addr:street": "East 71st Street South",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1 918 494 0331",
+        "ref": "100",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/1545-e-71st-st-tulsa-ok/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9694202,
+          36.0613488
+        ]
+      },
+      "id": "way/691102981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/703233734",
+        "addr:city": "Wichita",
+        "addr:housenumber": "550",
+        "addr:postcode": "67216",
+        "addr:state": "KS",
+        "addr:street": "East 47th Street South",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "ref": "103",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3308434,
+          37.6084999
+        ]
+      },
+      "id": "way/703233734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/705640877",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6106258,
+          36.3202175
+        ]
+      },
+      "id": "way/705640877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/706245524",
+        "addr:city": "Duncanville",
+        "addr:housenumber": "907",
+        "addr:postcode": "75137",
+        "addr:state": "TX",
+        "addr:street": "South Cockrell Hill Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8918766,
+          32.6431467
+        ]
+      },
+      "id": "way/706245524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/707413712",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6332888,
+          36.2881033
+        ]
+      },
+      "id": "way/707413712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/713068593",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1507501,
+          32.593352
+        ]
+      },
+      "id": "way/713068593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/717723040",
+        "addr:city": "Ennis",
+        "addr:housenumber": "900",
+        "addr:postcode": "75119",
+        "addr:state": "TX",
+        "addr:street": "East Ennis Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6188455,
+          32.332305
+        ]
+      },
+      "id": "way/717723040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/725992377",
+        "addr:city": "Amarillo",
+        "addr:housenumber": "1900",
+        "addr:postcode": "79103",
+        "addr:state": "TX",
+        "addr:street": "South Grand Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Su-Sa 06:00-22:45",
+        "phone": "+1-806-374-4413",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/1900-south-grand-street-amarillo-tx/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7959302,
+          35.190474
+        ]
+      },
+      "id": "way/725992377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/727495399",
+        "addr:city": "Paris",
+        "addr:housenumber": "2035",
+        "addr:postcode": "75460",
+        "addr:state": "TX",
+        "addr:street": "Bonham Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.578312,
+          33.660316
+        ]
+      },
+      "id": "way/727495399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/728090607",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "10934",
+        "addr:postcode": "74133",
+        "addr:state": "OK",
+        "addr:street": "South Memorial Drive East",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-369-7878",
+        "ref": "138",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8871794,
+          36.0045409
+        ]
+      },
+      "id": "way/728090607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/733900709",
+        "addr:city": "Paris",
+        "addr:housenumber": "3561",
+        "addr:postcode": "75460",
+        "addr:state": "TX",
+        "addr:street": "Northeast Loop 286",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5100595,
+          33.6658565
+        ]
+      },
+      "id": "way/733900709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/733905647",
+        "addr:city": "Athens",
+        "addr:housenumber": "712",
+        "addr:postcode": "75751",
+        "addr:state": "TX",
+        "addr:street": "East Tyler Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.845388,
+          32.2053365
+        ]
+      },
+      "id": "way/733905647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/734868348",
+        "addr:city": "Wichita Falls",
+        "addr:housenumber": "2304",
+        "addr:postcode": "76309",
+        "addr:state": "TX",
+        "addr:street": "Kemp Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.527857,
+          33.8902725
+        ]
+      },
+      "id": "way/734868348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/737410246",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4276675,
+          32.809961
+        ]
+      },
+      "id": "way/737410246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/744265323",
+        "addr:city": "Mineral Wells",
+        "addr:housenumber": "3201",
+        "addr:postcode": "76067",
+        "addr:state": "TX",
+        "addr:street": "Northeast 2nd Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0851817,
+          32.8112631
+        ]
+      },
+      "id": "way/744265323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/747938769",
+        "addr:city": "Amarillo",
+        "addr:housenumber": "4629",
+        "addr:postcode": "79109",
+        "addr:state": "TX",
+        "addr:street": "South Western Street",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.883228,
+          35.159693
+        ]
+      },
+      "id": "way/747938769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/749312801",
+        "addr:city": "Emporia",
+        "addr:housenumber": "2120",
+        "addr:postcode": "66801",
+        "addr:state": "KS",
+        "addr:street": "Industrial Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "phone": "+1-620-340-1080",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.2164557,
+          38.4241832
+        ]
+      },
+      "id": "way/749312801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/751403716",
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "1529",
+        "addr:postcode": "73159",
+        "addr:state": "OK",
+        "addr:street": "Southwest 89th Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "phone": "+1-405-685-8155",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5455573,
+          35.3774593
+        ]
+      },
+      "id": "way/751403716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/754444014",
+        "addr:city": "Blackwell",
+        "addr:housenumber": "823",
+        "addr:postcode": "74631",
+        "addr:state": "OK",
+        "addr:street": "South 44th Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "phone": "+1-580-363-2610",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3377436,
+          36.8104864
+        ]
+      },
+      "id": "way/754444014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/754785623",
+        "addr:city": "Neosho",
+        "addr:housenumber": "520",
+        "addr:postcode": "64850",
+        "addr:state": "MO",
+        "addr:street": "South Neosho Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.381805,
+          36.8645256
+        ]
+      },
+      "id": "way/754785623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/764324758",
+        "addr:city": "Hugo",
+        "addr:housenumber": "603",
+        "addr:postcode": "74743",
+        "addr:state": "OK",
+        "addr:street": "East Jackson Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5056588,
+          34.0109045
+        ]
+      },
+      "id": "way/764324758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/764488969",
+        "addr:city": "Denison",
+        "addr:housenumber": "710",
+        "addr:postcode": "75020",
+        "addr:state": "TX",
+        "addr:street": "North Highway 75",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5841283,
+          33.7636785
+        ]
+      },
+      "id": "way/764488969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/768682268",
+        "addr:city": "Pampa",
+        "addr:housenumber": "901",
+        "addr:postcode": "79065",
+        "addr:state": "TX",
+        "addr:street": "North Hobart Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.9724597,
+          35.5421527
+        ]
+      },
+      "id": "way/768682268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775583566",
+        "addr:city": "Springdale",
+        "addr:housenumber": "907",
+        "addr:postcode": "72764",
+        "addr:street": "South Thompson Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "06:00-22:45",
+        "phone": "+1 479 751 7846",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/907-s-thompson-st-springdale-ar/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1383638,
+          36.1765527
+        ]
+      },
+      "id": "way/775583566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/788054120",
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "7300",
+        "addr:postcode": "73149",
+        "addr:state": "OK",
+        "addr:street": "South Shields Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50671,
+          35.3934899
+        ]
+      },
+      "id": "way/788054120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/788339058",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2237771,
+          32.934821
+        ]
+      },
+      "id": "way/788339058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/791224821",
+        "addr:city": "Borger",
+        "addr:housenumber": "300",
+        "addr:postcode": "79007",
+        "addr:state": "TX",
+        "addr:street": "South Cedar Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.3988714,
+          35.664315
+        ]
+      },
+      "id": "way/791224821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/805161180",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1588354,
+          35.4342388
+        ]
+      },
+      "id": "way/805161180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/805458938",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4531037,
+          32.912728
+        ]
+      },
+      "id": "way/805458938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/813701764",
+        "addr:city": "Springdale",
+        "addr:housenumber": "4374",
+        "addr:postcode": "72762",
+        "addr:street": "West Sunset Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "06:00-22:45",
+        "outdoor_seating": "yes",
+        "phone": "+1 479 751 0305",
+        "shop": "dairy",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/4374-w-sunset-ave-springdale-ar/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1788036,
+          36.1756855
+        ]
+      },
+      "id": "way/813701764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/814617464",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2788198,
+          37.139205
+        ]
+      },
+      "id": "node/814617464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/815908571",
+        "addr:city": "Vernon",
+        "addr:housenumber": "4220",
+        "addr:postcode": "76384",
+        "addr:state": "TX",
+        "addr:street": "College Drive",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.3154935,
+          34.1613708
+        ]
+      },
+      "id": "way/815908571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/827973813",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "2825",
+        "addr:postcode": "74137",
+        "addr:state": "OK",
+        "addr:street": "East 101st Street South",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-296-9120",
+        "ref": "68",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9479088,
+          36.0177905
+        ]
+      },
+      "id": "way/827973813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/836501939",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9872048,
+          34.5068067
+        ]
+      },
+      "id": "way/836501939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840306260",
+        "addr:housenumber": "317",
+        "addr:postcode": "74127",
+        "addr:street": "North Gilcrease Museum Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-585-5335",
+        "ref": "268",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0198302,
+          36.1584983
+        ]
+      },
+      "id": "way/840306260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840865801",
+        "addr:city": "Canyon",
+        "addr:housenumber": "1101",
+        "addr:postcode": "79015",
+        "addr:state": "TX",
+        "addr:street": "23rd Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-806-655-1424",
+        "shop": "dairy",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9188075,
+          34.9722575
+        ]
+      },
+      "id": "way/840865801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/842170135",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2796563,
+          35.4936129
+        ]
+      },
+      "id": "way/842170135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/849927126",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.4167959,
+          36.4340485
+        ]
+      },
+      "id": "way/849927126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/853063052",
+        "addr:city": "Van Alstyne",
+        "addr:housenumber": "848",
+        "addr:postcode": "75495",
+        "addr:state": "TX",
+        "addr:street": "West Marshall Drive",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5859463,
+          33.4187621
+        ]
+      },
+      "id": "way/853063052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/863666434",
+        "addr:city": "Grapevine",
+        "addr:country": "US",
+        "addr:housenumber": "307",
+        "addr:street": "East Northwest Highway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "building:levels": "1",
+        "building:use": "foodservice",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:30-22:45",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0760782,
+          32.9416279
+        ]
+      },
+      "id": "way/863666434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/865227563",
+        "addr:city": "Ardmore",
+        "addr:housenumber": "24",
+        "addr:postcode": "73401",
+        "addr:state": "OK",
+        "addr:street": "North Commerce Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1427243,
+          34.1772556
+        ]
+      },
+      "id": "way/865227563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/869890877",
+        "addr:housenumber": "4702",
+        "addr:postcode": "74011",
+        "addr:street": "South Elm Place",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "check_date": "2026-02-11",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-455-0350",
+        "ref": "149",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7979865,
+          36.0038832
+        ]
+      },
+      "id": "way/869890877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/877604017",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4978143,
+          35.3483097
+        ]
+      },
+      "id": "way/877604017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/907136932",
+        "addr:city": "McAlester",
+        "addr:housenumber": "1207",
+        "addr:postcode": "74501",
+        "addr:state": "OK",
+        "addr:street": "East Carl Albert Parkway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "burger; ice_cream",
+        "name": "Braum's",
+        "opening_hours": "06:00-22:45",
+        "phone": "+1 918 302 3033",
+        "ref": "54",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/1207-east-carl-albert-parkway-mcalester-ok/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7526301,
+          34.9292924
+        ]
+      },
+      "id": "way/907136932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/909503832",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3417862,
+          32.52643
+        ]
+      },
+      "id": "way/909503832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/919271070",
+        "addr:city": "Dumas",
+        "addr:housenumber": "1209",
+        "addr:postcode": "79029",
+        "addr:state": "TX",
+        "addr:street": "South Dumas Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Su-Sa 06:00-22:45",
+        "phone": "+1-806-935-3711",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/1209-s-dumas-ave-dumas-tx/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.972893,
+          35.852765
+        ]
+      },
+      "id": "way/919271070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/947019936",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5281222,
+          35.3482731
+        ]
+      },
+      "id": "way/947019936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/968956479",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6356569,
+          38.8275705
+        ]
+      },
+      "id": "way/968956479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/971259286",
+        "addr:city": "Wichita",
+        "addr:housenumber": "2121",
+        "addr:postcode": "67212",
+        "addr:state": "KS",
+        "addr:street": "North Ridge Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "ref": "2",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4267673,
+          37.7217438
+        ]
+      },
+      "id": "way/971259286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/991592551",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0677896,
+          36.7339192
+        ]
+      },
+      "id": "way/991592551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992784495",
+        "addr:city": "Idabel",
+        "addr:housenumber": "801",
+        "addr:postcode": "74745",
+        "addr:state": "OK",
+        "addr:street": "Southeast Washington Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "phone": "+1-580-286-5500",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/801-se-washington-st-idabel-ok/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.818697,
+          33.8959817
+        ]
+      },
+      "id": "way/992784495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1002793092",
+        "addr:city": "Glenpool",
+        "addr:country": "US",
+        "addr:housenumber": "15050",
+        "addr:postcode": "74033",
+        "addr:state": "OK",
+        "addr:street": "South Broadway Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "phone": "+1-918-938-0662",
+        "ref": "53",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0088449,
+          35.9453071
+        ]
+      },
+      "id": "way/1002793092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1007457958",
+        "addr:city": "Hutchinson",
+        "addr:housenumber": "2807",
+        "addr:postcode": "67502",
+        "addr:state": "KS",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "ref": "204",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.932493,
+          38.0850397
+        ]
+      },
+      "id": "way/1007457958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1009483319",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "2806",
+        "addr:postcode": "74114",
+        "addr:state": "OK",
+        "addr:street": "South Harvard Avenue East",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-918-742-3062",
+        "ref": "36",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9407557,
+          36.121999
+        ]
+      },
+      "id": "way/1009483319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1010064080",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4499731,
+          34.6240315
+        ]
+      },
+      "id": "way/1010064080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1010780783",
+        "addr:city": "Levelland",
+        "addr:housenumber": "503",
+        "addr:postcode": "79336",
+        "addr:state": "TX",
+        "addr:street": "East State Highway 114",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.3594464,
+          33.5945579
+        ]
+      },
+      "id": "way/1010780783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1016430674",
+        "addr:city": "Burkburnett",
+        "addr:housenumber": "1004",
+        "addr:postcode": "76354",
+        "addr:state": "TX",
+        "addr:street": "South Red River Expressway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5584885,
+          34.0780151
+        ]
+      },
+      "id": "way/1016430674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1016678161",
+        "addr:housenumber": "2681",
+        "addr:street": "Sam Rayburn Highway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5620549,
+          33.2838473
+        ]
+      },
+      "id": "way/1016678161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1026617017",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4200312,
+          35.681059
+        ]
+      },
+      "id": "way/1026617017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1030833632",
+        "addr:city": "Eufaula",
+        "addr:housenumber": "1",
+        "addr:postcode": "74432",
+        "addr:state": "OK",
+        "addr:street": "Lakeshore Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5827031,
+          35.2787579
+        ]
+      },
+      "id": "way/1030833632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1056200791",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "3126",
+        "addr:postcode": "74146",
+        "addr:state": "OK",
+        "addr:street": "South 129th East Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-665-7289",
+        "ref": "168",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8337142,
+          36.1179718
+        ]
+      },
+      "id": "way/1056200791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1068339100",
+        "addr:city": "Plainview",
+        "addr:housenumber": "3605",
+        "addr:postcode": "79072",
+        "addr:state": "TX",
+        "addr:street": "Olton Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7475308,
+          34.1863276
+        ]
+      },
+      "id": "way/1068339100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1069806069",
+        "addr:city": "Lubbock",
+        "addr:housenumber": "8217",
+        "addr:postcode": "79423",
+        "addr:state": "TX",
+        "addr:street": "University Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Su-Sa 06:00-22:45",
+        "phone": "+1-806-445-0729",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/8217-university-ave-lubbock-tx-79423/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8698464,
+          33.5181806
+        ]
+      },
+      "id": "way/1069806069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1072115811",
+        "addr:city": "Lawton",
+        "addr:housenumber": "2202",
+        "addr:postcode": "73501",
+        "addr:state": "OK",
+        "addr:street": "East Gore Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3615559,
+          34.6092895
+        ]
+      },
+      "id": "way/1072115811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1083667025",
+        "addr:city": "Alma",
+        "addr:housenumber": "129",
+        "addr:postcode": "72921",
+        "addr:state": "AR",
+        "addr:street": "US Highway 71 North",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "check_date": "2024-11-22",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2267935,
+          35.4855009
+        ]
+      },
+      "id": "way/1083667025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1089966229",
+        "addr:city": "Wolfforth",
+        "addr:housenumber": "1111",
+        "addr:postcode": "79382",
+        "addr:state": "TX",
+        "addr:street": "Donald Preston Drive",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "phone": "+1 806 833 0101",
+        "ref": "288",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-288-1111-donald-preston-drive-wolfforth-texas/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9972865,
+          33.5190705
+        ]
+      },
+      "id": "way/1089966229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1106921051",
+        "addr:city": "Lubbock",
+        "addr:housenumber": "11815",
+        "addr:postcode": "79424",
+        "addr:state": "TX",
+        "addr:street": "Quaker Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "breakfast": "06:00-10:30",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "06:00-22:45",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:ebt": "yes",
+        "payment:snap": "yes",
+        "phone": "+1 806 993 6003",
+        "ref": "293",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-293-11815-quaker-avenue-lubbock-tx-79424/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9042896,
+          33.4862246
+        ]
+      },
+      "id": "way/1106921051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1112412709",
+        "addr:city": "Muskogee",
+        "addr:housenumber": "2909",
+        "addr:postcode": "74403",
+        "addr:state": "OK",
+        "addr:street": "Old Shawnee Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "check_date": "2025-08-07",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3301147,
+          35.769295
+        ]
+      },
+      "id": "way/1112412709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1116925861",
+        "addr:housenumber": "6591",
+        "addr:street": "Eldorado Parkway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7024608,
+          33.1736031
+        ]
+      },
+      "id": "way/1116925861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1119111973",
+        "addr:city": "Lubbock",
+        "addr:housenumber": "5002",
+        "addr:postcode": "79424",
+        "addr:state": "TX",
+        "addr:street": "Milwaukee Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "breakfast": "06:00-10:45",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "06:00-22:45",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:ebt": "yes",
+        "payment:snap": "yes",
+        "phone": "+1 806 993 5009",
+        "ref": "287",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-287-5002-milwaukee-ave-lubbock-tx-79424/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9576367,
+          33.5481799
+        ]
+      },
+      "id": "way/1119111973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1124883655",
+        "addr:city": "McKinney",
+        "addr:housenumber": "1501",
+        "addr:postcode": "75071",
+        "addr:state": "TX",
+        "addr:street": "North Custer Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1 469-905-3882",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-300-1501-n-custer-rd-mckinney-tx-75071/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7335492,
+          33.2142811
+        ]
+      },
+      "id": "way/1124883655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1126398692",
+        "addr:housenumber": "11415",
+        "addr:postcode": "74055",
+        "addr:street": "East 96th Street North",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 07:00-22:45",
+        "phone": "+1-918-272-4770",
+        "ref": "92",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8461705,
+          36.2934885
+        ]
+      },
+      "id": "way/1126398692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1126399188",
+        "addr:housenumber": "11503",
+        "addr:postcode": "74055",
+        "addr:street": "East 76th Street North",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 07:00-22:45",
+        "ref": "156",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8454129,
+          36.2645049
+        ]
+      },
+      "id": "way/1126399188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1126399189",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9344469,
+          36.7122185
+        ]
+      },
+      "id": "way/1126399189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1127422801",
+        "addr:city": "Bentonville",
+        "addr:country": "US",
+        "addr:full": "2305 Southeast Walton Boulevard",
+        "addr:postcode": "72712",
+        "addr:state": "AR",
+        "addr:street": "Southeast Walton Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.186554,
+          36.3356788
+        ]
+      },
+      "id": "node/1127422801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1127426805",
+        "addr:city": "Rogers",
+        "addr:country": "US",
+        "addr:full": "1102 West Walnut Street",
+        "addr:postcode": "72756",
+        "addr:state": "AR",
+        "addr:street": "West Walnut Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1299469,
+          36.3333121
+        ]
+      },
+      "id": "node/1127426805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1138629637",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5153995,
+          35.6525734
+        ]
+      },
+      "id": "node/1138629637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1167958989",
+        "addr:housenumber": "804",
+        "addr:postcode": "74012",
+        "addr:street": "North Elm Place",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-258-2424",
+        "ref": "45",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7980755,
+          36.0592772
+        ]
+      },
+      "id": "way/1167958989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173558929",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "10107",
+        "addr:postcode": "74133",
+        "addr:state": "OK",
+        "addr:street": "East 71st Street South",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-459-5325",
+        "ref": "264",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8628262,
+          36.0613517
+        ]
+      },
+      "id": "way/1173558929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173558930",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "10142",
+        "addr:postcode": "74146",
+        "addr:state": "OK",
+        "addr:street": "East 31st Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-918-622-0041",
+        "ref": "63",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8635748,
+          36.1185458
+        ]
+      },
+      "id": "way/1173558930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173558931",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "1803",
+        "addr:postcode": "74112",
+        "addr:state": "OK",
+        "addr:street": "South Sheridan Road East",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "indoor_seating": "yes",
+        "name": "Braum's",
+        "outdoor_seating": "no",
+        "phone": "+1-918-834-8040",
+        "ref": "16",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9040126,
+          36.1367575
+        ]
+      },
+      "id": "way/1173558931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173558932",
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "1308",
+        "addr:postcode": "74128",
+        "addr:state": "OK",
+        "addr:street": "South Garnett Road East",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-437-5531",
+        "ref": "37",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8517627,
+          36.1434701
+        ]
+      },
+      "id": "way/1173558932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173558936",
+        "addr:housenumber": "3950",
+        "addr:postcode": "74063",
+        "addr:street": "South State Highway 97",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "commercial",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 07:00-22:45",
+        "phone": "+1-918-245-5042",
+        "ref": "192",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.118242,
+          36.1062357
+        ]
+      },
+      "id": "way/1173558936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1176472918",
+        "addr:city": "Sallisaw",
+        "addr:housenumber": "615",
+        "addr:postcode": "74955",
+        "addr:state": "OK",
+        "addr:street": "South Kerr Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "check_date": "2025-09-12",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-775-9965",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/615-s-kerr-blvd-sallisaw-ok/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8068447,
+          35.4527837
+        ]
+      },
+      "id": "way/1176472918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1205106813",
+        "addr:city": "Benbrook",
+        "addr:housenumber": "8909",
+        "addr:postcode": "76126",
+        "addr:state": "TX",
+        "addr:street": "Benbrook Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "diet:vegetarian": "no",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-817-249-7736",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4661691,
+          32.6760021
+        ]
+      },
+      "id": "way/1205106813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1215449163",
+        "addr:city": "Wichita",
+        "addr:housenumber": "2223",
+        "addr:postcode": "67203",
+        "addr:state": "KS",
+        "addr:street": "West 21st Street North",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-316-821-9655",
+        "ref": "172",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3679563,
+          37.7223914
+        ]
+      },
+      "id": "way/1215449163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1218732305",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9320331,
+          36.7453528
+        ]
+      },
+      "id": "way/1218732305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1219636974",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6705482,
+          34.7719733
+        ]
+      },
+      "id": "way/1219636974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1227239505",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6378338,
+          35.5808195
+        ]
+      },
+      "id": "way/1227239505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1232030116",
+        "addr:city": "Goddard",
+        "addr:housenumber": "18671",
+        "addr:postcode": "67052",
+        "addr:state": "KS",
+        "addr:street": "West Kellogg Drive",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "internet_access": "wlan",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:55",
+        "phone": "+1-316-553-5508",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://braums.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5561746,
+          37.6632313
+        ]
+      },
+      "id": "way/1232030116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1232787489",
+        "addr:city": "Derby",
+        "addr:housenumber": "2201",
+        "addr:postcode": "67037",
+        "addr:state": "KS",
+        "addr:street": "North Rock Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "ref": "169",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2452129,
+          37.5704216
+        ]
+      },
+      "id": "way/1232787489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1234178427",
+        "addr:city": "Amarillo",
+        "addr:housenumber": "8760",
+        "addr:postcode": "79119",
+        "addr:state": "TX",
+        "addr:street": "South Coulter Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Su-Sa 06:00-22:45",
+        "phone": "+1-806-599-6325",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-305-8760-coulter-st-south-in-amarillo-texas/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9205153,
+          35.1179824
+        ]
+      },
+      "id": "way/1234178427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1234187143",
+        "addr:city": "Amarillo",
+        "addr:housenumber": "8801",
+        "addr:postcode": "79119",
+        "addr:state": "TX",
+        "addr:street": "Town Square Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Su-Mo 06:00-22:45",
+        "phone": "+1-806-810-3717",
+        "shop": "dairy",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-299-8801-town-square-blvd-amarillo-tx-79119/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9389124,
+          35.1495184
+        ]
+      },
+      "id": "way/1234187143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1249182700",
+        "addr:housenumber": "1001",
+        "addr:postcode": "73034",
+        "addr:street": "East Danforth Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "outdoor_seating": "no",
+        "phone": "+1-405-348-7039",
+        "self_service": "no",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/1001-e-danforth-rd-edmond-ok/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4666638,
+          35.6676968
+        ]
+      },
+      "id": "way/1249182700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1249350075",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.4300028,
+          35.4112844
+        ]
+      },
+      "id": "way/1249350075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1251735672",
+        "addr:city": "Liberal",
+        "addr:housenumber": "1500",
+        "addr:postcode": "67901",
+        "addr:street": "North Kansas Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.922914,
+          37.0546437
+        ]
+      },
+      "id": "node/1251735672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1286124004",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7645647,
+          34.0806545
+        ]
+      },
+      "id": "way/1286124004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1302904040",
+        "addr:city": "Shawnee",
+        "addr:housenumber": "4735",
+        "addr:postcode": "74804",
+        "addr:state": "OK",
+        "addr:street": "North Kickapoo Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "check_date:opening_hours": "2026-04-30",
+        "cuisine": "ice_cream;burger",
+        "delivery": "no",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-405-273-3433",
+        "ref:store_number": "225",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/4735-n-kickapoo-shawnee-ok/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9292408,
+          35.380656
+        ]
+      },
+      "id": "way/1302904040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1319831200",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "check_date": "2025-08-15",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9589043,
+          35.9155706
+        ]
+      },
+      "id": "node/1319831200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1333600050",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1936365,
+          38.405373
+        ]
+      },
+      "id": "way/1333600050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1337301181",
+        "addr:city": "Muskogee",
+        "addr:housenumber": "701",
+        "addr:postcode": "74401",
+        "addr:street": "South 32nd Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1 918 687 3007",
+        "ref": "72",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4031056,
+          35.7469779
+        ]
+      },
+      "id": "way/1337301181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1350423155",
+        "addr:state": "MO",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9119302,
+          36.9134255
+        ]
+      },
+      "id": "way/1350423155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1357323418",
+        "addr:city": "Wichita",
+        "addr:housenumber": "1261",
+        "addr:postcode": "67207",
+        "addr:state": "KS",
+        "addr:street": "South Rock Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "ref": "121",
+        "shop": "dairy",
+        "source": "building signage",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2451205,
+          37.6654001
+        ]
+      },
+      "id": "node/1357323418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1364382492",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7042644,
+          35.5264202
+        ]
+      },
+      "id": "way/1364382492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1368013779",
+        "addr:city": "Coweta",
+        "addr:housenumber": "14339",
+        "addr:postcode": "74429",
+        "addr:street": "South OK 51",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1 539 228 6143",
+        "ref": "316",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6487075,
+          35.9553166
+        ]
+      },
+      "id": "way/1368013779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1389423610",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "check_date": "2025-05-23",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9621547,
+          35.6113527
+        ]
+      },
+      "id": "way/1389423610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1390489483",
+        "addr:city": "Henryetta",
+        "addr:housenumber": "816",
+        "addr:postcode": "74437",
+        "addr:state": "OK",
+        "addr:street": "East Main Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "fixme": "confirm sole-tenant",
+        "name": "Braum's",
+        "phone": "+1-918-652-3718",
+        "ref": "109",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/816-e-main-st-henryetta-ok/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9724712,
+          35.4404473
+        ]
+      },
+      "id": "way/1390489483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1443080215",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2268366,
+          37.0718381
+        ]
+      },
+      "id": "way/1443080215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1444778827",
+        "addr:city": "Wichita",
+        "addr:housenumber": "5343",
+        "addr:postcode": "67204",
+        "addr:state": "KS",
+        "addr:street": "North Meridian Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3726477,
+          37.7810032
+        ]
+      },
+      "id": "way/1444778827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1456453652",
+        "addr:city": "North Richland Hills",
+        "addr:housenumber": "8364",
+        "addr:state": "TX",
+        "addr:street": "Davis Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-817-290-3181",
+        "shop": "dairy",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-311-8364-davis-blvd-north-richland-hills-tx-76182/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1945196,
+          32.9015153
+        ]
+      },
+      "id": "way/1456453652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1458100736",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5979051,
+          35.4936268
+        ]
+      },
+      "id": "way/1458100736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1465365733",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4216408,
+          34.6104565
+        ]
+      },
+      "id": "way/1465365733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1494660050",
+        "addr:housenumber": "5048",
+        "addr:postcode": "74107",
+        "addr:street": "South 33rd West Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-918-445-9221",
+        "ref": "17",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0300041,
+          36.090158
+        ]
+      },
+      "id": "way/1494660050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1658619162",
+        "addr:city": "Wichita",
+        "addr:housenumber": "201",
+        "addr:postcode": "67203",
+        "addr:state": "KS",
+        "addr:street": "North Seneca Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-316-265-0563",
+        "ref": "173",
+        "ref:braums": "173",
+        "shop": "dairy",
+        "source": "Building signage",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/201-n-seneca-wichita-ks/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3535751,
+          37.685336
+        ]
+      },
+      "id": "node/1658619162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1922113632",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7255136,
+          35.4656783
+        ]
+      },
+      "id": "node/1922113632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2699056042",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4500225,
+          34.6240388
+        ]
+      },
+      "id": "node/2699056042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2732945258",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3313248,
+          37.138942
+        ]
+      },
+      "id": "node/2732945258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2738833218",
+        "addr:city": "Springfield",
+        "addr:housenumber": "3020",
+        "addr:postcode": "65804",
+        "addr:street": "East Sunshine Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.234575,
+          37.1801981
+        ]
+      },
+      "id": "node/2738833218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2738900181",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.261046,
+          37.2135321
+        ]
+      },
+      "id": "node/2738900181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3009558073",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4787406,
+          37.0623822
+        ]
+      },
+      "id": "node/3009558073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3407241008",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "american;ice_cream",
+        "name": "Braum's",
+        "shop": "dairy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.9882603,
+          35.4997013
+        ]
+      },
+      "id": "node/3407241008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4219032082",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "check_date": "2024-07-26",
+        "cuisine": "american;ice_cream",
+        "indoor_seating": "yes",
+        "name": "Braum's",
+        "outdoor_seating": "yes",
+        "shop": "dairy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6536009,
+          35.4638979
+        ]
+      },
+      "id": "node/4219032082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6147832310",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.573239,
+          32.9069171
+        ]
+      },
+      "id": "node/6147832310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6356946842",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5416359,
+          33.8718335
+        ]
+      },
+      "id": "node/6356946842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6631985948",
+        "addr:city": "Tyler",
+        "addr:housenumber": "7101",
+        "addr:postcode": "75703",
+        "addr:state": "TX",
+        "addr:street": "South Broadway Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "check_date": "2022-10-05",
+        "contact:website": "https://www.braums.com/store/7101-s-broadway-ave-tyler-tx/",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3074595,
+          32.2718867
+        ]
+      },
+      "id": "node/6631985948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7048081924",
+        "addr:city": "Chickasha",
+        "addr:housenumber": "2028",
+        "addr:postcode": "73018",
+        "addr:state": "OK",
+        "addr:street": "South 4th Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9355746,
+          35.0299172
+        ]
+      },
+      "id": "node/7048081924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8332542612",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3561416,
+          35.4593846
+        ]
+      },
+      "id": "node/8332542612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9241736314",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7128494,
+          37.222928
+        ]
+      },
+      "id": "node/9241736314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9307974653",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9291389,
+          35.3614921
+        ]
+      },
+      "id": "node/9307974653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9634328717",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9775464,
+          32.7995412
+        ]
+      },
+      "id": "node/9634328717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9780488017",
+        "addr:housenumber": "1706",
+        "addr:street": "West Randol Mill Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1347238,
+          32.7498188
+        ]
+      },
+      "id": "node/9780488017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10316833809",
+        "addr:street": "Denton Highway",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2634953,
+          32.849261
+        ]
+      },
+      "id": "node/10316833809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10879641608",
+        "addr:city": "Salina",
+        "addr:housenumber": "656",
+        "addr:postcode": "67401",
+        "addr:street": "South Ohio Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5945914,
+          38.8281932
+        ]
+      },
+      "id": "node/10879641608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10945306228",
+        "addr:city": "Wichita",
+        "addr:housenumber": "444",
+        "addr:postcode": "67211",
+        "addr:state": "KS",
+        "addr:street": "East Pawnee Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+1-316-267-3711",
+        "ref": "8",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3333936,
+          37.6501156
+        ]
+      },
+      "id": "node/10945306228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11458648827",
+        "addr:city": "Wichita",
+        "addr:housenumber": "3420",
+        "addr:postcode": "67205",
+        "addr:state": "KS",
+        "addr:street": "North Maize Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "ref": "211",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4621147,
+          37.7454673
+        ]
+      },
+      "id": "node/11458648827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11464571294",
+        "addr:city": "Wichita",
+        "addr:housenumber": "440",
+        "addr:postcode": "67212",
+        "addr:state": "KS",
+        "addr:street": "North Tyler Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "ref": "144",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4439387,
+          37.6908159
+        ]
+      },
+      "id": "node/11464571294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11469021114",
+        "addr:city": "Wichita",
+        "addr:housenumber": "1252",
+        "addr:postcode": "67206",
+        "addr:state": "KS",
+        "addr:street": "North Greenwich Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "ref": "78",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.207386,
+          37.7061562
+        ]
+      },
+      "id": "node/11469021114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11961410424",
+        "addr:city": "Lawrence",
+        "addr:housenumber": "540",
+        "addr:postcode": "66049",
+        "addr:state": "KS",
+        "addr:street": "Entrada Drive",
+        "amenity": "proposed",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "proposed": "fast_food",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3280685,
+          38.9720432
+        ]
+      },
+      "id": "node/11961410424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12222434718",
+        "addr:housenumber": "3004",
+        "addr:street": "Northeast 63rd Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "check_date": "2024-10-04",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "06:00-22:45",
+        "phone": "+1 405 478 5138",
+        "ref": "26",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4579979,
+          35.5362789
+        ]
+      },
+      "id": "node/12222434718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12519692482",
+        "addr:city": "Weatherford",
+        "addr:housenumber": "1505",
+        "addr:state": "TX",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "06:00-22:45",
+        "panoramax": "b8da15fc-5c03-4cc4-a267-8ac306b45b7e",
+        "phone": "+1-817-594-0811",
+        "ref": "140",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/1505-s-main-st-weatherford-tx/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.797232,
+          32.7404996
+        ]
+      },
+      "id": "node/12519692482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12548840623",
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "6200",
+        "addr:postcode": "73179",
+        "addr:state": "OK",
+        "addr:street": "Shiloh Drive",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6632177,
+          35.4056548
+        ]
+      },
+      "id": "node/12548840623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12997186709",
+        "addr:city": "Amarillo",
+        "addr:housenumber": "801",
+        "addr:postcode": "79107",
+        "addr:state": "TX",
+        "addr:street": "East Amarillo Boulevard",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "phone": "+18063723626",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/801-e-amarillo-blvd-amarillo-tx/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.824867,
+          35.2225553
+        ]
+      },
+      "id": "node/12997186709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13090692062",
+        "addr:city": "Tahlequah ᏓᎵᏆ",
+        "addr:housenumber": "3396",
+        "addr:postcode": "74464",
+        "addr:state": "OK",
+        "addr:street": "South Muskogee Avenue",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "phone": "+1-918-205-4511",
+        "ref": "313",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-313-3396-s-muskogee-ave-tahlequah-ok-74464/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9768721,
+          35.8764099
+        ]
+      },
+      "id": "node/13090692062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13115307453",
+        "addr:city": "Amarillo",
+        "addr:housenumber": "1700",
+        "addr:postcode": "79106",
+        "addr:state": "TX",
+        "addr:street": "South Western Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "phone": "+18063597363",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/1700-s-western-st-amarillo-tx/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8847887,
+          35.1963669
+        ]
+      },
+      "id": "node/13115307453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13254694227",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4419147,
+          35.4533211
+        ]
+      },
+      "id": "node/13254694227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13276375276",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5486402,
+          35.5644649
+        ]
+      },
+      "id": "node/13276375276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13383078722",
+        "addr:city": "Amarillo",
+        "addr:housenumber": "4629",
+        "addr:postcode": "79109",
+        "addr:state": "TX",
+        "addr:street": "South Western Street",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "phone": "+18063597412",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "/url?q=https://www.braums.com/store/4629-s-western-amarillo-tx/&opi=79508299&sa=U&ved=0ahUKEwi4uOTMgcSRAxVlv4kEHVJaOqsQ61gIEygO&usg=AOvVaw1j1jYv7mXK-oSpuenp63ql"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8832288,
+          35.1597497
+        ]
+      },
+      "id": "node/13383078722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13502881202",
+        "addr:housenumber": "3069",
+        "addr:postcode": "75605",
+        "addr:street": "North Eastman Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "opening_hours": "Mo-Su 06:00-22:45",
+        "outdoor_seating": "yes",
+        "phone": "+1-903-218-3855",
+        "self_service": "no",
+        "shop": "dairy",
+        "takeaway": "yes",
+        "website": "https://www.braums.com/store/store-323-3069-n-eastman-road-longview-tx-75605/",
+        "website:menu": "https://www.braums.com/menu/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7271641,
+          32.5444744
+        ]
+      },
+      "id": "node/13502881202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13775803781",
+        "addr:floor": "1",
+        "addr:housenumber": "1500",
+        "addr:street": "Loop 281",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "check_date": "2026-04-29",
+        "cuisine": "ice_cream;burger",
+        "level": "0",
+        "name": "Braum's",
+        "name:en": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7757541,
+          32.5287609
+        ]
+      },
+      "id": "node/13775803781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13822333656",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9350033,
+          35.5037129
+        ]
+      },
+      "id": "node/13822333656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13897599228",
+        "addr:city": "Clarksville",
+        "addr:housenumber": "110",
+        "addr:postcode": "72830",
+        "addr:state": "AR",
+        "addr:street": "Taylor Road",
+        "amenity": "fast_food",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "building": "construction",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4641863,
+          35.4539751
+        ]
+      },
+      "id": "node/13897599228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13928075608",
+        "addr:city": "Altus",
+        "addr:housenumber": "2505",
+        "addr:postcode": "73521",
+        "addr:state": "OK",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "branch": "Ice Cream & Dairy Shop",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "name": "Braum's",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.3347977,
+          34.6644575
+        ]
+      },
+      "id": "node/13928075608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14049774308",
+        "addr:city": "Lawton",
+        "addr:housenumber": "1698",
+        "addr:postcode": "73505",
+        "addr:state": "OK",
+        "addr:street": "Northwest 82nd Street",
+        "amenity": "fast_food",
+        "branch": "Ice Cream & Dairy Store",
+        "brand": "Braum's",
+        "brand:wikidata": "Q4958263",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Braum's",
+        "phone": "+15802460408",
+        "shop": "dairy",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4929443,
+          34.6258156
+        ]
+      },
+      "id": "node/14049774308"
+    }
+  ]
+}
