@@ -115,12 +115,20 @@ def process_brand(slug, meta):
         lng, lat = coords[0], coords[1]
         # Skip clearly invalid coords
         if not (-180 <= lng <= 180 and -90 <= lat <= 90): continue
+        addr = build_addr(props)
+        city = props.get("addr:city","")
+        state = props.get("addr:state","")
+        # Skip if we have absolutely nothing to show (no street AND no city)
+        if not addr and not city:
+            # Keep only if it has a phone or website (still useful data)
+            if not (props.get("phone") or props.get("contact:phone") or props.get("website")):
+                continue
         row = [
             round(lat, 5),
             round(lng, 5),
-            build_addr(props),
-            props.get("addr:city",""),
-            props.get("addr:state",""),
+            addr,
+            city,
+            state,
             props.get("addr:postcode",""),
             normalize_phone(props.get("phone") or props.get("contact:phone","")),
             props.get("opening_hours",""),

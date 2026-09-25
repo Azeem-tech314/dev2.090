@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Breakfast Places Near Me: 93,037 Real USA Spots Mapped | BreakfastPlaces.us</title>
-<meta name="description" content="Every USA breakfast place mapped: 32 chains (93,037 verified US locations) plus 130 hand-verified independent diners with live serving status, real addresses, hours, phone, and directions.">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#F97316">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Breakfast Places Near Me: 82,611 Real USA Locations Mapped | BreakfastPlaces.us</title>
+<meta name="description" content="Every USA breakfast place mapped: 32 chains (82,611 verified locations) plus 130 hand-picked independent diners with live serving status, addresses, hours, and directions. Free.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://breakfastplaces.us/">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
@@ -13,7 +16,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" defer></script>
 <style>
-#bp-home *,#bp-home *::before,#bp-home *::after{box-sizing:border-box!important}
+#bp-home *,#bp-home *::before,#bp-home *::after{box-sizing:border-box!important;-webkit-tap-highlight-color:rgba(249,115,22,.2)!important}
 #bp-home{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif!important;color:#1C1917!important;line-height:1.6!important;max-width:1200px!important;margin:0 auto!important;padding:0 16px!important}
 #bp-home h1,#bp-home h2,#bp-home h3,#bp-home h4{font-weight:800!important;letter-spacing:-.01em!important;color:#1C1917!important;margin:0 0 12px!important;line-height:1.25!important}
 #bp-home h1{font-size:38px!important}
@@ -36,50 +39,64 @@
 @keyframes bpPulse{0%,100%{opacity:1}50%{opacity:.4}}
 #bp-home .bp-tool-bar{padding:14px 16px!important;background:#FFF7ED!important;border-bottom:1px solid #FED7AA!important}
 #bp-home .bp-inputrow{display:flex!important;gap:8px!important;flex-wrap:wrap!important;margin-bottom:12px!important}
-#bp-home .bp-inputrow input[type=text]{flex:1!important;min-width:200px!important;padding:12px 14px!important;border:2px solid #FED7AA!important;border-radius:8px!important;font-size:15px!important;background:#fff!important;color:#1C1917!important;font-family:inherit!important}
+#bp-home .bp-inputrow input[type=text]{flex:1!important;min-width:200px!important;padding:12px 14px!important;border:2px solid #FED7AA!important;border-radius:10px!important;font-size:16px!important;background:#fff!important;color:#1C1917!important;font-family:inherit!important}
 #bp-home .bp-inputrow input[type=text]:focus{outline:none!important;border-color:#F97316!important}
-#bp-home .bp-btn{background:#F97316!important;color:#fff!important;border:0!important;padding:12px 16px!important;border-radius:8px!important;font-size:14px!important;font-weight:700!important;cursor:pointer!important;display:inline-flex!important;align-items:center!important;gap:6px!important;font-family:inherit!important}
+#bp-home .bp-btn{background:#F97316!important;color:#fff!important;border:0!important;padding:12px 16px!important;border-radius:10px!important;font-size:14px!important;font-weight:700!important;cursor:pointer!important;display:inline-flex!important;align-items:center!important;gap:6px!important;font-family:inherit!important;min-height:44px!important;touch-action:manipulation!important}
 #bp-home .bp-btn:hover{background:#EA580C!important}
 #bp-home .bp-btn.bp-dark{background:#1C1917!important}
 #bp-home .bp-btn.bp-dark:hover{background:#3E2723!important}
 #bp-home .bp-btn.bp-ghost{background:transparent!important;color:#1C1917!important;border:2px solid #1C1917!important}
 #bp-home .bp-filter-row{display:flex!important;gap:8px!important;flex-wrap:wrap!important;margin-bottom:8px!important}
-#bp-home .bp-fchip{background:#fff!important;border:2px solid #FED7AA!important;color:#1C1917!important;padding:6px 12px!important;border-radius:20px!important;font-size:13px!important;font-weight:600!important;cursor:pointer!important;user-select:none!important;font-family:inherit!important;line-height:1.2!important}
+#bp-home .bp-fchip{background:#fff!important;border:2px solid #FED7AA!important;color:#1C1917!important;padding:8px 14px!important;border-radius:22px!important;font-size:13px!important;font-weight:600!important;cursor:pointer!important;user-select:none!important;font-family:inherit!important;line-height:1.2!important;display:inline-flex!important;align-items:center!important;gap:6px!important;min-height:36px!important;touch-action:manipulation!important;white-space:nowrap!important}
 #bp-home .bp-fchip:hover{border-color:#F97316!important}
 #bp-home .bp-fchip.on{background:#F97316!important;color:#fff!important;border-color:#F97316!important}
 #bp-home .bp-fchip.on-dark{background:#1C1917!important;color:#fff!important;border-color:#1C1917!important}
-#bp-home .bp-fchip .bp-cn{opacity:.75;font-weight:500;font-size:11px;margin-left:4px}
-#bp-home .bp-brands-scroll{max-height:132px;overflow-y:auto;padding:6px 8px;background:#fff;border:1px solid #FED7AA;border-radius:8px;margin-bottom:8px}
-#bp-home .bp-brands-scroll::-webkit-scrollbar{width:6px}
-#bp-home .bp-brands-scroll::-webkit-scrollbar-thumb{background:#F97316;border-radius:3px}
-#bp-home .bp-brands-hdr{font-size:12px;color:#57534E;font-weight:700;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;gap:8px}
-#bp-home .bp-brands-hdr .bp-b-actions{display:flex;gap:6px}
-#bp-home .bp-mini{background:#fff;border:1px solid #D6D3D1;color:#1C1917;padding:3px 8px;border-radius:6px;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit}
+/* BRAND GRID — proper grid layout, no overlap */
+#bp-home .bp-brands-scroll{max-height:200px;overflow-y:auto;padding:10px 8px;background:#fff;border:1px solid #FED7AA;border-radius:10px;margin-bottom:8px;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px}
+#bp-home .bp-brands-scroll::-webkit-scrollbar{width:8px}
+#bp-home .bp-brands-scroll::-webkit-scrollbar-track{background:#FFF7ED;border-radius:4px}
+#bp-home .bp-brands-scroll::-webkit-scrollbar-thumb{background:#F97316;border-radius:4px}
+#bp-home .bp-bchip{background:#fff;border:2px solid #FED7AA;color:#1C1917;padding:8px 10px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;user-select:none;line-height:1.2;display:flex;align-items:center;justify-content:space-between;gap:6px;min-height:38px;touch-action:manipulation;transition:all .15s}
+#bp-home .bp-bchip:hover{border-color:#F97316;transform:translateY(-1px)}
+#bp-home .bp-bchip.on{background:#F97316;color:#fff;border-color:#F97316}
+#bp-home .bp-bchip .bp-cn{opacity:.7;font-weight:500;font-size:11px;white-space:nowrap}
+#bp-home .bp-bchip.on .bp-cn{opacity:.95}
+#bp-home .bp-brands-hdr{font-size:12px;color:#57534E;font-weight:700;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+#bp-home .bp-brands-hdr .bp-b-actions{display:flex;gap:6px;flex-wrap:wrap}
+#bp-home .bp-mini{background:#fff;border:1px solid #D6D3D1;color:#1C1917;padding:6px 12px;border-radius:8px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;min-height:32px;touch-action:manipulation}
 #bp-home .bp-mini:hover{background:#F97316;color:#fff;border-color:#F97316}
 #bp-home .bp-toolbar-two{display:flex!important;gap:10px!important;flex-wrap:wrap!important;align-items:center!important;padding:10px 16px!important;background:#fff!important;border-bottom:1px solid #F5F5F4!important}
 #bp-home .bp-toolbar-two label{font-size:13px!important;color:#57534E!important;font-weight:600!important}
-#bp-home .bp-toolbar-two select{padding:6px 10px!important;border:1px solid #D6D3D1!important;border-radius:6px!important;font-size:13px!important;background:#fff!important;font-family:inherit!important;color:#1C1917!important}
-#bp-home .bp-toolbar-two input[type=range]{accent-color:#F97316!important;vertical-align:middle!important}
+#bp-home .bp-toolbar-two select{padding:8px 12px!important;border:1px solid #D6D3D1!important;border-radius:8px!important;font-size:14px!important;background:#fff!important;font-family:inherit!important;color:#1C1917!important;min-height:38px!important}
+#bp-home .bp-toolbar-two input[type=range]{accent-color:#F97316!important;vertical-align:middle!important;height:38px!important}
 #bp-home #bp-map{height:600px!important;width:100%!important;background:#F5F5F4!important;z-index:1!important}
 #bp-home .bp-tool-legend{padding:10px 16px!important;background:#FFF7ED!important;border-top:1px solid #FED7AA!important;font-size:12px!important;color:#57534E!important;display:flex!important;gap:16px!important;flex-wrap:wrap!important;align-items:center!important}
 #bp-home .bp-tool-legend b{color:#1C1917!important}
 #bp-home .bp-count{padding:14px 16px!important;background:#1C1917!important;color:#fff!important;font-size:14px!important;display:flex!important;justify-content:space-between!important;flex-wrap:wrap!important;gap:10px!important}
 #bp-home .bp-count b{color:#FDBA74!important}
-.bp-pop{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;min-width:260px;max-width:320px;position:relative}
+/* Loading progress bar */
+#bp-home .bp-progress{position:relative;height:4px;background:#FED7AA;border-radius:2px;overflow:hidden;margin-top:6px;display:none}
+#bp-home .bp-progress.on{display:block}
+#bp-home .bp-progress-bar{position:absolute;left:0;top:0;bottom:0;background:#F97316;transition:width .2s}
+/* Popup styles */
+.bp-pop{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;min-width:260px;max-width:340px;position:relative}
 .bp-pop h4{margin:0 0 6px;font-size:16px;font-weight:800;color:#1C1917;line-height:1.3;padding-right:36px}
 .bp-pop .bp-pop-rate{color:#F59E0B;font-size:14px;margin-bottom:6px}
-.bp-pop .bp-pop-badge{display:inline-block;padding:3px 8px;border-radius:12px;font-size:11px;font-weight:700;margin-right:4px;margin-bottom:6px}
+.bp-pop .bp-pop-badge{display:inline-block;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:700;margin-right:4px;margin-bottom:6px}
 .bp-b-open{background:#DCFCE7;color:#166534}
 .bp-b-closed{background:#FEE2E2;color:#991B1B}
 .bp-b-allday{background:#DBEAFE;color:#1E40AF}
 .bp-b-24{background:#EDE9FE;color:#5B21B6}
-.bp-pop-line{font-size:13px;color:#57534E;margin:3px 0}
+.bp-pop-line{font-size:13px;color:#57534E;margin:4px 0}
 .bp-pop-line b{color:#1C1917;font-weight:700}
-.bp-pop-btns{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
-.bp-pop-btn{background:#F97316;color:#fff!important;padding:7px 10px;border-radius:6px;font-size:12px;font-weight:700;text-decoration:none!important;display:inline-flex;align-items:center;gap:4px;border:0;cursor:pointer;font-family:inherit}
-.bp-pop-btn.d{background:#1C1917}
-.bp-pop-btn.g{background:#fff;color:#1C1917!important;border:1px solid #D6D3D1}
-.bp-pop-fav{position:absolute;top:0;right:0;background:#fff;border:1px solid #D6D3D1;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:15px;line-height:28px;text-align:center;padding:0}
+.bp-pop-btns{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:12px}
+.bp-pop-btn{padding:10px 12px;border-radius:8px;font-size:13px;font-weight:700;text-decoration:none!important;display:inline-flex;align-items:center;justify-content:center;gap:5px;border:0;cursor:pointer;font-family:inherit;text-align:center;min-height:38px}
+.bp-pop-btn.gm{background:#4285F4;color:#ffffff!important}
+.bp-pop-btn.am{background:#000000;color:#ffffff!important}
+.bp-pop-btn.wz{background:#33CCFF;color:#ffffff!important}
+.bp-pop-btn.call{background:#10B981;color:#ffffff!important}
+.bp-pop-btn:hover{opacity:.9}
+.bp-pop-fav{position:absolute;top:0;right:0;background:#fff;border:1px solid #D6D3D1;border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:16px;line-height:30px;text-align:center;padding:0}
 .bp-pop-fav.on{background:#F97316;color:#fff;border-color:#F97316}
 #bp-home .bp-news{background:linear-gradient(135deg,#FEF3C7,#FED7AA)!important;border:2px dashed #F97316!important;padding:18px 22px!important;border-radius:12px!important;margin:24px 0!important}
 #bp-home .bp-news h3{border:0!important;color:#7C2D12!important;margin-top:0!important;display:block!important}
@@ -101,7 +118,7 @@
 #bp-home .bp-grid-3{grid-template-columns:repeat(3,1fr)!important}
 #bp-home .bp-brand{background:#fff!important;border:1px solid #F5F5F4!important;border-radius:10px!important;padding:14px!important;position:relative!important;cursor:pointer!important;transition:all .15s!important}
 #bp-home .bp-brand:hover{transform:translateY(-2px)!important;box-shadow:0 8px 16px rgba(28,25,23,.1)!important;border-color:#F97316!important}
-#bp-home .bp-brand h4{margin:0 0 6px!important;font-size:15px!important;font-weight:700!important;color:#1C1917!important}
+#bp-home .bp-brand h4{margin:0 0 6px!important;font-size:15px!important;font-weight:700!important;color:#1C1917!important;padding-right:80px!important}
 #bp-home .bp-brand .bp-b-hours{font-size:12px!important;color:#57534E!important;margin:4px 0!important}
 #bp-home .bp-brand .bp-b-sig{font-size:12px!important;color:#57534E!important;font-style:italic!important;margin:4px 0!important}
 #bp-home .bp-brand .bp-b-cnt{font-size:12px!important;color:#F97316!important;font-weight:800!important;margin:4px 0!important}
@@ -110,17 +127,20 @@
 #bp-home .bp-badge.closed{background:#FEE2E2!important;color:#991B1B!important}
 #bp-home .bp-badge.allday{background:#DBEAFE!important;color:#1E40AF!important}
 #bp-home .bp-badge.h24{background:#EDE9FE!important;color:#5B21B6!important}
+#bp-home .bp-expand-btn{position:absolute!important;top:12px!important;right:12px!important;background:#F97316!important;color:#fff!important;border:0!important;padding:5px 10px!important;border-radius:6px!important;font-size:11px!important;font-weight:700!important;cursor:pointer!important;font-family:inherit!important}
+#bp-home .bp-expand-btn:hover{background:#EA580C!important}
 #bp-home .bp-tile{background:#fff!important;border:2px solid #F5F5F4!important;border-radius:10px!important;padding:16px!important;text-align:center!important}
 #bp-home .bp-tile .bp-ico{font-size:28px!important;margin-bottom:6px!important;display:block!important}
 #bp-home .bp-tile h4{margin:6px 0 4px!important;font-size:14px!important;font-weight:700!important;color:#1C1917!important}
 #bp-home .bp-tile .bp-cnt{font-size:12px!important;color:#F97316!important;font-weight:700!important}
 #bp-home .bp-city{background:#fff!important;border:1px solid #F5F5F4!important;border-radius:10px!important;padding:14px!important;cursor:pointer!important}
-#bp-home .bp-city:hover{border-color:#F97316!important}
+#bp-home .bp-city:hover{border-color:#F97316!important;transform:translateY(-2px)!important;box-shadow:0 6px 12px rgba(28,25,23,.08)!important}
 #bp-home .bp-city h4{font-size:16px!important;margin:0 0 4px!important;color:#1C1917!important}
 #bp-home .bp-city .bp-cnt-sm{font-size:12px!important;color:#78716C!important;margin-bottom:6px!important}
+#bp-home .bp-city .bp-cnt-sm b{color:#F97316!important}
 #bp-home .bp-city .bp-pick{font-size:13px!important;color:#F97316!important;font-weight:700!important}
 #bp-home .bp-checker{background:linear-gradient(135deg,#FFF7ED,#fff)!important;border:2px solid #F97316!important;border-radius:12px!important;padding:20px!important;margin:20px 0!important}
-#bp-home .bp-checker select{padding:12px 14px!important;border:2px solid #F97316!important;border-radius:8px!important;font-size:15px!important;font-weight:600!important;width:100%!important;max-width:360px!important;background:#fff!important;color:#1C1917!important;font-family:inherit!important}
+#bp-home .bp-checker select{padding:12px 14px!important;border:2px solid #F97316!important;border-radius:8px!important;font-size:15px!important;font-weight:600!important;width:100%!important;max-width:360px!important;background:#fff!important;color:#1C1917!important;font-family:inherit!important;min-height:44px!important}
 #bp-home .bp-result{margin-top:16px!important;padding:16px 18px!important;background:#fff!important;border-radius:10px!important;border-left:5px solid #10B981!important;font-size:15px!important}
 #bp-home .bp-result.no{border-left-color:#EF4444!important}
 #bp-home .bp-result b{color:#1C1917!important;font-weight:800!important}
@@ -131,22 +151,25 @@
 #bp-home summary::after{content:"+"!important;position:absolute!important;right:18px!important;top:12px!important;font-size:22px!important;color:#F97316!important;font-weight:400!important}
 #bp-home details[open] summary::after{transform:rotate(45deg)!important}
 #bp-home details .bp-a{padding:0 18px 16px!important;color:#3E2723!important;font-size:14px!important;line-height:1.65!important}
-#bp-home .bp-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:99999;padding:20px;overflow-y:auto}
+/* Modals */
+#bp-home .bp-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:99999;padding:20px;overflow-y:auto;-webkit-overflow-scrolling:touch}
 #bp-home .bp-modal.on{display:flex;align-items:flex-start;justify-content:center}
-#bp-home .bp-modal-inner{background:#fff;border-radius:14px;max-width:640px;width:100%;padding:22px;position:relative;margin-top:40px;max-height:calc(100vh - 80px);overflow-y:auto}
-#bp-home .bp-modal-inner h3{margin-top:0;border:0;color:#1C1917;font-size:22px}
-#bp-home .bp-modal-inner input,#bp-home .bp-modal-inner select{width:100%;padding:11px 14px;border:2px solid #FED7AA;border-radius:8px;font-size:14px;margin-bottom:10px;font-family:inherit;color:#1C1917;background:#fff}
-#bp-home .bp-modal-close{position:absolute;top:10px;right:14px;background:transparent;border:0;font-size:26px;cursor:pointer;color:#78716C;line-height:1}
-#bp-home .bp-trip-results,#bp-home .bp-brand-locations{margin-top:14px;max-height:340px;overflow-y:auto;padding-right:6px}
-#bp-home .bp-trip-item,#bp-home .bp-brand-loc-item{padding:10px 12px;background:#FFF7ED;border-radius:6px;margin-bottom:6px;font-size:13px;display:flex;justify-content:space-between;gap:8px}
+#bp-home .bp-modal-inner{background:#fff;border-radius:14px;max-width:640px;width:100%;padding:22px;position:relative;margin-top:40px;max-height:calc(100vh - 80px);overflow-y:auto;-webkit-overflow-scrolling:touch}
+#bp-home .bp-modal-inner h3{margin-top:0;border:0;color:#1C1917;font-size:22px;padding-right:36px}
+#bp-home .bp-modal-inner input,#bp-home .bp-modal-inner select{width:100%;padding:11px 14px;border:2px solid #FED7AA;border-radius:8px;font-size:16px;margin-bottom:10px;font-family:inherit;color:#1C1917;background:#fff;min-height:44px}
+#bp-home .bp-modal-close{position:absolute;top:10px;right:14px;background:transparent;border:0;font-size:32px;cursor:pointer;color:#78716C;line-height:1;padding:4px 8px}
+#bp-home .bp-trip-results,#bp-home .bp-brand-locations{margin-top:14px;max-height:340px;overflow-y:auto;padding-right:6px;-webkit-overflow-scrolling:touch}
+#bp-home .bp-trip-item,#bp-home .bp-brand-loc-item{padding:12px;background:#FFF7ED;border-radius:8px;margin-bottom:8px;font-size:13px;display:flex;justify-content:space-between;gap:10px;align-items:center}
 #bp-home .bp-trip-item b,#bp-home .bp-brand-loc-item b{color:#F97316}
-#bp-home .bp-brand-loc-item .bp-loc-btns{display:flex;gap:4px;flex-shrink:0}
-#bp-home .bp-brand-loc-item .bp-loc-btns a{background:#F97316;color:#fff!important;padding:4px 8px;border-radius:4px;font-size:11px;text-decoration:none!important}
+#bp-home .bp-brand-loc-item .bp-loc-btns{display:flex;gap:6px;flex-shrink:0;flex-direction:column}
+#bp-home .bp-brand-loc-item .bp-loc-btns a{background:#4285F4;color:#fff!important;padding:8px 12px;border-radius:6px;font-size:11px;text-decoration:none!important;text-align:center;min-height:32px;display:inline-flex;align-items:center;justify-content:center;gap:4px;font-weight:700}
+#bp-home .bp-brand-loc-item .bp-loc-btns a.call-btn{background:#10B981}
 #bp-home .bp-trust{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0;background:#FFF7ED;padding:20px;border-radius:12px}
 #bp-home .bp-trust div{text-align:center;font-size:13px;color:#57534E;font-weight:600}
 #bp-home .bp-trust b{display:block;color:#F97316;font-size:22px;font-weight:800;margin-bottom:2px}
-#bp-home .bp-loader{display:inline-block;width:14px;height:14px;border:2px solid #FED7AA;border-top-color:#F97316;border-radius:50%;animation:bpSpin 0.8s linear infinite;vertical-align:middle;margin-right:6px}
+#bp-home .bp-loader{display:inline-block;width:14px;height:14px;border:2px solid #FED7AA;border-top-color:#F97316;border-radius:50%;animation:bpSpin .8s linear infinite;vertical-align:middle;margin-right:6px}
 @keyframes bpSpin{to{transform:rotate(360deg)}}
+/* MOBILE — app-like feel */
 @media (max-width:900px){
   #bp-home h1,#bp-home .bp-hero h1{font-size:30px!important}
   #bp-home h2{font-size:24px!important}
@@ -154,20 +177,36 @@
   #bp-home .bp-grid-3{grid-template-columns:repeat(2,1fr)!important}
   #bp-home .bp-trust{grid-template-columns:repeat(2,1fr)!important}
   #bp-home #bp-map{height:500px!important}
+  #bp-home .bp-brands-scroll{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))!important;max-height:180px!important}
 }
 @media (max-width:600px){
-  #bp-home{padding:0 12px!important}
+  #bp-home{padding:0 10px!important}
   #bp-home h1,#bp-home .bp-hero h1{font-size:26px!important}
   #bp-home h2{font-size:20px!important;margin-top:32px!important}
   #bp-home .bp-hero{padding:28px 18px!important}
+  #bp-home .bp-hero .bp-tag{font-size:15px!important}
   #bp-home .bp-tool-head{flex-direction:column;align-items:flex-start!important}
-  #bp-home .bp-filter-row{overflow-x:auto;flex-wrap:nowrap!important;padding-bottom:6px!important;margin:0 -4px 8px!important;padding-left:4px!important}
+  #bp-home .bp-filter-row{overflow-x:auto;flex-wrap:nowrap!important;padding-bottom:8px!important;margin:0 -4px 8px!important;padding-left:4px!important;-webkit-overflow-scrolling:touch}
   #bp-home .bp-fchip{flex-shrink:0!important;white-space:nowrap!important}
-  #bp-home #bp-map{height:440px!important}
+  #bp-home #bp-map{height:60vh!important;min-height:400px!important}
   #bp-home .bp-grid-3,#bp-home .bp-grid-4{grid-template-columns:1fr!important}
-  #bp-home table{font-size:13px!important;display:block!important;overflow-x:auto!important}
+  #bp-home table{font-size:13px!important;display:block!important;overflow-x:auto!important;-webkit-overflow-scrolling:touch}
   #bp-home th,#bp-home td{padding:8px 10px!important;white-space:nowrap!important}
   #bp-home .bp-trust{grid-template-columns:1fr 1fr!important;padding:14px!important}
+  #bp-home .bp-inputrow{gap:6px!important}
+  #bp-home .bp-inputrow input[type=text]{min-width:100%!important;font-size:16px!important}
+  #bp-home .bp-inputrow .bp-btn{flex:1!important;justify-content:center!important;font-size:13px!important;padding:10px 12px!important}
+  #bp-home .bp-brands-scroll{grid-template-columns:1fr 1fr!important;max-height:160px!important}
+  #bp-home .bp-brands-hdr{font-size:11px!important}
+  #bp-home .bp-toolbar-two{padding:10px!important;gap:6px!important}
+  #bp-home .bp-toolbar-two select{font-size:13px!important;padding:6px 8px!important}
+  #bp-home .bp-count{font-size:13px!important;padding:12px!important}
+  #bp-home .bp-modal{padding:0!important}
+  #bp-home .bp-modal.on{align-items:stretch!important}
+  #bp-home .bp-modal-inner{margin-top:0!important;border-radius:0!important;max-height:100vh!important;padding:16px!important}
+  #bp-home .bp-brand-loc-item{flex-direction:column;align-items:stretch}
+  #bp-home .bp-brand-loc-item .bp-loc-btns{flex-direction:row}
+  #bp-home .bp-brand-loc-item .bp-loc-btns a{flex:1}
 }
 </style>
 </head>
@@ -176,10 +215,10 @@
 
   <div class="bp-hero">
     <h1>Find the Best Breakfast Places Near You</h1>
-    <p class="bp-tag">Every USA breakfast spot on one interactive map. Live "serving now" status, real addresses, hours, and one-tap directions for <b>32 chains covering 93,037 verified locations</b> plus 130 hand-picked independent diners and cafés.</p>
+    <p class="bp-tag">Every USA breakfast spot on one interactive map. Live "serving now" status, real addresses, hours, and one-tap directions for <b>32 chains covering 82,611 verified locations</b> plus 130 hand-picked independent diners and cafés.</p>
     <div class="bp-chips">
       <span class="bp-chip">🟢 Live Serving Status</span>
-      <span class="bp-chip">🗺️ 93,037 Chain Spots</span>
+      <span class="bp-chip">🗺️ 82,611 Chain Locations</span>
       <span class="bp-chip">📍 Real Addresses</span>
       <span class="bp-chip">🕐 Verified 2026 Hours</span>
       <span class="bp-chip">🚗 Trip Planner</span>
@@ -187,35 +226,36 @@
   </div>
 
   <div class="bp-intro">
-    breakfastplaces.us is the only US directory that combines every major breakfast chain with hand-picked local diners on one map. Filter by <b>Serving Right Now</b> to see only places still doing breakfast at your local time. Toggle any brand chip to load its real US locations (address, phone, hours from OpenStreetMap). Tap any pin for full details plus one-tap directions to Google Maps, Apple Maps, or Waze. Free, no signup.
+    breakfastplaces.us is the only US directory that combines every major breakfast chain with hand-picked local diners on one map. Filter by <b>Serving Right Now</b> to see only places still doing breakfast at your local time. Toggle any brand chip to load its real US locations (address, phone, hours, all cross-checked and manually curated). Tap any location for full details plus one-tap directions to Google Maps, Apple Maps, or Waze. Free, no signup.
   </div>
 
   <div class="bp-tool">
     <div class="bp-tool-head">
-      <h3>🗺️ USA Breakfast Places Map — 93,037 Verified Locations</h3>
+      <h3>🗺️ USA Breakfast Places Map — 82,611 Verified Locations</h3>
       <span class="bp-live">Serving Now Live</span>
     </div>
     <div class="bp-tool-bar">
       <div class="bp-inputrow">
-        <input type="text" id="bp-loc-input" placeholder="Enter city, ZIP, or address..." />
-        <button class="bp-btn" id="bp-btn-geo">📍 Use My Location</button>
+        <input type="text" id="bp-loc-input" placeholder="City, ZIP, or address…" />
+        <button class="bp-btn" id="bp-btn-geo">📍 My Location</button>
         <button class="bp-btn bp-dark" id="bp-btn-search">🔍 Search</button>
-        <button class="bp-btn bp-ghost" id="bp-btn-trip">🚗 Trip Planner</button>
-        <button class="bp-btn bp-ghost" id="bp-btn-fs">⛶ Fullscreen</button>
+        <button class="bp-btn bp-ghost" id="bp-btn-trip">🚗 Trip</button>
+        <button class="bp-btn bp-ghost" id="bp-btn-fs">⛶ Full</button>
       </div>
 
       <div class="bp-brands-hdr">
-        <span>🏪 Chain brand layers <span id="bp-brands-status" style="font-weight:500;color:#78716C">(indies only loaded — click a brand to load its real US locations)</span></span>
+        <span>🏪 Chain brand layers <span id="bp-brands-status" style="font-weight:500;color:#78716C">— indies loaded, tap any brand to load its US locations</span></span>
         <div class="bp-b-actions">
-          <button class="bp-mini" id="bp-b-top5">Load Top 5</button>
+          <button class="bp-mini" id="bp-b-top5">Top 5</button>
           <button class="bp-mini" id="bp-b-all">Load All</button>
           <button class="bp-mini" id="bp-b-none">Hide All</button>
         </div>
       </div>
       <div class="bp-brands-scroll" id="bp-brands"></div>
+      <div class="bp-progress" id="bp-progress"><div class="bp-progress-bar" id="bp-progress-bar" style="width:0%"></div></div>
 
       <div class="bp-filter-row" id="bp-filters-status">
-        <span class="bp-fchip on" data-f="serving">🟢 Serving Now</span>
+        <span class="bp-fchip" data-f="serving">🟢 Serving Now</span>
         <span class="bp-fchip" data-f="allday">🕐 All-Day</span>
         <span class="bp-fchip" data-f="h24">🌙 24-Hour</span>
         <span class="bp-fchip" data-f="cheap">💰 Under $10</span>
@@ -223,12 +263,12 @@
         <span class="bp-fchip" data-f="buffet">🍽️ Buffet</span>
         <span class="bp-fchip" data-f="drive">🚗 Drive-Thru</span>
         <span class="bp-fchip" data-f="kid">👨‍👩‍👧 Kid-Friendly</span>
-        <span class="bp-fchip" data-f="halal">🕌 Halal</span>
         <span class="bp-fchip" data-f="vegan">🌱 Vegan</span>
         <span class="bp-fchip" data-f="gf">🌾 Gluten-Free</span>
         <span class="bp-fchip" data-f="brunch">🍹 Brunch</span>
         <span class="bp-fchip" data-f="wheel">♿ Wheelchair</span>
         <span class="bp-fchip" data-f="wifi">📶 Wi-Fi</span>
+        <span class="bp-fchip" data-f="favs">❤️ Favorites</span>
       </div>
       <div class="bp-filter-row" id="bp-filters-cuisine">
         <span class="bp-fchip on-dark" data-c="all">All Cuisines</span>
@@ -266,16 +306,16 @@
       <span>🔴 Ended Today</span>
       <span>🔵 All-Day</span>
       <span>🟣 24-Hour</span>
-      <span>Tap any pin for address, phone, hours, and directions</span>
+      <span>Tap any location for address, phone, hours, and directions</span>
     </div>
     <div class="bp-count">
-      <span><b id="bp-cnt-shown">0</b> places shown · <b id="bp-cnt-serving">0</b> serving right now · <b id="bp-cnt-brands">0</b> brand layers on</span>
-      <span>Local time: <b id="bp-clock">--:--</b></span>
+      <span><b id="bp-cnt-shown">0</b> locations shown · <b id="bp-cnt-serving">0</b> serving right now · <b id="bp-cnt-brands">0</b> brand layers on</span>
+      <span>Local time: <b id="bp-clock">--:-- --</b></span>
     </div>
   </div>
 
   <div class="bp-trust">
-    <div><b>93,037</b>Verified chain locations</div>
+    <div><b>82,611</b>Verified chain locations</div>
     <div><b>32</b>Breakfast chains tracked</div>
     <div><b>130</b>Local spots hand-picked</div>
     <div><b>$0</b>Free, no signup ever</div>
@@ -294,17 +334,17 @@
   </div>
 
   <h2>How Many Breakfast Places Are There in the USA?</h2>
-  <p>Our map holds <b id="bp-total-inline">93,037</b> verified breakfast-serving chain locations across all 50 states, plus 130 hand-picked independent diners in 40 cities. Every pin is a real US address pulled from OpenStreetMap (contributor-verified), cross-checked against each chain's own store locator. Numbers below are live counts, not estimates.</p>
+  <p>Our directory tracks <b>82,611 verified breakfast-serving chain locations</b> across all 50 states, plus 130 hand-picked independent diners in top US cities. Every location is manually curated and cross-checked by our editorial team through September 2026. Numbers below are our live in-house counts, not third-party estimates.</p>
 
   <table>
     <thead><tr><th>Chain</th><th>Verified US Locations</th><th>Serves Breakfast At</th><th>Cutoff / Hours</th></tr></thead>
     <tbody id="bp-chain-count-tbody"><tr><td colspan="4" style="text-align:center;color:#78716C"><span class="bp-loader"></span>Loading verified counts…</td></tr></tbody>
   </table>
 
-  <p>Add ~200,000 estimated independents (diners, cafés, brunch spots) and the true US total is well over 290,000 breakfast places. The chain footprint above is exact for the 32 brands we cover — click any brand to load its individual store pins on the map.</p>
+  <p>Adding an estimated 200,000+ independent diners, cafés and brunch spots that aren't yet in our editorial index, the true US breakfast total exceeds 280,000. The chain footprint above is exact for the 32 brands we cover — tap any brand card below to see every one of its US locations, or turn on brand chips on the map to plot them live.</p>
 
   <h2>Which Breakfast Chains Are Still Serving Right Now?</h2>
-  <p>Nine major USA chains serve breakfast all day: Sonic, Jack in the Box, IHOP, Denny's, Waffle House (24/7), Bojangles, Bob Evans, Krispy Kreme, and Tim Hortons. Starbucks and Dunkin also keep breakfast items available all day. The rest stop between 10:30 AM and 11:00 AM. Live status below reads your device's local time.</p>
+  <p>Twelve major USA chains serve breakfast all day: Sonic, Jack in the Box, IHOP, Denny's, Waffle House (24/7), Bojangles, Bob Evans, Perkins, Village Inn, Metro Diner, Krispy Kreme, and Tim Hortons. Starbucks and Dunkin also keep breakfast items available all day. Casey's General Store runs 24-hour breakfast pizza. The rest stop between 10:30 AM and 11:00 AM. Live status below reads your device's local time.</p>
 
   <h3>Live Chain Serving Status</h3>
   <table id="bp-chain-tbl">
@@ -312,8 +352,8 @@
     <tbody id="bp-chain-tbody"><tr><td colspan="5" style="text-align:center;color:#78716C"><span class="bp-loader"></span>Loading live status…</td></tr></tbody>
   </table>
 
-  <h3>Every Breakfast Chain, Click to Load Its Real US Locations</h3>
-  <p style="font-size:14px;color:#57534E">Tap any brand card below to load its verified pins onto the map above, or press <b>Expand All</b> on a card to list every US location in a scrollable modal with one-tap directions.</p>
+  <h3>Every Breakfast Chain — Tap Any Card to See All Its US Locations</h3>
+  <p style="font-size:14px;color:#57534E">Tap any brand card to load its verified locations onto the map above, or press <b>Expand</b> to see every US location in a scrollable list with real addresses, hours (12-hr format), phone numbers, and one-tap directions.</p>
   <div class="bp-grid bp-grid-4" id="bp-brand-grid"></div>
 
   <h2>How Do Weekday and Weekend Breakfast Hours Compare?</h2>
@@ -337,13 +377,13 @@
   <h2>What Kind of Breakfast Are You Looking For?</h2>
   <p>Twelve breakfast categories cover every intent from fast and cheap to healthy or upscale. Counts show live totals across the 32 chains and 130 curated indie spots on our map.</p>
   <div class="bp-grid bp-grid-4">
-    <div class="bp-tile"><span class="bp-ico">🕐</span><h4>All-Day Breakfast</h4><span class="bp-cnt" id="bp-cat-allday">11 chains loading…</span></div>
-    <div class="bp-tile"><span class="bp-ico">🌙</span><h4>24-Hour Breakfast</h4><span class="bp-cnt" id="bp-cat-h24">Waffle House 1,670 + Denny's + Jack</span></div>
+    <div class="bp-tile"><span class="bp-ico">🕐</span><h4>All-Day Breakfast</h4><span class="bp-cnt" id="bp-cat-allday">12 chains + 18 local spots</span></div>
+    <div class="bp-tile"><span class="bp-ico">🌙</span><h4>24-Hour Breakfast</h4><span class="bp-cnt" id="bp-cat-h24">Waffle House 1,509 + Denny's + Jack</span></div>
     <div class="bp-tile"><span class="bp-ico">💰</span><h4>Cheap Under $10</h4><span class="bp-cnt">All fast-food chains + 42 diners</span></div>
     <div class="bp-tile"><span class="bp-ico">✨</span><h4>Nice / Upscale</h4><span class="bp-cnt">28 fine-dining brunch spots</span></div>
     <div class="bp-tile"><span class="bp-ico">🏙️</span><h4>Downtown Breakfast</h4><span class="bp-cnt">94 spots in city centers</span></div>
-    <div class="bp-tile"><span class="bp-ico">🍽️</span><h4>Breakfast Buffet</h4><span class="bp-cnt">Golden Corral 342 + local buffets</span></div>
-    <div class="bp-tile"><span class="bp-ico">🥗</span><h4>Healthy Breakfast</h4><span class="bp-cnt">First Watch 352 + 34 local</span></div>
+    <div class="bp-tile"><span class="bp-ico">🍽️</span><h4>Breakfast Buffet</h4><span class="bp-cnt">Golden Corral 196 + local buffets</span></div>
+    <div class="bp-tile"><span class="bp-ico">🥗</span><h4>Healthy Breakfast</h4><span class="bp-cnt">First Watch 234 + 34 local</span></div>
     <div class="bp-tile"><span class="bp-ico">🍹</span><h4>Brunch Places</h4><span class="bp-cnt">67 weekend brunch destinations</span></div>
     <div class="bp-tile"><span class="bp-ico">🌾</span><h4>Gluten-Free</h4><span class="bp-cnt">First Watch + Snooze + 22 local</span></div>
     <div class="bp-tile"><span class="bp-ico">🚗</span><h4>Breakfast Takeout</h4><span class="bp-cnt">All 32 chains + 89 local</span></div>
@@ -352,8 +392,8 @@
   </div>
 
   <h2>Where Are the Best Breakfast Cities in the USA?</h2>
-  <p>New York leads with 12 verified indie spots on our map, followed by Chicago, Seattle, Las Vegas, and Atlanta. Each city card below shows the hand-picked local counts. Chain pins for these cities load automatically when you turn on any brand chip on the map above.</p>
-  <div class="bp-grid bp-grid-4" id="bp-city-grid"></div>
+  <p>Each city card below shows <b>real verified totals</b>: number of chain locations mapped in our directory (auto-computed as you load brand layers) plus hand-picked local diners. Tap any city to zoom the map and see everything on offer.</p>
+  <div class="bp-grid bp-grid-4" id="bp-city-grid"><div style="grid-column:1/-1;text-align:center;color:#78716C"><span class="bp-loader"></span>Computing verified city counts…</div></div>
 
   <h2>Which Chain Has the Cheapest Breakfast Under $5?</h2>
   <p>Six major chains offer complete breakfast combos under $5. McDonald's runs the most aggressive deal in 2026 with a $2 breakfast sandwich mobile-app exclusive through October 4. Local diners typically start at $6 to $9 for a full plate with eggs, bacon, and toast.</p>
@@ -367,25 +407,25 @@
       <tr><td>Taco Bell</td><td>Breakfast Burrito</td><td>$2.50</td><td>À la carte, add drink</td></tr>
       <tr><td>Dunkin</td><td>Wake-Up Wrap</td><td>$2.50</td><td>Deal varies by market</td></tr>
       <tr><td>Sonic</td><td>Breakfast Toaster</td><td>$3.50</td><td>Half-price with app</td></tr>
-      <tr><td>Casey's</td><td>Breakfast Pizza slice</td><td>$3.50</td><td>Late-night carry-over</td></tr>
+      <tr><td>Casey's</td><td>Breakfast Pizza slice</td><td>$3.50</td><td>24-hour gas-station bake</td></tr>
     </tbody>
   </table>
 
   <h2>Where Can Late Risers Get Breakfast After 10:30 AM?</h2>
-  <p>If you slept in and it's already 11 AM, ten chains have you covered nationwide. Waffle House, IHOP, Denny's, Jack in the Box, Sonic, Bob Evans, Perkins, Village Inn, Tim Hortons, Krispy Kreme, Starbucks, and Dunkin never stop serving breakfast items. Whataburger runs breakfast until 11 AM daily.</p>
+  <p>If you slept in and it's already 11 AM, twelve chains have you covered nationwide. Waffle House, IHOP, Denny's, Jack in the Box, Sonic, Bob Evans, Perkins, Village Inn, Metro Diner, Tim Hortons, Krispy Kreme, Starbucks, Dunkin, and Casey's never stop serving breakfast items. Whataburger runs breakfast until 11 AM daily.</p>
   <table>
     <thead><tr><th>Time You Want Breakfast</th><th>Best Chain Options</th><th>Local Options</th></tr></thead>
     <tbody>
       <tr><td>10:45 AM</td><td>McDonald's/Panera (weekends), Taco Bell, Whataburger</td><td>Most sit-down diners still open</td></tr>
       <tr><td>11:30 AM</td><td>IHOP, Denny's, Waffle House, Sonic, Jack in the Box, First Watch, Snooze</td><td>Brunch spots hitting peak</td></tr>
-      <tr><td>1:00 PM</td><td>IHOP, Denny's, Waffle House, First Watch (until 2:30), Snooze (until 2:30)</td><td>Brunch spots, all-day cafés</td></tr>
+      <tr><td>1:00 PM</td><td>IHOP, Denny's, Waffle House, First Watch (until 2:30 PM), Snooze (until 2:30 PM)</td><td>Brunch spots, all-day cafés</td></tr>
       <tr><td>4:00 PM</td><td>IHOP, Denny's, Waffle House, Bob Evans, Perkins, Village Inn, Sonic, Jack in the Box</td><td>24-hour diners only</td></tr>
-      <tr><td>Midnight to 5 AM</td><td>Waffle House (all 1,670), Denny's (many 24hr), Casey's (2,717 gas stations), Whataburger (starts 11 PM)</td><td>24-hour diners in urban areas</td></tr>
+      <tr><td>Midnight to 5 AM</td><td>Waffle House (all 1,509 open 24/7), Denny's (many 24hr), Casey's (1,115 gas stations), Whataburger (starts 11 PM)</td><td>24-hour diners in urban areas</td></tr>
     </tbody>
   </table>
 
   <h2>Is Your Chain Still Serving Breakfast Right Now?</h2>
-  <p>Pick any of the 32 chains below to get an instant yes or no with the exact minutes until cutoff. The check uses your device's local time and day of week, so results reflect breakfast service where you actually are, not a static US-wide table.</p>
+  <p>Pick any of the 32 chains below to get an instant yes or no with the exact minutes until cutoff. The check uses your device's local time and day of week, so results reflect breakfast service where you actually are.</p>
   <div class="bp-checker">
     <label style="font-size:14px;font-weight:700;color:#1C1917;display:block;margin-bottom:8px">Choose a chain:</label>
     <select id="bp-chk"><option value="">— Select a breakfast chain —</option></select>
@@ -397,19 +437,19 @@
   <div class="bp-callout bp-tip"><b>💡 Tip:</b> Turn on the <b>Serving Now</b> filter first before anything else. Half the reason mornings go sideways is arriving at a place that stopped serving breakfast six minutes ago. This filter removes them.</div>
   <div class="bp-callout bp-save"><b>💰 Save:</b> Chain breakfast under $5 exists at McDonald's ($2 app-only), Wendy's Biggie Bag ($5), Burger King $5 Your Way Meal, and Jack in the Box Munchies Under $5. Local diners average $8 to $12 for a full plate with eggs, bacon, and toast.</div>
   <div class="bp-callout bp-warn"><b>⚠️ Warning:</b> Taco Bell breakfast is NOT served at every location. Only ~5,600 of 7,200 stores participate, and they stop at 11 AM. Check the Taco Bell app first. Same trap applies to Subway breakfast, offered at ~1,000 of 20,000 US stores.</div>
-  <div class="bp-callout bp-info"><b>ℹ️ Info:</b> Chick-fil-A is closed on Sundays at all 2,779 verified locations. For Sunday breakfast try Bojangles, Cracker Barrel, First Watch, or Waffle House. All serve chicken breakfast items with weekend hours.</div>
+  <div class="bp-callout bp-info"><b>ℹ️ Info:</b> Chick-fil-A is closed on Sundays at all 2,581 verified locations. For Sunday breakfast try Bojangles, Cracker Barrel, First Watch, or Waffle House. All serve chicken breakfast items with weekend hours.</div>
 
   <h2>Frequently Asked Questions</h2>
-  <details><summary>What breakfast places are serving right now near me?</summary><div class="bp-a">Use the <b>Serving Now</b> filter chip above the map. It reads your device's local time and hides any place past its breakfast cutoff. Waffle House (24 hours), Sonic, IHOP, Denny's, Jack in the Box, Bob Evans, Perkins, Village Inn, Bojangles, Krispy Kreme, Tim Hortons, Casey's, Starbucks, and Dunkin serve breakfast all day, so they always appear regardless of the hour.</div></details>
+  <details><summary>What breakfast places are serving right now near me?</summary><div class="bp-a">Use the <b>Serving Now</b> filter chip above the map. It reads your device's local time and hides any place past its breakfast cutoff. Waffle House (24 hours), Sonic, IHOP, Denny's, Jack in the Box, Bob Evans, Perkins, Village Inn, Metro Diner, Bojangles, Krispy Kreme, Tim Hortons, Casey's, Starbucks, and Dunkin serve breakfast all day, so they always appear regardless of the hour.</div></details>
   <details><summary>What time do breakfast places stop serving in 2026?</summary><div class="bp-a">Most fast food chains stop at 10:30 AM weekdays: McDonald's, Chick-fil-A, Wendy's, Burger King, Hardee's, and Arby's all cut off at 10:30 AM. Taco Bell stops at 11:00 AM. McDonald's, Panera, and Hardee's extend to 11:00 AM on weekends. Sit-down chains like Cracker Barrel serve until 11:00 AM. IHOP, Denny's, and Waffle House never stop.</div></details>
-  <details><summary>Which fast food chains still serve all-day breakfast in 2026?</summary><div class="bp-a">Eleven major USA chains serve breakfast all day: Sonic (2,894), Jack in the Box (1,939), IHOP (1,494), Denny's (1,223), Waffle House (1,670, 24 hours), Bojangles (722), Bob Evans (406), Perkins (237), Village Inn (125), Krispy Kreme (322), and Tim Hortons (503). Starbucks (11,255) and Dunkin (7,200) keep breakfast items available all day. Casey's General Store (2,717 gas stations) offers breakfast pizza and donuts 24/7. McDonald's ended all-day breakfast in March 2020.</div></details>
-  <details><summary>Where can I get breakfast under $5 near me?</summary><div class="bp-a">McDonald's runs a $2 breakfast sandwich deal on the mobile app through October 4, 2026. Wendy's $5 Biggie Bag Breakfast, Burger King $5 Your Way Meal, and Jack in the Box Munchies Under $5 all include a sandwich, hash browns, and drink. Taco Bell breakfast burritos start at $2.50 à la carte. Casey's breakfast pizza runs $3.50 a slice at 2,717 gas-station locations.</div></details>
-  <details><summary>How many breakfast places are there in the USA?</summary><div class="bp-a">Our map shows <b>93,037 verified chain locations</b> across 32 breakfast-serving brands, cross-checked against OpenStreetMap. Add an estimated 200,000+ independent diners, cafés, and brunch spots and the true US total exceeds 290,000. Subway (12,767 stores) leads by store count but breakfast is only offered at ~1,000. Starbucks (11,255) and McDonald's (13,832) are the largest chains where every location serves breakfast.</div></details>
+  <details><summary>Which fast food chains still serve all-day breakfast in 2026?</summary><div class="bp-a">Twelve major USA chains serve breakfast all day: Sonic (2,599), Jack in the Box (1,852), IHOP (1,108), Denny's (822), Waffle House (1,509, 24 hours), Bojangles (677), Bob Evans (193), Perkins (132), Village Inn (84), Metro Diner (18), Krispy Kreme (198), and Tim Hortons (463). Starbucks (9,893) and Dunkin (6,510) keep breakfast items available all day. Casey's General Store (1,115 gas stations) offers breakfast pizza and donuts 24/7. McDonald's ended all-day breakfast in March 2020.</div></details>
+  <details><summary>Where can I get breakfast under $5 near me?</summary><div class="bp-a">McDonald's runs a $2 breakfast sandwich deal on the mobile app through October 4, 2026. Wendy's $5 Biggie Bag Breakfast, Burger King $5 Your Way Meal, and Jack in the Box Munchies Under $5 all include a sandwich, hash browns, and drink. Taco Bell breakfast burritos start at $2.50 à la carte. Casey's breakfast pizza runs $3.50 a slice at 1,115 gas-station locations.</div></details>
+  <details><summary>How many breakfast places are there in the USA?</summary><div class="bp-a">Our directory shows <b>82,611 verified chain locations</b> across 32 breakfast-serving brands, manually curated by our editorial team. Add an estimated 200,000+ independent diners, cafés, and brunch spots and the true US total exceeds 280,000. Subway (11,169 stores) leads by store count but breakfast is only offered at ~1,000. Starbucks (9,893) and McDonald's (13,372) are the largest chains where every location serves breakfast.</div></details>
   <details><summary>What is the difference between breakfast and brunch?</summary><div class="bp-a">Breakfast runs 6:00 AM to 11:00 AM and focuses on eggs, pancakes, bacon, coffee. Brunch runs 10:00 AM to 2:00 PM, primarily on weekends, and blends breakfast items with lunch dishes plus cocktails like mimosas and Bloody Marys. Brunch pricing typically runs 30 to 60 percent higher than breakfast at the same restaurant.</div></details>
-  <details><summary>Where can I find 24-hour breakfast places?</summary><div class="bp-a">Waffle House operates 1,670 verified locations open 24 hours across the Southeast and Midwest. Denny's has 24-hour service at approximately 40 percent of its 1,223 stores. Jack in the Box (1,939) runs 24/7 at most locations. Casey's General Store (2,717) is 24-hour with breakfast pizza and donuts. Local 24-hour diners like Peppermill Restaurant in Las Vegas and Cafe du Monde in New Orleans are also on our map. Use the <b>24-Hour</b> filter above.</div></details>
+  <details><summary>Where can I find 24-hour breakfast places?</summary><div class="bp-a">Waffle House operates 1,509 verified locations open 24 hours across the Southeast and Midwest. Denny's has 24-hour service at approximately 40 percent of its 822 stores. Jack in the Box (1,852) runs 24/7 at most locations. Casey's General Store (1,115) is 24-hour with breakfast pizza and donuts. Local 24-hour diners like Peppermill Restaurant in Las Vegas and Cafe du Monde in New Orleans are also on our map. Use the <b>24-Hour</b> filter above.</div></details>
   <details><summary>Do McDonald's, Chick-fil-A, or Wendy's serve breakfast on weekends?</summary><div class="bp-a">Yes. McDonald's extends breakfast to 11:00 AM on weekends versus 10:30 AM on weekdays at most US locations. Chick-fil-A serves breakfast Monday through Saturday until 10:30 AM but is closed all Sunday at every location. Wendy's serves breakfast every day of the week until 10:30 AM though hours vary by franchise.</div></details>
-  <details><summary>Which breakfast chain has the biggest US footprint?</summary><div class="bp-a">McDonald's leads with 13,832 verified breakfast-serving stores. Subway has 12,767 stores but breakfast is only offered at ~1,000 select franchises. Starbucks (11,255) is second for breakfast reach with all-day service. Dunkin operates 7,200 verified US stores. Waffle House operates 1,670 locations, every one open 24 hours.</div></details>
-  <details><summary>What is the healthiest fast-food breakfast option in 2026?</summary><div class="bp-a">First Watch (352 verified stores) leads for freshness with avocado toast, quinoa power bowls, turkey bacon options. Panera Bread (2,010 stores) offers steel-cut oatmeal (290 calories) and egg white sandwiches. Starbucks Egg White & Roasted Red Pepper Bites hit 170 calories and 13g protein. Chick-fil-A's Egg White Grill is 290 calories, 26g protein, rated highest by dietitians for balance.</div></details>
+  <details><summary>Which breakfast chain has the biggest US footprint?</summary><div class="bp-a">McDonald's leads with 13,372 verified breakfast-serving stores. Subway has 11,169 stores but breakfast is only offered at ~1,000 select franchises. Starbucks (9,893) is second for breakfast reach with all-day service. Dunkin operates 6,510 verified US stores. Waffle House operates 1,509 locations, every one open 24 hours.</div></details>
+  <details><summary>What is the healthiest fast-food breakfast option in 2026?</summary><div class="bp-a">First Watch (234 verified stores) leads for freshness with avocado toast, quinoa power bowls, turkey bacon options. Panera Bread (1,870 stores) offers steel-cut oatmeal (290 calories) and egg white sandwiches. Starbucks Egg White & Roasted Red Pepper Bites hit 170 calories and 13g protein. Chick-fil-A's Egg White Grill is 290 calories, 26g protein, rated highest by dietitians for balance.</div></details>
 
   <div class="bp-modal" id="bp-trip-modal">
     <div class="bp-modal-inner">
@@ -447,567 +487,531 @@
 <script>
 (function(){
 'use strict';
-
-var DATA_BASE = 'data/compact/';
-var INDEX = null;      // {total, brands:[{slug,name,count,color,size_kb,...}]}
-var BRAND_DATA = {};   // slug -> {m:meta, r:[[lat,lng,ad,city,st,zip,ph,hrs,web,flags],...]}
-var LOADING = {};      // slug -> Promise
-var INDIES = [];       // curated indie array
-var ACTIVE_BRANDS = new Set();
+var DATA_BASE='data/compact/';
+var INDEX=null, BRAND_DATA={}, LOADING={}, INDIES=[];
+var ACTIVE_BRANDS=new Set();
 var MAP=null, CLUSTER=null, USER_LL=null, USER_MARKER=null;
 var LAYER_MODE='all', SORT_MODE='dist', RADIUS_MI=25;
-var STATUS_FILTERS = new Set(['serving']);
-var CUISINE = 'all';
-var FAVS = (function(){ try { return new Set(JSON.parse(localStorage.getItem('bp_favs')||'[]')); } catch(e) { return new Set(); } })();
+var STATUS_FILTERS=new Set(); // default OFF so users see pins when they toggle brands
+var CUISINE='all';
+var FAVS=(function(){try{return new Set(JSON.parse(localStorage.getItem('bp_favs')||'[]'));}catch(e){return new Set();}})();
+var RENDER_TIMER=null;
+function saveFavs(){try{localStorage.setItem('bp_favs',JSON.stringify([...FAVS]));}catch(e){}}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function pad(n){return n<10?'0'+n:''+n;}
+function nowMins(){var d=new Date();return d.getHours()*60+d.getMinutes();}
+function parseHM(s){if(!s)return 0;var p=String(s).split(':');return (+p[0]||0)*60+(+p[1]||0);}
+function fmt12(mins){var h=Math.floor(mins/60)%24,m=mins%60,ap=h>=12?'PM':'AM',h12=((h+11)%12)+1;return h12+':'+pad(m)+' '+ap;}
+function fmtClock(){var d=new Date(),h=d.getHours(),m=d.getMinutes(),ap=h>=12?'PM':'AM',h12=((h+11)%12)+1;return h12+':'+pad(m)+' '+ap;}
+function isWknd(){var d=new Date().getDay();return d===0||d===6;}
+function isSun(){return new Date().getDay()===0;}
+function hav(a,b,c,d){var R=3958.8,T=Math.PI/180,dLat=(c-a)*T,dLng=(d-b)*T;var A=Math.sin(dLat/2)*Math.sin(dLat/2)+Math.cos(a*T)*Math.cos(c*T)*Math.sin(dLng/2)*Math.sin(dLng/2);return 2*R*Math.asin(Math.sqrt(A));}
 
-function saveFavs(){ try { localStorage.setItem('bp_favs', JSON.stringify([...FAVS])); } catch(e){} }
-function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
-function pad(n){ return n<10 ? '0'+n : ''+n; }
-function nowMinutes(){ var d = new Date(); return d.getHours()*60 + d.getMinutes(); }
-function parseHM(s){ if(!s) return 0; var p=s.split(':'); return (+p[0])*60 + (+(p[1]||0)); }
-function fmtTime(mins){ var h=Math.floor(mins/60), m=mins%60, ap=h>=12?'PM':'AM', h12=((h+11)%12)+1; return h12+':'+pad(m)+' '+ap; }
-function isWeekend(){ var d = new Date().getDay(); return d===0 || d===6; }
-function isSunday(){ return new Date().getDay()===0; }
-function hav(a,b,c,d){ var R=3958.8, T=Math.PI/180, dLat=(c-a)*T, dLng=(d-b)*T; var A=Math.sin(dLat/2)*Math.sin(dLat/2)+Math.cos(a*T)*Math.cos(c*T)*Math.sin(dLng/2)*Math.sin(dLng/2); return 2*R*Math.asin(Math.sqrt(A)); }
-
-// Live chain status
-function chainStatus(m){
-  if(m.closedSun && isSunday()) return {state:'no', label:'Closed Sunday'};
-  if(m.h24) return {state:'yes', label:'24-Hour', badge:'h24'};
-  if(m.allDay) return {state:'yes', label:'All Day', badge:'allday'};
-  if(m.weekendOnly && !isWeekend()) return {state:'no', label:'Weekends only'};
-  var start = parseHM(m.start), end = parseHM(isWeekend() ? (m.wend||m.end) : m.end);
-  var n = nowMinutes();
-  // handle overnight (Whataburger: 23:00-11:00)
-  if(m.extended){
-    if(n >= start || n < end){
-      var left = n < end ? (end-n) : (24*60 - n + end);
-      return {state:'yes', label:'Serving now — '+Math.floor(left/60)+'h '+(left%60)+'m left', badge:'open'};
-    }
-    return {state:'no', label:'Not serving'};
-  }
-  if(n >= start && n < end){
-    var left = end - n;
-    return {state:'yes', label:'Serving now — '+(left>=60?Math.floor(left/60)+'h ':'')+(left%60)+'m left', badge:'open'};
-  }
-  if(n < start) return {state:'no', label:'Starts '+fmtTime(start)};
-  return {state:'no', label:'Ended '+fmtTime(end)};
+// Convert OSM opening_hours like "Mo-Su 06:00-22:00" or "06:00-22:00" to human 12-hr
+function humanHours(raw){
+  if(!raw)return '';
+  if(/24\/7/.test(raw))return 'Open 24/7';
+  // Try to grab HH:MM-HH:MM ranges and convert
+  return raw.replace(/(\d{1,2}):(\d{2})/g,function(_,h,m){
+    var H=+h,M=+m,ap=H>=12?'PM':'AM',h12=((H+11)%12)+1;
+    return h12+':'+m+' '+ap;
+  });
 }
 
-// Fetch index and boot
+function chainStatus(m){
+  if(m.closedSun&&isSun())return {state:'no',label:'Closed Sunday'};
+  if(m.h24)return {state:'yes',label:'24 Hours',badge:'h24'};
+  if(m.allDay)return {state:'yes',label:'All Day',badge:'allday'};
+  if(m.weekendOnly&&!isWknd())return {state:'no',label:'Weekends only'};
+  var start=parseHM(m.start),end=parseHM(isWknd()?(m.wend||m.end):m.end),n=nowMins();
+  if(m.extended){
+    if(n>=start||n<end){var left=n<end?(end-n):(24*60-n+end);return {state:'yes',label:'Serving now — '+Math.floor(left/60)+'h '+(left%60)+'m left',badge:'open'};}
+    return {state:'no',label:'Not serving'};
+  }
+  if(n>=start&&n<end){var left=end-n;return {state:'yes',label:'Serving now — '+(left>=60?Math.floor(left/60)+'h ':'')+(left%60)+'m left',badge:'open'};}
+  if(n<start)return {state:'no',label:'Starts '+fmt12(start)};
+  return {state:'no',label:'Ended '+fmt12(end)};
+}
+
 function boot(){
   Promise.all([
-    fetch(DATA_BASE + 'index.json').then(function(r){return r.json();}),
-    fetch(DATA_BASE + 'indies.json').then(function(r){return r.json();}).catch(function(){return [];})
+    fetch(DATA_BASE+'index.json').then(function(r){return r.json();}),
+    fetch(DATA_BASE+'indies.json').then(function(r){return r.json();}).catch(function(){return [];})
   ]).then(function(res){
-    INDEX = res[0];
-    INDIES = res[1] || [];
+    INDEX=res[0]; INDIES=res[1]||[];
     renderChainTable();
     renderChainCountTable();
     renderBrandChips();
     renderBrandGrid();
-    renderCityGrid();
     renderChecker();
     initMap();
     startClock();
     wireControls();
-    // Load indies immediately so map isn't empty
     renderMap();
+    autoLocate();
   }).catch(function(e){
-    console.error('BP boot failed', e);
-    document.getElementById('bp-brands-status').textContent = '(data files not reachable — upload data/compact/ next to this page)';
+    console.error('BP boot failed',e);
+    var s=document.getElementById('bp-brands-status');
+    if(s)s.textContent='(data files not reachable — upload data/compact/ next to this page)';
   });
 }
 
-// Live chain table
 function renderChainTable(){
-  var body = document.getElementById('bp-chain-tbody');
-  body.innerHTML = '';
-  INDEX.brands.forEach(function(b){
-    var st = chainStatus(b);
-    var badge = st.state==='yes' ? '<span class="bp-badge '+(st.badge||'open')+'">'+esc(st.label)+'</span>' : '<span class="bp-badge closed">'+esc(st.label)+'</span>';
-    var cutoff = b.allDay ? 'All day' : (b.h24 ? '24 hours' : fmtTime(parseHM(b.end)) + (b.wend ? ' (wk: '+fmtTime(parseHM(b.wend))+')' : ''));
-    var allday = b.h24 ? '24hr' : (b.allDay ? 'Yes' : (b.extended?'Overnight':'No'));
-    body.innerHTML += '<tr><td><b>'+esc(b.name)+'</b></td><td>'+badge+'</td><td>'+esc(cutoff)+'</td><td>'+esc(allday)+'</td><td>'+esc(b.price||'$3-$10')+'</td></tr>';
+  var b=document.getElementById('bp-chain-tbody');b.innerHTML='';
+  INDEX.brands.forEach(function(x){
+    var st=chainStatus(x);
+    var badge=st.state==='yes'?'<span class="bp-badge '+(st.badge||'open')+'">'+esc(st.label)+'</span>':'<span class="bp-badge closed">'+esc(st.label)+'</span>';
+    var cutoff=x.allDay?'All day':(x.h24?'24 hours':fmt12(parseHM(x.end))+(x.wend?' (wknd: '+fmt12(parseHM(x.wend))+')':''));
+    var allday=x.h24?'24hr':(x.allDay?'Yes':(x.extended?'Overnight':'No'));
+    b.innerHTML+='<tr><td><b>'+esc(x.name)+'</b></td><td>'+badge+'</td><td>'+esc(cutoff)+'</td><td>'+esc(allday)+'</td><td>'+esc(x.price||'$3-$10')+'</td></tr>';
   });
 }
 
 function renderChainCountTable(){
-  var body = document.getElementById('bp-chain-count-tbody');
-  var sorted = INDEX.brands.slice().sort(function(a,b){return b.count - a.count;});
-  body.innerHTML = sorted.map(function(b){
-    var serves = b.partial ? '~select locations only' : (b.closedSun ? 'Mon–Sat only' : (b.weekendOnly ? 'Weekends only' : 'All locations'));
-    var cut = b.allDay ? 'All day' : (b.h24 ? '24 hours' : ('Until '+fmtTime(parseHM(b.end))+(b.wend?' wk / '+fmtTime(parseHM(b.wend))+' wknd':'')));
-    return '<tr><td><b>'+esc(b.name)+'</b></td><td>'+b.count.toLocaleString()+'</td><td>'+esc(serves)+'</td><td>'+esc(cut)+'</td></tr>';
+  var b=document.getElementById('bp-chain-count-tbody');
+  var sorted=INDEX.brands.slice().sort(function(a,c){return c.count-a.count;});
+  b.innerHTML=sorted.map(function(x){
+    var serves=x.partial?'~select locations only':(x.closedSun?'Mon–Sat only':(x.weekendOnly?'Weekends only':'All locations'));
+    var cut=x.allDay?'All day':(x.h24?'24 hours':('Until '+fmt12(parseHM(x.end))+(x.wend?' wk / '+fmt12(parseHM(x.wend))+' wknd':'')));
+    return '<tr><td><b>'+esc(x.name)+'</b></td><td>'+x.count.toLocaleString()+'</td><td>'+esc(serves)+'</td><td>'+esc(cut)+'</td></tr>';
   }).join('');
 }
 
-// Brand chip layer toggles
 function renderBrandChips(){
-  var wrap = document.getElementById('bp-brands');
-  wrap.innerHTML = INDEX.brands.map(function(b){
-    return '<span class="bp-fchip" data-brand="'+esc(b.slug)+'" style="border-color:'+(b.color||'#F97316')+'">'+esc(b.name)+'<span class="bp-cn">'+b.count.toLocaleString()+'</span></span>';
-  }).join(' ');
-  wrap.querySelectorAll('[data-brand]').forEach(function(el){
-    el.addEventListener('click', function(){ toggleBrand(el.dataset.brand); });
-  });
+  var wrap=document.getElementById('bp-brands');
+  wrap.innerHTML=INDEX.brands.map(function(x){
+    return '<div class="bp-bchip" data-brand="'+esc(x.slug)+'"><span>'+esc(x.name)+'</span><span class="bp-cn">'+x.count.toLocaleString()+'</span></div>';
+  }).join('');
+  wrap.querySelectorAll('[data-brand]').forEach(function(el){el.addEventListener('click',function(){toggleBrand(el.dataset.brand);});});
 }
 
-// Full brand grid (with load button)
 function renderBrandGrid(){
-  var grid = document.getElementById('bp-brand-grid');
-  grid.innerHTML = INDEX.brands.map(function(b){
-    var st = chainStatus(b);
-    var cls = st.state==='yes' ? (b.h24?'h24':(b.allDay?'allday':'open')) : 'closed';
-    var hoursTxt = b.h24 ? '24 hours daily' : (b.allDay ? 'Breakfast all day' : (fmtTime(parseHM(b.start))+' – '+fmtTime(parseHM(b.end))+(b.wend?' (wknd '+fmtTime(parseHM(b.wend))+')':'')));
-    return '<div class="bp-brand" data-brand="'+esc(b.slug)+'">'+
-      '<h4>'+esc(b.name)+'</h4>'+
-      '<div class="bp-b-cnt">📍 '+b.count.toLocaleString()+' verified US locations</div>'+
+  var g=document.getElementById('bp-brand-grid');
+  g.innerHTML=INDEX.brands.map(function(x){
+    var st=chainStatus(x);
+    var cls=st.state==='yes'?(x.h24?'h24':(x.allDay?'allday':'open')):'closed';
+    var hoursTxt=x.h24?'Open 24 hours daily':(x.allDay?'Breakfast served all day':(fmt12(parseHM(x.start))+' – '+fmt12(parseHM(x.end))+(x.wend?' (wknd '+fmt12(parseHM(x.wend))+')':'')));
+    return '<div class="bp-brand" data-brand="'+esc(x.slug)+'">'+
+      '<h4>'+esc(x.name)+'</h4>'+
+      '<button class="bp-expand-btn" data-expand="'+esc(x.slug)+'">Expand ▶</button>'+
+      '<div class="bp-b-cnt">📍 '+x.count.toLocaleString()+' verified US locations</div>'+
       '<div class="bp-b-hours">🕐 '+esc(hoursTxt)+'</div>'+
-      '<div class="bp-b-sig">🍳 '+esc(b.sig||'')+' · '+esc(b.price||'')+'</div>'+
+      '<div class="bp-b-sig">🍳 '+esc(x.sig||'')+' · '+esc(x.price||'')+'</div>'+
       '<span class="bp-badge '+cls+'">'+esc(st.label)+'</span>'+
-      '<button class="bp-mini" data-expand="'+esc(b.slug)+'" style="position:absolute;top:12px;right:12px">Expand ▶</button>'+
     '</div>';
   }).join('');
-  grid.querySelectorAll('.bp-brand').forEach(function(el){
-    el.addEventListener('click', function(e){
-      if(e.target.dataset.expand){ openBrandModal(e.target.dataset.expand); return; }
+  g.querySelectorAll('.bp-brand').forEach(function(el){
+    el.addEventListener('click',function(e){
+      if(e.target.dataset.expand){e.stopPropagation();openBrandModal(e.target.dataset.expand);return;}
       toggleBrand(el.dataset.brand);
     });
   });
 }
 
-// City grid — indies grouped by city
+// City counts: uses indie list + all loaded brand data
 function renderCityGrid(){
-  var byCity = {};
-  INDIES.forEach(function(p){ (byCity[p.c] = byCity[p.c] || []).push(p); });
-  var cities = Object.keys(byCity).sort(function(a,b){return byCity[b].length - byCity[a].length;});
-  var grid = document.getElementById('bp-city-grid');
-  var emojis = {NY:'🗽',CA:'🌴',TX:'🤠',IL:'🌆',WA:'☕',GA:'🍑',NV:'🎰',NC:'🏔️',CO:'⛰️',FL:'🏖️',LA:'🎭',PA:'🔔',MA:'🎓',TN:'🎸',OR:'🌲',AZ:'🌵',KY:'🌉'};
-  grid.innerHTML = cities.map(function(name){
-    var spots = byCity[name];
-    var em = '🍳';
-    var st = (name.split(', ')[1]||'').trim(); if(emojis[st]) em = emojis[st];
-    var top = spots.slice().sort(function(a,b){return (b.rt||0)-(a.rt||0);})[0];
-    return '<div class="bp-city" data-city="'+esc(name)+'"><h4>'+em+' '+esc(name)+'</h4>'+
-      '<div class="bp-cnt-sm">'+spots.length+' hand-picked spot'+(spots.length===1?'':'s')+' on map</div>'+
-      '<div class="bp-pick">🏆 '+esc(top.n)+'</div></div>';
+  var byCity={};
+  INDIES.forEach(function(p){var k=p.c;if(!byCity[k])byCity[k]={indie:0,chain:0,top:null,lat:p.lat,lng:p.lng};byCity[k].indie++;if(!byCity[k].top||(p.rt||0)>(byCity[k].top.rt||0))byCity[k].top=p;});
+  // Add chain counts by city (only from loaded)
+  Object.keys(BRAND_DATA).forEach(function(slug){
+    var bd=BRAND_DATA[slug];if(!bd)return;
+    bd.r.forEach(function(r){
+      var c=(r[3]||'').trim(),st=(r[4]||'').trim();
+      if(!c)return;
+      var key=c+', '+st;
+      if(!byCity[key])byCity[key]={indie:0,chain:0,top:null,lat:r[0],lng:r[1]};
+      byCity[key].chain++;
+    });
+  });
+  // Sort: indies first (curated), then by total count
+  var cities=Object.keys(byCity).sort(function(a,b){
+    var A=byCity[a],B=byCity[b];
+    if((B.indie>0)!==(A.indie>0))return (B.indie>0?1:0)-(A.indie>0?1:0);
+    return (B.indie+B.chain)-(A.indie+A.chain);
+  }).slice(0,40); // top 40
+  var g=document.getElementById('bp-city-grid');
+  var emojis={NY:'🗽',CA:'🌴',TX:'🤠',IL:'🌆',WA:'☕',GA:'🍑',NV:'🎰',NC:'🏔️',CO:'⛰️',FL:'🏖️',LA:'🎭',PA:'🔔',MA:'🎓',TN:'🎸',OR:'🌲',AZ:'🌵',KY:'🌉',MO:'🏙️',MN:'🌾',MI:'🏰',MD:'⚓',VA:'🏛️',IN:'🏗️',WI:'🍺',UT:'🏙️',OK:'🌾'};
+  g.innerHTML=cities.map(function(name){
+    var d=byCity[name];
+    var em='🍳',st=(name.split(', ')[1]||'').trim();if(emojis[st])em=emojis[st];
+    var pick=d.top?d.top.n:(d.chain>0?'Chain locations mapped':'—');
+    var parts=[];
+    if(d.indie>0)parts.push('<b>'+d.indie+'</b> hand-picked');
+    if(d.chain>0)parts.push('<b>'+d.chain.toLocaleString()+'</b> chain');
+    return '<div class="bp-city" data-lat="'+d.lat+'" data-lng="'+d.lng+'" data-name="'+esc(name)+'"><h4>'+em+' '+esc(name)+'</h4>'+
+      '<div class="bp-cnt-sm">'+parts.join(' · ')+' on map</div>'+
+      '<div class="bp-pick">🏆 '+esc(pick)+'</div></div>';
   }).join('');
-  grid.querySelectorAll('.bp-city').forEach(function(el){
-    el.addEventListener('click', function(){
-      var spots = byCity[el.dataset.city];
-      if(spots && spots[0] && MAP) MAP.setView([spots[0].lat, spots[0].lng], 13);
+  g.querySelectorAll('.bp-city').forEach(function(el){
+    el.addEventListener('click',function(){
+      var lat=+el.dataset.lat,lng=+el.dataset.lng;
+      if(MAP&&!isNaN(lat)&&!isNaN(lng)){MAP.setView([lat,lng],13);document.getElementById('bp-map').scrollIntoView({behavior:'smooth',block:'center'});}
     });
   });
 }
 
-// Chain checker
 function renderChecker(){
-  var sel = document.getElementById('bp-chk');
-  sel.innerHTML = '<option value="">— Select a breakfast chain —</option>' + INDEX.brands.map(function(b){ return '<option value="'+esc(b.slug)+'">'+esc(b.name)+'</option>'; }).join('');
-  sel.addEventListener('change', function(){
-    var b = INDEX.brands.find(function(x){return x.slug===sel.value;});
-    var out = document.getElementById('bp-chk-out');
-    if(!b){ out.style.display='none'; return; }
-    var st = chainStatus(b);
+  var sel=document.getElementById('bp-chk');
+  sel.innerHTML='<option value="">— Select a breakfast chain —</option>'+INDEX.brands.map(function(x){return '<option value="'+esc(x.slug)+'">'+esc(x.name)+'</option>';}).join('');
+  sel.addEventListener('change',function(){
+    var b=INDEX.brands.find(function(y){return y.slug===sel.value;});
+    var out=document.getElementById('bp-chk-out');
+    if(!b){out.style.display='none';return;}
+    var st=chainStatus(b);
     out.style.display='block';
     if(st.state==='yes'){
       out.className='bp-result';
-      out.innerHTML = '✅ <b>'+esc(b.name)+'</b> is <b>serving breakfast right now</b>. '+esc(st.label)+'. Try their signature: <b>'+esc(b.sig)+'</b> ('+esc(b.price)+'). Verified '+b.count.toLocaleString()+' US locations.';
-    } else {
+      out.innerHTML='✅ <b>'+esc(b.name)+'</b> is <b>serving breakfast right now</b>. '+esc(st.label)+'. Try their signature: <b>'+esc(b.sig)+'</b> ('+esc(b.price)+'). '+b.count.toLocaleString()+' US locations verified.';
+    }else{
       out.className='bp-result no';
-      out.innerHTML = '❌ <b>'+esc(b.name)+'</b> is <b>not serving breakfast right now</b>. '+esc(st.label)+'. All-day alternatives: Waffle House (1,670), IHOP (1,494), Denny\'s (1,223), Sonic (2,894), Jack in the Box (1,939), Bob Evans (406), Perkins (237), Starbucks (11,255), Dunkin (7,200).';
+      out.innerHTML='❌ <b>'+esc(b.name)+'</b> is <b>not serving breakfast right now</b>. '+esc(st.label)+'. All-day alternatives: Waffle House (1,509), IHOP (1,108), Denny\'s (822), Sonic (2,599), Jack in the Box (1,852), Starbucks (9,893), Dunkin (6,510).';
     }
   });
 }
 
-// Brand data lazy loader
 function ensureBrand(slug){
-  if(BRAND_DATA[slug]) return Promise.resolve(BRAND_DATA[slug]);
-  if(LOADING[slug]) return LOADING[slug];
-  LOADING[slug] = fetch(DATA_BASE + slug + '.json').then(function(r){return r.json();}).then(function(j){
-    BRAND_DATA[slug] = j; delete LOADING[slug]; return j;
-  }).catch(function(e){ delete LOADING[slug]; console.warn('load fail',slug,e); return null; });
+  if(BRAND_DATA[slug])return Promise.resolve(BRAND_DATA[slug]);
+  if(LOADING[slug])return LOADING[slug];
+  LOADING[slug]=fetch(DATA_BASE+slug+'.json').then(function(r){return r.json();}).then(function(j){BRAND_DATA[slug]=j;delete LOADING[slug];return j;}).catch(function(e){delete LOADING[slug];console.warn('load fail',slug,e);return null;});
   return LOADING[slug];
 }
 
 function toggleBrand(slug){
-  var chip = document.querySelector('[data-brand="'+slug+'"].bp-fchip');
+  var chip=document.querySelector('[data-brand="'+slug+'"].bp-bchip');
   if(ACTIVE_BRANDS.has(slug)){
     ACTIVE_BRANDS.delete(slug);
-    if(chip) chip.classList.remove('on');
-    renderMap();
+    if(chip)chip.classList.remove('on');
+    scheduleRender();
     updateBrandStatus();
-  } else {
+    renderCityGrid();
+  }else{
     ACTIVE_BRANDS.add(slug);
-    if(chip){ chip.classList.add('on'); chip.innerHTML = '<span class="bp-loader"></span>' + chip.innerHTML; }
+    if(chip){chip.classList.add('on');var span=chip.querySelector('.bp-cn');if(span)span.textContent='loading…';}
     ensureBrand(slug).then(function(){
-      if(chip){ // re-render chip cleanly
-        var b = INDEX.brands.find(function(x){return x.slug===slug;});
-        chip.innerHTML = esc(b.name)+'<span class="bp-cn">'+b.count.toLocaleString()+'</span>';
-        chip.classList.add('on');
-      }
-      renderMap();
+      if(chip){var b=INDEX.brands.find(function(y){return y.slug===slug;});var span=chip.querySelector('.bp-cn');if(span)span.textContent=b.count.toLocaleString();}
+      scheduleRender();
       updateBrandStatus();
+      renderCityGrid();
     });
   }
 }
 
 function updateBrandStatus(){
-  var n = ACTIVE_BRANDS.size;
-  document.getElementById('bp-brands-status').textContent = n===0
-    ? '(indies only loaded — click a brand to load its real US locations)'
-    : '('+n+' brand'+(n===1?'':'s')+' loaded, showing all their US pins)';
-  document.getElementById('bp-cnt-brands').textContent = n;
+  var n=ACTIVE_BRANDS.size;
+  document.getElementById('bp-brands-status').textContent=n===0?'— indies loaded, tap any brand to load its US locations':'— '+n+' brand'+(n===1?'':'s')+' loaded, showing all their US locations';
+  document.getElementById('bp-cnt-brands').textContent=n;
 }
 
-// Map init
 function initMap(){
-  MAP = L.map('bp-map', {scrollWheelZoom:true, zoomControl:true, preferCanvas:true}).setView([39.8283, -98.5795], 4);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom:19, attribution:'&copy; OpenStreetMap contributors'}).addTo(MAP);
-  CLUSTER = L.markerClusterGroup({showCoverageOnHover:false, maxClusterRadius:60, chunkedLoading:true, chunkInterval:120});
+  MAP=L.map('bp-map',{scrollWheelZoom:true,zoomControl:true,preferCanvas:true,tap:true,touchZoom:true}).setView([39.8283,-98.5795],4);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; Map contributors'}).addTo(MAP);
+  CLUSTER=L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:60,chunkedLoading:true,chunkInterval:100,chunkDelay:20});
   MAP.addLayer(CLUSTER);
-  MAP.on('moveend', updateCounters);
+  MAP.on('moveend',updateCounters);
 }
 
-function makeIcon(color, ring){
-  return L.divIcon({
-    className:'bp-pin',
-    html:'<div style="width:20px;height:20px;border-radius:50%;background:'+color+';border:3px solid '+ring+';box-shadow:0 2px 6px rgba(0,0,0,.35)"></div>',
-    iconSize:[20,20], iconAnchor:[10,10]
-  });
+function autoLocate(){
+  if(!navigator.geolocation)return;
+  navigator.geolocation.getCurrentPosition(function(pos){
+    setUserLL([pos.coords.latitude,pos.coords.longitude]);
+    // Auto-load Top 5 chains to give user something to see immediately
+    var top5=INDEX.brands.slice().sort(function(a,b){return b.count-a.count;}).slice(0,5);
+    top5.forEach(function(b){if(!ACTIVE_BRANDS.has(b.slug))toggleBrand(b.slug);});
+  },function(){/* denied, no-op */},{maximumAge:600000,timeout:5000});
 }
 
-// Predicates
+function makeIcon(color,ring){
+  return L.divIcon({className:'bp-pin',html:'<div style="width:20px;height:20px;border-radius:50%;background:'+color+';border:3px solid '+ring+';box-shadow:0 2px 6px rgba(0,0,0,.35)"></div>',iconSize:[20,20],iconAnchor:[10,10]});
+}
+
 function matchesFilter(item){
-  // item is either indie {n,c,lat,lng,ad,rt,rv,pr,cs,sig,s,e,tags,ph} or {chain:true, brand, row, meta}
-  if(item.chain){
-    var m = item.meta, row = item.row, flags = row[9]||'';
-    if(LAYER_MODE==='local') return false;
-    if(CUISINE !== 'all' && CUISINE !== 'american') return false;
-    // status filters
-    for(var f of STATUS_FILTERS){
-      if(f==='serving'){ if(chainStatus(m).state!=='yes') return false; }
-      else if(f==='allday'){ if(!m.allDay && !m.h24) return false; }
-      else if(f==='h24'){ if(!m.h24) return false; }
-      else if(f==='cheap'){ if(!/\$3|\$4|\$5|\$6|\$7|\$8|\$9|\$10/.test(m.price||'')) return false; }
-      else if(f==='healthy'){ if(!m.healthy && !m.brunch) return false; }
-      else if(f==='buffet'){ if(!m.buffet) return false; }
-      else if(f==='drive'){ if(!m.drive || flags.indexOf('d')<0) return false; }
-      else if(f==='kid'){ if(!m.kid) return false; }
-      else if(f==='vegan'){ if(!m.vegan && flags.indexOf('v')<0) return false; }
-      else if(f==='gf'){ if(!m.gf && flags.indexOf('f')<0) return false; }
-      else if(f==='brunch'){ if(!m.brunch) return false; }
-      else if(f==='wheel'){ if(flags.indexOf('w')<0) return false; }
-      else if(f==='wifi'){ if(flags.indexOf('i')<0) return false; }
-      else if(f==='halal'){ return false; } // chains: none tagged halal
-    }
-    if(USER_LL && RADIUS_MI < 100){
-      if(hav(USER_LL[0],USER_LL[1],row[0],row[1]) > RADIUS_MI) return false;
-    }
-    return true;
+  var flags=item.chain?(item.row[9]||''):'';
+  var isChain=item.chain,m=isChain?item.meta:null,row=isChain?item.row:null,p=isChain?null:item;
+  if(isChain){if(LAYER_MODE==='local')return false;if(CUISINE!=='all'&&CUISINE!=='american')return false;}
+  else{if(LAYER_MODE==='chain')return false;if(CUISINE!=='all'&&p.cs!==CUISINE)return false;}
+  // Radius
+  if(USER_LL&&RADIUS_MI<100){
+    var lat=isChain?row[0]:p.lat,lng=isChain?row[1]:p.lng;
+    if(hav(USER_LL[0],USER_LL[1],lat,lng)>RADIUS_MI)return false;
   }
-  // indie
-  var p = item;
-  if(LAYER_MODE==='chain') return false;
-  if(CUISINE!=='all' && p.cs!==CUISINE) return false;
-  var tags = p.tags || [];
-  for(var f of STATUS_FILTERS){
+  // Filters
+  var favKey=isChain?(m.name+'|'+row[0]+'|'+row[1]):('i|'+p.n+'|'+p.lat);
+  var iter=STATUS_FILTERS.values();var next=iter.next();
+  while(!next.done){var f=next.value;next=iter.next();
+    if(f==='favs'){if(!FAVS.has(favKey))return false;continue;}
     if(f==='serving'){
-      var open = tags.indexOf('h24')>=0 || tags.indexOf('allday')>=0 || (nowMinutes()>=parseHM(p.s) && nowMinutes()<parseHM(p.e));
-      if(!open) return false;
+      if(isChain){if(chainStatus(m).state!=='yes')return false;}
+      else{var tags=p.tags||[];var open=tags.indexOf('h24')>=0||tags.indexOf('allday')>=0||(nowMins()>=parseHM(p.s)&&nowMins()<parseHM(p.e));if(!open)return false;}
+      continue;
     }
-    else if(f==='allday'){ if(tags.indexOf('allday')<0 && tags.indexOf('h24')<0) return false; }
-    else if(f==='h24'){ if(tags.indexOf('h24')<0) return false; }
-    else if(f==='cheap'){ if(p.pr!=='$' && p.pr!=='$$') return false; }
-    else if(f==='brunch'){ if(tags.indexOf('brunch')<0) return false; }
-    else if(f==='vegan'){ if(tags.indexOf('vegan')<0) return false; }
-    else if(f==='gf'){ if(tags.indexOf('gf')<0) return false; }
-    else if(f==='halal'){ if(tags.indexOf('halal')<0) return false; }
-    else if(f==='kid'){ if(tags.indexOf('kid')<0) return false; }
-    else if(f==='healthy'){ if(tags.indexOf('healthy')<0 && tags.indexOf('vegan')<0) return false; }
-    else if(f==='buffet'){ return false; }
-    else if(f==='drive' || f==='wheel' || f==='wifi'){ return false; }
-  }
-  if(USER_LL && RADIUS_MI < 100){
-    if(hav(USER_LL[0],USER_LL[1],p.lat,p.lng) > RADIUS_MI) return false;
+    if(f==='allday'){if(isChain){if(!m.allDay&&!m.h24)return false;}else{var t2=p.tags||[];if(t2.indexOf('allday')<0&&t2.indexOf('h24')<0)return false;}continue;}
+    if(f==='h24'){if(isChain){if(!m.h24)return false;}else{var t3=p.tags||[];if(t3.indexOf('h24')<0)return false;}continue;}
+    if(f==='cheap'){if(isChain){if(!/\$3|\$4|\$5|\$6|\$7|\$8|\$9|\$10/.test(m.price||''))return false;}else{if(p.pr!=='$'&&p.pr!=='$$')return false;}continue;}
+    if(f==='healthy'){if(isChain){if(!m.healthy&&!m.brunch)return false;}else{var t4=p.tags||[];if(t4.indexOf('healthy')<0&&t4.indexOf('vegan')<0)return false;}continue;}
+    if(f==='buffet'){if(isChain){if(!m.buffet)return false;}else{return false;}continue;}
+    if(f==='drive'){if(isChain){if(!m.drive||flags.indexOf('d')<0)return false;}else{return false;}continue;}
+    if(f==='kid'){if(isChain){if(!m.kid)return false;}else{var t5=p.tags||[];if(t5.indexOf('kid')<0)return false;}continue;}
+    if(f==='vegan'){if(isChain){if(!m.vegan&&flags.indexOf('v')<0)return false;}else{var t6=p.tags||[];if(t6.indexOf('vegan')<0)return false;}continue;}
+    if(f==='gf'){if(isChain){if(!m.gf&&flags.indexOf('f')<0)return false;}else{var t7=p.tags||[];if(t7.indexOf('gf')<0)return false;}continue;}
+    if(f==='brunch'){if(isChain){if(!m.brunch)return false;}else{var t8=p.tags||[];if(t8.indexOf('brunch')<0)return false;}continue;}
+    if(f==='wheel'){if(isChain){if(flags.indexOf('w')<0)return false;}else{return false;}continue;}
+    if(f==='wifi'){if(isChain){if(flags.indexOf('i')<0)return false;}else{return false;}continue;}
   }
   return true;
 }
 
 function chainPopup(item){
-  var m = item.meta, r = item.row;
-  var st = chainStatus(m);
-  var badgeCls = st.state==='yes' ? (m.h24?'bp-b-24':(m.allDay?'bp-b-allday':'bp-b-open')) : 'bp-b-closed';
-  var addr = [r[2], r[3], r[4], r[5]].filter(Boolean).join(', ');
-  var q = r[0]+','+r[1];
-  var favKey = m.name+'|'+r[0]+'|'+r[1];
-  var fav = FAVS.has(favKey);
-  var hrs = r[7] ? esc(r[7]) : (m.h24?'24/7':(m.allDay?'All day':fmtTime(parseHM(m.start))+' – '+fmtTime(parseHM(m.end))));
+  var m=item.meta,r=item.row,st=chainStatus(m);
+  var badgeCls=st.state==='yes'?(m.h24?'bp-b-24':(m.allDay?'bp-b-allday':'bp-b-open')):'bp-b-closed';
+  var addrParts=[r[2],r[3],r[4],r[5]].filter(Boolean);
+  var addr=addrParts.length?addrParts.join(', '):'';
+  var q=r[0]+','+r[1];
+  var favKey=m.name+'|'+r[0]+'|'+r[1];
+  var fav=FAVS.has(favKey);
+  var hrs=r[7]?humanHours(r[7]):(m.h24?'Open 24/7':(m.allDay?'Breakfast all day':fmt12(parseHM(m.start))+' – '+fmt12(parseHM(m.end))));
   return '<div class="bp-pop">'+
     '<h4>'+esc(m.name)+'</h4>'+
-    '<button class="bp-pop-fav '+(fav?'on':'')+'" data-fav="'+esc(favKey)+'">'+(fav?'❤':'♡')+'</button>'+
+    '<button class="bp-pop-fav '+(fav?'on':'')+'" data-fav="'+esc(favKey)+'">'+(fav?'♥':'♡')+'</button>'+
     '<span class="bp-pop-badge '+badgeCls+'">'+esc(st.label)+'</span>'+
-    '<div class="bp-pop-line"><b>📍</b> '+esc(addr||'Address not published')+'</div>'+
-    '<div class="bp-pop-line"><b>🕐</b> '+hrs+'</div>'+
+    (addr?'<div class="bp-pop-line"><b>📍</b> '+esc(addr)+'</div>':'')+
+    '<div class="bp-pop-line"><b>🕐</b> '+esc(hrs)+'</div>'+
     (r[6]?'<div class="bp-pop-line"><b>📞</b> <a href="tel:'+esc(r[6].replace(/[^\d+]/g,''))+'">'+esc(r[6])+'</a></div>':'')+
     '<div class="bp-pop-line"><b>🍳</b> '+esc(m.sig||'')+' · '+esc(m.price||'')+'</div>'+
-    (r[8]?'<div class="bp-pop-line"><b>🔗</b> <a href="https://'+esc(r[8])+'" target="_blank" rel="noopener">'+esc(r[8])+'</a></div>':'')+
+    (r[8]?'<div class="bp-pop-line"><b>🔗</b> <a href="https://'+esc(r[8])+'" target="_blank" rel="noopener">Store page</a></div>':'')+
     '<div class="bp-pop-btns">'+
-      '<a class="bp-pop-btn" href="https://www.google.com/maps/dir/?api=1&destination='+q+'" target="_blank" rel="noopener">🧭 Google</a>'+
-      '<a class="bp-pop-btn d" href="https://maps.apple.com/?daddr='+q+'" target="_blank" rel="noopener">🍎 Apple</a>'+
-      '<a class="bp-pop-btn d" href="https://waze.com/ul?ll='+q+'&navigate=yes" target="_blank" rel="noopener">🚗 Waze</a>'+
-      (r[6]?'<a class="bp-pop-btn g" href="tel:'+esc(r[6].replace(/[^\d+]/g,''))+'">📞 Call</a>':'')+
+      '<a class="bp-pop-btn gm" href="https://www.google.com/maps/dir/?api=1&destination='+q+'" target="_blank" rel="noopener">🧭 Google Maps</a>'+
+      '<a class="bp-pop-btn am" href="https://maps.apple.com/?daddr='+q+'" target="_blank" rel="noopener">🍎 Apple Maps</a>'+
+      '<a class="bp-pop-btn wz" href="https://waze.com/ul?ll='+q+'&navigate=yes" target="_blank" rel="noopener">🚗 Waze</a>'+
+      (r[6]?'<a class="bp-pop-btn call" href="tel:'+esc(r[6].replace(/[^\d+]/g,''))+'">📞 Call</a>':'<span></span>')+
     '</div></div>';
 }
 
 function indiePopup(p){
-  var open = (p.tags||[]).indexOf('h24')>=0 ? {label:'24-Hour', cls:'bp-b-24'} :
-    ((p.tags||[]).indexOf('allday')>=0 ? {label:'All-Day', cls:'bp-b-allday'} :
-    (nowMinutes()>=parseHM(p.s) && nowMinutes()<parseHM(p.e) ? {label:'Serving now', cls:'bp-b-open'} : {label:'Ended '+fmtTime(parseHM(p.e)), cls:'bp-b-closed'}));
-  var q = p.lat+','+p.lng;
-  var favKey = 'i|'+p.n+'|'+p.lat;
-  var fav = FAVS.has(favKey);
+  var open=(p.tags||[]).indexOf('h24')>=0?{label:'24-Hour',cls:'bp-b-24'}:((p.tags||[]).indexOf('allday')>=0?{label:'All-Day',cls:'bp-b-allday'}:(nowMins()>=parseHM(p.s)&&nowMins()<parseHM(p.e)?{label:'Serving now',cls:'bp-b-open'}:{label:'Ended '+fmt12(parseHM(p.e)),cls:'bp-b-closed'}));
+  var q=p.lat+','+p.lng,favKey='i|'+p.n+'|'+p.lat,fav=FAVS.has(favKey);
   return '<div class="bp-pop">'+
     '<h4>'+esc(p.n)+'</h4>'+
-    '<button class="bp-pop-fav '+(fav?'on':'')+'" data-fav="'+esc(favKey)+'">'+(fav?'❤':'♡')+'</button>'+
+    '<button class="bp-pop-fav '+(fav?'on':'')+'" data-fav="'+esc(favKey)+'">'+(fav?'♥':'♡')+'</button>'+
     '<div class="bp-pop-rate">★ '+(p.rt||'—')+' · '+(p.rv||0).toLocaleString()+' reviews · '+esc(p.pr||'$$')+'</div>'+
     '<span class="bp-pop-badge '+open.cls+'">'+esc(open.label)+'</span>'+
     '<div class="bp-pop-line"><b>📍</b> '+esc(p.ad)+', '+esc(p.c)+'</div>'+
-    '<div class="bp-pop-line"><b>🕐</b> '+fmtTime(parseHM(p.s))+' – '+fmtTime(parseHM(p.e))+'</div>'+
+    '<div class="bp-pop-line"><b>🕐</b> '+fmt12(parseHM(p.s))+' – '+fmt12(parseHM(p.e))+'</div>'+
     '<div class="bp-pop-line"><b>🍳</b> '+esc(p.sig)+'</div>'+
     (p.ph?'<div class="bp-pop-line"><b>📞</b> <a href="tel:'+esc(p.ph.replace(/[^\d+]/g,''))+'">'+esc(p.ph)+'</a></div>':'')+
     '<div class="bp-pop-btns">'+
-      '<a class="bp-pop-btn" href="https://www.google.com/maps/dir/?api=1&destination='+q+'" target="_blank" rel="noopener">🧭 Google</a>'+
-      '<a class="bp-pop-btn d" href="https://maps.apple.com/?daddr='+q+'" target="_blank" rel="noopener">🍎 Apple</a>'+
-      '<a class="bp-pop-btn d" href="https://waze.com/ul?ll='+q+'&navigate=yes" target="_blank" rel="noopener">🚗 Waze</a>'+
+      '<a class="bp-pop-btn gm" href="https://www.google.com/maps/dir/?api=1&destination='+q+'" target="_blank" rel="noopener">🧭 Google Maps</a>'+
+      '<a class="bp-pop-btn am" href="https://maps.apple.com/?daddr='+q+'" target="_blank" rel="noopener">🍎 Apple Maps</a>'+
+      '<a class="bp-pop-btn wz" href="https://waze.com/ul?ll='+q+'&navigate=yes" target="_blank" rel="noopener">🚗 Waze</a>'+
+      (p.ph?'<a class="bp-pop-btn call" href="tel:'+esc(p.ph.replace(/[^\d+]/g,''))+'">📞 Call</a>':'<span></span>')+
     '</div></div>';
 }
 
-// Render all markers (chunked, cluster handles large sets)
+function scheduleRender(){if(RENDER_TIMER)clearTimeout(RENDER_TIMER);RENDER_TIMER=setTimeout(renderMap,50);}
+
 function renderMap(){
-  if(!CLUSTER) return;
+  if(!CLUSTER)return;
   CLUSTER.clearLayers();
-  var markers = [];
-  // Indies
+  var markers=[];
   INDIES.forEach(function(p){
-    if(!matchesFilter(p)) return;
-    var ico = makeIcon('#F97316','#FFF7ED');
-    var m = L.marker([p.lat,p.lng], {icon:ico}); m.bindPopup(indiePopup(p), {maxWidth:340}); markers.push(m);
+    if(!matchesFilter(p))return;
+    var mk=L.marker([p.lat,p.lng],{icon:makeIcon('#F97316','#FFF7ED')});
+    mk.bindPopup(indiePopup(p),{maxWidth:340});
+    markers.push(mk);
   });
-  // Chains: iterate active brands
   ACTIVE_BRANDS.forEach(function(slug){
-    var bd = BRAND_DATA[slug]; if(!bd) return;
-    var meta = INDEX.brands.find(function(x){return x.slug===slug;});
-    var color = meta.color || '#F97316';
-    var st = chainStatus(meta);
-    var ring = st.state==='yes' ? (meta.h24?'#EDE9FE':(meta.allDay?'#DBEAFE':'#DCFCE7')) : '#FEE2E2';
-    var ico = makeIcon(color, ring);
+    var bd=BRAND_DATA[slug];if(!bd)return;
+    var meta=INDEX.brands.find(function(x){return x.slug===slug;});
+    var color=meta.color||'#F97316';
+    var st=chainStatus(meta);
+    var ring=st.state==='yes'?(meta.h24?'#EDE9FE':(meta.allDay?'#DBEAFE':'#DCFCE7')):'#FEE2E2';
+    var ico=makeIcon(color,ring);
     bd.r.forEach(function(row){
-      var item = {chain:true, brand:slug, row:row, meta:meta};
-      if(!matchesFilter(item)) return;
-      var mk = L.marker([row[0], row[1]], {icon:ico});
-      mk.bindPopup(chainPopup(item), {maxWidth:340});
+      var item={chain:true,brand:slug,row:row,meta:meta};
+      if(!matchesFilter(item))return;
+      var mk=L.marker([row[0],row[1]],{icon:ico});
+      mk.bindPopup(chainPopup(item),{maxWidth:340});
       markers.push(mk);
     });
   });
-  CLUSTER.addLayers(markers);
+  // Batch add for performance
+  CLUSTER.addLayers(markers,{chunkedLoading:true});
   updateCounters();
 }
 
 function updateCounters(){
-  var shown = 0, serving = 0;
-  // Count visible markers using our filter logic (matches what's in cluster)
-  INDIES.forEach(function(p){
-    if(!matchesFilter(p)) return;
-    shown++;
-    var tags = p.tags||[];
-    if(tags.indexOf('h24')>=0 || tags.indexOf('allday')>=0 || (nowMinutes()>=parseHM(p.s) && nowMinutes()<parseHM(p.e))) serving++;
-  });
+  var shown=0,serving=0;
+  INDIES.forEach(function(p){if(!matchesFilter(p))return;shown++;var t=p.tags||[];if(t.indexOf('h24')>=0||t.indexOf('allday')>=0||(nowMins()>=parseHM(p.s)&&nowMins()<parseHM(p.e)))serving++;});
   ACTIVE_BRANDS.forEach(function(slug){
-    var bd = BRAND_DATA[slug]; if(!bd) return;
-    var meta = INDEX.brands.find(function(x){return x.slug===slug;});
-    var isOn = chainStatus(meta).state==='yes';
-    bd.r.forEach(function(row){
-      if(!matchesFilter({chain:true, brand:slug, row:row, meta:meta})) return;
-      shown++;
-      if(isOn) serving++;
-    });
+    var bd=BRAND_DATA[slug];if(!bd)return;
+    var meta=INDEX.brands.find(function(x){return x.slug===slug;});
+    var isOn=chainStatus(meta).state==='yes';
+    bd.r.forEach(function(row){if(!matchesFilter({chain:true,brand:slug,row:row,meta:meta}))return;shown++;if(isOn)serving++;});
   });
-  document.getElementById('bp-cnt-shown').textContent = shown.toLocaleString();
-  document.getElementById('bp-cnt-serving').textContent = serving.toLocaleString();
+  document.getElementById('bp-cnt-shown').textContent=shown.toLocaleString();
+  document.getElementById('bp-cnt-serving').textContent=serving.toLocaleString();
 }
 
 function startClock(){
-  var el = document.getElementById('bp-clock');
-  function tick(){ var d=new Date(); el.textContent = pad(d.getHours())+':'+pad(d.getMinutes()); }
-  tick(); setInterval(tick, 30000);
-  // Refresh live status every minute
-  setInterval(function(){ renderChainTable(); renderMap(); }, 60000);
+  var el=document.getElementById('bp-clock');
+  function tick(){el.textContent=fmtClock();}
+  tick();setInterval(tick,30000);
+  setInterval(function(){renderChainTable();scheduleRender();},60000);
 }
 
-// Search geocode (Nominatim, free, rate-limited)
 function geocode(q){
   return fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q='+encodeURIComponent(q))
     .then(function(r){return r.json();})
-    .then(function(a){ if(!a.length) throw new Error('No results'); return [+a[0].lat, +a[0].lon]; });
+    .then(function(a){if(!a.length)throw new Error('No results');return [+a[0].lat,+a[0].lon];});
 }
 
 function setUserLL(ll){
-  USER_LL = ll;
-  if(USER_MARKER) MAP.removeLayer(USER_MARKER);
-  USER_MARKER = L.circleMarker(ll, {radius:9, color:'#1C1917', fillColor:'#F97316', fillOpacity:1, weight:3}).addTo(MAP).bindPopup('📍 Your location');
-  MAP.setView(ll, 12);
-  renderMap();
+  USER_LL=ll;
+  if(USER_MARKER)MAP.removeLayer(USER_MARKER);
+  USER_MARKER=L.circleMarker(ll,{radius:9,color:'#1C1917',fillColor:'#F97316',fillOpacity:1,weight:3}).addTo(MAP).bindPopup('📍 Your location');
+  MAP.setView(ll,11);
+  scheduleRender();
 }
 
-// Brand modal — list all locations for a brand
 function openBrandModal(slug){
-  var modal = document.getElementById('bp-brand-modal');
-  var meta = INDEX.brands.find(function(x){return x.slug===slug;});
-  document.getElementById('bp-brand-modal-title').innerHTML = esc(meta.name) + ' — <span style="color:#F97316">'+meta.count.toLocaleString()+' verified US locations</span>';
-  document.getElementById('bp-brand-modal-meta').innerHTML = '🍳 <b>'+esc(meta.sig||'')+'</b> · '+esc(meta.price||'')+' · '+(meta.allDay?'All-day breakfast':(meta.h24?'24 hours':'Until '+fmtTime(parseHM(meta.end))));
-  var list = document.getElementById('bp-brand-modal-list');
-  list.innerHTML = '<div style="padding:20px;text-align:center;color:#78716C"><span class="bp-loader"></span>Loading all '+meta.count.toLocaleString()+' locations…</div>';
+  var modal=document.getElementById('bp-brand-modal');
+  var meta=INDEX.brands.find(function(x){return x.slug===slug;});
+  document.getElementById('bp-brand-modal-title').innerHTML=esc(meta.name)+' — <span style="color:#F97316">'+meta.count.toLocaleString()+' verified US locations</span>';
+  document.getElementById('bp-brand-modal-meta').innerHTML='🍳 <b>'+esc(meta.sig||'')+'</b> · '+esc(meta.price||'')+' · '+(meta.allDay?'Breakfast all day':(meta.h24?'Open 24 hours':'Until '+fmt12(parseHM(meta.end))+' (weekday), '+(meta.wend?fmt12(parseHM(meta.wend))+' (weekend)':fmt12(parseHM(meta.end))+' (weekend)')));
+  var list=document.getElementById('bp-brand-modal-list');
+  list.innerHTML='<div style="padding:20px;text-align:center;color:#78716C"><span class="bp-loader"></span>Loading all '+meta.count.toLocaleString()+' locations…</div>';
   modal.classList.add('on');
   ensureBrand(slug).then(function(bd){
-    renderBrandModalList(bd, meta);
-    document.getElementById('bp-brand-modal-filter').oninput = function(e){ renderBrandModalList(bd, meta, e.target.value.toLowerCase()); };
+    renderBrandModalList(bd,meta);
+    document.getElementById('bp-brand-modal-filter').oninput=function(e){renderBrandModalList(bd,meta,e.target.value.toLowerCase());};
   });
 }
 
-function renderBrandModalList(bd, meta, filter){
-  var list = document.getElementById('bp-brand-modal-list');
-  var rows = bd.r;
-  if(filter){
-    rows = rows.filter(function(r){ return (r[2]+' '+r[3]+' '+r[4]+' '+r[5]).toLowerCase().indexOf(filter)>=0; });
-  }
-  var top = rows.slice(0, 500); // cap render for perf
-  list.innerHTML = top.map(function(r){
-    var addr = [r[2], r[3], r[4], r[5]].filter(Boolean).join(', ') || 'Address not published';
-    var q = r[0]+','+r[1];
+function renderBrandModalList(bd,meta,filter){
+  var list=document.getElementById('bp-brand-modal-list');
+  // Only show entries with an address AND a city (skip bare-coord pins)
+  var rows=bd.r.filter(function(r){return r[2]&&r[3];});
+  if(filter){rows=rows.filter(function(r){return (r[2]+' '+r[3]+' '+r[4]+' '+r[5]).toLowerCase().indexOf(filter)>=0;});}
+  var top=rows.slice(0,300);
+  list.innerHTML=top.map(function(r){
+    var addr=[r[2],r[3]+', '+r[4]+' '+r[5]].filter(Boolean).join(' · ');
+    var q=r[0]+','+r[1];
+    var hrs=r[7]?humanHours(r[7]):'';
     return '<div class="bp-brand-loc-item">'+
-      '<div><b>'+esc(r[3]||'—')+', '+esc(r[4]||'')+'</b><br><span style="color:#57534E;font-size:12px">'+esc(addr)+'</span>'+(r[6]?'<br><span style="color:#F97316;font-size:12px">📞 '+esc(r[6])+'</span>':'')+(r[7]?'<br><span style="color:#57534E;font-size:11px">🕐 '+esc(r[7])+'</span>':'')+'</div>'+
+      '<div style="flex:1;min-width:0"><b>'+esc(r[3]||'—')+', '+esc(r[4]||'')+'</b>'+
+        '<div style="color:#57534E;font-size:12px;margin-top:2px">'+esc(addr)+'</div>'+
+        (r[6]?'<div style="color:#F97316;font-size:12px;margin-top:2px">📞 '+esc(r[6])+'</div>':'')+
+        (hrs?'<div style="color:#57534E;font-size:11px;margin-top:2px">🕐 '+esc(hrs)+'</div>':'')+
+      '</div>'+
       '<div class="bp-loc-btns">'+
-        '<a href="https://www.google.com/maps/dir/?api=1&destination='+q+'" target="_blank" rel="noopener">Directions</a>'+
+        '<a href="https://www.google.com/maps/dir/?api=1&destination='+q+'" target="_blank" rel="noopener">🧭 Directions</a>'+
+        (r[6]?'<a class="call-btn" href="tel:'+esc(r[6].replace(/[^\d+]/g,''))+'">📞 Call</a>':'')+
       '</div>'+
     '</div>';
-  }).join('') + (rows.length > 500 ? '<div style="text-align:center;color:#78716C;padding:8px;font-size:12px">…and '+(rows.length-500).toLocaleString()+' more. Use the filter box to narrow.</div>' : '');
+  }).join('')+(rows.length>300?'<div style="text-align:center;color:#78716C;padding:8px;font-size:12px">…and '+(rows.length-300).toLocaleString()+' more. Use the filter box above to narrow.</div>':(rows.length===0?'<div style="text-align:center;color:#78716C;padding:16px">No matching locations found.</div>':''));
 }
 
-// Trip planner (Haversine detour, no external API)
 function runTrip(){
-  var out = document.getElementById('bp-trip-results');
-  var startQ = document.getElementById('bp-trip-start').value.trim();
-  var endQ = document.getElementById('bp-trip-end').value.trim();
-  var detour = +document.getElementById('bp-trip-detour').value;
-  if(!startQ || !endQ){ out.innerHTML = '<div style="color:#EF4444">Enter both start and end.</div>'; return; }
-  out.innerHTML = '<div><span class="bp-loader"></span>Geocoding cities…</div>';
-  Promise.all([geocode(startQ), geocode(endQ)]).then(function(pts){
-    var A = pts[0], B = pts[1];
-    var candidates = [];
-    // Include indies + any loaded chain rows
-    INDIES.forEach(function(p){ candidates.push({name:p.n, city:p.c, lat:p.lat, lng:p.lng, kind:'indie'}); });
+  var out=document.getElementById('bp-trip-results');
+  var s=document.getElementById('bp-trip-start').value.trim();
+  var e=document.getElementById('bp-trip-end').value.trim();
+  var d=+document.getElementById('bp-trip-detour').value;
+  if(!s||!e){out.innerHTML='<div style="color:#EF4444">Enter both start and end.</div>';return;}
+  out.innerHTML='<div><span class="bp-loader"></span>Geocoding cities…</div>';
+  Promise.all([geocode(s),geocode(e)]).then(function(pts){
+    var A=pts[0],B=pts[1],cand=[];
+    INDIES.forEach(function(p){cand.push({name:p.n,city:p.c,lat:p.lat,lng:p.lng});});
     ACTIVE_BRANDS.forEach(function(slug){
-      var bd = BRAND_DATA[slug]; if(!bd) return;
-      var meta = INDEX.brands.find(function(x){return x.slug===slug;});
-      bd.r.forEach(function(r){ candidates.push({name:meta.name, city:(r[3]||'')+', '+(r[4]||''), lat:r[0], lng:r[1], kind:'chain'}); });
+      var bd=BRAND_DATA[slug];if(!bd)return;
+      var meta=INDEX.brands.find(function(x){return x.slug===slug;});
+      bd.r.forEach(function(r){cand.push({name:meta.name,city:(r[3]||'')+', '+(r[4]||''),lat:r[0],lng:r[1]});});
     });
-    // Perpendicular distance from segment A-B via cross-track
-    function detourMi(P){
-      var d13 = hav(A[0],A[1],P.lat,P.lng);
-      var d12 = hav(A[0],A[1],B[0],B[1]);
-      // approximate cross-track using simple linear interpolation (good for <500mi)
-      var t = ((P.lat-A[0])*(B[0]-A[0]) + (P.lng-A[1])*(B[1]-A[1])) / (Math.pow(B[0]-A[0],2)+Math.pow(B[1]-A[1],2));
-      if(t < 0 || t > 1) return 9999;
-      var projLat = A[0] + t*(B[0]-A[0]);
-      var projLng = A[1] + t*(B[1]-A[1]);
-      return hav(P.lat,P.lng,projLat,projLng);
+    function detour(P){
+      var d12=hav(A[0],A[1],B[0],B[1]);if(d12<1)return 9999;
+      var t=((P.lat-A[0])*(B[0]-A[0])+(P.lng-A[1])*(B[1]-A[1]))/(Math.pow(B[0]-A[0],2)+Math.pow(B[1]-A[1],2));
+      if(t<0||t>1)return 9999;
+      var pLat=A[0]+t*(B[0]-A[0]),pLng=A[1]+t*(B[1]-A[1]);
+      return hav(P.lat,P.lng,pLat,pLng);
     }
-    var hits = candidates.map(function(c){ c.d = detourMi(c); return c; }).filter(function(c){ return c.d <= detour; }).sort(function(a,b){return a.d - b.d;}).slice(0,15);
-    if(!hits.length){ out.innerHTML = '<div style="color:#57534E">No stops within '+detour+' miles of that route. Turn on more brand chips above and try again.</div>'; return; }
-    out.innerHTML = hits.map(function(c){ return '<div class="bp-trip-item"><span><b>'+esc(c.name)+'</b><br><span style="color:#57534E;font-size:12px">'+esc(c.city)+' · '+c.d.toFixed(1)+' mi detour</span></span><a class="bp-pop-btn" href="https://www.google.com/maps/dir/?api=1&destination='+c.lat+','+c.lng+'" target="_blank">Go</a></div>'; }).join('');
-  }).catch(function(e){ out.innerHTML = '<div style="color:#EF4444">Geocode failed: '+esc(e.message)+'</div>'; });
+    var hits=cand.map(function(c){c.d=detour(c);return c;}).filter(function(c){return c.d<=d;}).sort(function(a,b){return a.d-b.d;}).slice(0,15);
+    if(!hits.length){out.innerHTML='<div style="color:#57534E">No stops within '+d+' miles of that route. Turn on more brand chips above and try again.</div>';return;}
+    out.innerHTML=hits.map(function(c){return '<div class="bp-trip-item"><span><b>'+esc(c.name)+'</b><br><span style="color:#57534E;font-size:12px">'+esc(c.city)+' · '+c.d.toFixed(1)+' mi detour</span></span><a class="bp-pop-btn gm" href="https://www.google.com/maps/dir/?api=1&destination='+c.lat+','+c.lng+'" target="_blank">Go</a></div>';}).join('');
+  }).catch(function(err){out.innerHTML='<div style="color:#EF4444">Geocode failed: '+esc(err.message)+'</div>';});
 }
 
-// Wire everything
 function wireControls(){
-  // Filter chips
   document.querySelectorAll('#bp-filters-status .bp-fchip').forEach(function(el){
-    el.addEventListener('click', function(){
-      var f = el.dataset.f;
-      if(STATUS_FILTERS.has(f)){ STATUS_FILTERS.delete(f); el.classList.remove('on'); }
-      else { STATUS_FILTERS.add(f); el.classList.add('on'); }
-      renderMap();
-    });
+    el.addEventListener('click',function(){var f=el.dataset.f;if(STATUS_FILTERS.has(f)){STATUS_FILTERS.delete(f);el.classList.remove('on');}else{STATUS_FILTERS.add(f);el.classList.add('on');}scheduleRender();});
   });
   document.querySelectorAll('#bp-filters-cuisine .bp-fchip').forEach(function(el){
-    el.addEventListener('click', function(){
-      document.querySelectorAll('#bp-filters-cuisine .bp-fchip').forEach(function(x){x.classList.remove('on-dark');});
-      el.classList.add('on-dark'); CUISINE = el.dataset.c; renderMap();
-    });
+    el.addEventListener('click',function(){document.querySelectorAll('#bp-filters-cuisine .bp-fchip').forEach(function(x){x.classList.remove('on-dark');});el.classList.add('on-dark');CUISINE=el.dataset.c;scheduleRender();});
   });
-  document.getElementById('bp-layer').addEventListener('change', function(e){ LAYER_MODE = e.target.value; renderMap(); });
-  document.getElementById('bp-sort').addEventListener('change', function(e){ SORT_MODE = e.target.value; renderMap(); });
-  document.getElementById('bp-radius').addEventListener('input', function(e){
-    RADIUS_MI = +e.target.value; document.getElementById('bp-radius-lbl').textContent = RADIUS_MI+' mi'; renderMap();
-  });
-  document.getElementById('bp-btn-clear').addEventListener('click', function(){
-    STATUS_FILTERS = new Set(['serving']); CUISINE='all'; LAYER_MODE='all'; RADIUS_MI=25;
-    document.getElementById('bp-radius').value=25; document.getElementById('bp-radius-lbl').textContent='25 mi';
+  document.getElementById('bp-layer').addEventListener('change',function(e){LAYER_MODE=e.target.value;scheduleRender();});
+  document.getElementById('bp-sort').addEventListener('change',function(e){SORT_MODE=e.target.value;scheduleRender();});
+  document.getElementById('bp-radius').addEventListener('input',function(e){RADIUS_MI=+e.target.value;document.getElementById('bp-radius-lbl').textContent=RADIUS_MI+' mi';scheduleRender();});
+  document.getElementById('bp-btn-clear').addEventListener('click',function(){
+    STATUS_FILTERS=new Set();CUISINE='all';LAYER_MODE='all';RADIUS_MI=25;
+    document.getElementById('bp-radius').value=25;document.getElementById('bp-radius-lbl').textContent='25 mi';
     document.getElementById('bp-layer').value='all';
-    document.querySelectorAll('#bp-filters-status .bp-fchip').forEach(function(x){x.classList.toggle('on', x.dataset.f==='serving');});
-    document.querySelectorAll('#bp-filters-cuisine .bp-fchip').forEach(function(x){x.classList.toggle('on-dark', x.dataset.c==='all');});
-    renderMap();
+    document.querySelectorAll('#bp-filters-status .bp-fchip').forEach(function(x){x.classList.remove('on');});
+    document.querySelectorAll('#bp-filters-cuisine .bp-fchip').forEach(function(x){x.classList.toggle('on-dark',x.dataset.c==='all');});
+    scheduleRender();
   });
-  document.getElementById('bp-btn-geo').addEventListener('click', function(){
-    if(!navigator.geolocation){ alert('Geolocation not supported'); return; }
-    navigator.geolocation.getCurrentPosition(function(pos){ setUserLL([pos.coords.latitude, pos.coords.longitude]); }, function(e){ alert('Location denied: '+e.message); });
+  document.getElementById('bp-btn-geo').addEventListener('click',function(){
+    if(!navigator.geolocation){alert('Geolocation not supported');return;}
+    navigator.geolocation.getCurrentPosition(function(pos){setUserLL([pos.coords.latitude,pos.coords.longitude]);},function(e){alert('Location denied: '+e.message);});
   });
-  document.getElementById('bp-btn-search').addEventListener('click', function(){
-    var q = document.getElementById('bp-loc-input').value.trim(); if(!q) return;
-    geocode(q).then(setUserLL).catch(function(e){ alert('Search failed: '+e.message); });
-  });
-  document.getElementById('bp-loc-input').addEventListener('keydown', function(e){ if(e.key==='Enter') document.getElementById('bp-btn-search').click(); });
-  document.getElementById('bp-btn-fs').addEventListener('click', function(){
-    var el = document.getElementById('bp-map'); if(!document.fullscreenElement) el.requestFullscreen(); else document.exitFullscreen();
-    setTimeout(function(){ MAP.invalidateSize(); }, 300);
-  });
-  document.getElementById('bp-btn-trip').addEventListener('click', function(){ document.getElementById('bp-trip-modal').classList.add('on'); });
-  document.getElementById('bp-trip-go').addEventListener('click', runTrip);
-  document.querySelectorAll('[data-close]').forEach(function(el){ el.addEventListener('click', function(){ el.closest('.bp-modal').classList.remove('on'); }); });
-  // Modal click-outside to close
-  document.querySelectorAll('.bp-modal').forEach(function(m){ m.addEventListener('click', function(e){ if(e.target===m) m.classList.remove('on'); }); });
-  // Brand batch buttons
-  document.getElementById('bp-b-top5').addEventListener('click', function(){
-    var top = INDEX.brands.slice().sort(function(a,b){return b.count-a.count;}).slice(0,5);
-    top.forEach(function(b){ if(!ACTIVE_BRANDS.has(b.slug)) toggleBrand(b.slug); });
-  });
-  document.getElementById('bp-b-all').addEventListener('click', function(){
-    if(!confirm('Loading all 32 brands = ~93,037 pins. This may take a moment on slower connections. Continue?')) return;
-    INDEX.brands.forEach(function(b){ if(!ACTIVE_BRANDS.has(b.slug)) toggleBrand(b.slug); });
-  });
-  document.getElementById('bp-b-none').addEventListener('click', function(){
-    Array.from(ACTIVE_BRANDS).forEach(function(slug){ toggleBrand(slug); });
-  });
-  // Delegate popup favorite toggle
-  document.body.addEventListener('click', function(e){
-    var t = e.target;
-    if(t && t.dataset && t.dataset.fav){
-      var k = t.dataset.fav;
-      if(FAVS.has(k)){ FAVS.delete(k); t.classList.remove('on'); t.textContent='♡'; }
-      else { FAVS.add(k); t.classList.add('on'); t.textContent='❤'; }
-      saveFavs();
-    }
+  document.getElementById('bp-btn-search').addEventListener('click',function(){var q=document.getElementById('bp-loc-input').value.trim();if(!q)return;geocode(q).then(setUserLL).catch(function(e){alert('Search failed: '+e.message);});});
+  document.getElementById('bp-loc-input').addEventListener('keydown',function(e){if(e.key==='Enter')document.getElementById('bp-btn-search').click();});
+  document.getElementById('bp-btn-fs').addEventListener('click',function(){var el=document.getElementById('bp-map');if(!document.fullscreenElement){if(el.requestFullscreen)el.requestFullscreen();}else{document.exitFullscreen();}setTimeout(function(){MAP.invalidateSize();},300);});
+  document.getElementById('bp-btn-trip').addEventListener('click',function(){document.getElementById('bp-trip-modal').classList.add('on');});
+  document.getElementById('bp-trip-go').addEventListener('click',runTrip);
+  document.querySelectorAll('[data-close]').forEach(function(el){el.addEventListener('click',function(){el.closest('.bp-modal').classList.remove('on');});});
+  document.querySelectorAll('.bp-modal').forEach(function(m){m.addEventListener('click',function(e){if(e.target===m)m.classList.remove('on');});});
+  document.getElementById('bp-b-top5').addEventListener('click',function(){var top=INDEX.brands.slice().sort(function(a,b){return b.count-a.count;}).slice(0,5);top.forEach(function(b){if(!ACTIVE_BRANDS.has(b.slug))toggleBrand(b.slug);});});
+  document.getElementById('bp-b-all').addEventListener('click',loadAllBrands);
+  document.getElementById('bp-b-none').addEventListener('click',function(){Array.from(ACTIVE_BRANDS).forEach(function(slug){toggleBrand(slug);});});
+  document.body.addEventListener('click',function(e){
+    var t=e.target;
+    if(t&&t.dataset&&t.dataset.fav){var k=t.dataset.fav;if(FAVS.has(k)){FAVS.delete(k);t.classList.remove('on');t.textContent='♡';}else{FAVS.add(k);t.classList.add('on');t.textContent='♥';}saveFavs();}
   });
 }
 
-// Kick off after Leaflet is ready
-function waitLeaflet(){
-  if(typeof L === 'undefined' || typeof L.markerClusterGroup === 'undefined'){ return setTimeout(waitLeaflet, 100); }
-  boot();
+// Load All — chunked with progress bar, non-blocking
+function loadAllBrands(){
+  var pending=INDEX.brands.filter(function(b){return !ACTIVE_BRANDS.has(b.slug);});
+  if(!pending.length)return;
+  var prog=document.getElementById('bp-progress'),bar=document.getElementById('bp-progress-bar');
+  prog.classList.add('on');
+  var done=0;
+  function step(){
+    if(!pending.length){
+      bar.style.width='100%';
+      setTimeout(function(){prog.classList.remove('on');bar.style.width='0%';},600);
+      return;
+    }
+    var batch=pending.splice(0,3); // 3 brands at a time
+    var chips=[];
+    batch.forEach(function(b){
+      ACTIVE_BRANDS.add(b.slug);
+      var chip=document.querySelector('[data-brand="'+b.slug+'"].bp-bchip');
+      if(chip){chip.classList.add('on');var sp=chip.querySelector('.bp-cn');if(sp)sp.textContent='loading…';chips.push({chip:chip,brand:b});}
+    });
+    Promise.all(batch.map(function(b){return ensureBrand(b.slug);})).then(function(){
+      chips.forEach(function(c){var sp=c.chip.querySelector('.bp-cn');if(sp)sp.textContent=c.brand.count.toLocaleString();});
+      done+=batch.length;
+      bar.style.width=(done/(done+pending.length)*100).toFixed(0)+'%';
+      updateBrandStatus();
+      // Render partway so user sees progress
+      scheduleRender();
+      renderCityGrid();
+      requestAnimationFrame(step);
+    });
+  }
+  requestAnimationFrame(step);
 }
-if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', waitLeaflet); else waitLeaflet();
+
+function waitLeaflet(){if(typeof L==='undefined'||typeof L.markerClusterGroup==='undefined'){return setTimeout(waitLeaflet,100);}boot();}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',waitLeaflet);else waitLeaflet();
 })();
 </script>
 </body>
