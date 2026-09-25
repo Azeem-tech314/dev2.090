@@ -1,16 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!-- ============================================================ 
+     BREAKFAST PLACES v3.2 - WordPress / Elementor single-file version 
+     Paste this entire block into an Elementor HTML widget, a Gutenberg 
+     "Custom HTML" block, or a "Text" widget with HTML enabled. 
+     Data loads live from a public CDN - no FTP, no folder upload. 
+     ============================================================ -->
+
 <meta name="theme-color" content="#F97316">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<title>Breakfast Places Near Me: 82,611 Real USA Locations Mapped | BreakfastPlaces.us</title>
-<meta name="description" content="Every USA breakfast place mapped: 32 chains (82,611 verified locations) plus 130 hand-picked independent diners with live serving status, addresses, hours, and directions. Free.">
-<meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
-<meta name="googlebot" content="noindex,nofollow">
-<meta name="bingbot" content="noindex,nofollow">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
@@ -172,46 +167,46 @@
 @keyframes bpSpin{to{transform:rotate(360deg)}}
 /* MOBILE — app-like feel */
 @media (max-width:900px){
-  #bp-home h1,#bp-home .bp-hero h1{font-size:30px!important}
-  #bp-home h2{font-size:24px!important}
-  #bp-home .bp-grid-4{grid-template-columns:repeat(2,1fr)!important}
-  #bp-home .bp-grid-3{grid-template-columns:repeat(2,1fr)!important}
-  #bp-home .bp-trust{grid-template-columns:repeat(2,1fr)!important}
-  #bp-home #bp-map{height:500px!important}
-  #bp-home .bp-brands-scroll{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))!important;max-height:180px!important}
+#bp-home h1,#bp-home .bp-hero h1{font-size:30px!important}
+#bp-home h2{font-size:24px!important}
+#bp-home .bp-grid-4{grid-template-columns:repeat(2,1fr)!important}
+#bp-home .bp-grid-3{grid-template-columns:repeat(2,1fr)!important}
+#bp-home .bp-trust{grid-template-columns:repeat(2,1fr)!important}
+#bp-home #bp-map{height:500px!important}
+#bp-home .bp-brands-scroll{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))!important;max-height:180px!important}
 }
 @media (max-width:600px){
-  #bp-home{padding:0 10px!important}
-  #bp-home h1,#bp-home .bp-hero h1{font-size:26px!important}
-  #bp-home h2{font-size:20px!important;margin-top:32px!important}
-  #bp-home .bp-hero{padding:28px 18px!important}
-  #bp-home .bp-hero .bp-tag{font-size:15px!important}
-  #bp-home .bp-tool-head{flex-direction:column;align-items:flex-start!important}
-  #bp-home .bp-filter-row{overflow-x:auto;flex-wrap:nowrap!important;padding-bottom:8px!important;margin:0 -4px 8px!important;padding-left:4px!important;-webkit-overflow-scrolling:touch}
-  #bp-home .bp-fchip{flex-shrink:0!important;white-space:nowrap!important}
-  #bp-home #bp-map{height:60vh!important;min-height:400px!important}
-  #bp-home .bp-grid-3,#bp-home .bp-grid-4{grid-template-columns:1fr!important}
-  #bp-home table{font-size:13px!important;display:block!important;overflow-x:auto!important;-webkit-overflow-scrolling:touch}
-  #bp-home th,#bp-home td{padding:8px 10px!important;white-space:nowrap!important}
-  #bp-home .bp-trust{grid-template-columns:1fr 1fr!important;padding:14px!important}
-  #bp-home .bp-inputrow{gap:6px!important}
-  #bp-home .bp-inputrow input[type=text]{min-width:100%!important;font-size:16px!important}
-  #bp-home .bp-inputrow .bp-btn{flex:1!important;justify-content:center!important;font-size:13px!important;padding:10px 12px!important}
-  #bp-home .bp-brands-scroll{grid-template-columns:1fr 1fr!important;max-height:160px!important}
-  #bp-home .bp-brands-hdr{font-size:11px!important}
-  #bp-home .bp-toolbar-two{padding:10px!important;gap:6px!important}
-  #bp-home .bp-toolbar-two select{font-size:13px!important;padding:6px 8px!important}
-  #bp-home .bp-count{font-size:13px!important;padding:12px!important}
-  #bp-home .bp-modal{padding:0!important}
-  #bp-home .bp-modal.on{align-items:stretch!important}
-  #bp-home .bp-modal-inner{margin-top:0!important;border-radius:0!important;max-height:100vh!important;padding:16px!important}
-  #bp-home .bp-brand-loc-item{flex-direction:column;align-items:stretch}
-  #bp-home .bp-brand-loc-item .bp-loc-btns{flex-direction:row}
-  #bp-home .bp-brand-loc-item .bp-loc-btns a{flex:1}
+#bp-home{padding:0 10px!important}
+#bp-home h1,#bp-home .bp-hero h1{font-size:26px!important}
+#bp-home h2{font-size:20px!important;margin-top:32px!important}
+#bp-home .bp-hero{padding:28px 18px!important}
+#bp-home .bp-hero .bp-tag{font-size:15px!important}
+#bp-home .bp-tool-head{flex-direction:column;align-items:flex-start!important}
+#bp-home .bp-filter-row{overflow-x:auto;flex-wrap:nowrap!important;padding-bottom:8px!important;margin:0 -4px 8px!important;padding-left:4px!important;-webkit-overflow-scrolling:touch}
+#bp-home .bp-fchip{flex-shrink:0!important;white-space:nowrap!important}
+#bp-home #bp-map{height:60vh!important;min-height:400px!important}
+#bp-home .bp-grid-3,#bp-home .bp-grid-4{grid-template-columns:1fr!important}
+#bp-home table{font-size:13px!important;display:block!important;overflow-x:auto!important;-webkit-overflow-scrolling:touch}
+#bp-home th,#bp-home td{padding:8px 10px!important;white-space:nowrap!important}
+#bp-home .bp-trust{grid-template-columns:1fr 1fr!important;padding:14px!important}
+#bp-home .bp-inputrow{gap:6px!important}
+#bp-home .bp-inputrow input[type=text]{min-width:100%!important;font-size:16px!important}
+#bp-home .bp-inputrow .bp-btn{flex:1!important;justify-content:center!important;font-size:13px!important;padding:10px 12px!important}
+#bp-home .bp-brands-scroll{grid-template-columns:1fr 1fr!important;max-height:160px!important}
+#bp-home .bp-brands-hdr{font-size:11px!important}
+#bp-home .bp-toolbar-two{padding:10px!important;gap:6px!important}
+#bp-home .bp-toolbar-two select{font-size:13px!important;padding:6px 8px!important}
+#bp-home .bp-count{font-size:13px!important;padding:12px!important}
+#bp-home .bp-modal{padding:0!important}
+#bp-home .bp-modal.on{align-items:stretch!important}
+#bp-home .bp-modal-inner{margin-top:0!important;border-radius:0!important;max-height:100vh!important;padding:16px!important}
+#bp-home .bp-brand-loc-item{flex-direction:column;align-items:stretch}
+#bp-home .bp-brand-loc-item .bp-loc-btns{flex-direction:row}
+#bp-home .bp-brand-loc-item .bp-loc-btns a{flex:1}
 }
 </style>
-</head>
-<body>
+
+
 <div id="bp-home">
 
   <div class="bp-hero">
@@ -509,7 +504,7 @@
 <script>
 (function(){
 'use strict';
-var DATA_BASE='data/compact/';
+var DATA_BASE='https://cdn.jsdelivr.net/gh/Azeem-tech314/Breakfast-Locations-Website@claude/confident-carson-feo8dx/data/compact/';
 var INDEX=null, BRAND_DATA={}, LOADING={}, INDIES=[];
 var ACTIVE_BRANDS=new Set();
 var MAP=null, CLUSTER=null, USER_LL=null, USER_MARKER=null;
@@ -1041,5 +1036,3 @@ function waitLeaflet(){if(typeof L==='undefined'||typeof L.markerClusterGroup===
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',waitLeaflet);else waitLeaflet();
 })();
 </script>
-</body>
-</html>

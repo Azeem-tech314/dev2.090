@@ -57,24 +57,25 @@ search results. **Best for build-phase testing.**
 4. Add back `<link rel="canonical" href="https://breakfastplaces.us/">` line
 5. Submit `https://breakfastplaces.us/sitemap.xml` to Google Search Console
 
-## Deploying to WordPress
+## Deploying to WordPress — THE EASY WAY
 
-The map is HTML+JSON, not PHP. Two paths:
+**Copy the whole file `wordpress.html` and paste it into an Elementor HTML
+widget or a Gutenberg "Custom HTML" block. Done. Nothing else.**
 
-**Easy (recommended)**: keep the site on Vercel and iframe it into a
-WordPress page:
+`wordpress.html` is a single self-contained block (no `<doctype>`, `<html>`,
+`<head>`, or `<body>` wrappers). It loads the 32-brand JSON data live from
+a public CDN (jsDelivr, mirroring this GitHub repo), so no FTP upload, no
+`.htaccess` tweaks, no theme edits.
+
+Rebuild `wordpress.html` after changing `index.html`:
+```bash
+python3 tools/build_wordpress.py
+```
+
+If you later merge to `main`, edit `tools/build_wordpress.py` and change
+`BRANCH = 'claude/confident-carson-feo8dx'` to `BRANCH = 'main'`.
+
+### Fallback: iframe from Vercel
 ```html
 <iframe src="https://your-vercel-url.vercel.app/" style="width:100%;height:100vh;border:0"></iframe>
-```
-
-**Fully embedded**: paste the `<style>`, `<div id="bp-home">`, and `<script>`
-blocks from `index.html` into a WordPress HTML block or Elementor HTML
-widget. Upload the entire `data/compact/` folder to your WordPress site
-root via FTP so `https://your-wp-site.com/data/compact/index.json`
-resolves. If WordPress blocks JSON, add to `.htaccess`:
-```
-<Files ~ "\.json$">
-  Header set Access-Control-Allow-Origin "*"
-  Header set Content-Type "application/json"
-</Files>
 ```
