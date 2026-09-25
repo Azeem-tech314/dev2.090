@@ -8,8 +8,9 @@
 <meta name="mobile-web-app-capable" content="yes">
 <title>Breakfast Places Near Me: 82,611 Real USA Locations Mapped | BreakfastPlaces.us</title>
 <meta name="description" content="Every USA breakfast place mapped: 32 chains (82,611 verified locations) plus 130 hand-picked independent diners with live serving status, addresses, hours, and directions. Free.">
-<meta name="robots" content="index,follow,max-image-preview:large">
-<link rel="canonical" href="https://breakfastplaces.us/">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+<meta name="googlebot" content="noindex,nofollow">
+<meta name="bingbot" content="noindex,nofollow">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
@@ -244,13 +245,14 @@
       </div>
 
       <div class="bp-brands-hdr">
-        <span>🏪 Chain brand layers <span id="bp-brands-status" style="font-weight:500;color:#78716C">— indies loaded, tap any brand to load its US locations</span></span>
+        <span>🏪 Chain brand layers <span id="bp-brands-status" style="font-weight:500;color:#78716C">— indies loaded, tap any brand to see only its US locations</span></span>
         <div class="bp-b-actions">
           <button class="bp-mini" id="bp-b-top5">Top 5</button>
           <button class="bp-mini" id="bp-b-all">Load All</button>
           <button class="bp-mini" id="bp-b-none">Hide All</button>
         </div>
       </div>
+      <div style="font-size:11px;color:#78716C;margin:-4px 0 6px;line-height:1.4">💡 Tap a brand chip below to switch the map to that brand's locations only. Use the <b>Layer</b> dropdown further down to also show hand-picked local diners alongside chains.</div>
       <div class="bp-brands-scroll" id="bp-brands"></div>
       <div class="bp-progress" id="bp-progress"><div class="bp-progress-bar" id="bp-progress-bar" style="width:0%"></div></div>
 
@@ -681,10 +683,15 @@ function toggleBrand(slug){
   if(ACTIVE_BRANDS.has(slug)){
     ACTIVE_BRANDS.delete(slug);
     if(chip)chip.classList.remove('on');
+    // If no brands left on, auto-restore full "Show All" so indies come back
+    if(ACTIVE_BRANDS.size===0){var lsel=document.getElementById('bp-layer');if(lsel){lsel.value='all';LAYER_MODE='all';}}
     scheduleRender();
     updateBrandStatus();
     renderCityGrid();
   }else{
+    // First brand turned on: auto-switch to Chains Only so indie pins stop overlapping
+    // the user's picked brand pins (fixes "I filtered McDonald's but got Uptown Diner" bug)
+    if(ACTIVE_BRANDS.size===0){var lsel=document.getElementById('bp-layer');if(lsel){lsel.value='chain';LAYER_MODE='chain';}}
     ACTIVE_BRANDS.add(slug);
     if(chip){chip.classList.add('on');var span=chip.querySelector('.bp-cn');if(span)span.textContent='loading…';}
     ensureBrand(slug).then(function(){
