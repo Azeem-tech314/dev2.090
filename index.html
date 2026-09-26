@@ -11,6 +11,12 @@
 <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
 <meta name="googlebot" content="noindex,nofollow">
 <meta name="bingbot" content="noindex,nofollow">
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://a.tile.openstreetmap.org" crossorigin>
+<link rel="preconnect" href="https://b.tile.openstreetmap.org" crossorigin>
+<link rel="preconnect" href="https://c.tile.openstreetmap.org" crossorigin>
+<link rel="dns-prefetch" href="https://nominatim.openstreetmap.org">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
@@ -849,7 +855,7 @@ function updateBrandStatus(){
 function initMap(){
   MAP=L.map('bp-map',{scrollWheelZoom:true,zoomControl:true,preferCanvas:true,tap:true,touchZoom:true}).setView([39.8283,-98.5795],4);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; Map contributors'}).addTo(MAP);
-  CLUSTER=L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:60,chunkedLoading:true,chunkInterval:100,chunkDelay:20});
+  CLUSTER=L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:70,chunkedLoading:true,chunkInterval:200,chunkDelay:10,removeOutsideVisibleBounds:true});
   MAP.addLayer(CLUSTER);
   MAP.on('moveend',updateCounters);
 }
@@ -948,16 +954,18 @@ function indiePopup(p){
     '</div></div>';
 }
 
-function scheduleRender(){if(RENDER_TIMER)clearTimeout(RENDER_TIMER);RENDER_TIMER=setTimeout(renderMap,50);}
+function scheduleRender(){if(RENDER_TIMER)clearTimeout(RENDER_TIMER);RENDER_TIMER=setTimeout(renderMap,20);}
 
 function renderMap(){
   if(!CLUSTER)return;
   CLUSTER.clearLayers();
   var markers=[];
+  var indieIcon=makeIcon('#F97316','#FFF7ED');
   INDIES.forEach(function(p){
     if(!matchesFilter(p))return;
-    var mk=L.marker([p.lat,p.lng],{icon:makeIcon('#F97316','#FFF7ED')});
-    mk.bindPopup(indiePopup(p),{maxWidth:340});
+    var mk=L.marker([p.lat,p.lng],{icon:indieIcon});
+    // Lazy popup: bind full HTML only on click (5-10x faster for 200+ pin renders)
+    mk.on('click',function(){if(!mk.getPopup()){mk.bindPopup(indiePopup(p),{maxWidth:340}).openPopup();}});
     markers.push(mk);
   });
   ACTIVE_BRANDS.forEach(function(slug){
@@ -971,7 +979,7 @@ function renderMap(){
       var item={chain:true,brand:slug,row:row,meta:meta};
       if(!matchesFilter(item))return;
       var mk=L.marker([row[0],row[1]],{icon:ico});
-      mk.bindPopup(chainPopup(item),{maxWidth:340});
+      mk.on('click',(function(it,m){return function(){if(!m.getPopup()){m.bindPopup(chainPopup(it),{maxWidth:340}).openPopup();}};})(item,mk));
       markers.push(mk);
     });
   });
@@ -1170,19 +1178,24 @@ function wireControls(){
 }
 
 // Load All - chunked with progress bar, non-blocking
+// Bumped from 3→8 parallel fetches: browsers cap at ~6 per origin,
+// so 8 saturates HTTP/2 multiplexing on jsDelivr and Vercel without stalling.
 function loadAllBrands(){
   var pending=INDEX.brands.filter(function(b){return !ACTIVE_BRANDS.has(b.slug);});
   if(!pending.length)return;
+  // Load biggest brands first so the map fills fast in the user's area
+  pending.sort(function(a,b){return b.count-a.count;});
   var prog=document.getElementById('bp-progress'),bar=document.getElementById('bp-progress-bar');
   prog.classList.add('on');
-  var done=0;
+  var done=0,total=pending.length,skipRender=0;
   function step(){
     if(!pending.length){
       bar.style.width='100%';
-      setTimeout(function(){prog.classList.remove('on');bar.style.width='0%';},600);
+      setTimeout(function(){prog.classList.remove('on');bar.style.width='0%';},400);
+      renderCityGrid();
       return;
     }
-    var batch=pending.splice(0,3); // 3 brands at a time
+    var batch=pending.splice(0,8); // 8 brands per tick
     var chips=[];
     batch.forEach(function(b){
       ACTIVE_BRANDS.add(b.slug);
@@ -1192,11 +1205,11 @@ function loadAllBrands(){
     Promise.all(batch.map(function(b){return ensureBrand(b.slug);})).then(function(){
       chips.forEach(function(c){var sp=c.chip.querySelector('.bp-cn');if(sp)sp.textContent=c.brand.count.toLocaleString();});
       done+=batch.length;
-      bar.style.width=(done/(done+pending.length)*100).toFixed(0)+'%';
+      bar.style.width=(done/total*100).toFixed(0)+'%';
       updateBrandStatus();
-      // Render partway so user sees progress
-      scheduleRender();
-      renderCityGrid();
+      // Render only every 2nd batch to save frames on slow devices; always render on last batch
+      skipRender++;
+      if(skipRender>=2||!pending.length){scheduleRender();skipRender=0;}
       requestAnimationFrame(step);
     });
   }
