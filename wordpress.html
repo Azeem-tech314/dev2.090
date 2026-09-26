@@ -300,7 +300,7 @@
       <span id="bp-radius-lbl" style="font-size:13px;color:#F97316;font-weight:700">25 mi</span>
       <button class="bp-btn bp-ghost" id="bp-btn-clear" style="padding:6px 10px;font-size:12px">Reset</button>
     </div>
-    <div id="bp-nudge" style="background:#FFF7ED;border-left:4px solid #F97316;border-radius:6px;padding:10px 14px;margin-bottom:10px;font-size:14px;color:#7C2D12;font-weight:500;line-height:1.5">📍 <b>Tap "My Location"</b> to see breakfast within 25 miles of you. Currently showing 130 hand-picked local diners across the US.</div>
+    <div id="bp-nudge" style="background:#FFF7ED;border-left:4px solid #F97316;border-radius:6px;padding:10px 14px;margin-bottom:10px;font-size:14px;color:#7C2D12;font-weight:500;line-height:1.5">📍 <b>Tap "My Location" or search a city</b> to see every breakfast spot within 25 miles: chains and local diners auto-loaded. Currently showing 130 hand-picked local diners across the US.</div>
     <div id="bp-map"></div>
     <div class="bp-tool-legend">
       <span><b>Legend:</b></span>
@@ -852,10 +852,8 @@ function initMap(){
 function autoLocate(){
   if(!navigator.geolocation)return;
   navigator.geolocation.getCurrentPosition(function(pos){
+    // setUserLL now auto-loads all 31 chain brands within radius
     setUserLL([pos.coords.latitude,pos.coords.longitude]);
-    // Auto-load Top 5 chains to give user something to see immediately
-    var top5=INDEX.brands.slice().sort(function(a,b){return b.count-a.count;}).slice(0,5);
-    top5.forEach(function(b){if(!ACTIVE_BRANDS.has(b.slug))toggleBrand(b.slug);});
   },function(){/* denied, no-op */},{maximumAge:600000,timeout:5000});
 }
 
@@ -1014,6 +1012,9 @@ function setUserLL(ll){
   scheduleRender();
   // Hide the onboarding nudge - user has now anchored the map
   var nudge=document.getElementById('bp-nudge');if(nudge)nudge.style.display='none';
+  // Auto-load every chain brand so ALL nearby chain locations appear without extra taps
+  // The radius filter still hides pins outside 25 mi, so only the local ones render
+  if(INDEX&&INDEX.brands){loadAllBrands();}
 }
 
 function openBrandModal(slug){
