@@ -266,6 +266,7 @@
         <span class="bp-fchip" data-f="vegan">🌱 Vegan</span>
         <span class="bp-fchip" data-f="gf">🌾 Gluten-Free</span>
         <span class="bp-fchip" data-f="brunch">🍹 Brunch</span>
+        <span class="bp-fchip" data-f="local">🏠 Local Diners</span>
         <span class="bp-fchip" data-f="wheel">♿ Wheelchair</span>
         <span class="bp-fchip" data-f="wifi">📶 Wi-Fi</span>
         <span class="bp-fchip" data-f="favs">❤️ Favorites</span>
@@ -299,6 +300,7 @@
       <span id="bp-radius-lbl" style="font-size:13px;color:#F97316;font-weight:700">25 mi</span>
       <button class="bp-btn bp-ghost" id="bp-btn-clear" style="padding:6px 10px;font-size:12px">Reset</button>
     </div>
+    <div id="bp-nudge" style="background:#FFF7ED;border-left:4px solid #F97316;border-radius:6px;padding:10px 14px;margin-bottom:10px;font-size:14px;color:#7C2D12;font-weight:500;line-height:1.5">📍 <b>Tap "My Location"</b> to see breakfast within 25 miles of you. Currently showing 130 hand-picked local diners across the US.</div>
     <div id="bp-map"></div>
     <div class="bp-tool-legend">
       <span><b>Legend:</b></span>
@@ -821,9 +823,7 @@ function toggleBrand(slug){
     updateBrandStatus();
     renderCityGrid();
   }else{
-    // First brand turned on: auto-switch to Chains Only so indie pins stop overlapping
-    // the user's picked brand pins (fixes "I filtered McDonald's but got Uptown Diner" bug)
-    if(ACTIVE_BRANDS.size===0){var lsel=document.getElementById('bp-layer');if(lsel){lsel.value='chain';LAYER_MODE='chain';}}
+    // Indies stay visible when a brand is picked (users want to compare chains + locals side by side)
     ACTIVE_BRANDS.add(slug);
     if(chip){chip.classList.add('on');var span=chip.querySelector('.bp-cn');if(span)span.textContent='loading…';}
     ensureBrand(slug).then(function(){
@@ -1009,6 +1009,18 @@ function setUserLL(ll){
   USER_MARKER=L.circleMarker(ll,{radius:9,color:'#1C1917',fillColor:'#F97316',fillOpacity:1,weight:3}).addTo(MAP).bindPopup('📍 Your location');
   MAP.setView(ll,11);
   scheduleRender();
+  // Fit to visible pins once the render settles
+  setTimeout(fitToVisible,400);
+  // Hide the onboarding nudge - user has now anchored the map
+  var nudge=document.getElementById('bp-nudge');if(nudge)nudge.style.display='none';
+}
+
+function fitToVisible(){
+  if(!MAP||!CLUSTER)return;
+  var b=L.latLngBounds([]);var added=0;
+  CLUSTER.eachLayer(function(m){b.extend(m.getLatLng());added++;});
+  if(USER_LL)b.extend(USER_LL);
+  if(added>0&&b.isValid()){MAP.fitBounds(b,{padding:[40,40],maxZoom:14});}
 }
 
 function openBrandModal(slug){
@@ -1081,11 +1093,22 @@ function wireControls(){
   document.querySelectorAll('#bp-filters-status .bp-fchip').forEach(function(el){
     el.addEventListener('click',function(){
       var f=el.dataset.f;
+      // Local Diners chip: pure shortcut for Layer → Local Only. Not stored in STATUS_FILTERS.
+      if(f==='local'){
+        var lsel=document.getElementById('bp-layer');
+        var wasOn=el.classList.contains('on');
+        // Clear any other layer-shortcut chip visual state
+        document.querySelectorAll('#bp-filters-status .bp-fchip[data-f="local"]').forEach(function(x){x.classList.remove('on');});
+        if(!wasOn){el.classList.add('on');if(lsel){lsel.value='local';LAYER_MODE='local';}}
+        else{if(lsel){lsel.value='all';LAYER_MODE='all';}}
+        scheduleRender();
+        return;
+      }
       if(STATUS_FILTERS.has(f)){STATUS_FILTERS.delete(f);el.classList.remove('on');}
       else{STATUS_FILTERS.add(f);el.classList.add('on');}
       // Brunch chip preset: auto-load the 10 sit-down brunch chains so pins actually appear
       if(f==='brunch'&&STATUS_FILTERS.has('brunch')){
-        var lsel=document.getElementById('bp-layer');if(lsel){lsel.value='chain';LAYER_MODE='chain';}
+        var lsel2=document.getElementById('bp-layer');if(lsel2){lsel2.value='chain';LAYER_MODE='chain';}
         INDEX.brands.filter(function(b){return b.brunch===true;}).forEach(function(b){if(!ACTIVE_BRANDS.has(b.slug))toggleBrand(b.slug);});
       }
       scheduleRender();
@@ -1094,7 +1117,13 @@ function wireControls(){
   document.querySelectorAll('#bp-filters-cuisine .bp-fchip').forEach(function(el){
     el.addEventListener('click',function(){document.querySelectorAll('#bp-filters-cuisine .bp-fchip').forEach(function(x){x.classList.remove('on-dark');});el.classList.add('on-dark');CUISINE=el.dataset.c;scheduleRender();});
   });
-  document.getElementById('bp-layer').addEventListener('change',function(e){LAYER_MODE=e.target.value;scheduleRender();});
+  document.getElementById('bp-layer').addEventListener('change',function(e){
+    LAYER_MODE=e.target.value;
+    // Keep the 🏠 Local Diners chip in sync with the dropdown
+    var lchip=document.querySelector('#bp-filters-status .bp-fchip[data-f="local"]');
+    if(lchip){if(LAYER_MODE==='local')lchip.classList.add('on');else lchip.classList.remove('on');}
+    scheduleRender();
+  });
   document.getElementById('bp-sort').addEventListener('change',function(e){SORT_MODE=e.target.value;scheduleRender();});
   document.getElementById('bp-radius').addEventListener('input',function(e){RADIUS_MI=+e.target.value;document.getElementById('bp-radius-lbl').textContent=RADIUS_MI+' mi';scheduleRender();});
   document.getElementById('bp-btn-clear').addEventListener('click',function(){
