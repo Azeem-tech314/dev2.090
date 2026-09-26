@@ -1,7 +1,7 @@
 # breakfastplaces.us
 
-Static breakfast-directory site with an interactive map of 82,611 verified
-US chain locations across 32 breakfast-serving brands, plus 130 hand-picked
+Static breakfast-directory site with an interactive map of 85,316 verified
+US chain locations across 31 breakfast-serving brands, plus 130 hand-picked
 independent diners.
 
 ## Files
@@ -63,7 +63,7 @@ search results. **Best for build-phase testing.**
 widget or a Gutenberg "Custom HTML" block. Done. Nothing else.**
 
 `wordpress.html` is a single self-contained block (no `<doctype>`, `<html>`,
-`<head>`, or `<body>` wrappers). It loads the 32-brand JSON data live from
+`<head>`, or `<body>` wrappers). It loads the 31-brand JSON data live from
 a public CDN (jsDelivr, mirroring this GitHub repo), so no FTP upload, no
 `.htaccess` tweaks, no theme edits.
 
