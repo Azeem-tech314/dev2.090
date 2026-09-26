@@ -37,16 +37,16 @@ BRAND_META = {
  "First_Watch":     {"name":"First Watch",      "start":"07:00","end":"14:30","allDay":False,"h24":False,"sig":"Chickichanga","price":"$10-$16","color":"#93C540","healthy":True,"brunch":True,"kid":True,"vegan":True,"gf":True},
  "Subway":          {"name":"Subway",           "start":"07:00","end":"11:30","allDay":False,"h24":False,"sig":"Bacon Egg Cheese Wrap","price":"$4-$8","color":"#008C15","partial":True},
  "Waffle_House":    {"name":"Waffle House",     "allDay":True,"h24":True, "sig":"All-Star Special","price":"$7-$13","color":"#FFDC00"},
- "Krispy_Kreme":    {"name":"Krispy Kreme",     "allDay":True,"h24":False,"sig":"Original Glazed + Coffee","price":"$3-$7","color":"#006A4E","drive":True,"kid":True},
  "Tim_Hortons":     {"name":"Tim Hortons",      "allDay":True,"h24":False,"sig":"Breakfast Sandwich + Coffee","price":"$3-$7","color":"#C8102E","drive":True},
- "Perkins":         {"name":"Perkins",          "allDay":True,"h24":False,"sig":"Magnificent Seven","price":"$8-$14","color":"#D62728","kid":True},
- "Village_Inn":     {"name":"Village Inn",      "allDay":True,"h24":False,"sig":"Country Fried Steak Skillet","price":"$8-$14","color":"#0055A4","kid":True},
- "Corner_Bakery":   {"name":"Corner Bakery",    "start":"06:30","end":"11:00","allDay":False,"h24":False,"sig":"Anaheim Scrambler","price":"$6-$11","color":"#8B4513","healthy":True,"kid":True},
- "Metro_Diner":     {"name":"Metro Diner",      "allDay":True,"h24":False,"sig":"Yo Hala on the Square","price":"$9-$16","color":"#D50032","kid":True,"brunch":True},
- "Snooze":          {"name":"Snooze A.M. Eatery","start":"06:30","end":"14:30","allDay":False,"h24":False,"sig":"Pineapple Upside Down Pancakes","price":"$9-$16","color":"#F9A825","healthy":True,"brunch":True,"vegan":True,"gf":True,"kid":True},
  "Braums":          {"name":"Braum's",          "start":"06:00","end":"10:30","allDay":False,"h24":False,"sig":"Breakfast Burrito + Shake","price":"$3-$7","color":"#F58026","drive":True,"kid":True},
  "Dairy_Queen":     {"name":"Dairy Queen",      "start":"06:00","end":"10:30","allDay":False,"h24":False,"sig":"Breakfast Chillers + Sandwiches","price":"$3-$7","color":"#EB1C2D","drive":True,"kid":True,"partial":True},
  "Caseys_General_Store": {"name":"Casey's",     "allDay":True,"h24":True,"sig":"Breakfast Pizza + Donuts","price":"$3-$6","color":"#DE1B26","drive":False,"kid":True},
+ # NEW brands added Sep 26 based on SEO audit (replaced 6 low-SV brands)
+ "Carls_Jr":        {"name":"Carl's Jr",        "start":"06:00","end":"10:30","wend":"11:00","allDay":False,"h24":False,"sig":"Made From Scratch Biscuit","price":"$4-$9","color":"#FED31C","drive":True,"kid":True},
+ "Popeyes":         {"name":"Popeyes",          "start":"06:00","end":"10:30","allDay":False,"h24":False,"sig":"Chicken Waffle Sandwich","price":"$4-$9","color":"#F2822B","drive":True,"partial":True},
+ "Portillos":       {"name":"Portillo's",       "start":"10:00","end":"11:00","allDay":False,"h24":False,"sig":"Chocolate Cake Shake + Breakfast Sandwich","price":"$5-$10","color":"#D71E28","drive":True,"kid":True,"partial":True},
+ "Huckleberrys":    {"name":"Huckleberry's",    "start":"07:00","end":"15:00","allDay":False,"h24":False,"sig":"Southern Breakfast Skillet","price":"$10-$16","color":"#8B0000","kid":True,"brunch":True},
+ "Kekes":           {"name":"Keke's Breakfast Cafe","start":"07:00","end":"14:30","allDay":False,"h24":False,"sig":"Belgian Waffles + Crepes","price":"$9-$15","color":"#F4A300","kid":True,"healthy":True,"brunch":True},
 }
 
 # Regex helpers
