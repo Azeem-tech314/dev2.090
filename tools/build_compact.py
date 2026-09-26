@@ -26,17 +26,17 @@ BRAND_META = {
  "Sonic":           {"name":"Sonic",            "allDay":True,"h24":False,"sig":"SuperSONIC Breakfast Burrito","price":"$3-$7","color":"#FFD100","drive":True},
  "Starbucks":       {"name":"Starbucks",        "allDay":True,"h24":False,"sig":"Bacon Gouda Sandwich","price":"$4-$9","color":"#00704A","healthy":True,"drive":True},
  "Jack_in_the_Box": {"name":"Jack in the Box",  "allDay":True,"h24":True, "sig":"Breakfast Jack","price":"$3-$8","color":"#B31B1B","drive":True},
- "IHOP":            {"name":"IHOP",             "allDay":True,"h24":False,"sig":"Original Buttermilk Pancakes","price":"$8-$16","color":"#0071CE","kid":True},
+ "IHOP":            {"name":"IHOP",             "allDay":True,"h24":False,"sig":"Original Buttermilk Pancakes","price":"$8-$16","color":"#0071CE","kid":True,"brunch":True},
  "Arbys":           {"name":"Arby's",           "start":"06:00","end":"10:30","allDay":False,"h24":False,"sig":"Sausage Gravy Biscuit","price":"$4-$8","color":"#E11A2C","drive":True,"partial":True},
  "Cracker_Barrel":  {"name":"Cracker Barrel",   "start":"06:00","end":"11:00","allDay":False,"h24":False,"sig":"Momma's Pancake Breakfast","price":"$8-$14","color":"#5B1A18","kid":True,"brunch":True},
- "Golden_Corral":   {"name":"Golden Corral",    "start":"07:30","end":"14:00","allDay":False,"h24":False,"sig":"Weekend Breakfast Buffet","price":"$10-$16","color":"#EA1D2C","buffet":True,"kid":True,"weekendOnly":True},
- "Dennys":          {"name":"Denny's",          "allDay":True,"h24":True, "sig":"Grand Slam","price":"$7-$14","color":"#FFCC00","kid":True},
+ "Golden_Corral":   {"name":"Golden Corral",    "start":"07:30","end":"14:00","allDay":False,"h24":False,"sig":"Weekend Breakfast Buffet","price":"$10-$16","color":"#EA1D2C","buffet":True,"kid":True,"weekendOnly":True,"brunch":True},
+ "Dennys":          {"name":"Denny's",          "allDay":True,"h24":True, "sig":"Grand Slam","price":"$7-$14","color":"#FFCC00","kid":True,"brunch":True},
  "Dunkin_Donuts":   {"name":"Dunkin'",          "allDay":True,"h24":False,"sig":"Bacon Egg Cheese Wake-Up Wrap","price":"$3-$7","color":"#FF671F","drive":True},
  "Bojangles":       {"name":"Bojangles",        "allDay":True,"h24":False,"sig":"Cajun Filet Biscuit","price":"$4-$9","color":"#F6981E","drive":True},
- "Bob_Evans":       {"name":"Bob Evans",        "allDay":True,"h24":False,"sig":"Farmhouse Feast","price":"$8-$14","color":"#C8102E","kid":True},
+ "Bob_Evans":       {"name":"Bob Evans",        "allDay":True,"h24":False,"sig":"Farmhouse Feast","price":"$8-$14","color":"#C8102E","kid":True,"brunch":True},
  "First_Watch":     {"name":"First Watch",      "start":"07:00","end":"14:30","allDay":False,"h24":False,"sig":"Chickichanga","price":"$10-$16","color":"#93C540","healthy":True,"brunch":True,"kid":True,"vegan":True,"gf":True},
  "Subway":          {"name":"Subway",           "start":"07:00","end":"11:30","allDay":False,"h24":False,"sig":"Bacon Egg Cheese Wrap","price":"$4-$8","color":"#008C15","partial":True},
- "Waffle_House":    {"name":"Waffle House",     "allDay":True,"h24":True, "sig":"All-Star Special","price":"$7-$13","color":"#FFDC00"},
+ "Waffle_House":    {"name":"Waffle House",     "allDay":True,"h24":True, "sig":"All-Star Special","price":"$7-$13","color":"#FFDC00","brunch":True},
  "Tim_Hortons":     {"name":"Tim Hortons",      "allDay":True,"h24":False,"sig":"Breakfast Sandwich + Coffee","price":"$3-$7","color":"#C8102E","drive":True},
  "Braums":          {"name":"Braum's",          "start":"06:00","end":"10:30","allDay":False,"h24":False,"sig":"Breakfast Burrito + Shake","price":"$3-$7","color":"#F58026","drive":True,"kid":True},
  "Dairy_Queen":     {"name":"Dairy Queen",      "start":"06:00","end":"10:30","allDay":False,"h24":False,"sig":"Breakfast Chillers + Sandwiches","price":"$3-$7","color":"#EB1C2D","drive":True,"kid":True,"partial":True},
@@ -44,7 +44,7 @@ BRAND_META = {
  # NEW brands added Sep 26 based on SEO audit (replaced 6 low-SV brands)
  "Carls_Jr":        {"name":"Carl's Jr",        "start":"06:00","end":"10:30","wend":"11:00","allDay":False,"h24":False,"sig":"Made From Scratch Biscuit","price":"$4-$9","color":"#FED31C","drive":True,"kid":True},
  "Popeyes":         {"name":"Popeyes",          "start":"06:00","end":"10:30","allDay":False,"h24":False,"sig":"Chicken Waffle Sandwich","price":"$4-$9","color":"#F2822B","drive":True,"partial":True},
- "Portillos":       {"name":"Portillo's",       "start":"10:00","end":"11:00","allDay":False,"h24":False,"sig":"Chocolate Cake Shake + Breakfast Sandwich","price":"$5-$10","color":"#D71E28","drive":True,"kid":True,"partial":True},
+ "Portillos":       {"name":"Portillo's",       "start":"10:00","end":"11:00","allDay":False,"h24":False,"sig":"Chocolate Cake Shake + Breakfast Sandwich","price":"$5-$10","color":"#D71E28","drive":True,"kid":True,"partial":True,"brunch":True},
  "Huckleberrys":    {"name":"Huckleberry's",    "start":"07:00","end":"15:00","allDay":False,"h24":False,"sig":"Southern Breakfast Skillet","price":"$10-$16","color":"#8B0000","kid":True,"brunch":True},
  "Kekes":           {"name":"Keke's Breakfast Cafe","start":"07:00","end":"14:30","allDay":False,"h24":False,"sig":"Belgian Waffles + Crepes","price":"$9-$15","color":"#F4A300","kid":True,"healthy":True,"brunch":True},
 }
@@ -159,7 +159,7 @@ def main():
             json.dump(payload, f, separators=(",", ":"))
         size_kb = out_path.stat().st_size // 1024
         print(f"[ok] {slug:24s} {len(rows):6,d} pins  {size_kb:5d} KB")
-        index.append({"slug": slug, "name": meta["name"], "count": len(rows), "color": meta.get("color"), "size_kb": size_kb, **{k:v for k,v in meta.items() if k in ("allDay","h24","start","end","wend","sig","price","closedSun","weekendOnly","partial","extended")}})
+        index.append({"slug": slug, "name": meta["name"], "count": len(rows), "color": meta.get("color"), "size_kb": size_kb, **{k:v for k,v in meta.items() if k in ("allDay","h24","start","end","wend","sig","price","closedSun","weekendOnly","partial","extended","brunch")}})
         total += len(rows)
     with open(DST / "index.json", "w") as f:
         json.dump({"total": total, "brands": index}, f, separators=(",", ":"))
