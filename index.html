@@ -1012,20 +1012,13 @@ function setUserLL(ll){
   USER_LL=ll;
   if(USER_MARKER)MAP.removeLayer(USER_MARKER);
   USER_MARKER=L.circleMarker(ll,{radius:9,color:'#1C1917',fillColor:'#F97316',fillOpacity:1,weight:3}).addTo(MAP).bindPopup('📍 Your location');
-  MAP.setView(ll,11);
+  // Pick zoom from the current radius so tiles always load reliably
+  var z=RADIUS_MI<=5?13:RADIUS_MI<=15?12:RADIUS_MI<=30?11:RADIUS_MI<=50?10:RADIUS_MI<=100?9:8;
+  MAP.setView(ll,z);
+  setTimeout(function(){if(MAP)MAP.invalidateSize();},200);
   scheduleRender();
-  // Fit to visible pins once the render settles
-  setTimeout(fitToVisible,400);
   // Hide the onboarding nudge - user has now anchored the map
   var nudge=document.getElementById('bp-nudge');if(nudge)nudge.style.display='none';
-}
-
-function fitToVisible(){
-  if(!MAP||!CLUSTER)return;
-  var b=L.latLngBounds([]);var added=0;
-  CLUSTER.eachLayer(function(m){b.extend(m.getLatLng());added++;});
-  if(USER_LL)b.extend(USER_LL);
-  if(added>0&&b.isValid()){MAP.fitBounds(b,{padding:[40,40],maxZoom:14});}
 }
 
 function openBrandModal(slug){
@@ -1132,12 +1125,28 @@ function wireControls(){
   document.getElementById('bp-sort').addEventListener('change',function(e){SORT_MODE=e.target.value;scheduleRender();});
   document.getElementById('bp-radius').addEventListener('input',function(e){RADIUS_MI=+e.target.value;document.getElementById('bp-radius-lbl').textContent=RADIUS_MI+' mi';scheduleRender();});
   document.getElementById('bp-btn-clear').addEventListener('click',function(){
+    // Full reset: filters, cuisine, layer, radius, active brands, user location, map view
     STATUS_FILTERS=new Set();CUISINE='all';LAYER_MODE='all';RADIUS_MI=25;
     document.getElementById('bp-radius').value=25;document.getElementById('bp-radius-lbl').textContent='25 mi';
     document.getElementById('bp-layer').value='all';
     document.querySelectorAll('#bp-filters-status .bp-fchip').forEach(function(x){x.classList.remove('on');});
     document.querySelectorAll('#bp-filters-cuisine .bp-fchip').forEach(function(x){x.classList.toggle('on-dark',x.dataset.c==='all');});
+    // Untick every loaded brand chip and clear ACTIVE_BRANDS
+    Array.from(ACTIVE_BRANDS).forEach(function(slug){
+      ACTIVE_BRANDS.delete(slug);
+      var chip=document.querySelector('[data-brand="'+slug+'"].bp-bchip');
+      if(chip){chip.classList.remove('on');var b=INDEX.brands.find(function(y){return y.slug===slug;});var sp=chip.querySelector('.bp-cn');if(sp&&b)sp.textContent=b.count.toLocaleString();}
+    });
+    // Clear user location marker + reset map to national view
+    if(USER_MARKER){MAP.removeLayer(USER_MARKER);USER_MARKER=null;}
+    USER_LL=null;
+    var inp=document.getElementById('bp-loc-input');if(inp)inp.value='';
+    if(MAP)MAP.setView([39.8283,-98.5795],4);
+    // Bring the onboarding nudge back
+    var nudge=document.getElementById('bp-nudge');if(nudge)nudge.style.display='';
+    updateBrandStatus();
     scheduleRender();
+    renderCityGrid();
   });
   document.getElementById('bp-btn-geo').addEventListener('click',function(){
     if(!navigator.geolocation){alert('Geolocation not supported');return;}
