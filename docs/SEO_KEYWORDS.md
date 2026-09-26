@@ -1,684 +1,698 @@
-# BreakfastPlaces.us — Semantic SEO Keyword Plan
-**Source**: 3 SEMrush Keyword Magic exports (breakfast, breakfast near me, breakfast places), deduplicated to 6,647 unique keywords.
-**Method**: semantic clustering by intent. Every keyword lives in exactly one destination — no cannibalization. Brand + city + recipe + product + movie keywords are routed to their own page types, not the homepage.
+# BreakfastPlaces.us — 3-Tier Semantic SEO Roadmap
+**Source**: 3 SEMrush Keyword Magic exports · 6,647 unique keywords deduplicated.  
+**Strategy**: build breakfast-location authority first (homepage) → per-brand pages → per-city pages → content deep-dives (menus, hours) later.  
+**Rule**: every keyword lives in ONE destination. Category-with-near-me keywords stay on homepage because the homepage map already filters by Healthy / Vegan / GF / 24hr / Cheap / etc. via its filter chips. No separate category page duplicates that intent.
 
 ---
 
-## 🏠 HOMEPAGE — semantic cluster to target on `/`
+## 🏠 TIER 1 — HOMEPAGE `/`
 
-One page ranks for all of these because they share the same intent: *"find breakfast places near me now"*. Weave the top-10 keywords into H1, H2s, first paragraph, meta title, meta description. The rest sit naturally inside content, tables, FAQ.
+**One page ranks for all breakfast location & category finder queries.** Combines `breakfast near me` + `healthy breakfast near me` + `24 hour breakfast` + `breakfast buffet near me` + `vegan breakfast near me` + every filter+near-me combo. The map on the homepage already has these as filter chips, so URL stays `/`.  
 
-Total homepage cluster: **1,740 keywords · 5,834,900 SV**
+**Total addressable market**: 4,111 keywords · **9,762,150 monthly searches**  
+**Actionable (≥100 SV)**: 3,006 keywords · 9,685,850 SV
 
-| # | Keyword | SV | KD | CPC | Intent | Priority | Where to use on homepage |
-|---|---|---:|---:|---:|---|---|---|
-| 1 | breakfast near me | 3,350,000 | 66 | $0.74 | T | P0 · Ship first | H1 + meta title |
-| 2 | breakfast | 368,000 | 22 | $1.00 | N | P1 · Ship soon | H1 + meta title |
-| 3 | breakfast places near me | 201,000 | 28 | $0.67 | T | P1 · Ship soon | H2 headers + intro |
-| 4 | breakfast at near me | 135,000 | 32 | $0.74 | T | P1 · Ship soon | H2 headers + intro |
-| 5 | best breakfast near me | 110,000 | 31 | $0.44 | T | P1 · Ship soon | H2 headers + intro |
-| 6 | breakfast near me open now | 74,000 | 22 | $0.77 | T | P1 · Ship soon | H2 headers + intro |
-| 7 | breakfast restaurants near me | 90,500 | 34 | $0.55 | T | P1 · Ship soon | H2 headers + intro |
-| 8 | breakfast place near me | 27,100 | 13 | $0.67 | T | P2 · Ship after top pages | H2 headers + intro |
-| 9 | breakfast spots near me | 27,100 | 14 | $0.69 | T | P2 · Ship after top pages | FAQ / table headings |
-| 10 | breakfast near me within 5 mi | 27,100 | 27 | $0.54 | T | P2 · Ship after top pages | FAQ / table headings |
-| 11 | restaurants near me breakfast restaurants near me | 27,100 | 30 | $0.55 | T | P2 · Ship after top pages | FAQ / table headings |
-| 12 | breakfast restaurants | 33,100 | 24 | $0.70 | N | P2 · Ship after top pages | FAQ / table headings |
-| 13 | breakfast places | 27,100 | 17 | $0.88 | N | P2 · Ship after top pages | FAQ / table headings |
-| 14 | breakfast restaurant near me | 18,100 | 25 | $0.55 | T | P2 · Ship after top pages | FAQ / table headings |
-| 15 | near me breakfast restaurants | 14,800 | 18 | $0.55 | T | P2 · Ship after top pages | FAQ / table headings |
-| 16 | breakfast all day near me | 12,100 | 12 | $0.80 | T | P2 · Ship after top pages | FAQ / table headings |
-| 17 | good breakfast near me | 22,200 | 36 | $0.51 | T | P2 · Ship after top pages | FAQ / table headings |
-| 18 | breakfast near me now | 14,800 | 24 | $0.65 | T | P2 · Ship after top pages | FAQ / table headings |
-| 19 | fast food breakfast near me | 27,100 | 44 | $0.68 | T | P2 · Ship after top pages | FAQ / table headings |
-| 20 | places to eat breakfast near me | 14,800 | 29 | $0.57 | T | P2 · Ship after top pages | FAQ / table headings |
-| 21 | breakfast near me within 0.2 mi | 12,100 | 23 | $0.67 | T | P2 · Ship after top pages | FAQ / table headings |
-| 22 | citizens of soho a breakfast restaurant & cafe | 12,100 | 24 | $0.00 | T | P2 · Ship after top pages | FAQ / table headings |
-| 23 | breakfast near me within 1 mi | 9,900 | 16 | $0.56 | T | P2 · Ship after top pages | FAQ / table headings |
-| 24 | breakfast spots | 12,100 | 28 | $0.93 | C,N | P2 · Ship after top pages | FAQ / table headings |
-| 25 | best breakfast | 14,800 | 22 | $0.18 | N | P2 · Ship after top pages | FAQ / table headings |
-| 26 | breakfast cafe near me | 9,900 | 27 | $0.62 | T | P2 · Ship after top pages | body content, naturally |
-| 27 | good breakfast places near me | 9,900 | 28 | $0.51 | T | P2 · Ship after top pages | body content, naturally |
-| 28 | breakfast place | 6,600 | 12 | $0.88 | C | P2 · Ship after top pages | body content, naturally |
-| 29 | best breakfast places near me | 9,900 | 29 | $0.51 | T | P2 · Ship after top pages | body content, naturally |
-| 30 | breakfast near me within 0.5 mi | 5,400 | 8 | $0.67 | T | P2 · Ship after top pages | body content, naturally |
-| 31 | breakfast open near me | 12,100 | 41 | $1.33 | T | P2 · Ship after top pages | body content, naturally |
-| 32 | quick breakfast near me | 9,900 | 35 | $0.78 | T | P2 · Ship after top pages | body content, naturally |
-| 33 | places for breakfast near me | 5,400 | 16 | $0.53 | T | P3 · Later / long tail | body content, naturally |
-| 34 | breakfast nearby | 8,100 | 33 | $0.72 | T | P3 · Later / long tail | body content, naturally |
-| 35 | top rated breakfast near me | 6,600 | 26 | $0.56 | T | P3 · Later / long tail | body content, naturally |
-| 36 | breakfast spot near me | 5,400 | 20 | $0.69 | T | P3 · Later / long tail | body content, naturally |
-| 37 | breakfast diners near me | 12,100 | 47 | $0.62 | T | P3 · Later / long tail | body content, naturally |
-| 38 | breakfast restaurant | 8,100 | 17 | $0.70 | N | P3 · Later / long tail | body content, naturally |
-| 39 | best breakfast restaurants near me | 4,400 | 14 | $0.43 | T | P3 · Later / long tail | body content, naturally |
-| 40 | restaurants that serve breakfast near me | 4,400 | 15 | $0.47 | T | P3 · Later / long tail | body content, naturally |
-| 41 | place breakfast | 18,100 | 47 | $0.88 | N | P3 · Later / long tail | body content, naturally |
-| 42 | fast food breakfast | 14,800 | 44 | $0.53 | N | P3 · Later / long tail | body content, naturally |
-| 43 | fast food breakfast sales slow down | 4,400 | 21 | $0.00 | C | P3 · Later / long tail | body content, naturally |
-| 44 | breakfast fast food near me | 6,600 | 36 | $0.83 | T | P3 · Later / long tail | body content, naturally |
-| 45 | breakfast near me breakfast | 3,600 | 14 | $0.74 | T | P3 · Later / long tail | body content, naturally |
-| 46 | best place for breakfast near me | 3,600 | 17 | $0.37 | T | P3 · Later / long tail | body content, naturally |
-| 47 | breakfast diner near me | 12,100 | 55 | $0.62 | T | P3 · Later / long tail | body content, naturally |
-| 48 | best breakfast spots near me | 4,400 | 26 | $0.37 | T | P3 · Later / long tail | body content, naturally |
-| 49 | food near me breakfast | 3,600 | 19 | $0.57 | T | P3 · Later / long tail | body content, naturally |
-| 50 | restaurants near me breakfast | 3,600 | 20 | $0.61 | T | P3 · Later / long tail | body content, naturally |
-| 51 | keke's breakfast cafe near me | 6,600 | 41 | $0.26 | T | P3 · Later / long tail | body content, naturally |
-| 52 | breakfast near me. | 2,900 | 16 | $0.74 | T | P3 · Later / long tail | body content, naturally |
-| 53 | best breakfast closest to me | 5,400 | 20 | $0.44 | N | P3 · Later / long tail | body content, naturally |
-| 54 | best fast food breakfast | 9,900 | 41 | $0.22 | N | P3 · Later / long tail | body content, naturally |
-| 55 | breakfast spot | 4,400 | 12 | $0.93 | N | P3 · Later / long tail | body content, naturally |
-| 56 | fast breakfast near me | 2,900 | 17 | $0.81 | T | P3 · Later / long tail | body content, naturally |
-| 57 | breakfast areas near me | 2,900 | 20 | $0.67 | T | P3 · Later / long tail | body content, naturally |
-| 58 | best breakfast near me near me | 2,900 | 21 | $0.00 | T | P3 · Later / long tail | body content, naturally |
-| 59 | breakfast with santa near me | 1,900 | 3 | $0.00 | C,T | P3 · Later / long tail | body content, naturally |
-| 60 | breakfast near me fast food | 5,400 | 43 | $0.68 | T | P3 · Later / long tail | body content, naturally |
+### Top 60 homepage target keywords
 
-### Recommended homepage META title / description
+| # | Keyword | SV | KD | CPC | Intent | Priority |
+|---|---|---:|---:|---:|---|:-:|
+| 1 | breakfast near me | 3,350,000 | 66 | $0.74 | T | P0 |
+| 2 | breakfast | 368,000 | 22 | $1.00 | N | P0 |
+| 3 | breakfast places near me | 201,000 | 28 | $0.67 | T | P0 |
+| 4 | breakfast at near me | 135,000 | 32 | $0.74 | T | P0 |
+| 5 | breakfast burrito near me | 90,500 | 21 | $1.43 | T | P1 |
+| 6 | best breakfast near me | 110,000 | 31 | $0.44 | T | P1 |
+| 7 | breakfast sandwich near me | 74,000 | 17 | $0.80 | T | P1 |
+| 8 | breakfast near me open now | 74,000 | 22 | $0.77 | T | P1 |
+| 9 | breakfast restaurants near me | 90,500 | 34 | $0.55 | T | P1 |
+| 10 | healthy breakfast | 165,000 | 59 | $0.15 | C | P1 |
+| 11 | saja boys breakfast meal | 60,500 | 33 | $0.00 | C | P1 |
+| 12 | breakfast place near me | 27,100 | 13 | $0.67 | T | P1 |
+| 13 | healthy breakfast near me | 49,500 | 36 | $0.89 | T | P1 |
+| 14 | breakfast spots near me | 27,100 | 14 | $0.69 | T | P1 |
+| 15 | breakfast tacos near me | 49,500 | 37 | $0.83 | T | P1 |
+| 16 | hotels with free breakfast | 40,500 | 36 | $1.16 | C | P1 |
+| 17 | breakfast burritos near me | 33,100 | 31 | $1.43 | T | P1 |
+| 18 | breakfast near me within 5 mi | 27,100 | 27 | $0.54 | T | P1 |
+| 19 | breakfast buffet near me | 27,100 | 29 | $0.59 | T | P1 |
+| 20 | restaurants near me breakfast restaurants near me | 27,100 | 30 | $0.55 | T | P1 |
+| 21 | breakfast sandwiches near me | 22,200 | 24 | $0.80 | T | P1 |
+| 22 | english breakfast | 27,100 | 35 | $0.29 | C | P1 |
+| 23 | breakfast restaurants | 33,100 | 24 | $0.70 | N | P1 |
+| 24 | breakfast places | 27,100 | 17 | $0.88 | N | P1 |
+| 25 | breakfast restaurant near me | 18,100 | 25 | $0.55 | T | P1 |
+| 26 | cheap breakfast near me | 14,800 | 18 | $0.86 | T | P1 |
+| 27 | near me breakfast restaurants | 14,800 | 18 | $0.55 | T | P1 |
+| 28 | mexican breakfast | 22,200 | 34 | $0.05 | C,N | P1 |
+| 29 | breakfast delivery near me | 18,100 | 28 | $2.06 | T | P1 |
+| 30 | breakfast all day near me | 12,100 | 12 | $0.80 | T | P1 |
+| 31 | breakfast pizza | 27,100 | 42 | $0.74 | C | P1 |
+| 32 | good breakfast near me | 22,200 | 36 | $0.51 | T | P1 |
+| 33 | gluten free breakfast near me | 22,200 | 37 | $0.89 | T | P1 |
+| 34 | breakfast near me now | 14,800 | 24 | $0.65 | T | P2 |
+| 35 | turkish breakfast | 12,100 | 16 | $0.18 | C | P2 |
+| 36 | fast food breakfast near me | 27,100 | 44 | $0.68 | T | P2 |
+| 37 | breakfast in spanish | 18,100 | 34 | $2.13 | C | P2 |
+| 38 | what is the healthiest breakfast | 40,500 | 57 | $0.09 | C | P2 |
+| 39 | places to eat breakfast near me | 14,800 | 29 | $0.57 | T | P2 |
+| 40 | carnation instant breakfast | 18,100 | 37 | $0.23 | C | P2 |
+| 41 | breakfast near me within 0.2 mi | 12,100 | 23 | $0.67 | T | P2 |
+| 42 | sausage breakfast | 14,800 | 31 | $0.54 | C | P2 |
+| 43 | citizens of soho a breakfast restaurant & cafe | 12,100 | 24 | $0.00 | T | P2 |
+| 44 | breakfast near me within 1 mi | 9,900 | 16 | $0.56 | T | P2 |
+| 45 | breakfast tacos | 22,200 | 44 | $1.45 | C | P2 |
+| 46 | what to make for breakfast | 22,200 | 44 | $0.20 | C | P2 |
+| 47 | all day breakfast near me | 18,100 | 38 | $0.74 | T | P2 |
+| 48 | breakfast catering near me | 12,100 | 25 | $1.27 | T | P2 |
+| 49 | breakfast in spanish language | 12,100 | 27 | $2.13 | C | P2 |
+| 50 | breakfast fort wayne | 22,200 | 30 | $1.08 | N | P2 |
+| 51 | breakfast buffet | 14,800 | 15 | $0.74 | N | P2 |
+| 52 | breakfast spots | 12,100 | 28 | $0.93 | C,N | P2 |
+| 53 | breakfast burrito | 60,500 | 59 | $0.56 | N | P2 |
+| 54 | breakfast pizza near me | 8,100 | 14 | $0.83 | T | P2 |
+| 55 | mexican breakfast near me | 14,800 | 38 | $0.75 | T | P2 |
+| 56 | crockett's breakfast camp | 14,800 | 38 | $0.04 | I,T | P2 |
+| 57 | full english breakfast | 18,100 | 45 | $0.55 | C | P2 |
+| 58 | best breakfast | 14,800 | 22 | $0.18 | N | P2 |
+| 59 | vegan breakfast | 14,800 | 40 | $0.13 | C | P2 |
+| 60 | breakfast cafe near me | 9,900 | 27 | $0.62 | T | P2 |
 
-**Title** (max 60 chars):  
-`Breakfast Places Near Me: 82K+ Real US Spots Live`
+### Category-modifier keywords absorbed into homepage (sample)
 
-**Meta description** (max 155 chars):  
-`Find breakfast places, restaurants, and spots open near you right now. 32 chains + 130 hand-picked diners with live serving status, hours, prices, directions.`
+These would have been separate pages under the old plan. They belong on the homepage because the map already filters by these categories via chips. **Each maps to an existing filter chip.**  
 
-**H1**: `Find the Best Breakfast Places Near You` (already live — keep it)
-
----
-
-## 📚 SEPARATE PAGES — no overlap with homepage or each other
-
-Each cluster below is one dedicated URL. Semantically distinct from homepage: users searching these want a *filtered* view, not the whole map.
-
-### `/healthy-breakfast/` — Healthy Breakfast Places
-65 keywords · 326,040 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| healthy breakfast | 165,000 | 59 | $0.15 | P2 · Ship after top pages |
-| healthy breakfast near me | 49,500 | 36 | $0.89 | P2 · Ship after top pages |
-| mediterranean diet breakfast | 8,100 | 31 | $0.07 | P3 · Later / long tail |
-| gluten free diet breakfast | 5,400 | 22 | $0.32 | P3 · Later / long tail |
-| breakfast healthy breakfast | 22,200 | 68 | $0.15 | P3 · Later / long tail |
-| healthy fast food breakfast | 3,600 | 34 | $0.03 | P3 · Later / long tail |
-| breakfasts that are healthy | 2,400 | 0 | $0.15 | P3 · Later / long tail |
-| healthy breakfast for kids | 2,400 | 27 | $0.00 | P3 · Later / long tail |
-| healthy breakfast options on the go | 1,600 | 16 | $0.42 | P3 · Later / long tail |
-| heart healthy breakfast | 2,900 | 38 | $0.31 | P3 · Later / long tail |
-| healthy breakfast meats | 1,600 | 17 | $0.25 | P3 · Later / long tail |
-| healthy egg breakfast | 1,600 | 19 | $0.11 | P3 · Later / long tail |
-| eggs for healthy breakfast | 1,600 | 20 | $0.11 | P3 · Later / long tail |
-| healthy breakfast on the go | 1,900 | 29 | $0.39 | P3 · Later / long tail |
-| healthy breakfasts for kids | 1,900 | 29 | $0.00 | P3 · Later / long tail |
-| healthy breakfast options | 9,900 | 69 | $0.18 | P3 · Later / long tail |
-| quick healthy breakfast | 1,900 | 30 | $0.26 | P3 · Later / long tail |
-| healthy breakfast for weight loss | 3,600 | 50 | $0.36 | P3 · Later / long tail |
-| easy healthy breakfast | 2,400 | 39 | $0.19 | P3 · Later / long tail |
-| healthy breakfast for diabetics | 1,900 | 37 | $0.13 | P3 · Later / long tail |
-| breakfast for healthy | 5,400 | 64 | $0.15 | P3 · Later / long tail |
-| healthy breakfast fast food | 1,600 | 34 | $0.03 | P3 · Later / long tail |
-| healthy fast food breakfast options | 1,600 | 34 | $0.03 | P3 · Later / long tail |
-| healthy breakfast cookies | 1,600 | 42 | $0.24 | P3 · Later / long tail |
-| healthy breakfasts | 3,600 | 63 | $0.15 | P3 · Later / long tail |
-| healthy breakfast to lose weight | 1,900 | 50 | $0.37 | P3 · Later / long tail |
-| healthy breakfast choices | 5,400 | 72 | $0.18 | P3 · Later / long tail |
-| healthy breakfast meals | 2,400 | 60 | $0.27 | P3 · Later / long tail |
-| breakfast near me healthy | 720 | 28 | $0.89 | P3 · Later / long tail |
-| best healthy breakfast near me | 590 | 23 | $0.87 | P3 · Later / long tail |
-| _…and 35 long-tail variants (weave into body)_ | | | | |
-
-### `/breakfast-buffet/` — Breakfast Buffet Near Me
-60 keywords · 66,380 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| breakfast buffet near me | 27,100 | 29 | $0.59 | P2 · Ship after top pages |
-| breakfast buffet | 14,800 | 15 | $0.74 | P2 · Ship after top pages |
-| breakfast buffets near me | 3,600 | 27 | $0.59 | P3 · Later / long tail |
-| cactus mexican buffet breakfast & lunch | 1,900 | 28 | $0.00 | P3 · Later / long tail |
-| all you can eat breakfast buffet near me | 2,900 | 43 | $0.66 | P3 · Later / long tail |
-| indian breakfast buffet near me | 1,300 | 24 | $0.00 | P3 · Later / long tail |
-| mgm breakfast buffet | 1,600 | 37 | $0.19 | P3 · Later / long tail |
-| great wolf lodge breakfast buffet | 1,600 | 22 | $0.69 | P3 · Later / long tail |
-| buffet breakfast near me | 880 | 21 | $0.59 | P3 · Later / long tail |
-| best breakfast buffet near me | 880 | 26 | $0.22 | P3 · Later / long tail |
-| eat n park breakfast buffet | 1,300 | 21 | $0.03 | P3 · Later / long tail |
-| breakfast brunch buffet near me | 590 | 23 | $0.65 | P3 · Later / long tail |
-| sunday breakfast buffet near me | 390 | 18 | $0.00 | P3 · Later / long tail |
-| breakfast buffet restaurants near me | 480 | 28 | $0.00 | P3 · Later / long tail |
-| vegas breakfast buffet | 1,900 | 59 | $0.16 | P3 · Later / long tail |
-| restaurants near me with breakfast buffet | 320 | 27 | $0.00 | P3 · Later / long tail |
-| best breakfast buffets near me | 320 | 28 | $0.22 | P3 · Later / long tail |
-| breakfast buffet near me open now | 260 | 23 | $0.38 | P3 · Later / long tail |
-| buffet breakfast restaurants near me | 210 | 15 | $0.00 | P3 · Later / long tail |
-| sunday breakfast buffets near me | 210 | 19 | $0.00 | P3 · Later / long tail |
-| all you can eat breakfast buffets near me | 170 | 11 | $0.66 | P3 · Later / long tail |
-| sunday buffet breakfast near me | 210 | 20 | $0.00 | P3 · Later / long tail |
-| restaurants near me breakfast buffet | 210 | 26 | $0.00 | P3 · Later / long tail |
-| all you can eat buffet breakfast near me | 170 | 20 | $0.66 | P3 · Later / long tail |
-| breakfast buffet near me now | 170 | 30 | $0.00 | P3 · Later / long tail |
-| breakfast buffet indian near me | 140 | 27 | $0.00 | P3 · Later / long tail |
-| easter breakfast buffet near me | 90 | 10 | $0.53 | P3 · Later / long tail |
-| breakfast buffet near me indian | 140 | 29 | $0.00 | P3 · Later / long tail |
-| dine-in breakfast buffet near me | 90 | 15 | $0.00 | P3 · Later / long tail |
-| indian buffet breakfast near me | 90 | 15 | $0.00 | P3 · Later / long tail |
-| _…and 30 long-tail variants (weave into body)_ | | | | |
-
-### `/brunch-near-me/` — Brunch Restaurants Near Me
-51 keywords · 66,070 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| breakfast and brunch near me | 5,400 | 19 | $0.68 | P3 · Later / long tail |
-| breakfast brunch | 8,100 | 18 | $0.31 | P3 · Later / long tail |
-| breakfast brunch near me | 3,600 | 14 | $0.47 | P3 · Later / long tail |
-| bistrology breakfast brunch & dinner | 6,600 | 39 | $0.07 | P3 · Later / long tail |
-| egg & berry breakfast & brunch café | 3,600 | 0 | $0.53 | P3 · Later / long tail |
-| skillets breakfast & brunch | 5,400 | 28 | $0.37 | P3 · Later / long tail |
-| brunch and breakfast near me | 1,600 | 16 | $0.64 | P3 · Later / long tail |
-| darlene's breakfast & brunch | 3,600 | 44 | $0.00 | P3 · Later / long tail |
-| daily jam breakfast & brunch restaurant | 5,400 | 43 | $0.00 | P3 · Later / long tail |
-| bistrology breakfast & brunch. | 4,400 | 44 | $0.14 | P3 · Later / long tail |
-| breakfast brunch restaurants near me | 1,000 | 17 | $0.43 | P3 · Later / long tail |
-| sugah please breakfast brunch bar | 1,900 | 41 | $0.00 | P3 · Later / long tail |
-| brunch breakfast near me | 880 | 17 | $0.68 | P3 · Later / long tail |
-| breakfast and brunch | 1,600 | 23 | $0.61 | P3 · Later / long tail |
-| yaz's table breakfast & brunch | 2,900 | 44 | $0.00 | P3 · Later / long tail |
-| breakfast or brunch near me | 720 | 15 | $0.61 | P3 · Later / long tail |
-| breakfast brunch foods | 1,300 | 41 | $0.06 | P3 · Later / long tail |
-| mornings breakfast & brunch | 1,600 | 32 | $0.00 | P3 · Later / long tail |
-| brunch/breakfast near me | 720 | 0 | $0.56 | P3 · Later / long tail |
-| best breakfast brunch near me | 590 | 16 | $0.45 | P3 · Later / long tail |
-| breakfast brunch places near me | 720 | 26 | $0.63 | P3 · Later / long tail |
-| best breakfast and brunch near me | 590 | 22 | $0.41 | P3 · Later / long tail |
-| breakfast and brunch restaurants near me | 480 | 23 | $0.37 | P3 · Later / long tail |
-| breakfast/brunch near me | 390 | 17 | $0.47 | P3 · Later / long tail |
-| breakfast / brunch near me | 320 | 17 | $0.47 | P3 · Later / long tail |
-| brunch or breakfast near me | 170 | 11 | $0.61 | P3 · Later / long tail |
-| breakfast brunch near me now | 210 | 21 | $0.74 | P3 · Later / long tail |
-| breakfast brunch places | 390 | 27 | $0.27 | P3 · Later / long tail |
-| breakfast brunch lunch near me | 140 | 14 | $0.00 | P3 · Later / long tail |
-| breakfast and brunch places near me | 140 | 20 | $0.73 | P3 · Later / long tail |
-| _…and 21 long-tail variants (weave into body)_ | | | | |
-
-### `/what-is-breakfast/` — What Is Breakfast? Menus, Prices, Meaning
-24 keywords · 52,800 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| breakfast menu | 5,400 | 22 | $0.19 | P3 · Later / long tail |
-| dq breakfast menu | 4,400 | 28 | $0.27 | P3 · Later / long tail |
-| carl's breakfast menu | 2,400 | 15 | $0.08 | P3 · Later / long tail |
-| jacks breakfast menu | 3,600 | 32 | $0.05 | P3 · Later / long tail |
-| keke's breakfast menu | 2,900 | 28 | $0.13 | P3 · Later / long tail |
-| tlacualli breakfast menu | 2,400 | 23 | $0.00 | P3 · Later / long tail |
-| holiday breakfast menus | 2,900 | 35 | $0.26 | P3 · Later / long tail |
-| chic fil a breakfast menu | 2,900 | 36 | $0.03 | P3 · Later / long tail |
-| holiday breakfast menu | 2,400 | 31 | $0.26 | P3 · Later / long tail |
-| krystal breakfast menu | 1,600 | 16 | $0.30 | P3 · Later / long tail |
-| del taco breakfast menu | 2,400 | 34 | $0.03 | P3 · Later / long tail |
-| white castle breakfast menu | 2,400 | 38 | $0.00 | P3 · Later / long tail |
-| bill miller breakfast menu | 1,300 | 21 | $3.28 | P3 · Later / long tail |
-| jack n a box breakfast menu | 1,300 | 0 | $0.01 | P3 · Later / long tail |
-| bread co breakfast menu | 1,600 | 32 | $0.18 | P3 · Later / long tail |
-| bucky's breakfast menu | 1,300 | 25 | $0.00 | P3 · Later / long tail |
-| chick fil breakfast menu | 1,900 | 38 | $0.05 | P3 · Later / long tail |
-| black bear diner breakfast menu | 1,300 | 29 | $0.53 | P3 · Later / long tail |
-| culver's breakfast menu | 1,300 | 31 | $0.13 | P3 · Later / long tail |
-| eat n park breakfast menu | 1,600 | 28 | $0.02 | P3 · Later / long tail |
-| mc donalds breakfast menu | 1,600 | 46 | $0.26 | P3 · Later / long tail |
-| chick fila breakfast menu | 1,300 | 41 | $0.03 | P3 · Later / long tail |
-| breakfast breakfast menu | 1,300 | 50 | $0.23 | P3 · Later / long tail |
-| chik fil a breakfast menu | 1,300 | 35 | $0.06 | P3 · Later / long tail |
-
-### `/gluten-free-breakfast/` — Gluten-Free Breakfast Places
-30 keywords · 45,670 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| gluten free breakfast near me | 22,200 | 37 | $0.89 | P2 · Ship after top pages |
-| gluten free breakfast | 14,800 | 28 | $0.32 | P2 · Ship after top pages |
-| gluten free dairy free breakfast | 1,300 | 7 | $0.57 | P3 · Later / long tail |
-| gluten free lactose free breakfast | 1,300 | 14 | $0.57 | P3 · Later / long tail |
-| breakfast near me gluten free | 880 | 13 | $0.89 | P3 · Later / long tail |
-| gluten free breakfast restaurants near me | 590 | 11 | $0.00 | P3 · Later / long tail |
-| best gluten free breakfast near me | 590 | 12 | $0.60 | P3 · Later / long tail |
-| gluten free breakfast places near me | 480 | 12 | $0.00 | P3 · Later / long tail |
-| gluten free near me breakfast | 390 | 21 | $0.86 | P3 · Later / long tail |
-| gluten free breakfast options near me | 260 | 10 | $0.75 | P3 · Later / long tail |
-| gluten free breakfast.near me | 390 | 28 | $0.86 | P3 · Later / long tail |
-| gluten-free breakfast near me | 320 | 21 | $0.86 | P3 · Later / long tail |
-| gluten free restaurants near me breakfast | 210 | 11 | $0.00 | P3 · Later / long tail |
-| breakfast near me with gluten free options | 170 | 8 | $0.00 | P3 · Later / long tail |
-| breakfast gluten free near me | 170 | 15 | $0.86 | P3 · Later / long tail |
-| gluten free breakfast places | 320 | 20 | $0.00 | P3 · Later / long tail |
-| breakfast with gluten free options near me | 140 | 8 | $0.00 | P3 · Later / long tail |
-| breakfast places near me gluten free | 140 | 9 | $0.00 | P3 · Later / long tail |
-| gluten free dairy free breakfast near me | 110 | 7 | $0.00 | P3 · Later / long tail |
-| breakfast restaurants near me gluten free | 140 | 19 | $0.00 | P3 · Later / long tail |
-| gluten free breakfast near me open now | 140 | 19 | $0.00 | P3 · Later / long tail |
-| breakfast near me gluten free options | 110 | 11 | $0.75 | P3 · Later / long tail |
-| takeout gluten free breakfast near me | 90 | 14 | $0.00 | P3 · Later / long tail |
-| gluten breakfast near me | 90 | 15 | $0.00 | P3 · Later / long tail |
-| best gluten free breakfast restaurants near me | 70 | 10 | $0.00 | P3 · Later / long tail |
-| gluten and dairy free breakfast near me | 70 | 18 | $0.00 | P3 · Later / long tail |
-| gluten free breakfast spots near me | 50 | 7 | $0.00 | P3 · Later / long tail |
-| gluten free breakfast near me within 5 mi | 50 | 8 | $0.00 | P3 · Later / long tail |
-| breakfast places near me with gluten free options | 50 | 13 | $0.00 | P3 · Later / long tail |
-| gluten free fast food breakfast near me | 50 | 20 | $0.00 | P3 · Later / long tail |
-
-### `/breakfast-delivery/` — Breakfast Delivery Near Me
-36 keywords · 41,750 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| breakfast delivery near me | 18,100 | 28 | $2.06 | P2 · Ship after top pages |
-| breakfast delivery | 6,600 | 17 | $2.02 | P2 · Ship after top pages |
-| delivery breakfast near me | 5,400 | 23 | $2.06 | P3 · Later / long tail |
-| breakfast with delivery | 3,600 | 23 | $2.02 | P3 · Later / long tail |
-| breakfast near me delivery | 1,600 | 33 | $2.03 | P3 · Later / long tail |
-| breakfast delivery food near me | 1,300 | 35 | $2.06 | P3 · Later / long tail |
-| delivery breakfast places near me | 480 | 20 | $2.06 | P3 · Later / long tail |
-| breakfast catering delivery near me | 320 | 20 | $2.64 | P3 · Later / long tail |
-| delivery breakfast near me open now | 210 | 19 | $2.35 | P3 · Later / long tail |
-| delivery breakfast restaurants near me | 260 | 31 | $2.32 | P3 · Later / long tail |
-| breakfast for delivery near me | 170 | 21 | $2.06 | P3 · Later / long tail |
-| breakfast delivery near me now | 140 | 13 | $1.97 | P3 · Later / long tail |
-| breakfast near me open now delivery | 140 | 15 | $1.94 | P3 · Later / long tail |
-| best breakfast delivery near me | 170 | 28 | $1.64 | P3 · Later / long tail |
-| breakfast delivery near me open now | 1,300 | 74 | $2.13 | P3 · Later / long tail |
-| uber eats breakfast delivery near me | 170 | 29 | $0.00 | P3 · Later / long tail |
-| delivery near me breakfast | 140 | 23 | $2.06 | P3 · Later / long tail |
-| restaurants near me delivery breakfast | 110 | 21 | $1.82 | P3 · Later / long tail |
-| food delivery near me breakfast | 110 | 24 | $2.06 | P3 · Later / long tail |
-| breakfast platter delivery near me | 90 | 18 | $1.54 | P3 · Later / long tail |
-| breakfast places near me delivery | 90 | 25 | $2.33 | P3 · Later / long tail |
-| delivery best breakfast near me | 90 | 25 | $1.49 | P3 · Later / long tail |
-| breakfast store near me delivery | 90 | 26 | $2.54 | P3 · Later / long tail |
-| breakfast near me delivery open now | 70 | 18 | $1.78 | P3 · Later / long tail |
-| delivery takeout breakfast near me | 70 | 18 | $2.15 | P3 · Later / long tail |
-| delivery breakfast spots near me | 90 | 29 | $2.37 | P3 · Later / long tail |
-| breakfast cash delivery near me | 70 | 20 | $1.14 | P3 · Later / long tail |
-| free breakfast delivery near me | 90 | 30 | $1.76 | P3 · Later / long tail |
-| breakfast delivery near me cash | 90 | 31 | $1.15 | P3 · Later / long tail |
-| breakfast restaurants delivery near me | 170 | 50 | $1.82 | P3 · Later / long tail |
-| _…and 6 long-tail variants (weave into body)_ | | | | |
-
-### `/breakfast-takeout/` — Breakfast Takeout Near Me
-60 keywords · 39,510 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| breakfast to go near me | 5,400 | 23 | $0.90 | P3 · Later / long tail |
-| takeout breakfast near me | 8,100 | 55 | $0.98 | P3 · Later / long tail |
-| breakfast takeout near me | 2,400 | 20 | $1.00 | P3 · Later / long tail |
-| breakfast takeout places near me | 3,600 | 38 | $1.00 | P3 · Later / long tail |
-| breakfast take out near me | 2,400 | 37 | $1.00 | P3 · Later / long tail |
-| breakfast to go | 2,900 | 30 | $0.44 | P3 · Later / long tail |
-| breakfast takeout | 1,900 | 23 | $1.01 | P3 · Later / long tail |
-| to go breakfast near me | 880 | 15 | $0.97 | P3 · Later / long tail |
-| breakfast takeout restaurants | 1,900 | 28 | $1.01 | P3 · Later / long tail |
-| breakfast near me to go | 1,000 | 26 | $1.13 | P3 · Later / long tail |
-| breakfast near me takeout | 720 | 28 | $1.08 | P3 · Later / long tail |
-| take out breakfast near me | 590 | 28 | $0.98 | P3 · Later / long tail |
-| best takeout breakfast near me | 480 | 27 | $1.00 | P3 · Later / long tail |
-| places to go for breakfast near me | 390 | 23 | $0.55 | P3 · Later / long tail |
-| best to go breakfast near me | 320 | 17 | $1.09 | P3 · Later / long tail |
-| take out breakfast near me open now | 390 | 26 | $1.04 | P3 · Later / long tail |
-| good takeout breakfast near me | 390 | 28 | $0.83 | P3 · Later / long tail |
-| where to go for breakfast near me | 390 | 29 | $0.51 | P3 · Later / long tail |
-| takeout breakfast near me open now | 720 | 49 | $0.95 | P3 · Later / long tail |
-| takeout breakfast places near me | 320 | 28 | $1.00 | P3 · Later / long tail |
-| best breakfast to go near me | 170 | 17 | $0.85 | P3 · Later / long tail |
-| best breakfast takeout near me | 210 | 30 | $1.00 | P3 · Later / long tail |
-| places to go to breakfast near me | 140 | 19 | $0.55 | P3 · Later / long tail |
-| takeout breakfast restaurants near me | 170 | 27 | $0.69 | P3 · Later / long tail |
-| takeout best breakfast near me | 170 | 28 | $0.60 | P3 · Later / long tail |
-| best places to go for breakfast near me | 110 | 13 | $0.00 | P3 · Later / long tail |
-| breakfast to go near me open now | 140 | 23 | $0.92 | P3 · Later / long tail |
-| takeout breakfast near me within 5 mi | 210 | 38 | $0.48 | P3 · Later / long tail |
-| takeout breakfast near me within 1 mi | 110 | 16 | $1.00 | P3 · Later / long tail |
-| takeout fast food breakfast near me | 170 | 33 | $0.58 | P3 · Later / long tail |
-| _…and 30 long-tail variants (weave into body)_ | | | | |
-
-### `/vegan-breakfast/` — Vegan Breakfast Restaurants
-26 keywords · 39,280 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| vegan breakfast | 14,800 | 40 | $0.13 | P2 · Ship after top pages |
-| vegan breakfast near me | 18,100 | 58 | $0.97 | P3 · Later / long tail |
-| vegan breakfast options near me | 1,300 | 13 | $0.63 | P3 · Later / long tail |
-| breakfast near me vegan options | 1,000 | 11 | $0.63 | P3 · Later / long tail |
-| breakfast vegan near me | 480 | 16 | $0.00 | P3 · Later / long tail |
-| vegan friendly breakfast near me | 390 | 9 | $0.00 | P3 · Later / long tail |
-| best vegan breakfast near me | 390 | 10 | $1.06 | P3 · Later / long tail |
-| vegan breakfast places near me | 390 | 15 | $0.69 | P3 · Later / long tail |
-| vegan breakfast restaurants near me | 390 | 24 | $1.10 | P3 · Later / long tail |
-| breakfast with vegan options near me | 320 | 22 | $0.63 | P3 · Later / long tail |
-| vegan breakfast restaurant near me | 170 | 12 | $1.10 | P3 · Later / long tail |
-| breakfast vegan options near me | 140 | 11 | $0.63 | P3 · Later / long tail |
-| gluten free vegan breakfast near me | 140 | 13 | $0.00 | P3 · Later / long tail |
-| vegan gluten free breakfast near me | 140 | 13 | $0.00 | P3 · Later / long tail |
-| vegan options breakfast near me | 110 | 20 | $0.00 | P3 · Later / long tail |
-| vegan breakfast spots near me | 70 | 9 | $0.00 | P3 · Later / long tail |
-| breakfast near me vegan | 70 | 11 | $0.97 | P3 · Later / long tail |
-| breakfast near me vegan friendly | 70 | 11 | $0.00 | P3 · Later / long tail |
-| vegan breakfast near me open now | 320 | 59 | $1.06 | P3 · Later / long tail |
-| breakfast vegan restaurants near me | 110 | 37 | $1.10 | P3 · Later / long tail |
-| breakfast near me with vegan options | 70 | 28 | $0.96 | P3 · Later / long tail |
-| top rated vegan breakfast near me | 50 | 16 | $0.00 | P3 · Later / long tail |
-| vegan breakfast delivery near me | 50 | 20 | $1.06 | P3 · Later / long tail |
-| vegan breakfast place near me | 50 | 0 | $0.78 | P3 · Later / long tail |
-| vegan breakfast near me now | 70 | 49 | $0.00 | P3 · Later / long tail |
-| vegan breakfast near me within 5 mi | 90 | 58 | $0.00 | P3 · Later / long tail |
-
-### `/all-day-breakfast/` — All-Day Breakfast Restaurants
-29 keywords · 33,970 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| all day breakfast near me | 18,100 | 38 | $0.74 | P2 · Ship after top pages |
-| all day breakfast | 8,100 | 12 | $0.94 | P3 · Later / long tail |
-| best all day breakfast near me | 590 | 16 | $0.42 | P3 · Later / long tail |
-| all day breakfast fast food | 1,300 | 35 | $0.63 | P3 · Later / long tail |
-| all day breakfast restaurants near me | 880 | 42 | $0.32 | P3 · Later / long tail |
-| all day breakfast near me open now | 480 | 26 | $0.83 | P3 · Later / long tail |
-| restaurants all day breakfast near me | 480 | 30 | $0.34 | P3 · Later / long tail |
-| restaurants near me all day breakfast | 1,000 | 53 | $0.32 | P3 · Later / long tail |
-| all day breakfast places | 480 | 13 | $0.79 | P3 · Later / long tail |
-| all day breakfast places near me | 480 | 36 | $0.52 | P3 · Later / long tail |
-| places with all day breakfast near me | 260 | 27 | $0.52 | P3 · Later / long tail |
-| places for all day breakfast near me | 140 | 12 | $0.52 | P3 · Later / long tail |
-| restaurants with all day breakfast near me | 170 | 27 | $0.34 | P3 · Later / long tail |
-| all day breakfast near me fast food | 210 | 37 | $0.50 | P3 · Later / long tail |
-| all day breakfast fast food near me | 170 | 33 | $0.71 | P3 · Later / long tail |
-| places that serve all day breakfast near me | 170 | 35 | $0.84 | P3 · Later / long tail |
-| dine-in all day breakfast near me | 70 | 0 | $0.00 | P3 · Later / long tail |
-| who has all day breakfast near me | 90 | 25 | $0.72 | P3 · Later / long tail |
-| all day breakfast diners near me | 140 | 41 | $0.52 | P3 · Later / long tail |
-| good all day breakfast near me | 70 | 18 | $0.42 | P3 · Later / long tail |
-| all day breakfast open now near me | 50 | 16 | $0.00 | P3 · Later / long tail |
-| fast food all day breakfast near me | 70 | 32 | $0.72 | P3 · Later / long tail |
-| who serves all day breakfast near me | 50 | 21 | $0.52 | P3 · Later / long tail |
-| cheap all day breakfast near me | 90 | 43 | $0.60 | P3 · Later / long tail |
-| top rated all day breakfast near me | 50 | 25 | $0.00 | P3 · Later / long tail |
-| where can i get all day breakfast near me | 50 | 25 | $0.73 | P3 · Later / long tail |
-| takeout all day breakfast near me | 110 | 51 | $0.70 | P3 · Later / long tail |
-| where to get all day breakfast near me | 50 | 28 | $0.73 | P3 · Later / long tail |
-| all day breakfast diner near me | 70 | 50 | $0.52 | P3 · Later / long tail |
-
-### `/breakfast-hours/` — Breakfast Hours by Chain (Live Cutoffs)
-17 keywords · 33,100 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| bread co breakfast hours | 5,400 | 24 | $0.00 | P3 · Later / long tail |
-| la quinta breakfast hours | 1,600 | 11 | $0.34 | P3 · Later / long tail |
-| chick fila breakfast hours | 2,900 | 38 | $0.08 | P3 · Later / long tail |
-| carl's breakfast hours | 1,900 | 27 | $0.41 | P3 · Later / long tail |
-| holiday inn express breakfast hours | 1,900 | 27 | $2.00 | P3 · Later / long tail |
-| sunday breakfast society | 1,900 | 29 | $0.00 | P3 · Later / long tail |
-| chick fil breakfast hours | 2,400 | 38 | $0.08 | P3 · Later / long tail |
-| what time is breakfast | 1,600 | 30 | $0.00 | P3 · Later / long tail |
-| hampton breakfast hours | 1,300 | 25 | $0.10 | P3 · Later / long tail |
-| chick fil.a breakfast hours | 1,600 | 33 | $0.08 | P3 · Later / long tail |
-| what time does jack's stop serving breakfast | 1,600 | 35 | $0.18 | P3 · Later / long tail |
-| embassy suites breakfast hours | 1,600 | 37 | $0.17 | P3 · Later / long tail |
-| sunday breakfast mission | 1,900 | 25 | $4.08 | P3 · Later / long tail |
-| chic fil a breakfast hours | 1,300 | 38 | $0.13 | P3 · Later / long tail |
-| chik fil a breakfast hours | 1,300 | 38 | $0.08 | P3 · Later / long tail |
-| bread company breakfast hours | 1,600 | 33 | $0.00 | P3 · Later / long tail |
-| ikea breakfast hours | 1,300 | 53 | $0.86 | P3 · Later / long tail |
-
-### `/cheap-breakfast/` — Cheap Breakfast Under $10
-59 keywords · 32,340 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| cheap breakfast near me | 14,800 | 18 | $0.86 | P2 · Ship after top pages |
-| cheap breakfast | 4,400 | 14 | $0.80 | P3 · Later / long tail |
-| affordable breakfast near me | 880 | 21 | $0.77 | P3 · Later / long tail |
-| cheapest breakfast near me | 880 | 22 | $0.86 | P3 · Later / long tail |
-| breakfast near me cheap | 1,000 | 27 | $0.93 | P3 · Later / long tail |
-| cheap breakfast places near me | 880 | 29 | $0.72 | P3 · Later / long tail |
-| best cheap breakfast near me | 720 | 22 | $1.13 | P3 · Later / long tail |
-| cheap good breakfast near me | 590 | 26 | $0.83 | P3 · Later / long tail |
-| cheap places for breakfast near me | 480 | 28 | $0.86 | P3 · Later / long tail |
-| cheap breakfast near me within 5 mi | 390 | 23 | $0.53 | P3 · Later / long tail |
-| good and cheap breakfast near me | 390 | 27 | $0.82 | P3 · Later / long tail |
-| cheap breakfast near me under $10 | 320 | 27 | $0.79 | P3 · Later / long tail |
-| cheap breakfast restaurants near me | 320 | 28 | $0.46 | P3 · Later / long tail |
-| cheapest place for breakfast near me | 260 | 25 | $0.86 | P3 · Later / long tail |
-| cheap breakfast places | 480 | 29 | $0.52 | P3 · Later / long tail |
-| cheap places for breakfast | 390 | 26 | $0.52 | P3 · Later / long tail |
-| cheap takeout breakfast near me | 210 | 24 | $1.02 | P3 · Later / long tail |
-| cheap fast food breakfast near me | 210 | 25 | $1.06 | P3 · Later / long tail |
-| good cheap breakfast near me | 260 | 33 | $0.82 | P3 · Later / long tail |
-| breakfast places near me cheap | 210 | 27 | $0.86 | P3 · Later / long tail |
-| cheap place for breakfast near me | 210 | 27 | $0.86 | P3 · Later / long tail |
-| breakfast places cheap | 320 | 24 | $0.52 | P3 · Later / long tail |
-| takeout cheap breakfast near me | 170 | 27 | $1.14 | P3 · Later / long tail |
-| healthy cheap breakfast near me | 140 | 21 | $1.02 | P3 · Later / long tail |
-| cheap breakfast near me within 0.2 mi | 140 | 22 | $0.82 | P3 · Later / long tail |
-| cheap healthy breakfast near me | 140 | 24 | $1.02 | P3 · Later / long tail |
-| cheap places to eat breakfast near me | 140 | 26 | $1.28 | P3 · Later / long tail |
-| cheap breakfast diners near me | 110 | 17 | $0.00 | P3 · Later / long tail |
-| cheap breakfast catering near me | 110 | 20 | $1.33 | P3 · Later / long tail |
-| dine-in cheap breakfast near me | 70 | 0 | $0.00 | P3 · Later / long tail |
-| _…and 29 long-tail variants (weave into body)_ | | | | |
-
-### `/breakfast-catering/` — Breakfast Catering Services
-25 keywords · 27,340 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| breakfast catering near me | 12,100 | 25 | $1.27 | P2 · Ship after top pages |
-| breakfast catering | 9,900 | 13 | $2.04 | P2 · Ship after top pages |
-| catering breakfast near me | 1,900 | 13 | $1.27 | P3 · Later / long tail |
-| breakfast+catering+near+me | 480 | 28 | $1.27 | P3 · Later / long tail |
-| breakfast near me catering | 260 | 9 | $2.19 | P3 · Later / long tail |
-| breakfast caterers near me | 320 | 25 | $1.12 | P3 · Later / long tail |
-| catering for breakfast near me | 210 | 11 | $1.27 | P3 · Later / long tail |
-| breakfast catering places near me | 210 | 20 | $1.57 | P3 · Later / long tail |
-| best breakfast catering near me | 170 | 14 | $1.81 | P3 · Later / long tail |
-| breakfast catering options near me | 170 | 14 | $1.53 | P3 · Later / long tail |
-| breakfast catering near me that deliver | 170 | 18 | $1.92 | P3 · Later / long tail |
-| breakfast catering services near me | 140 | 14 | $2.16 | P3 · Later / long tail |
-| good breakfast catering near me | 170 | 23 | $1.16 | P3 · Later / long tail |
-| breakfast box catering near me | 110 | 7 | $0.00 | P3 · Later / long tail |
-| best breakfast caterers near me | 90 | 6 | $1.38 | P3 · Later / long tail |
-| breakfast platters catering near me | 170 | 33 | $1.55 | P3 · Later / long tail |
-| office breakfast catering near me | 90 | 8 | $8.22 | P3 · Later / long tail |
-| breakfast catering near me with prices | 90 | 10 | $0.81 | P3 · Later / long tail |
-| boxed breakfast catering near me | 110 | 20 | $0.84 | P3 · Later / long tail |
-| local breakfast catering near me | 90 | 12 | $1.89 | P3 · Later / long tail |
-| corporate breakfast catering near me | 90 | 23 | $8.16 | P3 · Later / long tail |
-| catering breakfast places near me | 90 | 26 | $1.11 | P3 · Later / long tail |
-| best catering breakfast near me | 90 | 31 | $1.41 | P3 · Later / long tail |
-| breakfast and lunch catering near me | 70 | 24 | $4.24 | P3 · Later / long tail |
-| breakfast catering menu near me | 50 | 20 | $0.67 | P3 · Later / long tail |
-
-### `/french-breakfast/` — French Breakfast & Croissant Cafés
-15 keywords · 19,890 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| breakfast croissant | 4,400 | 33 | $0.54 | P3 · Later / long tail |
-| breakfast croissant near me | 1,000 | 15 | $0.72 | P3 · Later / long tail |
-| breakfast in french | 1,900 | 39 | $0.00 | P3 · Later / long tail |
-| french cafe breakfast & lunch | 3,600 | 43 | $0.00 | P3 · Later / long tail |
-| breakfast croissant sandwich | 1,600 | 38 | $0.57 | P3 · Later / long tail |
-| breakfast crepes | 1,900 | 34 | $0.14 | P3 · Later / long tail |
-| croissant breakfast bake | 1,300 | 42 | $0.13 | P3 · Later / long tail |
-| breakfast croissants near me | 720 | 24 | $0.87 | P3 · Later / long tail |
-| breakfast with crepes | 1,300 | 33 | $0.16 | P3 · Later / long tail |
-| breakfast croissant sandwich near me | 480 | 22 | $0.58 | P3 · Later / long tail |
-| breakfast crepes near me | 880 | 53 | $0.76 | P3 · Later / long tail |
-| breakfast places in the french quarter | 320 | 19 | $0.15 | P3 · Later / long tail |
-| crepe breakfast near me | 210 | 27 | $0.76 | P3 · Later / long tail |
-| crepes for breakfast near me | 210 | 39 | $0.45 | P3 · Later / long tail |
-| breakfast near me crepes | 70 | 33 | $0.00 | P3 · Later / long tail |
-
-### `/drive-thru-breakfast/` — Drive-Thru Breakfast Near Me
-25 keywords · 16,540 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| breakfast near me drive thru | 4,400 | 34 | $0.90 | P3 · Later / long tail |
-| drive thru breakfast near me | 3,600 | 29 | $0.90 | P3 · Later / long tail |
-| breakfast drive thru near me | 2,900 | 22 | $0.90 | P3 · Later / long tail |
-| drive through breakfast near me | 1,300 | 29 | $1.10 | P3 · Later / long tail |
-| breakfast drive through near me | 590 | 28 | $1.10 | P3 · Later / long tail |
-| breakfast drive thru | 1,300 | 39 | $0.81 | P3 · Later / long tail |
-| breakfast drive thrus near me | 590 | 36 | $0.90 | P3 · Later / long tail |
-| breakfast places near me drive thru | 140 | 8 | $0.00 | P3 · Later / long tail |
-| drive thru breakfast places near me | 210 | 27 | $0.77 | P3 · Later / long tail |
-| breakfast near me with drive thru | 140 | 13 | $0.90 | P3 · Later / long tail |
-| best drive thru breakfast near me | 210 | 30 | $1.40 | P3 · Later / long tail |
-| breakfast with drive thru near me | 140 | 18 | $0.00 | P3 · Later / long tail |
-| drive thru breakfast near me open now | 140 | 27 | $0.66 | P3 · Later / long tail |
-| breakfast taco drive thru near me | 90 | 10 | $0.00 | P3 · Later / long tail |
-| breakfast near me drive thru open now | 70 | 12 | $0.00 | P3 · Later / long tail |
-| breakfast drive thru near me open now | 90 | 26 | $0.00 | P3 · Later / long tail |
-| breakfast drive thru places near me | 90 | 26 | $1.43 | P3 · Later / long tail |
-| breakfast near me open now drive thru | 90 | 26 | $0.00 | P3 · Later / long tail |
-| breakfast near me drive through | 70 | 23 | $0.90 | P3 · Later / long tail |
-| takeout breakfast near me drive thru | 70 | 26 | $0.00 | P3 · Later / long tail |
-| best breakfast drive thru near me | 70 | 32 | $0.00 | P3 · Later / long tail |
-| drive thru near me breakfast | 70 | 34 | $0.00 | P3 · Later / long tail |
-| breakfast near me fast food drive thru | 50 | 25 | $1.71 | P3 · Later / long tail |
-| drive-thru breakfast near me | 50 | 25 | $1.10 | P3 · Later / long tail |
-| best breakfast drive through near me | 70 | 39 | $0.00 | P3 · Later / long tail |
-
-### `/jewish-breakfast-bagels/` — Jewish Breakfast & Bagel Spots
-14 keywords · 13,290 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| breakfast bagels near me | 4,400 | 6 | $0.50 | P2 · Ship after top pages |
-| breakfast bagels | 1,600 | 28 | $0.63 | P3 · Later / long tail |
-| kosher breakfast near me | 1,600 | 29 | $0.00 | P3 · Later / long tail |
-| breakfast bagel | 3,600 | 39 | $0.63 | P3 · Later / long tail |
-| breakfast bagel sandwich near me | 590 | 32 | $0.63 | P3 · Later / long tail |
-| breakfast bagel near me | 390 | 34 | $0.45 | P3 · Later / long tail |
-| best breakfast bagels near me | 260 | 45 | $0.31 | P3 · Later / long tail |
-| bagel breakfast near me | 320 | 51 | $0.45 | P3 · Later / long tail |
-| breakfast bagels sandwiches near me | 140 | 29 | $0.45 | P3 · Later / long tail |
-| kosher breakfast places near me | 90 | 16 | $0.00 | P3 · Later / long tail |
-| breakfast near me bagels | 90 | 34 | $0.65 | P3 · Later / long tail |
-| best kosher breakfast near me | 50 | 15 | $0.00 | P3 · Later / long tail |
-| breakfast bagel places near me | 90 | 44 | $0.35 | P3 · Later / long tail |
-| breakfast bagels near me open now | 70 | 52 | $0.39 | P3 · Later / long tail |
-
-### `/24-hour-breakfast/` — 24-Hour Breakfast Places Open All Night
-15 keywords · 9,530 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| 24 hour breakfast near me | 5,400 | 21 | $0.50 | P3 · Later / long tail |
-| breakfast chain open 24 hours | 1,600 | 27 | $0.00 | P3 · Later / long tail |
-| late night breakfast near me | 480 | 22 | $0.71 | P3 · Later / long tail |
-| breakfast 24 hours near me | 390 | 19 | $0.50 | P3 · Later / long tail |
-| breakfast 24 hour near me | 260 | 0 | $0.58 | P3 · Later / long tail |
-| 24 hours breakfast near me | 210 | 20 | $0.50 | P3 · Later / long tail |
-| 24 hour breakfast restaurants near me | 260 | 31 | $0.00 | P3 · Later / long tail |
-| 24 hour breakfast near me open now | 170 | 17 | $0.92 | P3 · Later / long tail |
-| breakfast near me 24 hours | 210 | 26 | $0.00 | P3 · Later / long tail |
-| 24-hour breakfast near me | 140 | 23 | $0.50 | P3 · Later / long tail |
-| breakfast near me open 24 hours | 90 | 10 | $0.00 | P3 · Later / long tail |
-| all night breakfast near me | 110 | 23 | $0.00 | P3 · Later / long tail |
-| breakfast open 24 hours near me | 90 | 19 | $0.00 | P3 · Later / long tail |
-| 24 hour breakfast places near me | 70 | 22 | $0.00 | P3 · Later / long tail |
-| 24 hour breakfast place near me | 50 | 21 | $0.00 | P3 · Later / long tail |
-
-### `/southern-breakfast/` — Southern Breakfast Restaurants
-12 keywords · 8,910 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| grits and eggs breakfast kitchen | 5,400 | 48 | $0.81 | P3 · Later / long tail |
-| breakfast grits | 1,600 | 38 | $0.24 | P3 · Later / long tail |
-| breakfast grits near me | 480 | 33 | $0.70 | P3 · Later / long tail |
-| grits breakfast near me | 480 | 43 | $0.71 | P3 · Later / long tail |
-| breakfast with grits near me | 320 | 33 | $0.70 | P3 · Later / long tail |
-| grits for breakfast near me | 210 | 30 | $0.71 | P3 · Later / long tail |
-| shrimp and grits breakfast near me | 90 | 20 | $0.51 | P3 · Later / long tail |
-| fish and grits breakfast near me | 70 | 12 | $0.00 | P3 · Later / long tail |
-| breakfast near me grits | 70 | 31 | $0.00 | P3 · Later / long tail |
-| biscuits and gravy breakfast near me | 70 | 32 | $0.00 | P3 · Later / long tail |
-| breakfast near me with grits | 70 | 38 | $0.58 | P3 · Later / long tail |
-| grits near me breakfast | 50 | 30 | $0.00 | P3 · Later / long tail |
-
-### `/halal-breakfast/` — Halal Breakfast Restaurants
-11 keywords · 7,980 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| halal breakfast near me | 2,900 | 25 | $1.28 | P3 · Later / long tail |
-| breakfast delivery halal | 1,900 | 13 | $2.31 | P3 · Later / long tail |
-| halal breakfast | 1,300 | 25 | $0.00 | P3 · Later / long tail |
-| breakfast near me halal | 880 | 20 | $0.97 | P3 · Later / long tail |
-| breakfast places near me halal | 320 | 17 | $0.00 | P3 · Later / long tail |
-| halal breakfast places near me | 260 | 15 | $0.00 | P3 · Later / long tail |
-| halal breakfast restaurants near me | 140 | 9 | $0.00 | P3 · Later / long tail |
-| halal breakfast near me open now | 90 | 3 | $0.00 | P3 · Later / long tail |
-| best halal breakfast near me | 90 | 26 | $0.00 | P3 · Later / long tail |
-| halal breakfast spots near me | 50 | 13 | $0.00 | P3 · Later / long tail |
-| halal restaurants for breakfast near me | 50 | 16 | $0.00 | P3 · Later / long tail |
-
-### `/mediterranean-breakfast/` — Mediterranean Breakfast Spots
-2 keywords · 5,720 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| mediterranean breakfast | 5,400 | 29 | $0.06 | P3 · Later / long tail |
-| mediterranean breakfast near me | 320 | 30 | $0.00 | P3 · Later / long tail |
-
-### `/kid-friendly-breakfast/` — Kid-Friendly Breakfast Places
-6 keywords · 720 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| family friendly breakfast near me | 210 | 7 | $0.00 | P3 · Later / long tail |
-| kids breakfast near me | 210 | 8 | $0.00 | P3 · Later / long tail |
-| kids eat free breakfast near me | 90 | 3 | $0.00 | P3 · Later / long tail |
-| kid friendly breakfast near me | 70 | 4 | $0.00 | P3 · Later / long tail |
-| family friendly breakfast restaurants near me | 70 | 6 | $0.00 | P3 · Later / long tail |
-| breakfast for kids near me | 70 | 17 | $0.00 | P3 · Later / long tail |
-
-### `/mexican-breakfast/` — Mexican Breakfast Places
-3 keywords · 360 monthly searches combined
-
-| Keyword | SV | KD | CPC | Priority |
-|---|---:|---:|---:|---|
-| chilaquiles near me breakfast | 140 | 13 | $0.00 | P3 · Later / long tail |
-| breakfast chilaquiles near me | 110 | 28 | $0.00 | P3 · Later / long tail |
-| chilaquiles breakfast near me | 110 | 34 | $0.00 | P3 · Later / long tail |
+| Keyword | SV | Which homepage filter chip serves it |
+|---|---:|---|
+| healthy breakfast (+68 variants, 316,900 combined SV) | 165,000 | 🥗 Healthy |
+| vegan breakfast near me (+30 variants, 45,210 combined SV) | 18,100 | 🌱 Vegan |
+| halal breakfast near me (+11 variants, 8,030 combined SV) | 2,900 | 🕌 Halal |
+| gluten free breakfast near me (+34 variants, 52,060 combined SV) | 22,200 | 🌾 Gluten-Free |
+| 24 hour breakfast near me (+13 variants, 8,980 combined SV) | 5,400 | 🌙 24-Hour |
+| cheap breakfast near me (+62 variants, 32,520 combined SV) | 14,800 | 💰 Under $10 |
+| breakfast buffet near me (+64 variants, 66,890 combined SV) | 27,100 | 🍽️ Buffet |
+| breakfast near me drive thru (+31 variants, 16,680 combined SV) | 4,400 | 🚗 Drive-Thru |
+| breakfast brunch (+53 variants, 66,740 combined SV) | 8,100 | 🍹 Brunch |
+| all day breakfast near me (+62 variants, 60,490 combined SV) | 18,100 | 🕐 All-Day |
+| family breakfast (+18 variants, 20,590 combined SV) | 9,900 | 👨‍👩‍👧 Kid-Friendly |
+| breakfast delivery near me (+47 variants, 44,460 combined SV) | 18,100 | 🛵 Delivery (planned chip) |
+| takeout breakfast near me (+72 variants, 37,910 combined SV) | 8,100 | 🚗 Takeout (planned chip) |
+| breakfast catering near me (+31 variants, 28,100 combined SV) | 12,100 | 🍱 Catering (planned chip) |
+| breakfast near me open now (+132 variants, 122,530 combined SV) | 74,000 | 🟢 Serving Now |
 
 ---
 
-## 🚫 EXCLUDED — routed to other page types
+## 🏪 TIER 2 — BRAND PAGES (one per chain)
 
-These clusters do NOT belong on the homepage or category pages. Each has its own page-type plan:
+**782 brand-specific keywords · 5,253,690 SV combined.**  
+Each brand gets its own URL. Keywords cluster naturally by brand — no cross-brand cannibalization.
 
-| Cluster | Count | Total SV | Where to target |
+### Brand pages by total search volume
+
+| # | Brand | URL | Keywords | Total SV | Top query |
+|---|---|---|---:|---:|---|
+| 1 | McDonald's | `/mcdonald-s-breakfast-hours/` | 265 | 2,201,780 | mcdonalds breakfast (246,000) |
+| 2 | Chick-fil-A | `/chick-fil-a-breakfast-hours/` | 84 | 884,270 | chick fil a breakfast hours (135,000) |
+| 3 | Wendy's | `/wendy-s-breakfast-hours/` | 52 | 458,640 | wendy's breakfast (90,500) |
+| 4 | Taco Bell | `/taco-bell-breakfast-hours/` | 48 | 329,230 | taco bell breakfast (74,000) |
+| 5 | Burger King | `/burger-king-breakfast-hours/` | 36 | 276,130 | burger king breakfast menu (74,000) |
+| 6 | Hardee's | `/hardee-s-breakfast-hours/` | 30 | 138,880 | hardee's breakfast menu (18,100) |
+| 7 | Panera Bread | `/panera-bread-breakfast-hours/` | 20 | 84,170 | panera breakfast menu (18,100) |
+| 8 | Whataburger | `/whataburger-breakfast-hours/` | 12 | 69,440 | whataburger breakfast menu (22,200) |
+| 9 | Sonic | `/sonic-breakfast-hours/` | 13 | 66,260 | sonic breakfast menu (22,200) |
+| 10 | Big Bad Breakfast | `/big-bad-breakfast-breakfast-hours/` | 12 | 58,890 | big bad breakfast (40,500) |
+| 11 | IHOP | `/ihop-breakfast-hours/` | 23 | 54,090 | ihop breakfast menu (12,100) |
+| 12 | Jack in the Box | `/jack-in-the-box-breakfast-hours/` | 13 | 51,440 | jack in the box breakfast menu (18,100) |
+| 13 | Starbucks | `/starbucks-breakfast-hours/` | 8 | 48,400 | starbucks breakfast menu (22,200) |
+| 14 | Dunkin | `/dunkin-breakfast-hours/` | 17 | 46,600 | dunkin breakfast menu (8,100) |
+| 15 | Denny's | `/denny-s-breakfast-hours/` | 16 | 44,060 | dennys breakfast near me (9,900) |
+| 16 | Cracker Barrel | `/cracker-barrel-breakfast-hours/` | 8 | 36,670 | cracker barrel breakfast menu (18,100) |
+| 17 | Golden Corral | `/golden-corral-breakfast-hours/` | 12 | 34,250 | golden corral breakfast hours (14,800) |
+| 18 | Breakfast Republic | `/breakfast-republic-breakfast-hours/` | 6 | 27,890 | breakfast republic (18,100) |
+| 19 | Carl's Jr | `/carl-s-jr-breakfast-hours/` | 8 | 25,300 | carl's jr breakfast (4,400) |
+| 20 | Arby's | `/arby-s-breakfast-hours/` | 8 | 24,470 | arby's breakfast menu (8,100) |
+| 21 | Bojangles | `/bojangles-breakfast-hours/` | 6 | 24,250 | bojangles breakfast menu (14,800) |
+| 22 | The Breakfast Klub | `/the-breakfast-klub-breakfast-hours/` | 6 | 22,700 | the breakfast klub (8,100) |
+| 23 | Braum's | `/braum-s-breakfast-hours/` | 6 | 21,400 | braums breakfast menu (6,600) |
+| 24 | Salt's Cure | `/salt-s-cure-breakfast-hours/` | 2 | 19,700 | breakfast by salt's cure (18,100) |
+| 25 | Huckleberry's | `/huckleberry-s-breakfast-hours/` | 2 | 19,700 | huckleberry's breakfast & lunch (18,100) |
+| 26 | Subway | `/subway-breakfast-hours/` | 8 | 19,270 | subway breakfast (6,600) |
+| 27 | Dairy Queen | `/dairy-queen-breakfast-hours/` | 5 | 17,450 | dairy queen breakfast menu (9,900) |
+| 28 | Bob Evans | `/bob-evans-breakfast-hours/` | 4 | 16,470 | bob evans breakfast (8,100) |
+| 29 | First Watch | `/first-watch-breakfast-hours/` | 6 | 15,520 | first watch breakfast (8,100) |
+| 30 | Breakfast Station | `/breakfast-station-breakfast-hours/` | 4 | 14,750 | breakfast station (12,100) |
+| 31 | Tim Hortons | `/tim-hortons-breakfast-hours/` | 4 | 12,000 | tim hortons breakfast menu (3,600) |
+| 32 | Wawa | `/wawa-breakfast-hours/` | 3 | 11,700 | wawa breakfast menu (5,400) |
+
+### Detailed keyword cluster for top 10 brands
+
+#### 1. McDonald's
+
+265 keywords · 2,201,780 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| what time does mcdonald's stop serving breakfast | 246,000 | 37 | P0 |
+| mcdonald's breakfast hours | 201,000 | 51 | P1 |
+| mcdonalds breakfast | 246,000 | 58 | P1 |
+| when does mcdonald's stop serving breakfast | 135,000 | 47 | P1 |
+| mcdonald's breakfast menu | 165,000 | 56 | P1 |
+| when does mcdonald's breakfast end | 40,500 | 39 | P1 |
+| mcdonald's breakfast | 74,000 | 55 | P1 |
+| what time does mcdonald's breakfast end | 33,100 | 41 | P1 |
+| mcdonalds breakfast menu | 49,500 | 55 | P1 |
+| mcdonald's breakfast time | 27,100 | 40 | P1 |
+| what time does breakfast end at mcdonald's | 27,100 | 42 | P1 |
+| what time does mcdonald's start serving breakfast | 22,200 | 41 | P2 |
+| mcdonald's breakfast hours near me | 18,100 | 35 | P2 |
+| mcdonalds breakfast hours | 60,500 | 54 | P2 |
+| mcdonalds breakfast breakfast menu | 22,200 | 44 | P2 |
+| when does breakfast end at mcdonald's | 18,100 | 38 | P2 |
+| what time is mcdonald's breakfast over | 18,100 | 41 | P2 |
+| when does breakfast stop at mcdonald's | 18,100 | 42 | P2 |
+| mcdonald breakfast time | 14,800 | 36 | P2 |
+| mcdonald's what time breakfast | 18,100 | 44 | P2 |
+| _…and 245 more long-tail variants for body content_ | | | |
+
+#### 2. Chick-fil-A
+
+84 keywords · 884,270 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| chick fil a breakfast menu | 135,000 | 41 | P1 |
+| chick fil a breakfast hours | 135,000 | 45 | P1 |
+| what time does chick-fil-a stop serving breakfast | 74,000 | 39 | P1 |
+| chick fil a breakfast time | 40,500 | 33 | P1 |
+| when does chick fil a breakfast end | 40,500 | 36 | P1 |
+| chick-fil-a breakfast hours | 40,500 | 37 | P1 |
+| chick-fil-a breakfast menu | 33,100 | 43 | P1 |
+| chick fil a breakfast | 60,500 | 50 | P1 |
+| when does chick fil a stop serving breakfast | 22,200 | 38 | P2 |
+| what time does chick fil a breakfast end | 18,100 | 40 | P2 |
+| what time does chick fil a stop serving breakfast | 14,800 | 37 | P2 |
+| when does chick fil a breakfast stop | 14,800 | 37 | P2 |
+| chick-fil-a menu breakfast menu | 14,800 | 44 | P2 |
+| menu for chick-fil-a breakfast | 14,800 | 44 | P2 |
+| what time does chick-fil-a stop selling breakfast | 8,100 | 30 | P2 |
+| chick fil a menu breakfast | 9,900 | 43 | P2 |
+| chick fil a breakfast times | 8,100 | 40 | P2 |
+| chick fil a breakfast breakfast | 14,800 | 44 | P2 |
+| what time is chick fil a breakfast over | 5,400 | 30 | P2 |
+| when does chick fil a breakfast close | 9,900 | 34 | P2 |
+| _…and 64 more long-tail variants for body content_ | | | |
+
+#### 3. Wendy's
+
+52 keywords · 458,640 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| wendy's breakfast menu | 90,500 | 37 | P1 |
+| wendy's breakfast | 90,500 | 48 | P1 |
+| wendy's breakfast hours | 49,500 | 46 | P1 |
+| what time does wendy's stop serving breakfast | 22,200 | 38 | P2 |
+| when does wendy's stop serving breakfast | 14,800 | 34 | P2 |
+| wendys breakfast | 40,500 | 54 | P2 |
+| breakfast wendy's menu | 12,100 | 42 | P2 |
+| wendys breakfast menu | 12,100 | 45 | P2 |
+| wendys breakfast hours | 12,100 | 31 | P2 |
+| wendy's breakfast time | 8,100 | 39 | P2 |
+| wendy breakfast menu | 6,600 | 33 | P2 |
+| wendy's breakfast baconator | 5,400 | 30 | P2 |
+| when does wendy's breakfast end | 5,400 | 40 | P2 |
+| what time does wendy's breakfast end | 4,400 | 37 | P2 |
+| when does breakfast end at wendy's | 3,600 | 31 | P2 |
+| wendys breakfast time | 4,400 | 38 | P2 |
+| breakfast menu at wendy's | 3,600 | 32 | P2 |
+| wendys breakfast baconator | 3,600 | 32 | P2 |
+| wendy's menu breakfast | 4,400 | 40 | P2 |
+| does wendy's have breakfast | 4,400 | 42 | P2 |
+| _…and 32 more long-tail variants for body content_ | | | |
+
+#### 4. Taco Bell
+
+48 keywords · 329,230 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| taco bell breakfast | 74,000 | 31 | P1 |
+| taco bell breakfast meals | 33,100 | 37 | P1 |
+| taco bell breakfast menu | 49,500 | 36 | P1 |
+| taco bell hours breakfast hours | 18,100 | 0 | P1 |
+| taco bell breakfast hours | 27,100 | 37 | P2 |
+| taco bell breakfast crunchwrap | 14,800 | 41 | P2 |
+| what time does taco bell breakfast stop serving | 9,900 | 31 | P2 |
+| when does taco bell breakfast stop serving | 9,900 | 31 | P2 |
+| breakfast crunchwrap at taco bell | 12,100 | 41 | P2 |
+| when does taco bell stop serving breakfast | 12,100 | 50 | P2 |
+| what time does taco bell stop serving breakfast | 5,400 | 26 | P2 |
+| when does the taco bell breakfast end | 4,400 | 30 | P2 |
+| taco bell breakfast burrito | 4,400 | 35 | P2 |
+| what time does breakfast at taco bell end | 3,600 | 30 | P2 |
+| when does breakfast at taco bell end | 4,400 | 37 | P2 |
+| when does taco bell breakfast end | 3,600 | 31 | P2 |
+| when does taco bell's breakfast end | 2,900 | 27 | P2 |
+| what time does taco bell's breakfast end | 2,400 | 20 | P2 |
+| taco bell breakfast near me | 2,900 | 30 | P2 |
+| time for taco bell breakfast | 2,400 | 0 | P2 |
+| _…and 28 more long-tail variants for body content_ | | | |
+
+#### 5. Burger King
+
+36 keywords · 276,130 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| burger king breakfast menu | 74,000 | 39 | P1 |
+| burger king breakfast | 40,500 | 30 | P1 |
+| burger king breakfast hours | 40,500 | 40 | P1 |
+| burger king's menu breakfast | 12,100 | 30 | P2 |
+| what time does burger king stop serving breakfast | 9,900 | 24 | P2 |
+| bk breakfast menu | 9,900 | 26 | P2 |
+| when does burger king stop serving breakfast | 9,900 | 32 | P2 |
+| bk breakfast | 9,900 | 33 | P2 |
+| what time does burger king close for breakfast | 9,900 | 33 | P2 |
+| burger king menu breakfast | 6,600 | 29 | P2 |
+| burger king breakfast time | 6,600 | 35 | P2 |
+| burger king breakfast deals | 5,400 | 33 | P2 |
+| bk breakfast hours | 4,400 | 37 | P2 |
+| burger king breakfast sandwiches | 3,600 | 32 | P2 |
+| burger king breakfast times | 3,600 | 34 | P2 |
+| what time does burger king breakfast end | 2,900 | 28 | P2 |
+| when does burger king breakfast end | 2,900 | 28 | P2 |
+| what time burger king breakfast over | 2,400 | 23 | P2 |
+| burger king breakfast menu with prices | 2,400 | 24 | P2 |
+| burger king breakfast burrito | 2,400 | 30 | P2 |
+| _…and 16 more long-tail variants for body content_ | | | |
+
+#### 6. Hardee's
+
+30 keywords · 138,880 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| hardee's breakfast menu | 18,100 | 39 | P2 |
+| breakfast hardees menu | 14,800 | 36 | P2 |
+| what time does hardee's stop serving breakfast | 9,900 | 25 | P2 |
+| hardee's breakfast hours | 14,800 | 28 | P2 |
+| breakfast hardee's | 9,900 | 35 | P2 |
+| hardees breakfast | 12,100 | 42 | P2 |
+| breakfast hours for hardee's | 6,600 | 29 | P2 |
+| when does hardee's stop serving breakfast | 5,400 | 25 | P2 |
+| hours for hardee's breakfast | 5,400 | 30 | P2 |
+| hardees breakfast menu | 5,400 | 33 | P2 |
+| hardee's breakfast | 12,100 | 57 | P2 |
+| hardee's breakfast time | 2,400 | 25 | P2 |
+| hardee's breakfast menu with prices | 2,400 | 28 | P2 |
+| hardee's breakfast platter | 1,900 | 25 | P2 |
+| hardee's menu breakfast | 1,900 | 27 | P2 |
+| does hardee's serve breakfast all day | 1,900 | 34 | P3 |
+| how long does hardee's serve breakfast | 1,300 | 22 | P3 |
+| how late does hardee's serve breakfast | 1,300 | 23 | P3 |
+| hardee's frisco breakfast sandwich | 1,300 | 27 | P3 |
+| hardees breakfast hours | 2,400 | 31 | P3 |
+| _…and 10 more long-tail variants for body content_ | | | |
+
+#### 7. Panera Bread
+
+20 keywords · 84,170 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| panera breakfast | 12,100 | 30 | P2 |
+| panera breakfast menu | 18,100 | 29 | P2 |
+| panera bread breakfast menu | 9,900 | 31 | P2 |
+| panera breakfast hours | 6,600 | 17 | P2 |
+| breakfast from panera | 9,900 | 39 | P2 |
+| breakfast panera menu | 4,400 | 29 | P2 |
+| panera bread breakfast sandwiches | 3,600 | 37 | P2 |
+| what time does panera stop serving breakfast | 1,900 | 22 | P2 |
+| panera bread breakfast time | 2,400 | 33 | P2 |
+| panera breakfast sandwich | 1,900 | 32 | P3 |
+| panera bread breakfast hours | 1,900 | 36 | P3 |
+| breakfast at panera times | 1,300 | 24 | P3 |
+| breakfast hours for panera | 1,300 | 32 | P3 |
+| breakfast panera time | 1,300 | 33 | P3 |
+| breakfast time panera | 1,300 | 33 | P3 |
+| panera bread breakfast | 2,400 | 36 | P3 |
+| panera breakfast sandwiches | 1,900 | 34 | P3 |
+| panera breakfast catering | 1,600 | 36 | P3 |
+| panera bread breakfast near me | 320 | 34 | P3 |
+| panera breakfast hours near me | 50 | 25 | P3 |
+
+#### 8. Whataburger
+
+12 keywords · 69,440 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| whataburger breakfast menu | 22,200 | 22 | P1 |
+| whataburger breakfast | 12,100 | 30 | P2 |
+| whataburger breakfast hours | 18,100 | 41 | P2 |
+| when does whataburger stop serving breakfast | 2,900 | 13 | P2 |
+| what time does whataburger stop serving breakfast | 2,900 | 17 | P2 |
+| whataburger menu breakfast | 2,400 | 14 | P2 |
+| whataburger breakfast time | 1,900 | 14 | P2 |
+| whataburger breakfast burger | 2,900 | 33 | P2 |
+| whataburger breakfast menu hours | 1,900 | 33 | P3 |
+| breakfast burger whataburger | 1,900 | 35 | P3 |
+| whataburger breakfast near me | 170 | 34 | P3 |
+| whataburger breakfast hours near me | 70 | 33 | P3 |
+
+#### 9. Sonic
+
+13 keywords · 66,260 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| sonic breakfast menu | 22,200 | 34 | P1 |
+| sonic drive-in breakfast menu | 9,900 | 23 | P2 |
+| sonic breakfast | 9,900 | 31 | P2 |
+| sonic drive-in breakfast | 4,400 | 32 | P2 |
+| supersonic breakfast burrito | 3,600 | 30 | P2 |
+| sonic breakfast hours | 3,600 | 32 | P2 |
+| does sonic serve breakfast all day | 2,900 | 26 | P2 |
+| sonic breakfast toaster | 2,400 | 23 | P2 |
+| sonic breakfast burrito | 2,900 | 30 | P2 |
+| does sonic have breakfast all day | 1,300 | 20 | P3 |
+| what time does sonic stop serving breakfast | 1,600 | 29 | P3 |
+| does sonic have all day breakfast | 1,300 | 29 | P3 |
+| sonic breakfast near me | 260 | 35 | P3 |
+
+#### 10. Big Bad Breakfast
+
+12 keywords · 58,890 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| big bad breakfast | 40,500 | 40 | P2 |
+| big bad breakfast charleston | 2,400 | 30 | P2 |
+| big bad breakfast menu | 2,900 | 22 | P2 |
+| big bad breakfast nashville | 2,400 | 35 | P2 |
+| big bad breakfast chattanooga | 1,600 | 25 | P3 |
+| big bad breakfast inlet beach | 1,300 | 23 | P3 |
+| big bad breakfast florence al | 1,300 | 25 | P3 |
+| big bad breakfast oxford ms | 1,600 | 37 | P3 |
+| big bad breakfast little rock | 1,900 | 40 | P3 |
+| big bad breakfast louisville | 1,300 | 35 | P3 |
+| big bad breakfast birmingham | 1,300 | 41 | P3 |
+| big bad breakfast near me | 390 | 25 | P3 |
+
+---
+
+## 🌆 TIER 3 — CITY PAGES (one per top-search city)
+
+**696 city-specific keywords · 766,670 SV combined.**  
+Each city page filters the map to that city + adds curated indie picks + neighborhood breakdown.
+
+### Top 40 cities by search volume
+
+| # | City | URL | Keywords | Total SV | Top query |
+|---|---|---|---:|---:|---|
+| 1 | Las Vegas, NV | `/breakfast-in-las-vegas-nv/` | 32 | 69,010 | breakfast las vegas (12,100) |
+| 2 | New York, NY | `/breakfast-in-new-york-ny/` | 32 | 61,680 | in common nyc - a breakfast & brunch restaurant (12,100) |
+| 3 | Los Angeles, CA | `/breakfast-in-los-angeles-ca/` | 39 | 49,950 | breakfast quesadilla (5,400) |
+| 4 | San Diego, CA | `/breakfast-in-san-diego-ca/` | 15 | 26,540 | top breakfast san diego (8,100) |
+| 5 | Austin, TX | `/breakfast-in-austin-tx/` | 15 | 25,060 | breakfast brunch austin (5,400) |
+| 6 | Denver, CO | `/breakfast-in-denver-co/` | 18 | 23,370 | breakfast inn denver closing (4,400) |
+| 7 | Orlando, FL | `/breakfast-in-orlando-fl/` | 20 | 23,270 | character breakfast disney world (2,400) |
+| 8 | Chicago, IL | `/breakfast-in-chicago-il/` | 18 | 20,620 | breakfast chicago (3,600) |
+| 9 | Dallas, TX | `/breakfast-in-dallas-tx/` | 14 | 20,420 | best dallas breakfast restaurants (4,400) |
+| 10 | New Orleans, LA | `/breakfast-in-new-orleans-la/` | 12 | 20,080 | breakfast new orleans (3,600) |
+| 11 | Pigeon Forge, TN | `/breakfast-in-pigeon-forge-tn/` | 8 | 18,600 | sawyer's farmhouse breakfast pigeon forge (8,100) |
+| 12 | Portland, OR | `/breakfast-in-portland-or/` | 15 | 16,260 | breakfast portland (3,600) |
+| 13 | Nashville, TN | `/breakfast-in-nashville-tn/` | 13 | 16,180 | best breakfast in nashville (4,400) |
+| 14 | Seattle, WA | `/breakfast-in-seattle-wa/` | 15 | 13,880 | breakfast seattle (2,900) |
+| 15 | Minneapolis, MN | `/breakfast-in-minneapolis-mn/` | 8 | 12,300 | al's breakfast minneapolis (4,400) |
+| 16 | Houston, TX | `/breakfast-in-houston-tx/` | 13 | 12,000 | breakfast houston (2,900) |
+| 17 | Atlanta, GA | `/breakfast-in-atlanta-ga/` | 12 | 11,580 | breakfast atlanta (2,400) |
+| 18 | St. Louis, MO | `/breakfast-in-st-louis-mo/` | 12 | 11,560 | best breakfast st louis (2,400) |
+| 19 | San Antonio, TX | `/breakfast-in-san-antonio-tx/` | 11 | 11,340 | breakfast san antonio (3,600) |
+| 20 | Gatlinburg, TN | `/breakfast-in-gatlinburg-tn/` | 9 | 9,730 | breakfast gatlinburg (2,400) |
+| 21 | Boston, MA | `/breakfast-in-boston-ma/` | 9 | 9,410 | breakfast boston (2,400) |
+| 22 | Albuquerque, NM | `/breakfast-in-albuquerque-nm/` | 9 | 8,960 | the shop breakfast and lunch albuquerque nm (2,900) |
+| 23 | San Francisco, CA | `/breakfast-in-san-francisco-ca/` | 7 | 8,130 | good breakfast in san francisco (3,600) |
+| 24 | Branson, MO | `/breakfast-in-branson-mo/` | 8 | 7,890 | branson breakfast places (1,600) |
+| 25 | Memphis, TN | `/breakfast-in-memphis-tn/` | 6 | 7,660 | breakfast places in memphis tn (2,900) |
+| 26 | Colorado Springs, CO | `/breakfast-in-colorado-springs-co/` | 6 | 7,250 | breakfast colorado springs (4,400) |
+| 27 | Savannah, GA | `/breakfast-in-savannah-ga/` | 9 | 6,950 | best breakfast in savannah ga (1,900) |
+| 28 | Key West, FL | `/breakfast-in-key-west-fl/` | 7 | 6,900 | best breakfast in key west (1,600) |
+| 29 | Asheville, NC | `/breakfast-in-asheville-nc/` | 6 | 6,900 | breakfast places in asheville (1,900) |
+| 30 | Phoenix, AZ | `/breakfast-in-phoenix-az/` | 7 | 6,790 | original breakfast house phoenix (2,400) |
+| 31 | Miami, FL | `/breakfast-in-miami-fl/` | 10 | 6,670 | breakfast miami (1,900) |
+| 32 | Louisville, KY | `/breakfast-in-louisville-ky/` | 8 | 6,660 | breakfast af louisville (1,600) |
+| 33 | Omaha, NE | `/breakfast-in-omaha-ne/` | 9 | 6,510 | breakfast omaha (2,900) |
+| 34 | Tucson, AZ | `/breakfast-in-tucson-az/` | 9 | 6,300 | breakfast tucson (1,900) |
+| 35 | Grand Rapids, MI | `/breakfast-in-grand-rapids-mi/` | 5 | 6,110 | breakfast in grand rapids michigan (1,900) |
+| 36 | Charlotte, NC | `/breakfast-in-charlotte-nc/` | 7 | 5,580 | breakfast charlotte nc (2,900) |
+| 37 | Panama City, FL | `/breakfast-in-panama-city-fl/` | 6 | 5,580 | breakfast panama city beach fl (1,900) |
+| 38 | Myrtle Beach, SC | `/breakfast-in-myrtle-beach-sc/` | 9 | 5,550 | breakfast myrtle beach (2,400) |
+| 39 | Columbus, OH | `/breakfast-in-columbus-oh/` | 5 | 5,510 | breakfast in columbus (1,900) |
+| 40 | Raleigh, NC | `/breakfast-in-raleigh-nc/` | 8 | 5,390 | breakfast raleigh (1,600) |
+
+### Detailed keyword cluster for top 10 cities
+
+#### 1. Las Vegas, NV
+
+32 keywords · 69,010 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| breakfast las vegas nv | 9,900 | 27 | P2 |
+| breakfast las vegas | 12,100 | 37 | P2 |
+| best breakfast in las vegas | 6,600 | 23 | P2 |
+| best breakfast las vegas | 5,400 | 32 | P2 |
+| breakfast las vegas strip | 3,600 | 27 | P2 |
+| best breakfast on strip las vegas | 2,900 | 35 | P3 |
+| best breakfast las vegas strip | 1,600 | 19 | P3 |
+| las vegas breakfast | 2,400 | 36 | P3 |
+| breakfast places in las vegas strip | 1,600 | 22 | P3 |
+| breakfast in las vegas | 1,900 | 31 | P3 |
+| best place for breakfast in las vegas on the strip | 1,300 | 18 | P3 |
+| breakfast buffet las vegas | 4,400 | 60 | P3 |
+| breakfast places in las vegas | 1,300 | 36 | P3 |
+| best breakfast buffet in las vegas | 1,600 | 45 | P3 |
+| best breakfast places in las vegas | 720 | 22 | P3 |
+| _…and 17 more long-tail variants_ | | | |
+
+#### 2. New York, NY
+
+32 keywords · 61,680 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| in common nyc - a breakfast & brunch restaurant | 12,100 | 38 | P2 |
+| best breakfast places new york | 8,100 | 23 | P2 |
+| best breakfast nyc | 5,400 | 28 | P2 |
+| best american breakfast nyc | 5,400 | 33 | P2 |
+| in common nyc a breakfast & brunch restaurant | 2,900 | 30 | P2 |
+| breakfast nyc | 3,600 | 23 | P2 |
+| tiffany's breakfast in new york | 5,400 | 44 | P2 |
+| breakfast brooklyn | 2,900 | 29 | P3 |
+| good breakfast places in nyc | 1,900 | 26 | P3 |
+| best breakfast in nyc | 1,600 | 34 | P3 |
+| breakfast places in nyc | 1,300 | 28 | P3 |
+| best damn breakfast burrito nyc | 1,600 | 36 | P3 |
+| brooklyn breakfast shop | 1,300 | 46 | P3 |
+| best breakfast places in nyc | 880 | 24 | P3 |
+| breakfast places in new york | 720 | 18 | P3 |
+| _…and 17 more long-tail variants_ | | | |
+
+#### 3. Los Angeles, CA
+
+39 keywords · 49,950 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| breakfast quesadilla | 5,400 | 42 | P2 |
+| la quinta breakfast hours | 1,600 | 11 | P2 |
+| chick fila breakfast | 3,600 | 41 | P2 |
+| chick fila breakfast hours | 2,900 | 38 | P2 |
+| bread & breakfast north hollywood | 1,600 | 0 | P3 |
+| healthy breakfast los angeles | 2,400 | 32 | P3 |
+| breakfast los angeles | 1,900 | 27 | P3 |
+| chic fila breakfast | 1,600 | 43 | P3 |
+| best breakfast los angeles | 1,600 | 26 | P3 |
+| breakfast pensacola | 1,300 | 18 | P3 |
+| best breakfast in la | 2,400 | 41 | P3 |
+| best breakfast in los angeles | 1,600 | 29 | P3 |
+| chick fila breakfast menu | 1,300 | 41 | P3 |
+| chicfila breakfast | 1,300 | 44 | P3 |
+| breakfast in los angeles ca | 1,900 | 40 | P3 |
+| _…and 24 more long-tail variants_ | | | |
+
+#### 4. San Diego, CA
+
+15 keywords · 26,540 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| top breakfast san diego | 8,100 | 37 | P2 |
+| breakfast san diego | 3,600 | 28 | P2 |
+| best breakfast in san diego | 2,900 | 27 | P3 |
+| harbour breakfast san diego | 1,600 | 28 | P3 |
+| best breakfast san diego | 2,900 | 36 | P3 |
+| harbor breakfast restaurant san diego | 1,300 | 28 | P3 |
+| harbor breakfast san diego | 1,300 | 28 | P3 |
+| top breakfast places in san diego | 1,000 | 40 | P3 |
+| best breakfast restaurants in san diego | 1,300 | 48 | P3 |
+| breakfast places in san diego | 720 | 39 | P3 |
+| best breakfast places in san diego | 480 | 31 | P3 |
+| breakfast places in san diego ca | 390 | 24 | P3 |
+| good breakfast places in san diego | 480 | 32 | P3 |
+| breakfast places downtown san diego | 260 | 16 | P3 |
+| breakfast near me san diego | 210 | 40 | P3 |
+
+#### 5. Austin, TX
+
+15 keywords · 25,060 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| breakfast brunch austin | 5,400 | 33 | P2 |
+| breakfast austin | 4,400 | 32 | P2 |
+| best breakfast in austin | 2,400 | 24 | P3 |
+| top breakfast in austin | 2,900 | 31 | P3 |
+| breakfast austin tx | 2,400 | 25 | P3 |
+| best breakfast austin | 2,400 | 30 | P3 |
+| breakfast tacos austin | 1,600 | 31 | P3 |
+| best breakfast tacos in austin | 1,300 | 24 | P3 |
+| breakfast places in austin | 1,000 | 36 | P3 |
+| breakfast near me austin | 260 | 23 | P3 |
+| breakfast near me austin tx | 210 | 25 | P3 |
+| breakfast places in austin tx | 320 | 26 | P3 |
+| breakfast near me austin texas | 140 | 19 | P3 |
+| best breakfast places in austin | 260 | 26 | P3 |
+| best breakfast in austin near me | 70 | 21 | P3 |
+
+#### 6. Denver, CO
+
+18 keywords · 23,370 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| breakfast inn denver closing | 4,400 | 19 | P2 |
+| good breakfast in denver | 2,900 | 24 | P2 |
+| breakfast inn denver colorado | 1,300 | 31 | P3 |
+| breakfast denver | 1,900 | 36 | P3 |
+| top breakfast in denver | 1,900 | 37 | P3 |
+| places to eat breakfast in denver | 880 | 21 | P3 |
+| best breakfast in denver | 2,900 | 57 | P3 |
+| breakfast denver co | 1,900 | 48 | P3 |
+| best breakfast denver | 1,900 | 59 | P3 |
+| breakfast places in denver | 720 | 50 | P3 |
+| places to eat breakfast in denver colorado | 390 | 34 | P3 |
+| breakfast places in denver colorado | 590 | 50 | P3 |
+| breakfast places denver | 590 | 51 | P3 |
+| denver breakfast places | 320 | 41 | P3 |
+| best breakfast places in denver | 320 | 47 | P3 |
+| _…and 3 more long-tail variants_ | | | |
+
+#### 7. Orlando, FL
+
+20 keywords · 23,270 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| breakfast at magic kingdom orlando | 1,300 | 7 | P2 |
+| disney springs breakfast places | 1,600 | 19 | P2 |
+| character breakfast disney world | 2,400 | 35 | P2 |
+| panaderia el cafetal breakfast and restaurant orlando | 2,400 | 41 | P3 |
+| character breakfasts at disney world | 1,300 | 35 | P3 |
+| keke's breakfast cafe orlando fl | 2,400 | 41 | P3 |
+| breakfast orlando fl | 1,300 | 21 | P3 |
+| keke's breakfast cafe orlando | 2,400 | 45 | P3 |
+| breakfast orlando | 1,600 | 33 | P3 |
+| breakfast places orlando | 880 | 12 | P3 |
+| good breakfast places in orlando | 1,300 | 28 | P3 |
+| best breakfast in orlando | 1,300 | 29 | P3 |
+| breakfast places at disney springs | 880 | 14 | P3 |
+| great breakfast places in orlando | 390 | 17 | P3 |
+| best breakfast places in orlando | 590 | 34 | P3 |
+| _…and 5 more long-tail variants_ | | | |
+
+#### 8. Chicago, IL
+
+18 keywords · 20,620 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| breakfast chicago | 3,600 | 40 | P3 |
+| best breakfast in chicago | 2,900 | 46 | P3 |
+| best breakfast chicago | 2,900 | 47 | P3 |
+| chicago breakfast downtown best | 1,300 | 30 | P3 |
+| breakfast in chicago | 1,300 | 34 | P3 |
+| best breakfast downtown chicago il | 1,300 | 42 | P3 |
+| best breakfast places in chicago | 1,300 | 43 | P3 |
+| chicago breakfast | 1,300 | 46 | P3 |
+| chicago breakfast places | 590 | 25 | P3 |
+| breakfast house chicago | 1,300 | 50 | P3 |
+| good breakfast places in chicago | 390 | 27 | P3 |
+| breakfast places in chicago | 720 | 48 | P3 |
+| breakfast places downtown chicago | 390 | 35 | P3 |
+| best breakfast places chicago | 320 | 30 | P3 |
+| breakfast near me in chicago | 390 | 52 | P3 |
+| _…and 3 more long-tail variants_ | | | |
+
+#### 9. Dallas, TX
+
+14 keywords · 20,420 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| best dallas breakfast restaurants | 4,400 | 40 | P3 |
+| healthy breakfast dallas | 3,600 | 39 | P3 |
+| breakfast dallas | 2,900 | 34 | P3 |
+| wingfield's breakfast & burger dallas tx | 1,600 | 38 | P3 |
+| best breakfast in dallas | 1,600 | 39 | P3 |
+| breakfast places in dallas | 1,300 | 34 | P3 |
+| breakfast brothers dallas | 1,300 | 35 | P3 |
+| best breakfast places in dallas | 1,300 | 41 | P3 |
+| great breakfast places in dallas | 880 | 36 | P3 |
+| good breakfast places in dallas | 880 | 38 | P3 |
+| breakfast places in dallas tx | 320 | 36 | P3 |
+| breakfast near me dallas | 140 | 27 | P3 |
+| breakfast near me dallas tx | 90 | 24 | P3 |
+| breakfast dallas near me | 110 | 34 | P3 |
+
+#### 10. New Orleans, LA
+
+12 keywords · 20,080 SV
+
+| Keyword | SV | KD | Priority |
+|---|---:|---:|:-:|
+| breakfast new orleans | 3,600 | 34 | P3 |
+| best breakfast new orleans | 2,400 | 30 | P3 |
+| best places for breakfast new orleans | 2,900 | 39 | P3 |
+| best breakfast in new orleans | 2,400 | 39 | P3 |
+| good breakfast in new orleans | 1,900 | 40 | P3 |
+| new orleans breakfast | 1,600 | 40 | P3 |
+| breakfast near me new orleans | 590 | 25 | P3 |
+| best breakfast places in new orleans | 1,000 | 26 | P3 |
+| breakfast in new orleans | 1,300 | 42 | P3 |
+| breakfast places in new orleans | 880 | 38 | P3 |
+| best breakfast in new orleans french quarter | 1,300 | 50 | P3 |
+| new orleans breakfast near me | 210 | 34 | P3 |
+
+---
+
+## 🚫 EXCLUDED — not any of our page types
+
+| Cluster | Count | SV | Reason |
 |---|---:|---:|---|
-| Brand-specific (mcdonalds breakfast, starbucks menu…) | 700 | 4,978,320 | Per-brand pages: `/mcdonalds-breakfast-hours/`, `/starbucks-breakfast-menu/`, etc. (32 pages) |
-| Independent chain names (Big Bad Breakfast, Breakfast Republic…) | 32 | 158,950 | Optional per-brand pages if we onboard those brands to our data |
-| City-specific (breakfast in dallas, atlanta breakfast…) | 545 | 608,230 | Per-city pages: `/breakfast-in-dallas-tx/`, `/breakfast-in-atlanta-ga/`, etc. (100+ pages) |
-| Recipe intent (breakfast recipes, meal prep, breakfast burrito recipe…) | 993 | 4,328,200 | NOT OUR NICHE — skip; not competing with Allrecipes/BBCGoodFood |
-| Cuisine/food-item terms (english breakfast tea, breakfast pizza, italian breakfast…) | 136 | 423,100 | NOT OUR NICHE — food/beverage articles, not location finder |
-| Lodging & furniture (bed and breakfast, breakfast nook…) | 152 | 320,810 | NOT OUR NICHE — B&B lodging + furniture, entirely different market |
-| Grocery products (cereal brands, jimmy dean…) | 46 | 214,200 | NOT OUR NICHE — skip |
-| Movie / book / song / image search (Breakfast Club film, breakfast clipart…) | 166 | 963,390 | Skip |
-| Long-tail with no clear intent match | 764 | 2,123,170 | Skip or use for content ideation later |
+| Recipes / cooking / meal prep | 679 | 3,520,920 | Not our niche — competing with Allrecipes / BBCGoodFood |
+| Beverage / food articles (english breakfast tea, breakfast blend) | 33 | 132,740 | Not our niche — food/beverage editorial |
+| Lodging + furniture (bed & breakfast, breakfast nook) | 153 | 324,410 | Not our niche — B&B lodging + furniture market |
+| Grocery products (cereal brands, jimmy dean) | 57 | 252,000 | Not our niche — grocery/retail |
+| Movies, books, songs, image searches (Breakfast Club, breakfast png) | 136 | 881,620 | Skip |
 
 ---
 
-## 📊 GRAND TOTALS
+## 📊 GRAND TOTALS — REAL DATA, NO GUESSING
 
-- Homepage target: **5,834,900 SV**
-- Category pages combined: **887,190 SV**
-- **Total SV your site can realistically capture across all page types**: 6,722,090
-- Brand + city page SV (separate plan): **5,586,550 SV**
-- Grand total addressable market (before recipes/products): **12,308,640 SV/month**
+- 🏠 **Homepage** (all breakfast finder + category+near-me): **9,762,150 SV/month**
+- 🏪 **Brand pages** (49 unique brands): **5,253,690 SV/month**
+- 🌆 **City pages** (100 unique cities): **766,670 SV/month**
+- ✅ **Grand addressable market across your 3 tiers**: **15,782,510 SV/month**
+- 🚫 Excluded (not our niche): 5,111,690 SV/month → skipped
+
