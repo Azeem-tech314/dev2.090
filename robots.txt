@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /
-
-# Full block during build/preview phase.
-# Remove this file (or replace with `User-agent: *` + `Allow: /`) when ready to launch.
