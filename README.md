@@ -1,8 +1,11 @@
-# breakfastplaces.us
+# dev2.090 (public)
 
-Static breakfast-directory site with an interactive map of 85,316 verified
-US chain locations across 31 breakfast-serving brands, plus 130 hand-picked
-independent diners.
+Static breakfast-directory app: interactive map of 85,316 verified US chain
+locations across 31 breakfast-serving brands, plus 130 hand-picked local
+diners. Serves as the DATA + CODE mirror for a WordPress front (jsDelivr
+fetches JSON from here).
+
+Companion private repo (strategy, keywords, wordpress.html): `places-breakfast`
 
 ## Files
 
@@ -12,6 +15,7 @@ independent diners.
 - `data/compact/indies.json` — 130 curated indie spots
 - `data/brands/*.geojson` — raw OSM source data
 - `tools/build_compact.py` — rebuild `data/compact/` from `data/brands/`
+- `tools/build_wordpress.py` — outputs `wordpress.html` to the sibling `places-breakfast` private repo checkout
 - `robots.txt` — blocks all crawlers (remove when ready to launch)
 - `vercel.json` — sets `X-Robots-Tag: noindex` header + CORS on JSON
 
@@ -57,20 +61,23 @@ search results. **Best for build-phase testing.**
 4. Add back `<link rel="canonical" href="https://breakfastplaces.us/">` line
 5. Submit `https://breakfastplaces.us/sitemap.xml` to Google Search Console
 
-## Deploying to WordPress — THE EASY WAY
+## Two-repo architecture
 
-**Copy the whole file `wordpress.html` and paste it into an Elementor HTML
-widget or a Gutenberg "Custom HTML" block. Done. Nothing else.**
+- `dev2.090` (this repo, PUBLIC) — code + data. jsDelivr fetches JSON from here.
+- `places-breakfast` (PRIVATE) — strategy docs, SEO keyword plans, brand audits, competitor research, and the paste-ready `wordpress.html`. Never share.
 
-`wordpress.html` is a single self-contained block (no `<doctype>`, `<html>`,
-`<head>`, or `<body>` wrappers). It loads the 31-brand JSON data live from
-a public CDN (jsDelivr, mirroring this GitHub repo), so no FTP upload, no
-`.htaccess` tweaks, no theme edits.
+## Deploying to WordPress
+
+`wordpress.html` lives in the PRIVATE `places-breakfast` repo. Copy the raw
+file from there and paste into an Elementor HTML widget or Gutenberg "Custom
+HTML" block. Data loads live from jsDelivr → this public repo.
 
 Rebuild `wordpress.html` after changing `index.html`:
 ```bash
 python3 tools/build_wordpress.py
 ```
+The script auto-detects the sibling `places-breakfast/` checkout and writes
+there. Commit + push the private repo to update the paste-ready file.
 
 If you later merge to `main`, edit `tools/build_wordpress.py` and change
 `BRANCH = 'claude/confident-carson-feo8dx'` to `BRANCH = 'main'`.

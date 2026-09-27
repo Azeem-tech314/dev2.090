@@ -2,11 +2,19 @@
 """Build wordpress.html: same page as index.html, but the data fetches from
 jsDelivr CDN instead of relative paths, so it works from any WordPress
 Elementor HTML widget with no folder upload.
+
+Output is written to the PRIVATE strategy repo (../places-breakfast/wordpress.html)
+to keep the paste-ready file out of the public dev2.090 repo. Falls back to
+writing next to index.html if the private repo checkout is not present.
 """
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 src = (ROOT / 'index.html').read_text()
+
+# Prefer writing to the private strategy repo if it's checked out as a sibling
+PRIVATE_REPO = ROOT.parent / 'places-breakfast'
+OUT = (PRIVATE_REPO / 'wordpress.html') if PRIVATE_REPO.exists() else (ROOT / 'wordpress.html')
 
 # Strip doctype/html/head/body wrappers
 head_start = src.find('<head>')
@@ -17,7 +25,7 @@ body_end = src.find('</body>')
 body_content = src[body_start+6:body_end]
 
 BRANCH = 'claude/confident-carson-feo8dx'
-REPO = 'Azeem-tech314/Breakfast-Locations-Website'
+REPO = 'Azeem-tech314/dev2.090'
 CDN = f'https://cdn.jsdelivr.net/gh/{REPO}@{BRANCH}/data/compact/'
 
 body_content = body_content.replace(
@@ -49,6 +57,6 @@ header_comment = (
 )
 
 out = header_comment + '\n'.join(extras) + '\n\n' + body_content
-(ROOT / 'wordpress.html').write_text(out)
-print(f'wordpress.html written: {(ROOT / "wordpress.html").stat().st_size // 1024} KB')
+OUT.write_text(out)
+print(f'wordpress.html written: {OUT.stat().st_size // 1024} KB → {OUT}')
 print(f'Data URL: {CDN}')
